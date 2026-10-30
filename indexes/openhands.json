@@ -1,0 +1,140 @@
+{
+  "agent": "openhands",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v1.59.0:ccae18cb897bef7960f210aa3f380b577a84be7c:6af89e3508766b8f1b79c819fcd2146878a4aa8690192c6f2eb300de1f1b56b2:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "OpenHands/OpenHands UI 仓库已将运行时 agent 移至 OpenHands/software-agent-sdk；采集该 SDK，并在机制文档记录迁移依据。",
+    "工具环境、事件流和执行反馈由运行时注入，模板仅代表静态片段。"
+  ],
+  "name": "OpenHands",
+  "repository": "OpenHands/software-agent-sdk",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "6af89e3508766b8f1b79c819fcd2146878a4aa8690192c6f2eb300de1f1b56b2",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/openhands/planning/prompts-f9c08a518240__default__v1.59.0__ccae18cb897b__20261030T053004Z.md",
+          "content_sha256": "a54037463d1e4714545f215c63b80d86c09ec0d05a7c8f742ea92e620f653f98",
+          "module": "planning",
+          "prompt_id": "prompts-f9c08a518240",
+          "source_lines": [
+            46,
+            53
+          ],
+          "source_path": "openhands-sdk/openhands/sdk/conversation/goal/prompts.py",
+          "source_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/openhands-sdk/openhands/sdk/conversation/goal/prompts.py#L46-L53",
+          "source_symbol": "module.FOLLOWUP_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openhands/planning/prompts-93fe5524100d__default__v1.59.0__ccae18cb897b__20261030T053004Z.md",
+          "content_sha256": "4fab8bdd3b27b4eb8503079f20661b922cf52015d243174bb6f3e895da730d52",
+          "module": "planning",
+          "prompt_id": "prompts-93fe5524100d",
+          "source_lines": [
+            6,
+            18
+          ],
+          "source_path": "openhands-sdk/openhands/sdk/conversation/goal/prompts.py",
+          "source_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/openhands-sdk/openhands/sdk/conversation/goal/prompts.py#L6-L18",
+          "source_symbol": "module.JUDGE_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openhands/planning/prompts-2068844224e4__default__v1.59.0__ccae18cb897b__20261030T053004Z.md",
+          "content_sha256": "22261a6a615b82bff08d41706e5afeb4bc04998f975a642455e8537f2790c2c5",
+          "module": "planning",
+          "prompt_id": "prompts-2068844224e4",
+          "source_lines": [
+            21,
+            28
+          ],
+          "source_path": "openhands-sdk/openhands/sdk/conversation/goal/prompts.py",
+          "source_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/openhands-sdk/openhands/sdk/conversation/goal/prompts.py#L21-L28",
+          "source_symbol": "module.JUDGE_USER_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openhands/planning/prompts-5bc195bf994e__default__v1.59.0__ccae18cb897b__20261030T053004Z.md",
+          "content_sha256": "2d503067f5b0737cb03669285e8a76ffe459eac58b64bd8ee7ac45a63764977b",
+          "module": "planning",
+          "prompt_id": "prompts-5bc195bf994e",
+          "source_lines": [
+            56,
+            59
+          ],
+          "source_path": "openhands-sdk/openhands/sdk/conversation/goal/prompts.py",
+          "source_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/openhands-sdk/openhands/sdk/conversation/goal/prompts.py#L56-L59",
+          "source_symbol": "module.RESUME_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openhands/system/static-05b76408d83a__default__v1.59.0__ccae18cb897b__20261030T053004Z.md",
+          "content_sha256": "f8cbe420192496a1174c2322b995bf93c925c22345e9fcf79edcf14b515ccba8",
+          "module": "system",
+          "prompt_id": "static-05b76408d83a",
+          "source_lines": [
+            194,
+            205
+          ],
+          "source_path": "openhands-sdk/openhands/sdk/context/prompts/sections/static.py",
+          "source_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/openhands-sdk/openhands/sdk/context/prompts/sections/static.py#L194-L205",
+          "source_symbol": "module.FileSystemSection.body.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openhands/system/ask_agent_template-f2bb4719a8b1__default__v1.59.0__ccae18cb897b__20261030T053004Z.md",
+          "content_sha256": "551296745d954c9fd3cb06b2fd67b1a7cfca94d80090c13de1e65e95b6ec1192",
+          "module": "system",
+          "prompt_id": "ask_agent_template-f2bb4719a8b1",
+          "source_lines": [
+            1,
+            11
+          ],
+          "source_path": "openhands-sdk/openhands/sdk/context/prompts/templates/ask_agent_template.j2",
+          "source_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/openhands-sdk/openhands/sdk/context/prompts/templates/ask_agent_template.j2#L1-L11",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openhands/system/skill_knowledge_info-ea3bd251d83b__default__v1.59.0__ccae18cb897b__20261030T053004Z.md",
+          "content_sha256": "6e8a84b0022ccc9d82cbb65ced47c52dbc125e01726d9e2653c602096fb35d87",
+          "module": "system",
+          "prompt_id": "skill_knowledge_info-ea3bd251d83b",
+          "source_lines": [
+            1,
+            12
+          ],
+          "source_path": "openhands-sdk/openhands/sdk/context/prompts/templates/skill_knowledge_info.j2",
+          "source_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/openhands-sdk/openhands/sdk/context/prompts/templates/skill_knowledge_info.j2#L1-L12",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v1.59.0:ccae18cb897bef7960f210aa3f380b577a84be7c:6af89e3508766b8f1b79c819fcd2146878a4aa8690192c6f2eb300de1f1b56b2:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:30:04Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-28T14:34:44Z",
+      "repository": "OpenHands/software-agent-sdk",
+      "source_commit": "ccae18cb897bef7960f210aa3f380b577a84be7c",
+      "source_committed_at": "2026-10-28T14:34:29Z",
+      "source_ref": "v1.59.0",
+      "upstream_version": "v1.59.0"
+    }
+  ],
+  "status": "ok"
+}

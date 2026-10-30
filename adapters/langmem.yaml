@@ -1,0 +1,20 @@
+slug: langmem
+name: LangMem
+repository: langchain-ai/langmem
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: src/langmem/prompts/*.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+  min_chars: 100
+- glob: src/langmem/reflection.py
+  module: reflection
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+  min_chars: 100
+limitations: []
+license_override: MIT
+license_path: LICENSE

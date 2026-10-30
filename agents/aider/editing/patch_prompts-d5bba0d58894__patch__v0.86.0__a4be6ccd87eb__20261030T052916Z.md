@@ -1,0 +1,58 @@
+---
+agent: aider
+prompt_id: patch_prompts-d5bba0d58894
+module: editing
+variant: patch
+upstream_repository: Aider-AI/aider
+upstream_version: v0.86.0
+package_name: null
+package_version: null
+source_ref: v0.86.0
+source_commit: a4be6ccd87ebaa59b361f3f028d116ce1761b626
+source_path: aider/coders/patch_prompts.py
+source_symbol: module.PatchPrompts.example_messages.2
+source_lines:
+- 48
+- 80
+source_permalink: https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/patch_prompts.py#L48-L80
+source_committed_at: '2025-08-09T15:54:51Z'
+release_published_at: '2025-08-09T17:42:19Z'
+fetched_at: '2026-10-30T05:29:16Z'
+extractor_version: 1.0.3
+content_sha256: 840f99be7825a1485515aef5915967da58fd6f4607ae565493010deed6dfc5e4
+license: Apache-2.0
+source_kind: static_template
+extraction_notes: Python string decoded by the AST parser; upstream code was not executed.
+---
+To make this change we need to modify `mathweb/flask/app.py`:
+
+1. Import the `math` module.
+2. Replace the custom recursive `factorial()` helper with `math.factorial`.
+3. Update `get_factorial()` to call `math.factorial`.
+
+Here is the patch:
+
+*** Begin Patch
+*** Update File: mathweb/flask/app.py
+@@
+-from flask import Flask
+-
+-from flask import Flask
++from flask import Flask
++import math
+@@
+-def factorial(n):
+-    "compute factorial"
+-
+-    if n == 0:
+-        return 1
+-    else:
+-        return n * factorial(n-1)
++def factorial(n):
++    "compute factorial"
++
++    return math.factorial(n)
+@@     def get_factorial(self, n):
+-    return str(factorial(n))
++    return str(math.factorial(n))
+*** End Patch

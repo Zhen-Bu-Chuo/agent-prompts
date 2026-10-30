@@ -1,0 +1,265 @@
+{
+  "agent": "dgm",
+  "coverage": "supported",
+  "current": {
+    "default-branch": "default-branch:main:a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2:20b7d97eaa8187041ea0fa1a196b333110cb3b253cba2d58c4d405ccf397a1cb:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "上游以 main 代替版本发布；静态归档自改进诊断和 benchmark 提示词，不运行源码修改、测评或候选选择。"
+  ],
+  "name": "Darwin Gödel Machine",
+  "repository": "jennyzzt/dgm",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "20b7d97eaa8187041ea0fa1a196b333110cb3b253cba2d58c4d405ccf397a1cb",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/dgm/evaluation/testrepo_prompt-3df64a6768d3__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "18c7383628c0a08449f550ee3204370957449999de82888de303dd5502ed166d",
+          "module": "evaluation",
+          "prompt_id": "testrepo_prompt-3df64a6768d3",
+          "source_lines": [
+            12,
+            12
+          ],
+          "source_path": "prompts/testrepo_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/testrepo_prompt.py#L12-L12",
+          "source_symbol": "module.get_test_command.test_hint.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evaluation/testrepo_prompt-0fb59fda017c__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "a2b44e019a5f9e7de1d815b473efd3d0c72c9c534a6a792c0171a7faf32142cf",
+          "module": "evaluation",
+          "prompt_id": "testrepo_prompt-0fb59fda017c",
+          "source_lines": [
+            26,
+            26
+          ],
+          "source_path": "prompts/testrepo_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/testrepo_prompt.py#L26-L26",
+          "source_symbol": "module.get_test_description.description.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evaluation/testrepo_prompt-80c03195bf38__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "0f50ce8cf556f084e1c807c4b3415d6f234e03f4fd3696c203d0179ef72eb0ed",
+          "module": "evaluation",
+          "prompt_id": "testrepo_prompt-80c03195bf38",
+          "source_lines": [
+            28,
+            28
+          ],
+          "source_path": "prompts/testrepo_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/testrepo_prompt.py#L28-L28",
+          "source_symbol": "module.get_test_description.description.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evaluation/testrepo_prompt-7c35f389aa3e__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "f1bfaf212f3aa940d60affb94bcbb1faa3ab3e680af747c68c0a423340b31e5e",
+          "module": "evaluation",
+          "prompt_id": "testrepo_prompt-7c35f389aa3e",
+          "source_lines": [
+            22,
+            22
+          ],
+          "source_path": "prompts/testrepo_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/testrepo_prompt.py#L22-L22",
+          "source_symbol": "module.get_test_description.swe_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-d860ff140bc1__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "5a679a26c37af8506b47df917758848f64f22a8ed0ec99b042add5739f61bf16",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-d860ff140bc1",
+          "source_lines": [
+            77,
+            120
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L77-L120",
+          "source_symbol": "module.diagnose_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-5c9a1aaaf2fb__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "cb434fb60fa9b3ff6bea922e219b6233ec69fd409a03b603286a00fc9c7def0e",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-5c9a1aaaf2fb",
+          "source_lines": [
+            154,
+            172
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L154-L172",
+          "source_symbol": "module.diagnose_prompt_contextlength.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-2cf5b6913bf0__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "9587c4be364b925b00ac5e3e07e7b680b5e09ece41b87bf5c990963c4b3bda54",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-2cf5b6913bf0",
+          "source_lines": [
+            122,
+            136
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L122-L136",
+          "source_symbol": "module.diagnose_prompt_emptypatches.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-7e1384fac5fc__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "bf45b59cbafadf62370d8f2a4039d01f7bdf3f1175506e6fd0dcd4acab85e074",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-7e1384fac5fc",
+          "source_lines": [
+            254,
+            275
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L254-L275",
+          "source_symbol": "module.diagnose_prompt_emptypatches_polyglot.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-6f71597a3b0b__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "9485cded6202f330a201ab51d2fb7fc57ccc415e656bab0aa3f78f60017dcbd8",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-6f71597a3b0b",
+          "source_lines": [
+            138,
+            152
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L138-L152",
+          "source_symbol": "module.diagnose_prompt_stochasticity.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-eadd53e32d36__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "d90cd7e7fbc41c0b4572a0adfe308f26e336e05fb58487454010124a1ea31b55",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-eadd53e32d36",
+          "source_lines": [
+            277,
+            303
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L277-L303",
+          "source_symbol": "module.diagnose_prompt_stochasticity_polyglot.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-d8ec495f4d47__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "b264cb3459ec1990f2b3df9257e2684555f8508e909d7540aef0ba7ac83c5592",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-d8ec495f4d47",
+          "source_lines": [
+            64,
+            72
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L64-L72",
+          "source_symbol": "module.diagnose_system_message.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-02b778ee6349__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "b24e3533c008a7018c1bbf179b5e319fda0b60dc00bc9e64b976546c64aa2d3b",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-02b778ee6349",
+          "source_lines": [
+            75,
+            75
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L75-L75",
+          "source_symbol": "module.polyglot_issue_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/evolution/self_improvement_prompt-9ea51527bd27__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "ce7dd7c7b8ad1f18f17deb78057d7d254246c5709b986ff2525909436aaa152d",
+          "module": "evolution",
+          "prompt_id": "self_improvement_prompt-9ea51527bd27",
+          "source_lines": [
+            74,
+            74
+          ],
+          "source_path": "prompts/self_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/self_improvement_prompt.py#L74-L74",
+          "source_symbol": "module.swe_issue_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/reflection/diagnose_improvement_prompt-76dac9f42da7__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "b61271197c5cc6042fdea13294969b5f5429eed4de42cd53ef85efcc0d6f973a",
+          "module": "reflection",
+          "prompt_id": "diagnose_improvement_prompt-76dac9f42da7",
+          "source_lines": [
+            39,
+            95
+          ],
+          "source_path": "prompts/diagnose_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/diagnose_improvement_prompt.py#L39-L95",
+          "source_symbol": "module.diagnose_improvement_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/reflection/diagnose_improvement_prompt-26a0836e0c9b__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "191f31bf0392c642abeaa83170c709f2848b9bb443639bd59577f53434a0e6ff",
+          "module": "reflection",
+          "prompt_id": "diagnose_improvement_prompt-26a0836e0c9b",
+          "source_lines": [
+            5,
+            37
+          ],
+          "source_path": "prompts/diagnose_improvement_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/diagnose_improvement_prompt.py#L5-L37",
+          "source_symbol": "module.diagnose_improvement_system_message.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/dgm/tools/tooluse_prompt-ef4c929da117__default__untagged__a565fd2d1dca__20261030T052927Z.md",
+          "content_sha256": "8637f85f477e6f2397d89f4874edffb9aa22d6e28713c30fff1a91a4f322f1ed",
+          "module": "tools",
+          "prompt_id": "tooluse_prompt-ef4c929da117",
+          "source_lines": [
+            20,
+            32
+          ],
+          "source_path": "prompts/tooluse_prompt.py",
+          "source_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/tooluse_prompt.py#L20-L32",
+          "source_symbol": "module.get_tooluse_prompt.tooluse_prompt.1",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2:20b7d97eaa8187041ea0fa1a196b333110cb3b253cba2d58c4d405ccf397a1cb:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:29:27Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "jennyzzt/dgm",
+      "source_commit": "a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2",
+      "source_committed_at": "2025-08-13T10:40:14Z",
+      "source_ref": "main",
+      "upstream_version": null
+    }
+  ],
+  "status": "ok"
+}

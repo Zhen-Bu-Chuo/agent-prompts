@@ -1,0 +1,17 @@
+{
+  "agent": "qwen-code",
+  "collected_at": "2026-10-30T05:30:08Z",
+  "license": "Apache-2.0",
+  "license_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/LICENSE",
+  "license_text_path": "licenses/qwen-code/619a601b3965.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "default-branch",
+  "release_published_at": null,
+  "repository": "QwenLM/qwen-code",
+  "source_commit": "619a601b3965133b9c2e873f10dbe97323b306c7",
+  "source_committed_at": "2026-10-30T00:56:08Z",
+  "source_path": "LICENSE",
+  "source_ref": "main",
+  "upstream_version": null
+}

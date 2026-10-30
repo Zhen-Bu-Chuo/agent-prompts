@@ -1,0 +1,25 @@
+slug: continue
+name: Continue
+repository: continuedev/continue
+priority: A
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+(-vscode)?$
+rules:
+- glob: extensions/cli/src/systemMessage.ts
+  module: system
+  format: js-strings
+  key_pattern: system|prompt|instruction
+  min_chars: 100
+- glob: extensions/cli/src/util/prompt.ts
+  module: planning
+  format: js-strings
+  key_pattern: prompt|system|instruction
+  min_chars: 100
+- glob: extensions/cli/src/util/promptProcessor.ts
+  module: context
+  format: js-strings
+  key_pattern: prompt|context|template
+  min_chars: 100
+limitations:
+- Continue 2.0.0 VS Code package stable tag selects one monorepo client release; other products and model/config injection
+  are dynamic.

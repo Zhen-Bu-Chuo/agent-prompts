@@ -1,0 +1,209 @@
+{
+  "agent": "reflexion",
+  "coverage": "supported",
+  "current": {
+    "default-branch": "default-branch:main:218cf0ef1df84b05ce379dd4a8e47f17766733a0:145eb623c700e7ebdb63ed851546321b13e22598c01a78972482298f353ab793:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "研究代码库没有带版本发布，按 main commit 固定；此实现是论文/实验框架并含 benchmark few-shot 例子。记录专用反思模板与执行基准，不把实验日志当作 prompt。"
+  ],
+  "name": "Reflexion",
+  "repository": "noahshinn/reflexion",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "145eb623c700e7ebdb63ed851546321b13e22598c01a78972482298f353ab793",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-7df200791e4e__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "9da98d5ec586139ee731b86913c655c31f5794707eb4cdbfda730739ecc7b3d6",
+          "module": "reflection",
+          "prompt_id": "prompts-7df200791e4e",
+          "source_lines": [
+            11,
+            19
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L11-L19",
+          "source_symbol": "module.COT_AGENT_REFLECT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-46ea32f7c0fd__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "656db13564d2155a9dcb121ee773101853d4a028f1327d57978cb90eaeef1cf7",
+          "module": "reflection",
+          "prompt_id": "prompts-46ea32f7c0fd",
+          "source_lines": [
+            3,
+            9
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L3-L9",
+          "source_symbol": "module.COT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-19d4bbc394f0__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "3c6f893ad052fa9d584b33a3d76fa219133217732125b2c6714d84c0eb5c088b",
+          "module": "reflection",
+          "prompt_id": "prompts-19d4bbc394f0",
+          "source_lines": [
+            21,
+            30
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L21-L30",
+          "source_symbol": "module.COT_REFLECT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-b1982b492c0c__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "a1355f2c4f5ea4d88d03a815e831a1c337a4214455a83f598d94575477ba3ab0",
+          "module": "reflection",
+          "prompt_id": "prompts-b1982b492c0c",
+          "source_lines": [
+            55,
+            62
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L55-L62",
+          "source_symbol": "module.COT_SIMPLE_AGENT_REFLECT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-c7b3fce8a462__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "8d803ff05704b65acf71d5077f28f24246564a3ab159adc4af4e02a2a630a3ea",
+          "module": "reflection",
+          "prompt_id": "prompts-c7b3fce8a462",
+          "source_lines": [
+            47,
+            53
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L47-L53",
+          "source_symbol": "module.COT_SIMPLE_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-ecac8ca0ee53__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "f2ae117f45bef905da7a9725eecc189f796e1419e27fdba6328f75c418626fa5",
+          "module": "reflection",
+          "prompt_id": "prompts-ecac8ca0ee53",
+          "source_lines": [
+            64,
+            72
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L64-L72",
+          "source_symbol": "module.COT_SIMPLE_REFLECT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-2124b4648d88__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "76e85198e85e25c703b7dc79f65fb274a24e1e123fc040cd2710b784160035f6",
+          "module": "reflection",
+          "prompt_id": "prompts-2124b4648d88",
+          "source_lines": [
+            90,
+            98
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L90-L98",
+          "source_symbol": "module.REACT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-7b3f58fc5079__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "ad7e60dcd050b65b217d16ed1d2ec2fb002cb919e5164648b8efcbf62407afc7",
+          "module": "reflection",
+          "prompt_id": "prompts-7b3f58fc5079",
+          "source_lines": [
+            100,
+            111
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L100-L111",
+          "source_symbol": "module.REACT_REFLECT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-238823017c61__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "aeb83a90cf290571b4abbbd765231d8f4dc2e65cbe83a5e0d268266d7472869d",
+          "module": "reflection",
+          "prompt_id": "prompts-238823017c61",
+          "source_lines": [
+            114,
+            114
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L114-L114",
+          "source_symbol": "module.REFLECTION_AFTER_LAST_TRIAL_HEADER.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-fadbfb603dad__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "04798025c3aec6a424d5999d77e735bdcff463f541a758361faf633d9a956cdf",
+          "module": "reflection",
+          "prompt_id": "prompts-fadbfb603dad",
+          "source_lines": [
+            113,
+            113
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L113-L113",
+          "source_symbol": "module.REFLECTION_HEADER.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/reflection/prompts-3045a87a9a41__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "92e9cd10b52a74378484b27bb90946b746fe6fe8d8feb181ed8ae18d6623c4d8",
+          "module": "reflection",
+          "prompt_id": "prompts-3045a87a9a41",
+          "source_lines": [
+            117,
+            124
+          ],
+          "source_path": "hotpotqa_runs/prompts.py",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/hotpotqa_runs/prompts.py#L117-L124",
+          "source_symbol": "module.REFLECT_INSTRUCTION.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/reflexion/system/base_prompt-8acc3f4346b1__default__untagged__218cf0ef1df8__20261030T053011Z.md",
+          "content_sha256": "58e4164eb648db4f8f437ee8a7b3ce064d3661d929e4f0fe71155ea6b062c56a",
+          "module": "system",
+          "prompt_id": "base_prompt-8acc3f4346b1",
+          "source_lines": [
+            1,
+            47
+          ],
+          "source_path": "webshop_runs/base_prompt.txt",
+          "source_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/webshop_runs/base_prompt.txt#L1-L47",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:218cf0ef1df84b05ce379dd4a8e47f17766733a0:145eb623c700e7ebdb63ed851546321b13e22598c01a78972482298f353ab793:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:30:11Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "noahshinn/reflexion",
+      "source_commit": "218cf0ef1df84b05ce379dd4a8e47f17766733a0",
+      "source_committed_at": "2025-01-14T07:53:43Z",
+      "source_ref": "main",
+      "upstream_version": null
+    }
+  ],
+  "status": "ok"
+}

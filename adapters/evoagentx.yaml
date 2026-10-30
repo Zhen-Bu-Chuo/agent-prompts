@@ -1,0 +1,26 @@
+slug: evoagentx
+name: EvoAgentX
+repository: ANative-Lab/EvoAgentX
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: evoagentx/prompts/**/*.py
+  module: planning
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM|TEMPLATE
+  min_chars: 100
+- glob: evoagentx/optimizers/evoprompt_optimizer.py
+  module: evolution
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM|TEMPLATE|OPTIM
+  min_chars: 100
+- glob: evoagentx/prompts/optimizers/*.py
+  module: evolution
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM|TEMPLATE
+  min_chars: 100
+limitations:
+- 将候选 Prompt 生成、优化器反馈与 workflow 编辑提示单独归档；score、候选列表和模型响应属于运行时状态。
+license_override: MIT
+license_path: LICENSE

@@ -1,0 +1,33 @@
+slug: agent0
+name: Agent0
+repository: aiming-lab/Agent0
+priority: A
+coverage: supported
+tag_pattern: ^v?\d+\.\d+\.\d+$
+rules:
+- glob: Agent0/curriculum_train/verl/utils/dataset.py
+  module: curriculum
+  format: python
+  key_pattern: _build_messages
+  min_chars: 50
+- glob: Agent0-VL/verl/prompts/agent0_templates.py
+  module: execution
+  format: python
+  key_pattern: SOLVER_SYSTEM_PROMPT
+  min_chars: 50
+- glob: Agent0-VL/verl/prompts/agent0_templates.py
+  module: evaluation
+  format: python
+  key_pattern: VERIFIER_PROMPT_TEMPLATE
+  min_chars: 50
+- glob: Agent0-VL/verl/prompts/agent0_templates.py
+  module: reflection
+  format: python
+  key_pattern: REPAIR_PROMPT_TEMPLATE
+  min_chars: 50
+- glob: Agent0-VL/scripts/prompt.txt
+  module: execution
+  format: raw
+  min_chars: 40
+limitations:
+- 主要分支用于 commit pinned 快照；课程数据、PersonaHub 人设、模型反馈由训练运行时加载，提示源码归档不会运行训练。

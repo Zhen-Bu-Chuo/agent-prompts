@@ -1,0 +1,14 @@
+slug: a-mem
+name: A-MEM
+repository: agiresearch/A-mem
+priority: S
+coverage: supported
+tag_pattern: ^v?\d+\.\d+\.\d+$
+rules:
+- glob: agentic_memory/memory_system.py
+  module: memory
+  format: python
+  key_pattern: (?i)PROMPT|INSTRUCTION|SYSTEM|MEMORY
+  min_chars: 100
+limitations:
+- 仓库无稳定 release，使用 main 固定提交；只提取记忆演化与元数据分析模板，不重建运行时向量、关系网络或模型输出。llm_controller 只转发调用方传入的提示词，不含静态提示词模板。

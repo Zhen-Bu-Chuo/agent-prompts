@@ -1,0 +1,29 @@
+slug: qwen-code
+name: Qwen Code
+repository: QwenLM/qwen-code
+priority: A
+coverage: partial
+tag_pattern: ^qwen-code-v\d+\.\d+\.\d+$
+rules:
+- glob: packages/cli/src/nonInteractive/control/controllers/systemController.ts
+  module: system
+  format: js-strings
+  key_pattern: system|instruction|prompt
+  min_chars: 100
+- glob: packages/cli/src/acp-integration/live/live-backend-instructions.ts
+  module: context
+  format: js-strings
+  key_pattern: instruction|prompt|system
+  min_chars: 100
+- glob: .qwen/skills/*/SKILL.md
+  module: skills
+  format: raw
+  min_chars: 60
+- glob: packages/cli/src/commands/review/agent-prompt.ts
+  module: review
+  format: js-strings
+  key_pattern: prompt|system|instruction
+  min_chars: 100
+limitations:
+- 主分支当前提交用于 version=null 首次归档；CLI 包发布标签暂未核实匹配。
+- 排除上游明确标注从 Claude Code 二进制逐字复制的第三方模板，仅保留 Qwen 自有源码和技能。

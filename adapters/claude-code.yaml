@@ -1,0 +1,10 @@
+slug: claude-code
+name: Claude Code
+repository: anthropics/claude-code
+priority: core
+coverage: unavailable
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules: []
+limitations:
+- Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.
+- Community-maintained third-party prompt extracts are not treated as official first-party source.

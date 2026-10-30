@@ -1,0 +1,14 @@
+slug: cline
+name: Cline
+repository: cline/cline
+priority: S
+coverage: partial
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: apps/cli/src/connectors/adapters/prompts.ts
+  module: tools
+  format: js-strings
+  key_pattern: prompt|system|instruction
+  min_chars: 100
+limitations:
+- 当前稳定 monorepo 可静态提取 connector adapter system prompt；子代理文件只接收上游传入的 prompt，主对话运行时 system prompt 在 VS Code 扩展中动态组装。

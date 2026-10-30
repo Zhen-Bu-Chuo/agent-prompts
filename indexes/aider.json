@@ -1,0 +1,1037 @@
+{
+  "agent": "aider",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v0.86.0:a4be6ccd87ebaa59b361f3f028d116ce1761b626:227d9051b1fdefc93c2668435508882c2cd67d1e0864928c9a1b0da5513a0014:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "按最新稳定发布 v0.86.0 的 coder 模式采集；不把主分支新改动视为稳定版。",
+    "静态保留 Python format/f-string 占位；模型参数、仓库地图、聊天记录、被编辑文件和运行时测试结果由程序另行注入。",
+    "editor_diff_fenced_prompts.py 仅继承其他提示类且无独立长文本；继承来源已覆盖。"
+  ],
+  "name": "Aider",
+  "repository": "Aider-AI/aider",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "227d9051b1fdefc93c2668435508882c2cd67d1e0864928c9a1b0da5513a0014",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/aider/context/base_prompts-89cffc9669c8__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "72ae34d3da9cdd24015e4c47148470f0205cd5c477a67b36b23139b0c5465898",
+          "module": "context",
+          "prompt_id": "base_prompts-89cffc9669c8",
+          "source_lines": [
+            30,
+            30
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L30-L30",
+          "source_symbol": "module.CoderPrompts.files_content_assistant_reply.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-e8d5098bcbe9__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "7f4940ba1f1d4d41f946e31c3d49603a23c5281188c380c1b7c1d82b9c2e8b8c",
+          "module": "context",
+          "prompt_id": "base_prompts-e8d5098bcbe9",
+          "source_lines": [
+            4,
+            4
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L4-L4",
+          "source_symbol": "module.CoderPrompts.files_content_gpt_edits.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-7826633f955e__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "f042dfe918d0309652a36f836be084ecb9c71bd36b175934cf22ba68226c8ca1",
+          "module": "context",
+          "prompt_id": "base_prompts-7826633f955e",
+          "source_lines": [
+            8,
+            8
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L8-L8",
+          "source_symbol": "module.CoderPrompts.files_content_gpt_no_edits.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-12630b783ca8__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "6dbf77bf8f04fe4029d5e3b68ee0f8753a21c0e605ad9abfbd4dbabbbbebaf86",
+          "module": "context",
+          "prompt_id": "base_prompts-12630b783ca8",
+          "source_lines": [
+            24,
+            28
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L24-L28",
+          "source_symbol": "module.CoderPrompts.files_content_prefix.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-9e6dbe564fef__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "38fa0d996739fbc0c72fc32c12e3fcebb78834266ac0f6a1a80e355f37d9929c",
+          "module": "context",
+          "prompt_id": "base_prompts-9e6dbe564fef",
+          "source_lines": [
+            32,
+            32
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L32-L32",
+          "source_symbol": "module.CoderPrompts.files_no_full_files.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-6b5cd8975ebd__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "1a41817194006f7a156b7f0d170d4cbb32bc4a0ecd4c4e9c727662a1f359655a",
+          "module": "context",
+          "prompt_id": "base_prompts-6b5cd8975ebd",
+          "source_lines": [
+            34,
+            38
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L34-L38",
+          "source_symbol": "module.CoderPrompts.files_no_full_files_with_repo_map.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-c70107b33cec__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "ae46fa66b8e68fde42732ca654ddbba495597fff77d8b9a53d09efc36e921dad",
+          "module": "context",
+          "prompt_id": "base_prompts-c70107b33cec",
+          "source_lines": [
+            41,
+            42
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L41-L42",
+          "source_symbol": "module.CoderPrompts.files_no_full_files_with_repo_map_reply.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-d798c998a82b__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "71dd7d849fdc3e96db84fba983f9cd5a946e2aa9fc781ea0216ab2d5bc270968",
+          "module": "context",
+          "prompt_id": "base_prompts-d798c998a82b",
+          "source_lines": [
+            12,
+            15
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L12-L15",
+          "source_symbol": "module.CoderPrompts.lazy_prompt.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-67e6e920570c__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "6d0d9c6969480dd48a7276ed695fb52ab1b0b3c057199f0f4da178974f378bac",
+          "module": "context",
+          "prompt_id": "base_prompts-67e6e920570c",
+          "source_lines": [
+            17,
+            20
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L17-L20",
+          "source_symbol": "module.CoderPrompts.overeager_prompt.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-87d0ddbf48da__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "0c29b5a731ed0f807f1fcf2eeeb95b2c2e2eb5c0f852a52b0af81d7fcc521ee7",
+          "module": "context",
+          "prompt_id": "base_prompts-87d0ddbf48da",
+          "source_lines": [
+            50,
+            52
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L50-L52",
+          "source_symbol": "module.CoderPrompts.read_only_files_prefix.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/base_prompts-1a6c565b3fed__base__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "52cdfa1995db73c886a76fac3d4c998811e00e21c103815ab492a7d403db25f7",
+          "module": "context",
+          "prompt_id": "base_prompts-1a6c565b3fed",
+          "source_lines": [
+            45,
+            48
+          ],
+          "source_path": "aider/coders/base_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/base_prompts.py#L45-L48",
+          "source_symbol": "module.CoderPrompts.repo_content_prefix.1",
+          "variant": "base"
+        },
+        {
+          "archive_path": "agents/aider/context/context_prompts-32062271715f__context__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "2ee213c536aba563742951b87e66c411bf2c8c44d729ee1def475c3674fbcf6e",
+          "module": "context",
+          "prompt_id": "context_prompts-32062271715f",
+          "source_lines": [
+            53,
+            53
+          ],
+          "source_path": "aider/coders/context_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/context_prompts.py#L53-L53",
+          "source_symbol": "module.ContextPrompts.files_content_assistant_reply.1",
+          "variant": "context"
+        },
+        {
+          "archive_path": "agents/aider/context/context_prompts-ea0b61bb6250__context__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "9d43489de75c3b30608b15642581ce1e93efe94a6c0b83c631cbbf815d6c8f6f",
+          "module": "context",
+          "prompt_id": "context_prompts-ea0b61bb6250",
+          "source_lines": [
+            47,
+            50
+          ],
+          "source_path": "aider/coders/context_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/context_prompts.py#L47-L50",
+          "source_symbol": "module.ContextPrompts.files_content_prefix.1",
+          "variant": "context"
+        },
+        {
+          "archive_path": "agents/aider/context/context_prompts-d32e7b509d9c__context__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "5ff7bd7cc856a2a3a96966976bd11b56d3f8559e77fce8a904201bc6a8193452",
+          "module": "context",
+          "prompt_id": "context_prompts-d32e7b509d9c",
+          "source_lines": [
+            56,
+            56
+          ],
+          "source_path": "aider/coders/context_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/context_prompts.py#L56-L56",
+          "source_symbol": "module.ContextPrompts.files_no_full_files.1",
+          "variant": "context"
+        },
+        {
+          "archive_path": "agents/aider/context/context_prompts-4c956d2c2d0c__context__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "88b6cb895d304ddd724bf7d30ebfe629f4c209986f8ce7adede3064a9f705be0",
+          "module": "context",
+          "prompt_id": "context_prompts-4c956d2c2d0c",
+          "source_lines": [
+            7,
+            43
+          ],
+          "source_path": "aider/coders/context_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/context_prompts.py#L7-L43",
+          "source_symbol": "module.ContextPrompts.main_system.1",
+          "variant": "context"
+        },
+        {
+          "archive_path": "agents/aider/context/context_prompts-c913e9ddb247__context__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "9689be74e9e5bd260b8e7124059dd9cebcafc65fdc1abaf9abb03988a0fc920c",
+          "module": "context",
+          "prompt_id": "context_prompts-c913e9ddb247",
+          "source_lines": [
+            61,
+            64
+          ],
+          "source_path": "aider/coders/context_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/context_prompts.py#L61-L64",
+          "source_symbol": "module.ContextPrompts.repo_content_prefix.1",
+          "variant": "context"
+        },
+        {
+          "archive_path": "agents/aider/context/context_prompts-72e181a9b386__context__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "d3f44b7c56ff55f0511524fb24fc61ef79c09f0d3611f39541686cc31db4b6f9",
+          "module": "context",
+          "prompt_id": "context_prompts-72e181a9b386",
+          "source_lines": [
+            70,
+            75
+          ],
+          "source_path": "aider/coders/context_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/context_prompts.py#L70-L75",
+          "source_symbol": "module.ContextPrompts.try_again.1",
+          "variant": "context"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_fenced_prompts-fbcc55bf6d2a__editblock_fenced__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "489c92e9e25a2ba2c27719a4a7bf2af663bb6e5d0e9181da2b85f7129259fed7",
+          "module": "editing",
+          "prompt_id": "editblock_fenced_prompts-fbcc55bf6d2a",
+          "source_lines": [
+            10,
+            10
+          ],
+          "source_path": "aider/coders/editblock_fenced_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_fenced_prompts.py#L10-L10",
+          "source_symbol": "module.EditBlockFencedPrompts.example_messages.1",
+          "variant": "editblock_fenced"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_fenced_prompts-703cdc3358b4__editblock_fenced__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "13dbad1a5a4246546a9eaef1895c4aa62633cf7f7c32096b6816d2828ea06a8e",
+          "module": "editing",
+          "prompt_id": "editblock_fenced_prompts-703cdc3358b4",
+          "source_lines": [
+            14,
+            56
+          ],
+          "source_path": "aider/coders/editblock_fenced_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_fenced_prompts.py#L14-L56",
+          "source_symbol": "module.EditBlockFencedPrompts.example_messages.2",
+          "variant": "editblock_fenced"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_fenced_prompts-21ad29848bfc__editblock_fenced__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "c8571e145ac85047b8446bcc5323ad8a1b4425d1280fc29fbc99b15d992b3a36",
+          "module": "editing",
+          "prompt_id": "editblock_fenced_prompts-21ad29848bfc",
+          "source_lines": [
+            64,
+            93
+          ],
+          "source_path": "aider/coders/editblock_fenced_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_fenced_prompts.py#L64-L93",
+          "source_symbol": "module.EditBlockFencedPrompts.example_messages.3",
+          "variant": "editblock_fenced"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_fenced_prompts-5225c8023b3e__editblock_fenced__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "3272161841f387f4b7f0b20a62713cc1ba516280e69d9752c91efe1a02877e78",
+          "module": "editing",
+          "prompt_id": "editblock_fenced_prompts-5225c8023b3e",
+          "source_lines": [
+            97,
+            143
+          ],
+          "source_path": "aider/coders/editblock_fenced_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_fenced_prompts.py#L97-L143",
+          "source_symbol": "module.EditBlockFencedPrompts.system_reminder.1",
+          "variant": "editblock_fenced"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_func_prompts-13e133c03199__editblock_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "2c108cd0891c7045e12c4df61af95aabc2262fbc550f758c2fcf1c7eb80d15f3",
+          "module": "editing",
+          "prompt_id": "editblock_func_prompts-13e133c03199",
+          "source_lines": [
+            19,
+            19
+          ],
+          "source_path": "aider/coders/editblock_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_func_prompts.py#L19-L19",
+          "source_symbol": "module.EditBlockFunctionPrompts.files_content_prefix.1",
+          "variant": "editblock_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_func_prompts-736f2835c1ea__editblock_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "59de7f380c1518ccf54b14b4c924dfbb9155406abbf01723091dde32b549a632",
+          "module": "editing",
+          "prompt_id": "editblock_func_prompts-736f2835c1ea",
+          "source_lines": [
+            7,
+            12
+          ],
+          "source_path": "aider/coders/editblock_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_func_prompts.py#L7-L12",
+          "source_symbol": "module.EditBlockFunctionPrompts.main_system.1",
+          "variant": "editblock_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_func_prompts-9dae5978fc59__editblock_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "394065310ec8728f18351ce6bc91508bada6dd1efc4b7930d89406449ac681eb",
+          "module": "editing",
+          "prompt_id": "editblock_func_prompts-9dae5978fc59",
+          "source_lines": [
+            25,
+            26
+          ],
+          "source_path": "aider/coders/editblock_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_func_prompts.py#L25-L26",
+          "source_symbol": "module.EditBlockFunctionPrompts.repo_content_prefix.1",
+          "variant": "editblock_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_func_prompts-0408139f433b__editblock_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "7d655db2653d20e2c59b55e1f3811d02c16fd6400e01f145246f2e37234c0d4c",
+          "module": "editing",
+          "prompt_id": "editblock_func_prompts-0408139f433b",
+          "source_lines": [
+            14,
+            17
+          ],
+          "source_path": "aider/coders/editblock_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_func_prompts.py#L14-L17",
+          "source_symbol": "module.EditBlockFunctionPrompts.system_reminder.1",
+          "variant": "editblock_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_prompts-3db5c4614e1e__editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "489c92e9e25a2ba2c27719a4a7bf2af663bb6e5d0e9181da2b85f7129259fed7",
+          "module": "editing",
+          "prompt_id": "editblock_prompts-3db5c4614e1e",
+          "source_lines": [
+            36,
+            36
+          ],
+          "source_path": "aider/coders/editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_prompts.py#L36-L36",
+          "source_symbol": "module.EditBlockPrompts.example_messages.1",
+          "variant": "editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_prompts-b0bc86b2830c__editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "d4d39fbabea3c429dd6dc1d39890cf2ee164f958970c0d8414e6f8372985f7ba",
+          "module": "editing",
+          "prompt_id": "editblock_prompts-b0bc86b2830c",
+          "source_lines": [
+            40,
+            81
+          ],
+          "source_path": "aider/coders/editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_prompts.py#L40-L81",
+          "source_symbol": "module.EditBlockPrompts.example_messages.2",
+          "variant": "editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_prompts-a1c19e8d1438__editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "6d9b897b51166a5cdf858d59c983d139974f9dc2c481602c308b9110b6ccbc23",
+          "module": "editing",
+          "prompt_id": "editblock_prompts-a1c19e8d1438",
+          "source_lines": [
+            89,
+            118
+          ],
+          "source_path": "aider/coders/editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_prompts.py#L89-L118",
+          "source_symbol": "module.EditBlockPrompts.example_messages.3",
+          "variant": "editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_prompts-9fb0ebef93c5__editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "dc134dfa753573ac7ebf21862e33a41eba8fa29c00920b13245cd4368d7b54eb",
+          "module": "editing",
+          "prompt_id": "editblock_prompts-9fb0ebef93c5",
+          "source_lines": [
+            167,
+            170
+          ],
+          "source_path": "aider/coders/editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_prompts.py#L167-L170",
+          "source_symbol": "module.EditBlockPrompts.go_ahead_tip.1",
+          "variant": "editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_prompts-f4d4e1112710__editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "fa0c40421ccab9bbd95a5e3fd6e2844cae083735a52972d6f762182e9b66f94a",
+          "module": "editing",
+          "prompt_id": "editblock_prompts-f4d4e1112710",
+          "source_lines": [
+            8,
+            32
+          ],
+          "source_path": "aider/coders/editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_prompts.py#L8-L32",
+          "source_symbol": "module.EditBlockPrompts.main_system.1",
+          "variant": "editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_prompts-717a2fdec912__editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "7655244b43357d1dc10e3bafce8846ea1ecd756793e40f83940c365e989e8582",
+          "module": "editing",
+          "prompt_id": "editblock_prompts-717a2fdec912",
+          "source_lines": [
+            163,
+            165
+          ],
+          "source_path": "aider/coders/editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_prompts.py#L163-L165",
+          "source_symbol": "module.EditBlockPrompts.rename_with_shell.1",
+          "variant": "editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editblock_prompts-c3f19c4ebe62__editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "c4dcb982dabef440b5935ebcf606c202ae04acd47e3e28165633d21cba122245",
+          "module": "editing",
+          "prompt_id": "editblock_prompts-c3f19c4ebe62",
+          "source_lines": [
+            122,
+            161
+          ],
+          "source_path": "aider/coders/editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editblock_prompts.py#L122-L161",
+          "source_symbol": "module.EditBlockPrompts.system_reminder.1",
+          "variant": "editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editor_editblock_prompts-e9fccf3388f2__editor_editblock__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "f73a61cad80149e46b5b5f9b64a472524f6989c28416d7bdb6ea5f4a3ec24fb7",
+          "module": "editing",
+          "prompt_id": "editor_editblock_prompts-e9fccf3388f2",
+          "source_lines": [
+            7,
+            12
+          ],
+          "source_path": "aider/coders/editor_editblock_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editor_editblock_prompts.py#L7-L12",
+          "source_symbol": "module.EditorEditBlockPrompts.main_system.1",
+          "variant": "editor_editblock"
+        },
+        {
+          "archive_path": "agents/aider/editing/editor_whole_prompts-8a6b83a825d5__editor_whole__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "2ded57f287c297bd6d3a0f2a49b5b575701f6c2ca6fe2468d84fabd2d1b7b64f",
+          "module": "editing",
+          "prompt_id": "editor_whole_prompts-8a6b83a825d5",
+          "source_lines": [
+            7,
+            10
+          ],
+          "source_path": "aider/coders/editor_whole_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/editor_whole_prompts.py#L7-L10",
+          "source_symbol": "module.EditorWholeFilePrompts.main_system.1",
+          "variant": "editor_whole"
+        },
+        {
+          "archive_path": "agents/aider/editing/patch_prompts-82bfce50c879__patch__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "489c92e9e25a2ba2c27719a4a7bf2af663bb6e5d0e9181da2b85f7129259fed7",
+          "module": "editing",
+          "prompt_id": "patch_prompts-82bfce50c879",
+          "source_lines": [
+            44,
+            44
+          ],
+          "source_path": "aider/coders/patch_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/patch_prompts.py#L44-L44",
+          "source_symbol": "module.PatchPrompts.example_messages.1",
+          "variant": "patch"
+        },
+        {
+          "archive_path": "agents/aider/editing/patch_prompts-d5bba0d58894__patch__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "840f99be7825a1485515aef5915967da58fd6f4607ae565493010deed6dfc5e4",
+          "module": "editing",
+          "prompt_id": "patch_prompts-d5bba0d58894",
+          "source_lines": [
+            48,
+            80
+          ],
+          "source_path": "aider/coders/patch_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/patch_prompts.py#L48-L80",
+          "source_symbol": "module.PatchPrompts.example_messages.2",
+          "variant": "patch"
+        },
+        {
+          "archive_path": "agents/aider/editing/patch_prompts-1815d7db6cd5__patch__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "db47ddb0b6f469c478bd1b27e0bfd4d5d43ee9ce1780be1415ab15cc7bf72ff9",
+          "module": "editing",
+          "prompt_id": "patch_prompts-1815d7db6cd5",
+          "source_lines": [
+            89,
+            111
+          ],
+          "source_path": "aider/coders/patch_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/patch_prompts.py#L89-L111",
+          "source_symbol": "module.PatchPrompts.example_messages.3",
+          "variant": "patch"
+        },
+        {
+          "archive_path": "agents/aider/editing/patch_prompts-2eb95390f349__patch__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "aaeac9d3f94b2a437eb3120b54fc0c365bd979cd08081ed429ff38368be1adf5",
+          "module": "editing",
+          "prompt_id": "patch_prompts-2eb95390f349",
+          "source_lines": [
+            11,
+            35
+          ],
+          "source_path": "aider/coders/patch_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/patch_prompts.py#L11-L35",
+          "source_symbol": "module.PatchPrompts.main_system.1",
+          "variant": "patch"
+        },
+        {
+          "archive_path": "agents/aider/editing/patch_prompts-7fb247fcdc65__patch__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "263ca6a468c786ec39014642bf792196f33f310495d50585351dd47b05ee900e",
+          "module": "editing",
+          "prompt_id": "patch_prompts-7fb247fcdc65",
+          "source_lines": [
+            118,
+            161
+          ],
+          "source_path": "aider/coders/patch_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/patch_prompts.py#L118-L161",
+          "source_symbol": "module.PatchPrompts.system_reminder.1",
+          "variant": "patch"
+        },
+        {
+          "archive_path": "agents/aider/editing/single_wholefile_func_prompts-a9a8e9db6583__single_wholefile_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "02c8cf5ef82fea8f2988587ed0822d372684644affabe4f43df84fce2e136ed5",
+          "module": "editing",
+          "prompt_id": "single_wholefile_func_prompts-a9a8e9db6583",
+          "source_lines": [
+            19,
+            19
+          ],
+          "source_path": "aider/coders/single_wholefile_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/single_wholefile_func_prompts.py#L19-L19",
+          "source_symbol": "module.SingleWholeFileFunctionPrompts.files_content_prefix.1",
+          "variant": "single_wholefile_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/single_wholefile_func_prompts-d17c5c267ccd__single_wholefile_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "f4371787b8fa4e00af8155239064f26e6ac6e972b122332307c3b4a5c3e706bd",
+          "module": "editing",
+          "prompt_id": "single_wholefile_func_prompts-d17c5c267ccd",
+          "source_lines": [
+            7,
+            12
+          ],
+          "source_path": "aider/coders/single_wholefile_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/single_wholefile_func_prompts.py#L7-L12",
+          "source_symbol": "module.SingleWholeFileFunctionPrompts.main_system.1",
+          "variant": "single_wholefile_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/single_wholefile_func_prompts-1895ab25b53c__single_wholefile_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "07ede2f69f969f2e1bd2782a20289c10e09efc8a0ea75a79b26cdcd680d0735f",
+          "module": "editing",
+          "prompt_id": "single_wholefile_func_prompts-1895ab25b53c",
+          "source_lines": [
+            14,
+            17
+          ],
+          "source_path": "aider/coders/single_wholefile_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/single_wholefile_func_prompts.py#L14-L17",
+          "source_symbol": "module.SingleWholeFileFunctionPrompts.system_reminder.1",
+          "variant": "single_wholefile_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/udiff_prompts-b223920874d2__udiff__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "95c569fe75a0fd7a0723c555b02458806ee100daf150afb468a609c71c210e90",
+          "module": "editing",
+          "prompt_id": "udiff_prompts-b223920874d2",
+          "source_lines": [
+            28,
+            72
+          ],
+          "source_path": "aider/coders/udiff_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/udiff_prompts.py#L28-L72",
+          "source_symbol": "module.UnifiedDiffPrompts.example_messages.1",
+          "variant": "udiff"
+        },
+        {
+          "archive_path": "agents/aider/editing/udiff_prompts-f7d8237eaa4f__udiff__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "082eb30abed2ae755408ee3a680c655c5a26706c07cec26a19f21c6ee73ed2d6",
+          "module": "editing",
+          "prompt_id": "udiff_prompts-f7d8237eaa4f",
+          "source_lines": [
+            8,
+            19
+          ],
+          "source_path": "aider/coders/udiff_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/udiff_prompts.py#L8-L19",
+          "source_symbol": "module.UnifiedDiffPrompts.main_system.1",
+          "variant": "udiff"
+        },
+        {
+          "archive_path": "agents/aider/editing/udiff_prompts-ccc1d8d4e665__udiff__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "55414b0dfaa13e92fff3775ad54d7fb9fb9ae42a794e32942bc50ac5fc0cd14a",
+          "module": "editing",
+          "prompt_id": "udiff_prompts-ccc1d8d4e665",
+          "source_lines": [
+            76,
+            111
+          ],
+          "source_path": "aider/coders/udiff_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/udiff_prompts.py#L76-L111",
+          "source_symbol": "module.UnifiedDiffPrompts.system_reminder.1",
+          "variant": "udiff"
+        },
+        {
+          "archive_path": "agents/aider/editing/udiff_simple_prompts-c4176d34e5d1__udiff_simple__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "f102bedffdc0902d4e422ccb40f325a2c0e62c24220a4f8e031e4370b2c1319e",
+          "module": "editing",
+          "prompt_id": "udiff_simple_prompts-c4176d34e5d1",
+          "source_lines": [
+            13,
+            25
+          ],
+          "source_path": "aider/coders/udiff_simple_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/udiff_simple_prompts.py#L13-L25",
+          "source_symbol": "module.UnifiedDiffSimplePrompts.system_reminder.1",
+          "variant": "udiff_simple"
+        },
+        {
+          "archive_path": "agents/aider/editing/wholefile_func_prompts-40ce883212d6__wholefile_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "2c108cd0891c7045e12c4df61af95aabc2262fbc550f758c2fcf1c7eb80d15f3",
+          "module": "editing",
+          "prompt_id": "wholefile_func_prompts-40ce883212d6",
+          "source_lines": [
+            19,
+            19
+          ],
+          "source_path": "aider/coders/wholefile_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/wholefile_func_prompts.py#L19-L19",
+          "source_symbol": "module.WholeFileFunctionPrompts.files_content_prefix.1",
+          "variant": "wholefile_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/wholefile_func_prompts-cffa03d66e20__wholefile_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "b222af3a5faa292ef8ea38b40edd439c5f2e40a686e4ae5683444867b73b0899",
+          "module": "editing",
+          "prompt_id": "wholefile_func_prompts-cffa03d66e20",
+          "source_lines": [
+            7,
+            12
+          ],
+          "source_path": "aider/coders/wholefile_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/wholefile_func_prompts.py#L7-L12",
+          "source_symbol": "module.WholeFileFunctionPrompts.main_system.1",
+          "variant": "wholefile_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/wholefile_func_prompts-c90ca7ae0e5f__wholefile_func__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "07ede2f69f969f2e1bd2782a20289c10e09efc8a0ea75a79b26cdcd680d0735f",
+          "module": "editing",
+          "prompt_id": "wholefile_func_prompts-c90ca7ae0e5f",
+          "source_lines": [
+            14,
+            17
+          ],
+          "source_path": "aider/coders/wholefile_func_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/wholefile_func_prompts.py#L14-L17",
+          "source_symbol": "module.WholeFileFunctionPrompts.system_reminder.1",
+          "variant": "wholefile_func"
+        },
+        {
+          "archive_path": "agents/aider/editing/wholefile_prompts-4af778dfd449__wholefile__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "b7f2f6195e1ebe946208a9d383d3bad6563d1d6e56764d7716a179db752fe8e1",
+          "module": "editing",
+          "prompt_id": "wholefile_prompts-4af778dfd449",
+          "source_lines": [
+            27,
+            41
+          ],
+          "source_path": "aider/coders/wholefile_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/wholefile_prompts.py#L27-L41",
+          "source_symbol": "module.WholeFilePrompts.example_messages.1",
+          "variant": "wholefile"
+        },
+        {
+          "archive_path": "agents/aider/editing/wholefile_prompts-3f66ba70e4a2__wholefile__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "d96aaaeeeaf0cdd9c1f922437b1b42ed93648b80e32fa3bc7a16864fbb32c88d",
+          "module": "editing",
+          "prompt_id": "wholefile_prompts-3f66ba70e4a2",
+          "source_lines": [
+            7,
+            18
+          ],
+          "source_path": "aider/coders/wholefile_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/wholefile_prompts.py#L7-L18",
+          "source_symbol": "module.WholeFilePrompts.main_system.1",
+          "variant": "wholefile"
+        },
+        {
+          "archive_path": "agents/aider/editing/wholefile_prompts-0f9d2576d760__wholefile__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "a1549acfb29433765bd67c697dbd34474496ebb64a198fa5bc5285107625d3d0",
+          "module": "editing",
+          "prompt_id": "wholefile_prompts-0f9d2576d760",
+          "source_lines": [
+            45,
+            65
+          ],
+          "source_path": "aider/coders/wholefile_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/wholefile_prompts.py#L45-L65",
+          "source_symbol": "module.WholeFilePrompts.system_reminder.1",
+          "variant": "wholefile"
+        },
+        {
+          "archive_path": "agents/aider/execution/prompts-b9f6decb9d68__default__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "ab99952f662ea7de64fc0ff7f73aef8a701fbf05301c1ac7b07bcda0e677bc60",
+          "module": "execution",
+          "prompt_id": "prompts-b9f6decb9d68",
+          "source_lines": [
+            32,
+            32
+          ],
+          "source_path": "aider/prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/prompts.py#L32-L32",
+          "source_symbol": "module.added_files.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/aider/execution/prompts-fde9b0ff407d__default__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "bbac54e7e27c34d1c36453e6f47bbd79dbc31da35a7c8387b93b139ca5be89e6",
+          "module": "execution",
+          "prompt_id": "prompts-fde9b0ff407d",
+          "source_lines": [
+            8,
+            22
+          ],
+          "source_path": "aider/prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/prompts.py#L8-L22",
+          "source_symbol": "module.commit_system.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/aider/execution/prompts-b3983810146c__default__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "59070786a45b495d9f2ae7b142959b5f86fde4f76e91ea1ab6e4483b77d7ec78",
+          "module": "execution",
+          "prompt_id": "prompts-b3983810146c",
+          "source_lines": [
+            26,
+            28
+          ],
+          "source_path": "aider/prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/prompts.py#L26-L28",
+          "source_symbol": "module.undo_command_reply.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/aider/memory/prompts-222c16c54781__default__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "63ecc7db04db723bec106b21d97199a946040384ce95ba9870dadf5168463138",
+          "module": "memory",
+          "prompt_id": "prompts-222c16c54781",
+          "source_lines": [
+            46,
+            59
+          ],
+          "source_path": "aider/prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/prompts.py#L46-L59",
+          "source_symbol": "module.summarize.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/aider/modes/ask_prompts-75a79ae9265f__ask__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "2ee213c536aba563742951b87e66c411bf2c8c44d729ee1def475c3674fbcf6e",
+          "module": "modes",
+          "prompt_id": "ask_prompts-75a79ae9265f",
+          "source_lines": [
+            22,
+            22
+          ],
+          "source_path": "aider/coders/ask_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/ask_prompts.py#L22-L22",
+          "source_symbol": "module.AskPrompts.files_content_assistant_reply.1",
+          "variant": "ask"
+        },
+        {
+          "archive_path": "agents/aider/modes/ask_prompts-4065dc7c4168__ask__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "35bebeb1faa944c81d49cca480fec1a5f61f95265024994ac699400614feb205",
+          "module": "modes",
+          "prompt_id": "ask_prompts-4065dc7c4168",
+          "source_lines": [
+            16,
+            19
+          ],
+          "source_path": "aider/coders/ask_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/ask_prompts.py#L16-L19",
+          "source_symbol": "module.AskPrompts.files_content_prefix.1",
+          "variant": "ask"
+        },
+        {
+          "archive_path": "agents/aider/modes/ask_prompts-69741dbf7d76__ask__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "5ff7bd7cc856a2a3a96966976bd11b56d3f8559e77fce8a904201bc6a8193452",
+          "module": "modes",
+          "prompt_id": "ask_prompts-69741dbf7d76",
+          "source_lines": [
+            25,
+            25
+          ],
+          "source_path": "aider/coders/ask_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/ask_prompts.py#L25-L25",
+          "source_symbol": "module.AskPrompts.files_no_full_files.1",
+          "variant": "ask"
+        },
+        {
+          "archive_path": "agents/aider/modes/ask_prompts-79002d9d071b__ask__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "2687bda9297ee8f54e51dec1ca0899566570c28f12a26703fb5a70ea56bcfbb0",
+          "module": "modes",
+          "prompt_id": "ask_prompts-79002d9d071b",
+          "source_lines": [
+            7,
+            12
+          ],
+          "source_path": "aider/coders/ask_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/ask_prompts.py#L7-L12",
+          "source_symbol": "module.AskPrompts.main_system.1",
+          "variant": "ask"
+        },
+        {
+          "archive_path": "agents/aider/modes/ask_prompts-ae77d1c60d8f__ask__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "9689be74e9e5bd260b8e7124059dd9cebcafc65fdc1abaf9abb03988a0fc920c",
+          "module": "modes",
+          "prompt_id": "ask_prompts-ae77d1c60d8f",
+          "source_lines": [
+            30,
+            33
+          ],
+          "source_path": "aider/coders/ask_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/ask_prompts.py#L30-L33",
+          "source_symbol": "module.AskPrompts.repo_content_prefix.1",
+          "variant": "ask"
+        },
+        {
+          "archive_path": "agents/aider/modes/help_prompts-787520380329__help__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "631d01e26817edc62ccb6f133f169cb71414ceddd34517c656ebccc2da64fdbf",
+          "module": "modes",
+          "prompt_id": "help_prompts-787520380329",
+          "source_lines": [
+            36,
+            37
+          ],
+          "source_path": "aider/coders/help_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/help_prompts.py#L36-L37",
+          "source_symbol": "module.HelpPrompts.files_content_prefix.1",
+          "variant": "help"
+        },
+        {
+          "archive_path": "agents/aider/modes/help_prompts-c56bd7b566c7__help__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "784c1e0a1e2ff15b7158339349ec07fdb6b0d02c57b3443edebb9cfedb8ed613",
+          "module": "modes",
+          "prompt_id": "help_prompts-c56bd7b566c7",
+          "source_lines": [
+            7,
+            31
+          ],
+          "source_path": "aider/coders/help_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/help_prompts.py#L7-L31",
+          "source_symbol": "module.HelpPrompts.main_system.1",
+          "variant": "help"
+        },
+        {
+          "archive_path": "agents/aider/modes/help_prompts-e8eae866728f__help__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "12af65fb17bd67a470752c7a164245b287943a17ace2383c5daa86cc29bd76c9",
+          "module": "modes",
+          "prompt_id": "help_prompts-e8eae866728f",
+          "source_lines": [
+            44,
+            46
+          ],
+          "source_path": "aider/coders/help_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/help_prompts.py#L44-L46",
+          "source_symbol": "module.HelpPrompts.repo_content_prefix.1",
+          "variant": "help"
+        },
+        {
+          "archive_path": "agents/aider/modes/watch_prompts-221099677b09__watch__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "a08d448f8ccc4ffb321ef39aba6964819d6416807428727c5037945f261533af",
+          "module": "modes",
+          "prompt_id": "watch_prompts-221099677b09",
+          "source_lines": [
+            9,
+            12
+          ],
+          "source_path": "aider/watch_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/watch_prompts.py#L9-L12",
+          "source_symbol": "module.watch_ask_prompt.1",
+          "variant": "watch"
+        },
+        {
+          "archive_path": "agents/aider/modes/watch_prompts-5fb2caa8553f__watch__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "23f50bfcbafbc07597543b94a8f692db3e0cc033f2bdf73d42b5aaea4df5b35b",
+          "module": "modes",
+          "prompt_id": "watch_prompts-5fb2caa8553f",
+          "source_lines": [
+            1,
+            7
+          ],
+          "source_path": "aider/watch_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/watch_prompts.py#L1-L7",
+          "source_symbol": "module.watch_code_prompt.1",
+          "variant": "watch"
+        },
+        {
+          "archive_path": "agents/aider/planning/architect_prompts-1819f83217c7__architect__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "2ee213c536aba563742951b87e66c411bf2c8c44d729ee1def475c3674fbcf6e",
+          "module": "planning",
+          "prompt_id": "architect_prompts-1819f83217c7",
+          "source_lines": [
+            27,
+            27
+          ],
+          "source_path": "aider/coders/architect_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/architect_prompts.py#L27-L27",
+          "source_symbol": "module.ArchitectPrompts.files_content_assistant_reply.1",
+          "variant": "architect"
+        },
+        {
+          "archive_path": "agents/aider/planning/architect_prompts-393e05eddb7d__architect__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "35bebeb1faa944c81d49cca480fec1a5f61f95265024994ac699400614feb205",
+          "module": "planning",
+          "prompt_id": "architect_prompts-393e05eddb7d",
+          "source_lines": [
+            21,
+            24
+          ],
+          "source_path": "aider/coders/architect_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/architect_prompts.py#L21-L24",
+          "source_symbol": "module.ArchitectPrompts.files_content_prefix.1",
+          "variant": "architect"
+        },
+        {
+          "archive_path": "agents/aider/planning/architect_prompts-4c025c37fd1d__architect__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "5ff7bd7cc856a2a3a96966976bd11b56d3f8559e77fce8a904201bc6a8193452",
+          "module": "planning",
+          "prompt_id": "architect_prompts-4c025c37fd1d",
+          "source_lines": [
+            30,
+            30
+          ],
+          "source_path": "aider/coders/architect_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/architect_prompts.py#L30-L30",
+          "source_symbol": "module.ArchitectPrompts.files_no_full_files.1",
+          "variant": "architect"
+        },
+        {
+          "archive_path": "agents/aider/planning/architect_prompts-460ff8187a7e__architect__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "de04c399cc759e3bbc0c60895f24fa7235f26fafd0768221ac8e80673f9661f3",
+          "module": "planning",
+          "prompt_id": "architect_prompts-460ff8187a7e",
+          "source_lines": [
+            7,
+            17
+          ],
+          "source_path": "aider/coders/architect_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/architect_prompts.py#L7-L17",
+          "source_symbol": "module.ArchitectPrompts.main_system.1",
+          "variant": "architect"
+        },
+        {
+          "archive_path": "agents/aider/planning/architect_prompts-6666c6372da5__architect__v0.86.0__a4be6ccd87eb__20261030T052916Z.md",
+          "content_sha256": "9689be74e9e5bd260b8e7124059dd9cebcafc65fdc1abaf9abb03988a0fc920c",
+          "module": "planning",
+          "prompt_id": "architect_prompts-6666c6372da5",
+          "source_lines": [
+            35,
+            38
+          ],
+          "source_path": "aider/coders/architect_prompts.py",
+          "source_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/aider/coders/architect_prompts.py#L35-L38",
+          "source_symbol": "module.ArchitectPrompts.repo_content_prefix.1",
+          "variant": "architect"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v0.86.0:a4be6ccd87ebaa59b361f3f028d116ce1761b626:227d9051b1fdefc93c2668435508882c2cd67d1e0864928c9a1b0da5513a0014:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:29:16Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2025-08-09T17:42:19Z",
+      "repository": "Aider-AI/aider",
+      "source_commit": "a4be6ccd87ebaa59b361f3f028d116ce1761b626",
+      "source_committed_at": "2025-08-09T15:54:51Z",
+      "source_ref": "v0.86.0",
+      "upstream_version": "v0.86.0"
+    }
+  ],
+  "status": "ok"
+}

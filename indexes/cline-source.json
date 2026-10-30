@@ -1,0 +1,17 @@
+{
+  "agent": "cline",
+  "collected_at": "2026-10-30T05:29:22Z",
+  "license": "Apache-2.0",
+  "license_permalink": "https://github.com/cline/cline/blob/a459f1d04dea030833b558be645011ab739c463b/LICENSE",
+  "license_text_path": "licenses/cline/a459f1d04dea.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "release",
+  "release_published_at": "2026-10-26T09:06:50Z",
+  "repository": "cline/cline",
+  "source_commit": "a459f1d04dea030833b558be645011ab739c463b",
+  "source_committed_at": "2026-10-26T04:37:15Z",
+  "source_path": "LICENSE",
+  "source_ref": "v4.1.26",
+  "upstream_version": "v4.1.26"
+}

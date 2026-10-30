@@ -1,0 +1,26 @@
+slug: swe-agent
+name: SWE-agent
+repository: SWE-agent/SWE-agent
+priority: S
+coverage: partial
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: config/default.yaml
+  module: system
+  format: yaml
+  key_pattern: (?i)(system|instance|next_step|demonstration|template|instruction)
+  min_chars: 80
+- glob: config/default_backticks.yaml
+  module: system
+  format: yaml
+  key_pattern: (?i)(system|instance|next_step|demonstration|template|instruction)
+  min_chars: 80
+- glob: config/sweagent_0_7/*.yaml
+  module: execution
+  format: yaml
+  variant: legacy-tool-loop
+  key_pattern: (?i)(system|instance|next_step|demonstration|template|instruction)
+  min_chars: 80
+limitations:
+- 当前公开稳定 v1.1.0 将运行提示模板保存在 YAML 配置中；本采集器只选取 default 与 sweagent_0_7 里可证实的 instruction/instance/next-step 模板，不采集 benchmark 与轨迹样本。
+- agent loop 根据工具、环境、observation 和步骤状态插入占位符，静态文件不等同于最终的完整模型消息。

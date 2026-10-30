@@ -1,0 +1,35 @@
+slug: letta-code
+name: Letta Code
+repository: letta-ai/letta-code
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: src/agent/prompts/letta*.md
+  module: system
+  format: raw
+  min_chars: 50
+- glob: src/agent/prompts/memory_filesystem.mdx
+  module: memory
+  format: raw
+  min_chars: 60
+- glob: src/agent/prompts/recall_subagent*.md
+  module: memory
+  format: raw
+  min_chars: 50
+- glob: src/agent/subagents/builtin/memory.md
+  module: memory
+  format: raw
+  min_chars: 50
+- glob: src/agent/subagents/builtin/reflection*.md
+  module: reflection
+  format: raw
+  min_chars: 50
+- glob: src/cli/helpers/reflection-prompt.ts
+  module: reflection
+  format: js-strings
+  key_pattern: prompt|reflection|instruction
+  min_chars: 100
+limitations:
+- source_claude.md、source_codex.md 等声明从其他产品预设或社区渠道导入的提示词不纳入 Letta Code 官方内容；核心 Memory Filesystem 和反思 Agent 模板取自 Letta Code
+  自有路径。

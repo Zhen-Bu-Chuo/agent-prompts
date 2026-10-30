@@ -1,0 +1,140 @@
+{
+  "agent": "goose",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v1.57.0:30bba95105e59bc3e7df624cf6b4d433690cfe12:48dc7dd1082e53f66b2af7038521e32fd8d9effc9ee190a11e9fe4f42005c533:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "仓库从 block/goose 迁移至 aaif-goose/goose；已跟随 canonical repository，保持原产品对应关系。",
+    "工具注册和 MCP 上下文由执行期间组装。"
+  ],
+  "name": "Goose",
+  "repository": "aaif-goose/goose",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "48dc7dd1082e53f66b2af7038521e32fd8d9effc9ee190a11e9fe4f42005c533",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/goose/system/apps_create-5284fde55bdd__default__v1.57.0__30bba95105e5__20261030T052938Z.md",
+          "content_sha256": "7ae8ffc204215ea08b864eadeedae0c8602d053aa03adda6ddd92fe9d243d523",
+          "module": "system",
+          "prompt_id": "apps_create-5284fde55bdd",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "crates/goose/src/prompts/apps_create.md",
+          "source_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/crates/goose/src/prompts/apps_create.md#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/goose/system/apps_iterate-7da3152e2a79__default__v1.57.0__30bba95105e5__20261030T052938Z.md",
+          "content_sha256": "0de69eaed5be6df0510b60fb931969fd9326053221272e8fa2207aef07c9ac2b",
+          "module": "system",
+          "prompt_id": "apps_iterate-7da3152e2a79",
+          "source_lines": [
+            1,
+            25
+          ],
+          "source_path": "crates/goose/src/prompts/apps_iterate.md",
+          "source_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/crates/goose/src/prompts/apps_iterate.md#L1-L25",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/goose/system/permission_judge-fe9152959ba7__default__v1.57.0__30bba95105e5__20261030T052938Z.md",
+          "content_sha256": "9de4d53ede00f1fc2c572f825750cd635904968ef74c4081fdde371143a26ff6",
+          "module": "system",
+          "prompt_id": "permission_judge-fe9152959ba7",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "crates/goose/src/prompts/permission_judge.md",
+          "source_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/crates/goose/src/prompts/permission_judge.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/goose/system/session_name-f17d499deb0f__default__v1.57.0__30bba95105e5__20261030T052938Z.md",
+          "content_sha256": "9a104ad7750b0a71884334a43349a17b1a542623536bba4dc287986b9ea6f43f",
+          "module": "system",
+          "prompt_id": "session_name-f17d499deb0f",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "crates/goose/src/prompts/session_name.md",
+          "source_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/crates/goose/src/prompts/session_name.md#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/goose/system/subagent_system-6956872494ac__default__v1.57.0__30bba95105e5__20261030T052938Z.md",
+          "content_sha256": "fdae9eb072c3755c488c6385a6d6c273e0bb1bc25e5889aa116a4fce47811c6f",
+          "module": "system",
+          "prompt_id": "subagent_system-6956872494ac",
+          "source_lines": [
+            1,
+            29
+          ],
+          "source_path": "crates/goose/src/prompts/subagent_system.md",
+          "source_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/crates/goose/src/prompts/subagent_system.md#L1-L29",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/goose/system/system-060b63bb750c__default__v1.57.0__30bba95105e5__20261030T052938Z.md",
+          "content_sha256": "e0a59861edd6791f3df404e27de8bc360d5e5053f535a14b2d775f7815fdb3f0",
+          "module": "system",
+          "prompt_id": "system-060b63bb750c",
+          "source_lines": [
+            1,
+            39
+          ],
+          "source_path": "crates/goose/src/prompts/system.md",
+          "source_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/crates/goose/src/prompts/system.md#L1-L39",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/goose/system/tiny_model_system-b1671ff64b39__default__v1.57.0__30bba95105e5__20261030T052938Z.md",
+          "content_sha256": "ee3f6ad6830bc883be69a2166a5425c9d9c6a88797e8183beed9d7ca6cf12b7f",
+          "module": "system",
+          "prompt_id": "tiny_model_system-b1671ff64b39",
+          "source_lines": [
+            1,
+            22
+          ],
+          "source_path": "crates/goose/src/prompts/tiny_model_system.md",
+          "source_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/crates/goose/src/prompts/tiny_model_system.md#L1-L22",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v1.57.0:30bba95105e59bc3e7df624cf6b4d433690cfe12:48dc7dd1082e53f66b2af7038521e32fd8d9effc9ee190a11e9fe4f42005c533:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:29:38Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-28T19:26:10Z",
+      "repository": "aaif-goose/goose",
+      "source_commit": "30bba95105e59bc3e7df624cf6b4d433690cfe12",
+      "source_committed_at": "2026-10-27T17:47:18Z",
+      "source_ref": "v1.57.0",
+      "upstream_version": "v1.57.0"
+    }
+  ],
+  "status": "ok"
+}

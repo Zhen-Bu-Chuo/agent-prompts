@@ -1,0 +1,17 @@
+{
+  "agent": "a-mem",
+  "collected_at": "2026-10-30T05:29:16Z",
+  "license": "MIT",
+  "license_permalink": "https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/LICENSE",
+  "license_text_path": "licenses/a-mem/ceffb860f071.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "default-branch",
+  "release_published_at": null,
+  "repository": "agiresearch/A-mem",
+  "source_commit": "ceffb860f0712bbae97b184d440df62bc910ca8d",
+  "source_committed_at": "2025-12-12T21:15:29Z",
+  "source_path": "LICENSE",
+  "source_ref": "main",
+  "upstream_version": null
+}

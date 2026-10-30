@@ -1,0 +1,17 @@
+{
+  "agent": "hindsight",
+  "collected_at": "2026-10-30T05:29:47Z",
+  "license": "MIT",
+  "license_permalink": "https://github.com/vectorize-io/hindsight/blob/a5a619b5ca59c5c39e0f96be6f7a31fabd136bd5/LICENSE",
+  "license_text_path": "licenses/hindsight/a5a619b5ca59.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "release",
+  "release_published_at": "2026-10-21T16:41:42Z",
+  "repository": "vectorize-io/hindsight",
+  "source_commit": "a5a619b5ca59c5c39e0f96be6f7a31fabd136bd5",
+  "source_committed_at": "2026-10-21T16:16:23Z",
+  "source_path": "LICENSE",
+  "source_ref": "v1.1.0",
+  "upstream_version": "v1.1.0"
+}

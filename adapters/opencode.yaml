@@ -1,0 +1,23 @@
+slug: opencode
+name: OpenCode
+repository: anomalyco/opencode
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: packages/core/src/plugin/system-prompt/*.txt
+  module: system
+  format: raw
+  min_chars: 40
+- glob: packages/core/src/session/runner/prompt/system.txt
+  module: system
+  format: raw
+  min_chars: 40
+- glob: packages/core/src/session/prompt.ts
+  module: planning
+  format: js-strings
+  key_pattern: prompt|plan|system
+  min_chars: 120
+limitations:
+- 模型专属 system prompt 按上游模型文件独立保存；会话消息、工具可用性和运行时上下文仍由调度代码动态组装。
+- 只选择固定 system prompt 和 session prompt 构造模块，TUI 用户输入占位不作为 agent system prompt。

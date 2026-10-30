@@ -1,0 +1,825 @@
+{
+  "agent": "agent-zero",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v0.9.8:8331a121ea795b099953206ffc6b663ba5080e04:04d917bcd01723ff70bf8363895119e50b67375f7b61fd3a715cdfb914cea0dd:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "system、tool 与不同角色 profile 由 framework 消息链动态拼装；归档所选固定文件，不把 examples 的合成 agent profile 重复算作运行态实例。"
+  ],
+  "name": "Agent Zero",
+  "repository": "agent0ai/agent-zero",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "04d917bcd01723ff70bf8363895119e50b67375f7b61fd3a715cdfb914cea0dd",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/agent-zero/context/agent.context.extras-098fab0fb9e6__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "3cfc686de63078d5554fb480adeeb61f273d8bdf08035d09c66f988ba10c9754",
+          "module": "context",
+          "prompt_id": "agent.context.extras-098fab0fb9e6",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "prompts/agent.context.extras.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.context.extras.md#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/memory/agent.system.memories-c5f0ac4b709d__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "f7581ca54dc95edd2cb86b059ff189384b294d0d99e741efd5414d9eb16ef426",
+          "module": "memory",
+          "prompt_id": "agent.system.memories-c5f0ac4b709d",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "prompts/agent.system.memories.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.memories.md#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/subagents/agent.system.main.communication-0b0b45822545__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "d58f7051d3600f9d1cbbed535a3dfa57b34572b6db113d5b1c283ad7ddb852c3",
+          "module": "subagents",
+          "prompt_id": "agent.system.main.communication-0b0b45822545",
+          "source_lines": [
+            1,
+            83
+          ],
+          "source_path": "agents/developer/prompts/agent.system.main.communication.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/agents/developer/prompts/agent.system.main.communication.md#L1-L83",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/subagents/agent.system.main.role-4b57a9e8814d__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "1dcd24871667e1ed29b696e4ac825c646814993144ff7e4c28815d83ed7fcf27",
+          "module": "subagents",
+          "prompt_id": "agent.system.main.role-4b57a9e8814d",
+          "source_lines": [
+            1,
+            180
+          ],
+          "source_path": "agents/developer/prompts/agent.system.main.role.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/agents/developer/prompts/agent.system.main.role.md#L1-L180",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/subagents/agent.system.main.communication-5ac579fd9644__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "997f45dd7f054559ca8b04d5779d7268f877ad7280ebe907f06f41c7da7095a8",
+          "module": "subagents",
+          "prompt_id": "agent.system.main.communication-5ac579fd9644",
+          "source_lines": [
+            1,
+            95
+          ],
+          "source_path": "agents/researcher/prompts/agent.system.main.communication.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/agents/researcher/prompts/agent.system.main.communication.md#L1-L95",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/subagents/agent.system.main.role-961d5ee2a873__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "76cbf0e61c55ace56278c660cf2c23a5d155cfe4fbf84763a56f00eae2e8ca6a",
+          "module": "subagents",
+          "prompt_id": "agent.system.main.role-961d5ee2a873",
+          "source_lines": [
+            1,
+            180
+          ],
+          "source_path": "agents/researcher/prompts/agent.system.main.role.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/agents/researcher/prompts/agent.system.main.role.md#L1-L180",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.behaviour-0b75a94b6e31__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "5ebd283e08b54b7e0ab969f17ee93172a1db60f2030cbb6d7a3bcbe956be93cf",
+          "module": "system",
+          "prompt_id": "agent.system.behaviour-0b75a94b6e31",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "prompts/agent.system.behaviour.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.behaviour.md#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.behaviour_default-e58243f2bdff__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "36bdb69f5b3e45f9a077826571f2666d0ba18eb2c218411de74552bd7db6eef0",
+          "module": "system",
+          "prompt_id": "agent.system.behaviour_default-e58243f2bdff",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "prompts/agent.system.behaviour_default.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.behaviour_default.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.datetime-bd0b3b872211__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "ec4710a9d9c24a378558deae0f8d0686ee3ac74ed30cd5ad9651331bfe9d8dcc",
+          "module": "system",
+          "prompt_id": "agent.system.datetime-bd0b3b872211",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "prompts/agent.system.datetime.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.datetime.md#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.main.communication-8fe423c8745a__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "e23d1e8a3d3cb9ed66ced08dfe920493d6e01a772fd7a2da72f11f57a79262f7",
+          "module": "system",
+          "prompt_id": "agent.system.main.communication-8fe423c8745a",
+          "source_lines": [
+            1,
+            31
+          ],
+          "source_path": "prompts/agent.system.main.communication.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.main.communication.md#L1-L31",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.main.communication_add-da5470ab55e8__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "89fc5443b11712c2b93e53aad9f8c5467824acb7c765763cdddbe688a0143f3c",
+          "module": "system",
+          "prompt_id": "agent.system.main.communication_add-da5470ab55e8",
+          "source_lines": [
+            1,
+            27
+          ],
+          "source_path": "prompts/agent.system.main.communication_additions.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.main.communication_additions.md#L1-L27",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.main.environment-6287ab5833fa__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "6488f4ca0c8b5a13a694966cd0b4931748000c5a60ed6518f76eb361a7ebc60f",
+          "module": "system",
+          "prompt_id": "agent.system.main.environment-6287ab5833fa",
+          "source_lines": [
+            1,
+            4
+          ],
+          "source_path": "prompts/agent.system.main.environment.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.main.environment.md#L1-L4",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.main-4c77dea6cebb__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "a6d59b4285be57a60a6e70c3a2694b02b92c783f610d6daf0a2b086aef3a0577",
+          "module": "system",
+          "prompt_id": "agent.system.main-4c77dea6cebb",
+          "source_lines": [
+            1,
+            11
+          ],
+          "source_path": "prompts/agent.system.main.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.main.md#L1-L11",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.main.role-6d07456f5c78__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "70e22b291fe559091c240ca58594bc9c1c2d2f11290431e0db4c4fb7e1007407",
+          "module": "system",
+          "prompt_id": "agent.system.main.role-6d07456f5c78",
+          "source_lines": [
+            1,
+            7
+          ],
+          "source_path": "prompts/agent.system.main.role.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.main.role.md#L1-L7",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.main.solving-140055a250b6__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "8b98292f8470ab9591ed7136f8e212cc3a3ec77162f3195111b3998a75a8fdb4",
+          "module": "system",
+          "prompt_id": "agent.system.main.solving-140055a250b6",
+          "source_lines": [
+            1,
+            27
+          ],
+          "source_path": "prompts/agent.system.main.solving.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.main.solving.md#L1-L27",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.main.tips-d3f6c52f5fbb__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "50e5136f0e66df515f4bab06cfc92495780591ef679fbf0163f03447fb3a4609",
+          "module": "system",
+          "prompt_id": "agent.system.main.tips-d3f6c52f5fbb",
+          "source_lines": [
+            1,
+            23
+          ],
+          "source_path": "prompts/agent.system.main.tips.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.main.tips.md#L1-L23",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.mcp_tools-276c61da0a92__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "cc32a5b6d4ba25a0c4a5f29cf4e190ec69f7627912e50ad12ef03672193ba3cb",
+          "module": "system",
+          "prompt_id": "agent.system.mcp_tools-276c61da0a92",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "prompts/agent.system.mcp_tools.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.mcp_tools.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.memories-d390a75eb024__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "f7581ca54dc95edd2cb86b059ff189384b294d0d99e741efd5414d9eb16ef426",
+          "module": "system",
+          "prompt_id": "agent.system.memories-d390a75eb024",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "prompts/agent.system.memories.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.memories.md#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.projects.active-e9c7189f7000__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "91700f9558bd0f719b0dfdbc68b17bd12aebc5d5846db8bd39fb48126d4f92c1",
+          "module": "system",
+          "prompt_id": "agent.system.projects.active-e9c7189f7000",
+          "source_lines": [
+            1,
+            13
+          ],
+          "source_path": "prompts/agent.system.projects.active.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.projects.active.md#L1-L13",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.projects.inactive-b13810f5480f__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "ca024c288185406955fc3053fec6586da371a1436fdf3e6149b95c439bbeaf9b",
+          "module": "system",
+          "prompt_id": "agent.system.projects.inactive-b13810f5480f",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "prompts/agent.system.projects.inactive.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.projects.inactive.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.projects.main-6b5534fdd919__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "60a6dceb9b89a39fe6499c2460bfd72367c626a2b8a0518e570f211b7e5996ad",
+          "module": "system",
+          "prompt_id": "agent.system.projects.main-6b5534fdd919",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "prompts/agent.system.projects.main.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.projects.main.md#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.response_tool_tips-23758fd23686__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "e30171ebf3c0d14107b5c893b7a9252e222114551c0f497fbeb3242a9eb27dd5",
+          "module": "system",
+          "prompt_id": "agent.system.response_tool_tips-23758fd23686",
+          "source_lines": [
+            1,
+            4
+          ],
+          "source_path": "prompts/agent.system.response_tool_tips.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.response_tool_tips.md#L1-L4",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.secrets-c46287903e66__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "807f6092caab51af7823057a157b43127082ef81007b38f29361507282d08fe7",
+          "module": "system",
+          "prompt_id": "agent.system.secrets-c46287903e66",
+          "source_lines": [
+            1,
+            20
+          ],
+          "source_path": "prompts/agent.system.secrets.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.secrets.md#L1-L20",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.skills.loaded-dbb75fd5cc45__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "2e3235139d4aee8288cdfb9c9604a98b178965301cecff93fe316aff79ecd47c",
+          "module": "system",
+          "prompt_id": "agent.system.skills.loaded-dbb75fd5cc45",
+          "source_lines": [
+            1,
+            4
+          ],
+          "source_path": "prompts/agent.system.skills.loaded.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.skills.loaded.md#L1-L4",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.skills-4eaad4467ee9__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "0fd2572a5aa0b57ad75f3ace7ad5dc429ae8c4943d5f19a056f58d05600b8ce9",
+          "module": "system",
+          "prompt_id": "agent.system.skills-4eaad4467ee9",
+          "source_lines": [
+            1,
+            6
+          ],
+          "source_path": "prompts/agent.system.skills.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.skills.md#L1-L6",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.solutions-3d11b24e2ddd__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "559693738641a0112c670fee3db9252b5bfb3ad35c1990a1daf450949859c3f8",
+          "module": "system",
+          "prompt_id": "agent.system.solutions-3d11b24e2ddd",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "prompts/agent.system.solutions.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.solutions.md#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.a2a_chat-c256784c154a__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "c1a50ac67ed8bbebb39b50d5e2ba3c8dcc68e731626b6782ad7e663eebe33ef8",
+          "module": "system",
+          "prompt_id": "agent.system.tool.a2a_chat-c256784c154a",
+          "source_lines": [
+            1,
+            73
+          ],
+          "source_path": "prompts/agent.system.tool.a2a_chat.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.a2a_chat.md#L1-L73",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.behaviour-611e6494200b__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "d59cf7ea823e720071127009c6c48cc5055c5c8db99007bbf76d982d103a2867",
+          "module": "system",
+          "prompt_id": "agent.system.tool.behaviour-611e6494200b",
+          "source_lines": [
+            1,
+            16
+          ],
+          "source_path": "prompts/agent.system.tool.behaviour.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.behaviour.md#L1-L16",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.browser-bb8b314a1758__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "8ff07181170e42a9b3000d1e7c1db59541c63e3fefceece2345a5772033720da",
+          "module": "system",
+          "prompt_id": "agent.system.tool.browser-bb8b314a1758",
+          "source_lines": [
+            1,
+            36
+          ],
+          "source_path": "prompts/agent.system.tool.browser.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.browser.md#L1-L36",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.call_sub-ca339f4014fc__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "76047af0d8a39e08fb4b456f27950e0e1e2af26f320f6517ce17a9a2d37f5929",
+          "module": "system",
+          "prompt_id": "agent.system.tool.call_sub-ca339f4014fc",
+          "source_lines": [
+            1,
+            36
+          ],
+          "source_path": "prompts/agent.system.tool.call_sub.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.call_sub.md#L1-L36",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.code_exe-f20e509f1d99__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "597f009da6348e27526ea5d3f5b6971ae6586ccb0e32cc71e9bedb46123ecbb0",
+          "module": "system",
+          "prompt_id": "agent.system.tool.code_exe-f20e509f1d99",
+          "source_lines": [
+            1,
+            90
+          ],
+          "source_path": "prompts/agent.system.tool.code_exe.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.code_exe.md#L1-L90",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.document_query-4308daa814e7__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "f9838259739b2d91e89e2009597691f3c6deb329579cfb6ca8bce108bbf36ee3",
+          "module": "system",
+          "prompt_id": "agent.system.tool.document_query-4308daa814e7",
+          "source_lines": [
+            1,
+            62
+          ],
+          "source_path": "prompts/agent.system.tool.document_query.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.document_query.md#L1-L62",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.input-2b0a038f2c46__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "6ed84ad8a01177d24b4cdcaee7d5033a1c4598ee0c159af642de1f0dfa28ed8d",
+          "module": "system",
+          "prompt_id": "agent.system.tool.input-2b0a038f2c46",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "prompts/agent.system.tool.input.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.input.md#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.memory-fd98e29a744d__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "1b9163b32097b1f4c9c7dcea21c4149af318ae0b3d64e5a1499c0aaa40ff23fd",
+          "module": "system",
+          "prompt_id": "agent.system.tool.memory-fd98e29a744d",
+          "source_lines": [
+            1,
+            79
+          ],
+          "source_path": "prompts/agent.system.tool.memory.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.memory.md#L1-L79",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.notify_user-9a0d6aa68339__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "5aa49bfa79abfb4b18b6981e7d5056cac199acad09030d88736c68a6f00b6926",
+          "module": "system",
+          "prompt_id": "agent.system.tool.notify_user-9a0d6aa68339",
+          "source_lines": [
+            1,
+            43
+          ],
+          "source_path": "prompts/agent.system.tool.notify_user.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.notify_user.md#L1-L43",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.response-319cfb2177cb__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "cba534c378e2215528a068d5969a11caadf8b5b97b3cf1f62bb6f9c566a91c7e",
+          "module": "system",
+          "prompt_id": "agent.system.tool.response-319cfb2177cb",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "prompts/agent.system.tool.response.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.response.md#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.scheduler-82f2140c5540__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "d991a9298f35d3b60d9385e666e02bc0c8496d85a989a5d8d815ea84a16dd1d5",
+          "module": "system",
+          "prompt_id": "agent.system.tool.scheduler-82f2140c5540",
+          "source_lines": [
+            1,
+            275
+          ],
+          "source_path": "prompts/agent.system.tool.scheduler.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.scheduler.md#L1-L275",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.search_engine-2224f9126dd3__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "623c1d15e54992baf54ca5322354a76a2d13f7bf58629d5f3fbac9a586fea0a9",
+          "module": "system",
+          "prompt_id": "agent.system.tool.search_engine-2224f9126dd3",
+          "source_lines": [
+            1,
+            16
+          ],
+          "source_path": "prompts/agent.system.tool.search_engine.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.search_engine.md#L1-L16",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.skills-02620378a934__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "87c0d01851b432f09ced7401ff6c0755414bd2af21a183294d4de4643d597911",
+          "module": "system",
+          "prompt_id": "agent.system.tool.skills-02620378a934",
+          "source_lines": [
+            1,
+            82
+          ],
+          "source_path": "prompts/agent.system.tool.skills.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.skills.md#L1-L82",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tool.wait-390a28d025b1__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "44cd336adb659656b2e7e2ac9c81ba1c42dd57e125fd4a4b563b7020a000e8cc",
+          "module": "system",
+          "prompt_id": "agent.system.tool.wait-390a28d025b1",
+          "source_lines": [
+            1,
+            34
+          ],
+          "source_path": "prompts/agent.system.tool.wait.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.wait.md#L1-L34",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tools-b152f39b8741__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "343cf286717a2840e46c52581db5e5c9a4f6fb8359ac9d1b19e677dd016c5c99",
+          "module": "system",
+          "prompt_id": "agent.system.tools-b152f39b8741",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "prompts/agent.system.tools.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tools.md#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/system/agent.system.tools_vision-9dbd77061bd9__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "b356931e6995df25454e2dfce7eabb80a6356255c74f180304ce83981256d27e",
+          "module": "system",
+          "prompt_id": "agent.system.tools_vision-9dbd77061bd9",
+          "source_lines": [
+            1,
+            21
+          ],
+          "source_path": "prompts/agent.system.tools_vision.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tools_vision.md#L1-L21",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.a2a_chat-13460c07aac6__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "c1a50ac67ed8bbebb39b50d5e2ba3c8dcc68e731626b6782ad7e663eebe33ef8",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.a2a_chat-13460c07aac6",
+          "source_lines": [
+            1,
+            73
+          ],
+          "source_path": "prompts/agent.system.tool.a2a_chat.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.a2a_chat.md#L1-L73",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.behaviour-cc796af76555__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "d59cf7ea823e720071127009c6c48cc5055c5c8db99007bbf76d982d103a2867",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.behaviour-cc796af76555",
+          "source_lines": [
+            1,
+            16
+          ],
+          "source_path": "prompts/agent.system.tool.behaviour.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.behaviour.md#L1-L16",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.browser-a8bddd92c9f4__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "8ff07181170e42a9b3000d1e7c1db59541c63e3fefceece2345a5772033720da",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.browser-a8bddd92c9f4",
+          "source_lines": [
+            1,
+            36
+          ],
+          "source_path": "prompts/agent.system.tool.browser.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.browser.md#L1-L36",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.call_sub-791019e6d135__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "76047af0d8a39e08fb4b456f27950e0e1e2af26f320f6517ce17a9a2d37f5929",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.call_sub-791019e6d135",
+          "source_lines": [
+            1,
+            36
+          ],
+          "source_path": "prompts/agent.system.tool.call_sub.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.call_sub.md#L1-L36",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.code_exe-6f88e86ab3a7__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "597f009da6348e27526ea5d3f5b6971ae6586ccb0e32cc71e9bedb46123ecbb0",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.code_exe-6f88e86ab3a7",
+          "source_lines": [
+            1,
+            90
+          ],
+          "source_path": "prompts/agent.system.tool.code_exe.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.code_exe.md#L1-L90",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.document_query-b6efcc0a64a7__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "f9838259739b2d91e89e2009597691f3c6deb329579cfb6ca8bce108bbf36ee3",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.document_query-b6efcc0a64a7",
+          "source_lines": [
+            1,
+            62
+          ],
+          "source_path": "prompts/agent.system.tool.document_query.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.document_query.md#L1-L62",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.input-f8fd4ae6ad35__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "6ed84ad8a01177d24b4cdcaee7d5033a1c4598ee0c159af642de1f0dfa28ed8d",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.input-f8fd4ae6ad35",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "prompts/agent.system.tool.input.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.input.md#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.memory-c52e2b375b88__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "1b9163b32097b1f4c9c7dcea21c4149af318ae0b3d64e5a1499c0aaa40ff23fd",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.memory-c52e2b375b88",
+          "source_lines": [
+            1,
+            79
+          ],
+          "source_path": "prompts/agent.system.tool.memory.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.memory.md#L1-L79",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.notify_user-d7f1cdf015b4__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "5aa49bfa79abfb4b18b6981e7d5056cac199acad09030d88736c68a6f00b6926",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.notify_user-d7f1cdf015b4",
+          "source_lines": [
+            1,
+            43
+          ],
+          "source_path": "prompts/agent.system.tool.notify_user.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.notify_user.md#L1-L43",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.response-165daf605dfe__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "cba534c378e2215528a068d5969a11caadf8b5b97b3cf1f62bb6f9c566a91c7e",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.response-165daf605dfe",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "prompts/agent.system.tool.response.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.response.md#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.scheduler-6c979784d3ac__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "d991a9298f35d3b60d9385e666e02bc0c8496d85a989a5d8d815ea84a16dd1d5",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.scheduler-6c979784d3ac",
+          "source_lines": [
+            1,
+            275
+          ],
+          "source_path": "prompts/agent.system.tool.scheduler.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.scheduler.md#L1-L275",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.search_engine-18c8f78b1b16__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "623c1d15e54992baf54ca5322354a76a2d13f7bf58629d5f3fbac9a586fea0a9",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.search_engine-18c8f78b1b16",
+          "source_lines": [
+            1,
+            16
+          ],
+          "source_path": "prompts/agent.system.tool.search_engine.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.search_engine.md#L1-L16",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.skills-ee3426513a6c__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "87c0d01851b432f09ced7401ff6c0755414bd2af21a183294d4de4643d597911",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.skills-ee3426513a6c",
+          "source_lines": [
+            1,
+            82
+          ],
+          "source_path": "prompts/agent.system.tool.skills.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.skills.md#L1-L82",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/agent-zero/tools/agent.system.tool.wait-116050e4f2ab__default__v0.9.8__8331a121ea79__20261030T052916Z.md",
+          "content_sha256": "44cd336adb659656b2e7e2ac9c81ba1c42dd57e125fd4a4b563b7020a000e8cc",
+          "module": "tools",
+          "prompt_id": "agent.system.tool.wait-116050e4f2ab",
+          "source_lines": [
+            1,
+            34
+          ],
+          "source_path": "prompts/agent.system.tool.wait.md",
+          "source_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/prompts/agent.system.tool.wait.md#L1-L34",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v0.9.8:8331a121ea795b099953206ffc6b663ba5080e04:04d917bcd01723ff70bf8363895119e50b67375f7b61fd3a715cdfb914cea0dd:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:29:16Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-02-10T18:25:22Z",
+      "repository": "agent0ai/agent-zero",
+      "source_commit": "8331a121ea795b099953206ffc6b663ba5080e04",
+      "source_committed_at": "2026-02-10T17:47:21Z",
+      "source_ref": "v0.9.8",
+      "upstream_version": "v0.9.8"
+    }
+  ],
+  "status": "ok"
+}

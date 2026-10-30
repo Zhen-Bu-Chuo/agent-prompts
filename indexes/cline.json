@@ -1,0 +1,69 @@
+{
+  "agent": "cline",
+  "coverage": "partial",
+  "current": {
+    "release": "release:v4.1.26:a459f1d04dea030833b558be645011ab739c463b:46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "当前稳定 monorepo 可静态提取 connector adapter system prompt；子代理文件只接收上游传入的 prompt，主对话运行时 system prompt 在 VS Code 扩展中动态组装。"
+  ],
+  "name": "Cline",
+  "repository": "cline/cline",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/cline/tools/prompts-343f8fab66a6__default__v4.1.26__a459f1d04dea__20261030T052922Z.md",
+          "content_sha256": "e05d26ee214dec7e4767153e6e5c2da3cd51835e453fc742f0ad2923686240a1",
+          "module": "tools",
+          "prompt_id": "prompts-343f8fab66a6",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "apps/cli/src/connectors/adapters/prompts.ts",
+          "source_permalink": "https://github.com/cline/cline/blob/a459f1d04dea030833b558be645011ab739c463b/apps/cli/src/connectors/adapters/prompts.ts#L1-L9",
+          "source_symbol": "CONNECTOR_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cline/tools/prompts-d6095c2a1be7__default__v4.1.26__a459f1d04dea__20261030T052922Z.md",
+          "content_sha256": "64adf655c87f650735962b1d4e32ed25c46f261d701adf43a2f88f8f50a588b1",
+          "module": "tools",
+          "prompt_id": "prompts-d6095c2a1be7",
+          "source_lines": [
+            16,
+            16
+          ],
+          "source_path": "apps/cli/src/connectors/adapters/prompts.ts",
+          "source_permalink": "https://github.com/cline/cline/blob/a459f1d04dea030833b558be645011ab739c463b/apps/cli/src/connectors/adapters/prompts.ts#L16-L16",
+          "source_symbol": "CONNECTOR_SYSTEM_RULES.2",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v4.1.26:a459f1d04dea030833b558be645011ab739c463b:46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:29:22Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-26T09:06:50Z",
+      "repository": "cline/cline",
+      "source_commit": "a459f1d04dea030833b558be645011ab739c463b",
+      "source_committed_at": "2026-10-26T04:37:15Z",
+      "source_ref": "v4.1.26",
+      "upstream_version": "v4.1.26"
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "agent": "opencode",
+  "collected_at": "2026-10-30T05:30:03Z",
+  "license": "MIT",
+  "license_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/LICENSE",
+  "license_text_path": "licenses/opencode/098aa7fd6e02.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "release",
+  "release_published_at": "2026-10-29T18:43:03Z",
+  "repository": "anomalyco/opencode",
+  "source_commit": "098aa7fd6e02b03d6fc410f0b052038c7d4c5e81",
+  "source_committed_at": "2026-10-29T17:43:42Z",
+  "source_path": "LICENSE",
+  "source_ref": "v2.2.2",
+  "upstream_version": "v2.2.2"
+}

@@ -1,0 +1,17 @@
+{
+  "agent": "reflexion",
+  "collected_at": "2026-10-30T05:30:11Z",
+  "license": "MIT",
+  "license_permalink": "https://github.com/noahshinn/reflexion/blob/218cf0ef1df84b05ce379dd4a8e47f17766733a0/LICENSE",
+  "license_text_path": "licenses/reflexion/218cf0ef1df8.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "default-branch",
+  "release_published_at": null,
+  "repository": "noahshinn/reflexion",
+  "source_commit": "218cf0ef1df84b05ce379dd4a8e47f17766733a0",
+  "source_committed_at": "2025-01-14T07:53:43Z",
+  "source_path": "LICENSE",
+  "source_ref": "main",
+  "upstream_version": null
+}

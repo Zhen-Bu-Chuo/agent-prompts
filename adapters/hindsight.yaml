@@ -1,0 +1,19 @@
+slug: hindsight
+name: Hindsight / Graphiti
+repository: vectorize-io/hindsight
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: hindsight-api-slim/hindsight_api/engine/reflect/prompts.py
+  module: reflection
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM|TEMPLATE
+  min_chars: 90
+- glob: hindsight-api-slim/hindsight_api/engine/consolidation/prompts.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM|TEMPLATE
+  min_chars: 90
+limitations:
+- Graphiti/Hindsight 产品别名按用户附件记录；仓库实际为 Hindsight。采集 retain/recall/reflect pipeline 的自身提示词源码，不采集外部集成 Agent 内容。

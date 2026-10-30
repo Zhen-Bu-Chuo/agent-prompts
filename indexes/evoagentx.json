@@ -1,0 +1,1049 @@
+{
+  "agent": "evoagentx",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v0.1.4:aad19b912f640161ea07e8904d9237cd34fde5f1:06a21b5a5271d92cef9b5a3af7bca684af380c781032c00ad24c14e9e4125400:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "将候选 Prompt 生成、优化器反馈与 workflow 编辑提示单独归档；score、候选列表和模型响应属于运行时状态。"
+  ],
+  "name": "EvoAgentX",
+  "repository": "ANative-Lab/EvoAgentX",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "06a21b5a5271d92cef9b5a3af7bca684af380c781032c00ad24c14e9e4125400",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-1c29a49eb141__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "99694f87e260425f8273a1bdf82875425841b6977264e2a371c3307bc825da61",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-1c29a49eb141",
+          "source_lines": [
+            967,
+            984
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L967-L984",
+          "source_symbol": "module.DEOptimizer.__init__.self.de_agent.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-fb5c64faef08__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "b8a7e03a727e4a8f0cf46a40e455f2414dee78a2c38f36ce14ebf62880283c55",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-fb5c64faef08",
+          "source_lines": [
+            1114,
+            1114
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L1114-L1114",
+          "source_symbol": "module.DEOptimizer.optimize.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-b0ce2655057e__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "bd7e4fdb2e573cfad1d93eac064dcb09d12cb377f1ca33ab3eb8731903dbe394",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-b0ce2655057e",
+          "source_lines": [
+            106,
+            114
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L106-L114",
+          "source_symbol": "module.EvopromptOptimizer.__init__.self.paraphrase_agent.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-0a0b171e50d2__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "866bbf7e20d9af03785a6a94073ef07fa85c383f3ea1bc157298f91966546c46",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-0a0b171e50d2",
+          "source_lines": [
+            590,
+            590
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L590-L590",
+          "source_symbol": "module.EvopromptOptimizer._initialize_node_populations.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-541efc4afb8a__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "140afc1c581d94c16a58c6ca206ee603883f2fe4c565065dbfb67ba6e1827c80",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-541efc4afb8a",
+          "source_lines": [
+            596,
+            596
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L596-L596",
+          "source_symbol": "module.EvopromptOptimizer._initialize_node_populations.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-ef904180099b__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "38c057685b05ca72b316a01fb496c3dcb70e7094bfe0117919afaefcb52b8337",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-ef904180099b",
+          "source_lines": [
+            693,
+            704
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L693-L704",
+          "source_symbol": "module.GAOptimizer.__init__.self.ga_agent.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-c3ca6d5f9852__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "6b75bab1545c9f3bdebc7fa8c29dc1dfb8aebd9768ba70d6f291d0a6e12be5d1",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-c3ca6d5f9852",
+          "source_lines": [
+            787,
+            787
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L787-L787",
+          "source_symbol": "module.GAOptimizer.optimize.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-0322452c754d__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "98db1231dd13c65cd71eca7932f6426ab77646f0a558e326c185660499c45136",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-0322452c754d",
+          "source_lines": [
+            829,
+            829
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L829-L829",
+          "source_symbol": "module.GAOptimizer.optimize.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-46849c061ff8__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "f62c9c9a01669be872d35c30853d34a6300a75f330c23cc511a4b8f0a065d8ac",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-46849c061ff8",
+          "source_lines": [
+            920,
+            920
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L920-L920",
+          "source_symbol": "module.GAOptimizer.optimize.3",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/evoprompt_optimizer-b7692afb3fa7__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "b8a7e03a727e4a8f0cf46a40e455f2414dee78a2c38f36ce14ebf62880283c55",
+          "module": "evolution",
+          "prompt_id": "evoprompt_optimizer-b7692afb3fa7",
+          "source_lines": [
+            923,
+            923
+          ],
+          "source_path": "evoagentx/optimizers/evoprompt_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/optimizers/evoprompt_optimizer.py#L923-L923",
+          "source_symbol": "module.GAOptimizer.optimize.4",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/aflow_optimizer-f9d09df47bb8__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "f4a4bdc3c149e2c1417a25c2d05ba08fb948e36cefc149e656124304e2bf41e7",
+          "module": "evolution",
+          "prompt_id": "aflow_optimizer-f9d09df47bb8",
+          "source_lines": [
+            3,
+            15
+          ],
+          "source_path": "evoagentx/prompts/optimizers/aflow_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/aflow_optimizer.py#L3-L15",
+          "source_symbol": "module.WORKFLOW_OPTIMIZE_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/aflow_optimizer-3325c4748c3f__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "91ddf66d13f05bb652f1430c264c3dc545624322a7b880cbe91ef1f97b492206",
+          "module": "evolution",
+          "prompt_id": "aflow_optimizer-3325c4748c3f",
+          "source_lines": [
+            54,
+            61
+          ],
+          "source_path": "evoagentx/prompts/optimizers/aflow_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/aflow_optimizer.py#L54-L61",
+          "source_symbol": "module.WORKFLOW_TEMPLATE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/textgrad_optimizer-2246bc9b3d48__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "41cd6facfa73228a6bfe1a0d19a7f5beda091f893fcf116b7258cf21179c0d88",
+          "module": "evolution",
+          "prompt_id": "textgrad_optimizer-2246bc9b3d48",
+          "source_lines": [
+            15,
+            23
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L15-L23",
+          "source_symbol": "module.CODE_LOSS_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/textgrad_optimizer-748300b39481__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "b8ebf7ceb4ec426c41e089c1223125f6172fa253e9b43c7db73c1177c311b181",
+          "module": "evolution",
+          "prompt_id": "textgrad_optimizer-748300b39481",
+          "source_lines": [
+            4,
+            11
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L4-L11",
+          "source_symbol": "module.GENERAL_LOSS_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/textgrad_optimizer-3c74abef84b4__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "767f6254e8d3239af9ba82b099bb377082f0c4b66baad2d3b37f440a30e0f547",
+          "module": "evolution",
+          "prompt_id": "textgrad_optimizer-3c74abef84b4",
+          "source_lines": [
+            27,
+            38
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L27-L38",
+          "source_symbol": "module.NO_ANSWER_LOSS_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/evolution/textgrad_optimizer-870db190ef45__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "52b04ec175d9d7e7b1615286b99df73773d2aa0862b8f9839f1025a0016cc6ca",
+          "module": "evolution",
+          "prompt_id": "textgrad_optimizer-870db190ef45",
+          "source_lines": [
+            42,
+            61
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L42-L61",
+          "source_symbol": "module.OPTIMIZER_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/manager-2f0eb79e2ee3__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "a14deba7bfba9b3d9c17399f687e72d01363e5ff1cd9bb98ae5b110eef1d76dc",
+          "module": "planning",
+          "prompt_id": "manager-2f0eb79e2ee3",
+          "source_lines": [
+            1,
+            54
+          ],
+          "source_path": "evoagentx/prompts/memory/manager.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/memory/manager.py#L1-L54",
+          "source_symbol": "module.MANAGER_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/aflow_optimizer-01472735adbb__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "f4a4bdc3c149e2c1417a25c2d05ba08fb948e36cefc149e656124304e2bf41e7",
+          "module": "planning",
+          "prompt_id": "aflow_optimizer-01472735adbb",
+          "source_lines": [
+            3,
+            15
+          ],
+          "source_path": "evoagentx/prompts/optimizers/aflow_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/aflow_optimizer.py#L3-L15",
+          "source_symbol": "module.WORKFLOW_OPTIMIZE_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/aflow_optimizer-38bef4a38b2f__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "91ddf66d13f05bb652f1430c264c3dc545624322a7b880cbe91ef1f97b492206",
+          "module": "planning",
+          "prompt_id": "aflow_optimizer-38bef4a38b2f",
+          "source_lines": [
+            54,
+            61
+          ],
+          "source_path": "evoagentx/prompts/optimizers/aflow_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/aflow_optimizer.py#L54-L61",
+          "source_symbol": "module.WORKFLOW_TEMPLATE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/textgrad_optimizer-10edfcb8bb35__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "41cd6facfa73228a6bfe1a0d19a7f5beda091f893fcf116b7258cf21179c0d88",
+          "module": "planning",
+          "prompt_id": "textgrad_optimizer-10edfcb8bb35",
+          "source_lines": [
+            15,
+            23
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L15-L23",
+          "source_symbol": "module.CODE_LOSS_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/textgrad_optimizer-8fb02c51e634__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "b8ebf7ceb4ec426c41e089c1223125f6172fa253e9b43c7db73c1177c311b181",
+          "module": "planning",
+          "prompt_id": "textgrad_optimizer-8fb02c51e634",
+          "source_lines": [
+            4,
+            11
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L4-L11",
+          "source_symbol": "module.GENERAL_LOSS_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/textgrad_optimizer-ddbecc7cd974__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "767f6254e8d3239af9ba82b099bb377082f0c4b66baad2d3b37f440a30e0f547",
+          "module": "planning",
+          "prompt_id": "textgrad_optimizer-ddbecc7cd974",
+          "source_lines": [
+            27,
+            38
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L27-L38",
+          "source_symbol": "module.NO_ANSWER_LOSS_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/textgrad_optimizer-af5af0abc899__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "52b04ec175d9d7e7b1615286b99df73773d2aa0862b8f9839f1025a0016cc6ca",
+          "module": "planning",
+          "prompt_id": "textgrad_optimizer-af5af0abc899",
+          "source_lines": [
+            42,
+            61
+          ],
+          "source_path": "evoagentx/prompts/optimizers/textgrad_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/optimizers/textgrad_optimizer.py#L42-L61",
+          "source_symbol": "module.OPTIMIZER_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/graph_extract-84d03cd3fc7d__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "e1587330b03af1743e7c1d401a666104491bb1439224b6d61c02caa2ef727b5e",
+          "module": "planning",
+          "prompt_id": "graph_extract-84d03cd3fc7d",
+          "source_lines": [
+            1,
+            33
+          ],
+          "source_path": "evoagentx/prompts/rag/graph_extract.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/rag/graph_extract.py#L1-L33",
+          "source_symbol": "module.ENTITY_EXTRACT_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/graph_extract-ed82905e0058__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "da5a4107089030441d7e319a2db7bb5b7099b3e808113888a61ce879abb3868b",
+          "module": "planning",
+          "prompt_id": "graph_extract-ed82905e0058",
+          "source_lines": [
+            35,
+            51
+          ],
+          "source_path": "evoagentx/prompts/rag/graph_extract.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/rag/graph_extract.py#L35-L51",
+          "source_symbol": "module.RELATION_EXTRACT_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/graph_synonym-4dd9b304b4c4__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "7341c1c870bc37ad6b0a2b9ae6f0b4dfc70fa05e7da4e06fe572616d1dca14f3",
+          "module": "planning",
+          "prompt_id": "graph_synonym-4dd9b304b4c4",
+          "source_lines": [
+            3,
+            10
+          ],
+          "source_path": "evoagentx/prompts/rag/graph_synonym.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/rag/graph_synonym.py#L3-L10",
+          "source_symbol": "module.DEFAULT_SYNONYM_EXPAND_TEMPLATE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/hyde-49ab2d7e7715__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "e07c75332927661234767441ec019e8d235fdecd670fb139d903670c426deffb",
+          "module": "planning",
+          "prompt_id": "hyde-49ab2d7e7715",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "evoagentx/prompts/rag/hyde.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/rag/hyde.py#L1-L1",
+          "source_symbol": "module.HYDE_SYSTEM_IMPLE_.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/multi_agent_debate-c1180c5ec309__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "27c74bd0e641226981463925fce52f3f9feda1fd8d0fb92a0e342cfff568e43a",
+          "module": "planning",
+          "prompt_id": "multi_agent_debate-c1180c5ec309",
+          "source_lines": [
+            24,
+            43
+          ],
+          "source_path": "evoagentx/prompts/workflow/multi_agent_debate.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/multi_agent_debate.py#L24-L43",
+          "source_symbol": "module.DEBATER_AGENT_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/multi_agent_debate-1e672ba0a03d__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "c176a5d3d943c578eeb6bcddde803209e76b65dd3db38773d820efe8fd0d5882",
+          "module": "planning",
+          "prompt_id": "multi_agent_debate-1e672ba0a03d",
+          "source_lines": [
+            46,
+            64
+          ],
+          "source_path": "evoagentx/prompts/workflow/multi_agent_debate.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/multi_agent_debate.py#L46-L64",
+          "source_symbol": "module.JUDGE_AGENT_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-2aa6c34d6d20__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "aacf9a66f6167c498c0db122c55ec5bc1b56c228d7e390896925850475806cb3",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-2aa6c34d6d20",
+          "source_lines": [
+            8,
+            8
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L8-L8",
+          "source_symbol": "module.mutation_prompts.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-0ec66678c0c4__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "cf434b66591fbbff4d5047872a5c8867791cd41e39b442fd456baa26485c2ce9",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-0ec66678c0c4",
+          "source_lines": [
+            23,
+            23
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L23-L23",
+          "source_symbol": "module.mutation_prompts.10",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-eeb1a6641081__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "22aa2a19967b1cd35dfced65342806e769bffc376ad455a10c100b8d958c88a3",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-eeb1a6641081",
+          "source_lines": [
+            24,
+            24
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L24-L24",
+          "source_symbol": "module.mutation_prompts.11",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-cfbbf42c4b3d__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "9615f1f3dfe2cacf725c4e1348a5e42a50c7ccb646f29fdd66c741878b009513",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-cfbbf42c4b3d",
+          "source_lines": [
+            25,
+            25
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L25-L25",
+          "source_symbol": "module.mutation_prompts.12",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-acf89fccd00d__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "c24d00b2eb8fb4cf55bbab148673a5d39692818a5ee9777f20f9d5f89cc7e8b8",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-acf89fccd00d",
+          "source_lines": [
+            26,
+            26
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L26-L26",
+          "source_symbol": "module.mutation_prompts.13",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-e1f134c8b0b6__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "857f9747dd538f674f675903e3d90f8e24e25bf115ec1573744bd4c4b3581979",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-e1f134c8b0b6",
+          "source_lines": [
+            27,
+            27
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L27-L27",
+          "source_symbol": "module.mutation_prompts.14",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-2f92dc954a66__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "d919869a1309f6d1a63dff5d3d69420a282e6d1968874ca2df0646b12b0c4ea7",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-2f92dc954a66",
+          "source_lines": [
+            28,
+            28
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L28-L28",
+          "source_symbol": "module.mutation_prompts.15",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-114f73324c7a__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "6e5ce9c87ababbebfb2830d14494c1d63910453c7dc50bb4802de5b96833ce3c",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-114f73324c7a",
+          "source_lines": [
+            29,
+            29
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L29-L29",
+          "source_symbol": "module.mutation_prompts.16",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-e142f74ff31a__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "9bae97d650be6a9c421fd007759fa20e81c04e7b2a5e91b21d8aa1099ee513f6",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-e142f74ff31a",
+          "source_lines": [
+            30,
+            30
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L30-L30",
+          "source_symbol": "module.mutation_prompts.17",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-8cabe8907f21__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "92eaeb6e6bbb43cab95056d6be810c6a2ea848a41ac40238aa549816cbc4a70a",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-8cabe8907f21",
+          "source_lines": [
+            31,
+            31
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L31-L31",
+          "source_symbol": "module.mutation_prompts.18",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-deae368a3201__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "8962db035aa9039d02b997b3d47387c61cdf31a11ba1d22808b2de60d33437cf",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-deae368a3201",
+          "source_lines": [
+            32,
+            32
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L32-L32",
+          "source_symbol": "module.mutation_prompts.19",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-ccebc14eed81__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "305af1ff28e8b6a335e0b1c11fa72b4747976d66c0a0ab932558a0477688ef53",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-ccebc14eed81",
+          "source_lines": [
+            10,
+            10
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L10-L10",
+          "source_symbol": "module.mutation_prompts.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-1699b7172789__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "2952a4eac13994fcdcca07823c490499e2729d5aa8d1df0ac00ca831a2cbab89",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-1699b7172789",
+          "source_lines": [
+            33,
+            33
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L33-L33",
+          "source_symbol": "module.mutation_prompts.20",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-b89dc489a2b8__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "40269cd39a47cc7baaf87c672b3369d7a46bc23b01246e5a00a54d50481f59df",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-b89dc489a2b8",
+          "source_lines": [
+            34,
+            34
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L34-L34",
+          "source_symbol": "module.mutation_prompts.21",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-aa1bd73e3ce3__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "7c03e0cdbb5303a384ce6b1694a663ae517a869135b7b716acc7b3d194faf2ef",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-aa1bd73e3ce3",
+          "source_lines": [
+            35,
+            35
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L35-L35",
+          "source_symbol": "module.mutation_prompts.22",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-fcdc39d4ce03__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "b5c717f4a828d5f03362bc4e34e1b69dcc94cd102ebe3ebea548af2a1dc6309d",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-fcdc39d4ce03",
+          "source_lines": [
+            36,
+            36
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L36-L36",
+          "source_symbol": "module.mutation_prompts.23",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-4ca1611192b1__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "cbe470d994884f5681f0113d0ac9f161a0dca5d3baa31914a70443b1e355aee7",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-4ca1611192b1",
+          "source_lines": [
+            37,
+            37
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L37-L37",
+          "source_symbol": "module.mutation_prompts.24",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-49038b4be5f1__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "20da7c89f305d6ce490cf745b9780f6f13231cd04e8091d3c0458c099fcb5ccf",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-49038b4be5f1",
+          "source_lines": [
+            38,
+            38
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L38-L38",
+          "source_symbol": "module.mutation_prompts.25",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-03eda049328a__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "edfc6f9638f6aca5276a8fc6de7bfebf015b34fc62f24e7f2ae49344442413e6",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-03eda049328a",
+          "source_lines": [
+            39,
+            39
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L39-L39",
+          "source_symbol": "module.mutation_prompts.26",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-fe050e493179__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "0ab1ffa71eb7ca78efdfe379f721a4b775f24bcbf3259af65b1db4674a1b7abc",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-fe050e493179",
+          "source_lines": [
+            41,
+            41
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L41-L41",
+          "source_symbol": "module.mutation_prompts.27",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-ffad4c1feb84__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "4de783cd7b7715358b2bafd987a6b7763e12f647aefaec52b61531815918645d",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-ffad4c1feb84",
+          "source_lines": [
+            42,
+            42
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L42-L42",
+          "source_symbol": "module.mutation_prompts.28",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-4467ca91e7b4__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "05e6a1e5aca70669da4cf0aacc91968cb0a65bf57cc4d27f54b3a3a7bb0f54be",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-4467ca91e7b4",
+          "source_lines": [
+            43,
+            43
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L43-L43",
+          "source_symbol": "module.mutation_prompts.29",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-0364c3353ee4__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "6d3c699733ebdbe6b3c20a5ffaa0c7d2c7c59ec28bd488713ad2ded76e6f272e",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-0364c3353ee4",
+          "source_lines": [
+            12,
+            12
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L12-L12",
+          "source_symbol": "module.mutation_prompts.3",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-cd811b17158b__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "26d002976bbb515576440ce8b046af001847b82355931598c9bacf37d5e96440",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-cd811b17158b",
+          "source_lines": [
+            44,
+            44
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L44-L44",
+          "source_symbol": "module.mutation_prompts.30",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-17aaa1ac5164__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "b833b593a23a6a544451d886edf9c40c737c06b110525a1dbf02fb23239e650f",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-17aaa1ac5164",
+          "source_lines": [
+            45,
+            45
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L45-L45",
+          "source_symbol": "module.mutation_prompts.31",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-32a6c170c849__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "cbd8eb7cd7dbbc754d3afe282e510004c7a1d7c351fffdd47fee49a726ba143e",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-32a6c170c849",
+          "source_lines": [
+            46,
+            46
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L46-L46",
+          "source_symbol": "module.mutation_prompts.32",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-19f0008f5d7a__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "a811d0251dce919a205d4ee26d106182dcba537bc4f522a97496b1faa62c1d3e",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-19f0008f5d7a",
+          "source_lines": [
+            47,
+            47
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L47-L47",
+          "source_symbol": "module.mutation_prompts.33",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-8ceb379592b4__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "cdd688f5a37083ad8dc7d5ac70f741b5af8adfc35ecebd2133b5e47dfa03dcf4",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-8ceb379592b4",
+          "source_lines": [
+            48,
+            48
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L48-L48",
+          "source_symbol": "module.mutation_prompts.34",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-0f3a890a456a__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "abfe775cc0184a81d0fede9eb5efb2517ddcbb982476d586077acf516a3363ed",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-0f3a890a456a",
+          "source_lines": [
+            49,
+            49
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L49-L49",
+          "source_symbol": "module.mutation_prompts.35",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-f81201401c77__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "cb652b2ccce2a7d75c6b4fa9ed2ada76ab4a6257ccd2f7eaf0cb4f5807c233ec",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-f81201401c77",
+          "source_lines": [
+            50,
+            50
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L50-L50",
+          "source_symbol": "module.mutation_prompts.36",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-24560fa73e73__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "158711bfe112f87e9aae48b5dc1a5df1678969b33e98d23f4a87adc538373e28",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-24560fa73e73",
+          "source_lines": [
+            51,
+            51
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L51-L51",
+          "source_symbol": "module.mutation_prompts.37",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-471d6ea2c310__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "c19b5e3849091b69c10ad07c70b9c0b89a0c54cc57ba70a8e6775be3b582143c",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-471d6ea2c310",
+          "source_lines": [
+            13,
+            13
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L13-L13",
+          "source_symbol": "module.mutation_prompts.4",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-3952fea314ef__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "724289ccf24b8b0b26976d081b6c9b246b0b248b6822328da635437749c6fad9",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-3952fea314ef",
+          "source_lines": [
+            14,
+            14
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L14-L14",
+          "source_symbol": "module.mutation_prompts.5",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-fda6df7aeb9c__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "b1d982a03eaeff83b852c6ca31c27205086f97ceca5109dfcb8f781107956ef5",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-fda6df7aeb9c",
+          "source_lines": [
+            15,
+            15
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L15-L15",
+          "source_symbol": "module.mutation_prompts.6",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-b98d36b235dd__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "7219c8d8dd0ba6e0b1f9c8a24431136a4373e696139146e8393b354398ff2e35",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-b98d36b235dd",
+          "source_lines": [
+            19,
+            19
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L19-L19",
+          "source_symbol": "module.mutation_prompts.7",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-bbbcecfdc8a5__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "48e0c723c7fb6c73105cfea376deb08c21b0499d87715a51addd95ad519ca888",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-bbbcecfdc8a5",
+          "source_lines": [
+            20,
+            20
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L20-L20",
+          "source_symbol": "module.mutation_prompts.8",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/sew_optimizer-044698b8e8c6__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "86025fce1926de28f27b67cd24f5f90976c77b23bc0ec8db6957cfcc1c532953",
+          "module": "planning",
+          "prompt_id": "sew_optimizer-044698b8e8c6",
+          "source_lines": [
+            21,
+            21
+          ],
+          "source_path": "evoagentx/prompts/workflow/sew_optimizer.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/sew_optimizer.py#L21-L21",
+          "source_symbol": "module.mutation_prompts.9",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/workflow_editor-1bb1274f321b__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "1a545cd29cf080353dc6ecc97b4f878759b36e28375c633cf9a82f92ce0222e2",
+          "module": "planning",
+          "prompt_id": "workflow_editor-1bb1274f321b",
+          "source_lines": [
+            1,
+            15
+          ],
+          "source_path": "evoagentx/prompts/workflow/workflow_editor.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/workflow_editor.py#L1-L15",
+          "source_symbol": "module.PROMPT_BASE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/workflow_editor-1acc5c6b2d76__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "6ef5bda7473f2ad638157b1121b9460d7404a9893bc60de29e6bac5a841408b8",
+          "module": "planning",
+          "prompt_id": "workflow_editor-1acc5c6b2d76",
+          "source_lines": [
+            21,
+            32
+          ],
+          "source_path": "evoagentx/prompts/workflow/workflow_editor.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/workflow_editor.py#L21-L32",
+          "source_symbol": "module.WORKFLOW_EDITOR_PROMPT_EXTRA.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/workflow_manager-36fdbee51492__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "d46a7030a64e80bfbf4a693f1870688fdcec91e287c481c44e78f27a361cfaeb",
+          "module": "planning",
+          "prompt_id": "workflow_manager-36fdbee51492",
+          "source_lines": [
+            113,
+            166
+          ],
+          "source_path": "evoagentx/prompts/workflow/workflow_manager.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/workflow_manager.py#L113-L166",
+          "source_symbol": "module.DEFAULT_ACTION_SCHEDULER_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/workflow_manager-c39813834c44__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "0733c5f41afaf0d68f2cc61838dbf0efc26bcaf99f73460c49797edb4c087f73",
+          "module": "planning",
+          "prompt_id": "workflow_manager-c39813834c44",
+          "source_lines": [
+            3,
+            50
+          ],
+          "source_path": "evoagentx/prompts/workflow/workflow_manager.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/workflow_manager.py#L3-L50",
+          "source_symbol": "module.DEFAULT_TASK_SCHEDULER_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/workflow_manager-da2ae87bfa9c__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "af191d6b62158985e79cddeca50bce2f321b364b31821bd6cb0d780328bb7cf4",
+          "module": "planning",
+          "prompt_id": "workflow_manager-da2ae87bfa9c",
+          "source_lines": [
+            52,
+            101
+          ],
+          "source_path": "evoagentx/prompts/workflow/workflow_manager.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/workflow_manager.py#L52-L101",
+          "source_symbol": "module.OLD_DEFAULT_TASK_SCHEDULER_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/evoagentx/planning/workflow_manager-1d3c8381d81a__default__v0.1.4__aad19b912f64__20261030T052930Z.md",
+          "content_sha256": "4ec36be37bf4f65ea1f45b476f4934be3054f85bc057e14a1b03188774a56717",
+          "module": "planning",
+          "prompt_id": "workflow_manager-1d3c8381d81a",
+          "source_lines": [
+            175,
+            204
+          ],
+          "source_path": "evoagentx/prompts/workflow/workflow_manager.py",
+          "source_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/evoagentx/prompts/workflow/workflow_manager.py#L175-L204",
+          "source_symbol": "module.WORKFLOW_OUTPUT_EXTRACTION_PROMPT.1",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v0.1.4:aad19b912f640161ea07e8904d9237cd34fde5f1:06a21b5a5271d92cef9b5a3af7bca684af380c781032c00ad24c14e9e4125400:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:29:30Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-06-28T10:24:06Z",
+      "repository": "ANative-Lab/EvoAgentX",
+      "source_commit": "aad19b912f640161ea07e8904d9237cd34fde5f1",
+      "source_committed_at": "2026-06-28T10:20:05Z",
+      "source_ref": "v0.1.4",
+      "upstream_version": "v0.1.4"
+    }
+  ],
+  "status": "ok"
+}

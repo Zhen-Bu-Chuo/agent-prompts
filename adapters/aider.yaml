@@ -1,0 +1,105 @@
+slug: aider
+name: Aider
+repository: Aider-AI/aider
+priority: A
+coverage: supported
+license_override: Apache-2.0
+license_path: LICENSE.txt
+limitations:
+- 按最新稳定发布 v0.86.0 的 coder 模式采集；不把主分支新改动视为稳定版。
+- 静态保留 Python format/f-string 占位；模型参数、仓库地图、聊天记录、被编辑文件和运行时测试结果由程序另行注入。
+- editor_diff_fenced_prompts.py 仅继承其他提示类且无独立长文本；继承来源已覆盖。
+rules:
+- glob: aider/coders/base_prompts.py
+  module: context
+  format: python
+  variant: base
+  min_chars: 40
+- glob: aider/coders/architect_prompts.py
+  module: planning
+  format: python
+  variant: architect
+  min_chars: 40
+- glob: aider/coders/ask_prompts.py
+  module: modes
+  format: python
+  variant: ask
+  min_chars: 40
+- glob: aider/coders/context_prompts.py
+  module: context
+  format: python
+  variant: context
+  min_chars: 40
+- glob: aider/coders/editblock_prompts.py
+  module: editing
+  format: python
+  variant: editblock
+  min_chars: 40
+- glob: aider/coders/editblock_fenced_prompts.py
+  module: editing
+  format: python
+  variant: editblock_fenced
+  min_chars: 40
+- glob: aider/coders/editblock_func_prompts.py
+  module: editing
+  format: python
+  variant: editblock_func
+  min_chars: 40
+- glob: aider/coders/editor_editblock_prompts.py
+  module: editing
+  format: python
+  variant: editor_editblock
+  min_chars: 40
+- glob: aider/coders/editor_whole_prompts.py
+  module: editing
+  format: python
+  variant: editor_whole
+  min_chars: 40
+- glob: aider/coders/help_prompts.py
+  module: modes
+  format: python
+  variant: help
+  min_chars: 40
+- glob: aider/coders/patch_prompts.py
+  module: editing
+  format: python
+  variant: patch
+  min_chars: 40
+- glob: aider/coders/single_wholefile_func_prompts.py
+  module: editing
+  format: python
+  variant: single_wholefile_func
+  min_chars: 40
+- glob: aider/coders/udiff_prompts.py
+  module: editing
+  format: python
+  variant: udiff
+  min_chars: 40
+- glob: aider/coders/udiff_simple_prompts.py
+  module: editing
+  format: python
+  variant: udiff_simple
+  min_chars: 40
+- glob: aider/coders/wholefile_func_prompts.py
+  module: editing
+  format: python
+  variant: wholefile_func
+  min_chars: 40
+- glob: aider/coders/wholefile_prompts.py
+  module: editing
+  format: python
+  variant: wholefile
+  min_chars: 40
+- glob: aider/prompts.py
+  module: memory
+  format: python
+  key_pattern: summarize
+- glob: aider/prompts.py
+  module: execution
+  format: python
+  key_pattern: commit_system|undo_command_reply|added_files
+- glob: aider/watch_prompts.py
+  module: modes
+  format: python
+  variant: watch
+tag_pattern: ^v\d+\.\d+\.\d+$

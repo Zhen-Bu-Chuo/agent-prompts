@@ -1,0 +1,55 @@
+---
+agent: codex
+prompt_id: request_plugin_install_description-ef72b9e8b94c
+module: tools
+variant: default
+upstream_repository: openai/codex
+upstream_version: rust-v0.166.0
+package_name: null
+package_version: null
+source_ref: rust-v0.166.0
+source_commit: 6ff1e1ca3b30fc8b914720681fcf5fe62e95f856
+source_path: codex-rs/core/templates/search_tool/request_plugin_install_description.md
+source_symbol: document
+source_lines:
+- 1
+- 29
+source_permalink: https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/search_tool/request_plugin_install_description.md#L1-L29
+source_committed_at: '2026-10-29T17:44:30Z'
+release_published_at: '2026-10-29T19:47:53Z'
+fetched_at: '2026-10-30T05:29:24Z'
+extractor_version: 1.0.3
+content_sha256: e5acd502e83f3a6a9d20c53bcb521633a8df8c654ceb08da63db5aefb35e1f66
+license: Apache-2.0
+source_kind: template_document
+extraction_notes: Original standalone template; runtime placeholders are preserved.
+---
+# Request plugin/connector install
+
+Use this tool only to ask the user to install one known plugin or connector from the list below. The list contains known candidates that are not currently installed.
+
+Use this ONLY when all of the following are true:
+- The user explicitly asks to use a specific plugin or connector that is not already available in the current context or active `tools` list.
+- `tool_search` is not available, or it has already been called and did not find or make the requested tool callable.
+- The plugin or connector is one of the known installable plugins or connectors listed below. Only ask to install plugins or connectors from this list.
+
+Do not use this tool for adjacent capabilities, broad recommendations, or tools that merely seem useful. Only use when the user explicitly asks to use that exact listed plugin or connector.
+
+Known plugins/connectors available to install:
+{{discoverable_tools}}
+
+Workflow:
+
+1. Check the current context and active `tools` list first. If current active tools aren't relevant and `tool_search` is available, only call this tool after `tool_search` has already been tried and found no relevant tool.
+2. Match the user's explicit request against the known plugin/connector list above. Only proceed when one listed plugin or connector exactly fits.
+3. If we found both connectors and plugins to install, use plugins first, only use connectors if the corresponding plugin is installed but the connector is not.
+4. If one plugin or connector clearly fits, call `request_plugin_install` with:
+   - `tool_type`: `connector` or `plugin`
+   - `action_type`: `install`
+   - `tool_id`: exact id from the known plugin/connector list above
+   - `suggest_reason`: concise one-line user-facing reason this plugin or connector can help with the current request
+5. After the request flow completes:
+   - if the user finished the install flow, continue by searching again or using the newly available plugin or connector
+   - if the user did not finish, continue without that plugin or connector, and don't request it again unless the user explicitly asks for it.
+
+IMPORTANT: DO NOT call this tool in parallel with other tools.

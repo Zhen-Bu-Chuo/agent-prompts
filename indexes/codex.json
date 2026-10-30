@@ -1,0 +1,2073 @@
+{
+  "agent": "codex",
+  "coverage": "partial",
+  "current": {
+    "release": "release:rust-v0.166.0:6ff1e1ca3b30fc8b914720681fcf5fe62e95f856:5422acb97ea2f0e3d2b01ce28f84ac63e583713d48f6f2eb156aa0f38444726b:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "静态保存公开 Rust CLI 模板与模型消息配置；远程模型目录、运行时用户/开发者消息和本地 AGENTS.md 不在快照内。",
+    "模型 JSON 包含模型/模式/权限等嵌套变体；占位符保持原样，未运行 Rust/Askama 或调用模型。",
+    "按具体模板目录采集，未把源代码文档、测试快照或示例脚本当成提示词。"
+  ],
+  "name": "OpenAI Codex",
+  "repository": "openai/codex",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "5422acb97ea2f0e3d2b01ce28f84ac63e583713d48f6f2eb156aa0f38444726b",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/codex/context/prompt-ce7226cfbddc__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "ab0c334d4faca17e3afbb9b16967c1b2fdcc7242a9a0880af57949fa236d6d07",
+          "module": "context",
+          "prompt_id": "prompt-ce7226cfbddc",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "codex-rs/prompts/templates/compact/prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/compact/prompt.md#L1-L9",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/context/summary_prefix-214c4ffc71c8__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "e9b088e794a6bb9082ac053fcc760bd818d7e720ee4bcdc72c6e480de7b7cb0e",
+          "module": "context",
+          "prompt_id": "summary_prefix-214c4ffc71c8",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "codex-rs/prompts/templates/compact/summary_prefix.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/compact/summary_prefix.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/context/prompt_for_init_command-1db9a4d78b81__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "70dfe903081ca894fbec7d80b40da2b5560a6106422fdfd0db2907dc9f5aa525",
+          "module": "context",
+          "prompt_id": "prompt_for_init_command-1db9a4d78b81",
+          "source_lines": [
+            1,
+            41
+          ],
+          "source_path": "codex-rs/tui/assets/prompt_for_init_command.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/tui/assets/prompt_for_init_command.md#L1-L41",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/execution/persistent_mode-9a7e2b99ba7d__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "03ff9da48abb85425514c42dad1b742312bc7e2d978d2941e9d2fd90560c2a27",
+          "module": "execution",
+          "prompt_id": "persistent_mode-9a7e2b99ba7d",
+          "source_lines": [
+            1,
+            13
+          ],
+          "source_path": "codex-rs/prompts/templates/persistent_mode.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/persistent_mode.md#L1-L13",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/read_path-0f89e8920d85__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2bc7736029884b714860a6f0d6b2fd26598bba58f2213b787f01fe2a491f4326",
+          "module": "memory",
+          "prompt_id": "read_path-0f89e8920d85",
+          "source_lines": [
+            1,
+            130
+          ],
+          "source_path": "codex-rs/ext/memories/templates/memories/read_path.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/ext/memories/templates/memories/read_path.md#L1-L130",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/read_path_v2-54622701c3db__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2f81fa2e89f341a1b7b3cf11ee7b855087c4ab84ddad920980475465ef28ff27",
+          "module": "memory",
+          "prompt_id": "read_path_v2-54622701c3db",
+          "source_lines": [
+            1,
+            44
+          ],
+          "source_path": "codex-rs/ext/memories/templates/memories/read_path_v2.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/ext/memories/templates/memories/read_path_v2.md#L1-L44",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/consolidation-a8808e64558d__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1450e24f84c03375aa5114c6c0857f515395129dcc00f65263221d03866852a0",
+          "module": "memory",
+          "prompt_id": "consolidation-a8808e64558d",
+          "source_lines": [
+            1,
+            880
+          ],
+          "source_path": "codex-rs/memories/write/templates/memories/consolidation.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/memories/write/templates/memories/consolidation.md#L1-L880",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/consolidation_v2-9529ad101113__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "7334fdb4aa5d958bcff54568a375d0b0145c19a611a1a22faa6bf251a46a5f0e",
+          "module": "memory",
+          "prompt_id": "consolidation_v2-9529ad101113",
+          "source_lines": [
+            1,
+            52
+          ],
+          "source_path": "codex-rs/memories/write/templates/memories/consolidation_v2.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/memories/write/templates/memories/consolidation_v2.md#L1-L52",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/stage_one_input-b73789a6280d__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2e54c74909238022305c269c862910bb29509fda8b58ce671ef011f8d6453047",
+          "module": "memory",
+          "prompt_id": "stage_one_input-b73789a6280d",
+          "source_lines": [
+            1,
+            11
+          ],
+          "source_path": "codex-rs/memories/write/templates/memories/stage_one_input.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/memories/write/templates/memories/stage_one_input.md#L1-L11",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/stage_one_input_v2-7dd2e3532453__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "8fd4bb25fe6bd746b2d46ad841ac3a195d220c3da0cb9230615e2347c6ef853e",
+          "module": "memory",
+          "prompt_id": "stage_one_input_v2-7dd2e3532453",
+          "source_lines": [
+            1,
+            21
+          ],
+          "source_path": "codex-rs/memories/write/templates/memories/stage_one_input_v2.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/memories/write/templates/memories/stage_one_input_v2.md#L1-L21",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/stage_one_system-3637d1b9b67b__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "cf795e8a2f5f52d333af2613bf1ff79178112f5fd2161cc181a8ddf52e59da33",
+          "module": "memory",
+          "prompt_id": "stage_one_system-3637d1b9b67b",
+          "source_lines": [
+            1,
+            569
+          ],
+          "source_path": "codex-rs/memories/write/templates/memories/stage_one_system.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/memories/write/templates/memories/stage_one_system.md#L1-L569",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/memory/stage_one_system_v2-b000f784d811__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "334c0d51a2c63bd317dac074155fb3ecf0a56af8b00657736bab9c74222372b4",
+          "module": "memory",
+          "prompt_id": "stage_one_system_v2-b000f784d811",
+          "source_lines": [
+            1,
+            53
+          ],
+          "source_path": "codex-rs/memories/write/templates/memories/stage_one_system_v2.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/memories/write/templates/memories/stage_one_system_v2.md#L1-L53",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/default-4f13c6f2213d__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1042cc643eb0147ca1039b19287c7462ceb297502f7f310d9664ac323a12feca",
+          "module": "modes",
+          "prompt_id": "default-4f13c6f2213d",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "codex-rs/collaboration-mode-templates/templates/default.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/collaboration-mode-templates/templates/default.md#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/plan-0cc57bdb400b__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "d6d46c2d460a9d91ada2167605a8dfc56efde6b2ab61e101444c736c6fd6960a",
+          "module": "modes",
+          "prompt_id": "plan-0cc57bdb400b",
+          "source_lines": [
+            1,
+            128
+          ],
+          "source_path": "codex-rs/collaboration-mode-templates/templates/plan.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/collaboration-mode-templates/templates/plan.md#L1-L128",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/never-d1a99c024c5e__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "41c7931bac2391a24046362bd07615d5a3e73dca4672b911516fac99646be8c4",
+          "module": "modes",
+          "prompt_id": "never-d1a99c024c5e",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/approval_policy/never.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/approval_policy/never.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/on_request-2092d0a0d723__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "85541a9738741407642b3c39bbe3781fbf8bb42f628d50e562c87738ab192b3a",
+          "module": "modes",
+          "prompt_id": "on_request-2092d0a0d723",
+          "source_lines": [
+            1,
+            57
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/approval_policy/on_request.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/approval_policy/on_request.md#L1-L57",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/on_request_rule_request_permission-2ed4b866f505__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "98e8a78ac869d64fb094fb1a12e20e327e46a159bf74022c588b84326bf6afba",
+          "module": "modes",
+          "prompt_id": "on_request_rule_request_permission-2ed4b866f505",
+          "source_lines": [
+            1,
+            33
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/approval_policy/on_request_rule_request_permission.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/approval_policy/on_request_rule_request_permission.md#L1-L33",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/unless_trusted-cd8dc6a7ecf4__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "fadec1a060a758b805f227bc5715c7dd3d7d7e2015bd5020c386eca0f3293d10",
+          "module": "modes",
+          "prompt_id": "unless_trusted-cd8dc6a7ecf4",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/approval_policy/unless_trusted.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/approval_policy/unless_trusted.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/approved_prefixes-1c9d0729b5f3__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2d37f635b9800903992a94062804e82ad10b9e7ee5c2d904b38c66c0717a217f",
+          "module": "modes",
+          "prompt_id": "approved_prefixes-1c9d0729b5f3",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/approved_prefixes.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/approved_prefixes.md#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/danger_full_access-8fd945636f71__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0d887cb1eaba21a6cade67ab958a6ffee00f671c46f8cf29c83706e397942dbf",
+          "module": "modes",
+          "prompt_id": "danger_full_access-8fd945636f71",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/sandbox_mode/danger_full_access.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/sandbox_mode/danger_full_access.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/read_only-9ae12216082e__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "509b39f88e6a4f5cb36485ea8b340680c03f27175ba20200b823ec07bc79668d",
+          "module": "modes",
+          "prompt_id": "read_only-9ae12216082e",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/sandbox_mode/read_only.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/sandbox_mode/read_only.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/workspace_write-83af6444153e__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "763661195d613a48173638af6227d480d70ab0a6898d3a81ff075155e82f7555",
+          "module": "modes",
+          "prompt_id": "workspace_write-83af6444153e",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "codex-rs/prompts/templates/permissions/sandbox_mode/workspace_write.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/permissions/sandbox_mode/workspace_write.md#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/backend_prompt-9a9259434086__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "94c279f8b40900e5f2ace13db09bc096ccc99cc72ffb051a126f98df94c6997d",
+          "module": "modes",
+          "prompt_id": "backend_prompt-9a9259434086",
+          "source_lines": [
+            1,
+            65
+          ],
+          "source_path": "codex-rs/prompts/templates/realtime/backend_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/realtime/backend_prompt.md#L1-L65",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/realtime_end-319b689d82c5__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "95dbde1501871117f96d45f95cb501abbbc25464eab1ae5ed689e110e1849036",
+          "module": "modes",
+          "prompt_id": "realtime_end-319b689d82c5",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "codex-rs/prompts/templates/realtime/realtime_end.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/realtime/realtime_end.md#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/modes/realtime_start-4b29327ebcc0__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "424ebda35f115edff812596b70d7bf56431e7917b7398ccb4abb270b67a50fc2",
+          "module": "modes",
+          "prompt_id": "realtime_start-4b29327ebcc0",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "codex-rs/prompts/templates/realtime/realtime_start.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/realtime/realtime_start.md#L1-L9",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/planning/budget_limit-2ec344566b1f__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "ebac90ff1fc825baf3003875ea8a1e3de495f4a93bbf8fdd066b594595d358aa",
+          "module": "planning",
+          "prompt_id": "budget_limit-2ec344566b1f",
+          "source_lines": [
+            1,
+            16
+          ],
+          "source_path": "codex-rs/ext/goal/templates/goals/budget_limit.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/ext/goal/templates/goals/budget_limit.md#L1-L16",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/planning/continuation-40c470baa0d1__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "764b9c26b36013a21b687d74597e303be9bbf13776c359ec1fb185dbc0e7eac7",
+          "module": "planning",
+          "prompt_id": "continuation-40c470baa0d1",
+          "source_lines": [
+            1,
+            56
+          ],
+          "source_path": "codex-rs/ext/goal/templates/goals/continuation.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/ext/goal/templates/goals/continuation.md#L1-L56",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/planning/objective_updated-0df977cac7c7__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "a9752da8f38e7a8f11f3cda0d8751894bd0c837cca61d697cdf46b55333b77d6",
+          "module": "planning",
+          "prompt_id": "objective_updated-0df977cac7c7",
+          "source_lines": [
+            1,
+            16
+          ],
+          "source_path": "codex-rs/ext/goal/templates/goals/objective_updated.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/ext/goal/templates/goals/objective_updated.md#L1-L16",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/history_message_completed-c076738890a0__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "ba3815d1787697a682253f1c18d4618210732abb64263d633b903955ca838d53",
+          "module": "review",
+          "prompt_id": "history_message_completed-c076738890a0",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "codex-rs/core/templates/review/history_message_completed.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/review/history_message_completed.md#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/history_message_interrupted-eb5052683d66__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "034191c75f15338861ce0be2fcf28855833fc5f601b387cbc3c764032507dc86",
+          "module": "review",
+          "prompt_id": "history_message_interrupted-eb5052683d66",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "codex-rs/core/templates/review/history_message_interrupted.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/review/history_message_interrupted.md#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/classifier_instructions-8903535dee57__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "52485dcc1856e6d33697b0bee0d57b7af5bcc0cd2f64be0dc6b3505d56549aef",
+          "module": "review",
+          "prompt_id": "classifier_instructions-8903535dee57",
+          "source_lines": [
+            1,
+            82
+          ],
+          "source_path": "codex-rs/prompts/templates/guardian/classifier_instructions.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/guardian/classifier_instructions.md#L1-L82",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/node_repl_policy-8fa97bc73284__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "e5d12bc2404640513aba2df9dcc5689d2f0280191fe3508c55570ea0764d13a0",
+          "module": "review",
+          "prompt_id": "node_repl_policy-8fa97bc73284",
+          "source_lines": [
+            1,
+            11
+          ],
+          "source_path": "codex-rs/prompts/templates/guardian/node_repl_policy.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/guardian/node_repl_policy.md#L1-L11",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/policy-b50d54a0a2d3__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "e6b0cf0a2e1c4cabc0a37ac2a0bc424ddd7c89e85d049e32d281a8db6e8d3ce6",
+          "module": "review",
+          "prompt_id": "policy-b50d54a0a2d3",
+          "source_lines": [
+            1,
+            65
+          ],
+          "source_path": "codex-rs/prompts/templates/guardian/policy.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/guardian/policy.md#L1-L65",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/policy_template-5cbefce5a6a7__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "37441097e4e825e0b195c32c985817ea07da15bb5c20fa753d87b22e2fe47e73",
+          "module": "review",
+          "prompt_id": "policy_template-5cbefce5a6a7",
+          "source_lines": [
+            1,
+            78
+          ],
+          "source_path": "codex-rs/prompts/templates/guardian/policy_template.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/guardian/policy_template.md#L1-L78",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/exit_interrupted-54cc0e164ea3__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "034191c75f15338861ce0be2fcf28855833fc5f601b387cbc3c764032507dc86",
+          "module": "review",
+          "prompt_id": "exit_interrupted-54cc0e164ea3",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "codex-rs/prompts/templates/review/exit_interrupted.xml",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/review/exit_interrupted.xml#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/exit_success-66db91d79473__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "87ce1bcbc0f1aee3fcba4fedd35775eccf4a640352b071ead206d0b4ff286559",
+          "module": "review",
+          "prompt_id": "exit_success-66db91d79473",
+          "source_lines": [
+            1,
+            7
+          ],
+          "source_path": "codex-rs/prompts/templates/review/exit_success.xml",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/review/exit_success.xml#L1-L7",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/review/rubric-245652012276__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "ec60e7f36a1d1c2679ce095c0205ecc56f7dd8fb57707a13ef362072390f219f",
+          "module": "review",
+          "prompt_id": "rubric-245652012276",
+          "source_lines": [
+            1,
+            95
+          ],
+          "source_path": "codex-rs/prompts/templates/review/rubric.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/prompts/templates/review/rubric.md#L1-L95",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/skills/instructions-fed5f1050dd6__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "d36a36083d92f9d44efbd95e0e4b6e81d7d149e812f2bca2009b6dd4b8aa93e7",
+          "module": "skills",
+          "prompt_id": "instructions-fed5f1050dd6",
+          "source_lines": [
+            1,
+            13
+          ],
+          "source_path": "codex-rs/memories/write/templates/extensions/ad_hoc/instructions.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/memories/write/templates/extensions/ad_hoc/instructions.md#L1-L13",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/skills/SKILL-a03d329f488c__bundled-skill-instructions__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba",
+          "module": "skills",
+          "prompt_id": "SKILL-a03d329f488c",
+          "source_lines": [
+            1,
+            315
+          ],
+          "source_path": "codex-rs/skills/src/assets/samples/imagegen/SKILL.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/skills/src/assets/samples/imagegen/SKILL.md#L1-L315",
+          "source_symbol": "document",
+          "variant": "bundled-skill-instructions"
+        },
+        {
+          "archive_path": "agents/codex/skills/SKILL-dc53e4cc1038__bundled-skill-instructions__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "aa6829e21df2223167c85d2e49b6337a7345c84c1033f1ec10182c7882b36d45",
+          "module": "skills",
+          "prompt_id": "SKILL-dc53e4cc1038",
+          "source_lines": [
+            1,
+            38
+          ],
+          "source_path": "codex-rs/skills/src/assets/samples/openai-docs/SKILL.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/skills/src/assets/samples/openai-docs/SKILL.md#L1-L38",
+          "source_symbol": "document",
+          "variant": "bundled-skill-instructions"
+        },
+        {
+          "archive_path": "agents/codex/skills/SKILL-c07128995371__bundled-skill-instructions__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "07079efd0dc76f05fade424e5dfb048dce1de2df7626e1a4f56292a4f3f92228",
+          "module": "skills",
+          "prompt_id": "SKILL-c07128995371",
+          "source_lines": [
+            1,
+            57
+          ],
+          "source_path": "codex-rs/skills/src/assets/samples/review-agent/SKILL.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/skills/src/assets/samples/review-agent/SKILL.md#L1-L57",
+          "source_symbol": "document",
+          "variant": "bundled-skill-instructions"
+        },
+        {
+          "archive_path": "agents/codex/skills/SKILL-a2b1be22f3d0__bundled-skill-instructions__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "6656e54755638e8efcf275a472b9672eaa8a9a1b9e59dc210e275b03b59e1e66",
+          "module": "skills",
+          "prompt_id": "SKILL-a2b1be22f3d0",
+          "source_lines": [
+            1,
+            229
+          ],
+          "source_path": "codex-rs/skills/src/assets/samples/skill-creator/SKILL.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/skills/src/assets/samples/skill-creator/SKILL.md#L1-L229",
+          "source_symbol": "document",
+          "variant": "bundled-skill-instructions"
+        },
+        {
+          "archive_path": "agents/codex/skills/SKILL-76846c7606e3__bundled-skill-instructions__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "d68b77e5bbb34dedab89d134da52855f140fc4b4299b80104f534e3b9e98f8ee",
+          "module": "skills",
+          "prompt_id": "SKILL-76846c7606e3",
+          "source_lines": [
+            1,
+            58
+          ],
+          "source_path": "codex-rs/skills/src/assets/samples/skill-installer/SKILL.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/skills/src/assets/samples/skill-installer/SKILL.md#L1-L58",
+          "source_symbol": "document",
+          "variant": "bundled-skill-instructions"
+        },
+        {
+          "archive_path": "agents/codex/subagents/orchestrator-1ef0c4fd3c65__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "9268e8ae2b730dfc5cc16970ef303ec80e9859599fc8aa046883788de2a79502",
+          "module": "subagents",
+          "prompt_id": "orchestrator-1ef0c4fd3c65",
+          "source_lines": [
+            1,
+            42
+          ],
+          "source_path": "codex-rs/core/templates/agents/orchestrator.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/agents/orchestrator.md#L1-L42",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/subagents/experimental_prompt-23160d152d2e__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "6704ebc4ca8914c2ed0ff65706c1f8dd4f681a9ccec4ae7f9008a5f8e1d78cef",
+          "module": "subagents",
+          "prompt_id": "experimental_prompt-23160d152d2e",
+          "source_lines": [
+            1,
+            15
+          ],
+          "source_path": "codex-rs/core/templates/collab/experimental_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/collab/experimental_prompt.md#L1-L15",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/system/gpt-5.1-codex-max_prompt-dc48824c9215__legacy-model-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1b3dd697043a7f613c691a3721a450251626685b3e97ac3ad3d35ea62758a31e",
+          "module": "system",
+          "prompt_id": "gpt-5.1-codex-max_prompt-dc48824c9215",
+          "source_lines": [
+            1,
+            80
+          ],
+          "source_path": "codex-rs/core/gpt-5.1-codex-max_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/gpt-5.1-codex-max_prompt.md#L1-L80",
+          "source_symbol": "document",
+          "variant": "legacy-model-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/gpt-5.2-codex_prompt-aeb9d9e35431__legacy-model-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1b3dd697043a7f613c691a3721a450251626685b3e97ac3ad3d35ea62758a31e",
+          "module": "system",
+          "prompt_id": "gpt-5.2-codex_prompt-aeb9d9e35431",
+          "source_lines": [
+            1,
+            80
+          ],
+          "source_path": "codex-rs/core/gpt-5.2-codex_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/gpt-5.2-codex_prompt.md#L1-L80",
+          "source_symbol": "document",
+          "variant": "legacy-model-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/gpt_5_1_prompt-e75d709500ac__legacy-model-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "b59d4cf7a17350eee7fe00c897bf7da7454672788317f23f54d2fb3d57af7bca",
+          "module": "system",
+          "prompt_id": "gpt_5_1_prompt-e75d709500ac",
+          "source_lines": [
+            1,
+            331
+          ],
+          "source_path": "codex-rs/core/gpt_5_1_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/gpt_5_1_prompt.md#L1-L331",
+          "source_symbol": "document",
+          "variant": "legacy-model-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/gpt_5_2_prompt-6a3b257ac126__legacy-model-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "415333a461404a790c981fb00a7b9dc73b1906d3f87133dc8afe7ed77e92bd67",
+          "module": "system",
+          "prompt_id": "gpt_5_2_prompt-6a3b257ac126",
+          "source_lines": [
+            1,
+            298
+          ],
+          "source_path": "codex-rs/core/gpt_5_2_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/gpt_5_2_prompt.md#L1-L298",
+          "source_symbol": "document",
+          "variant": "legacy-model-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/gpt_5_codex_prompt-afd3b81d6669__legacy-model-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "42842be69650ae563d212695e8d3f3591534908fd8ca33b63f742daf41f88b65",
+          "module": "system",
+          "prompt_id": "gpt_5_codex_prompt-afd3b81d6669",
+          "source_lines": [
+            1,
+            68
+          ],
+          "source_path": "codex-rs/core/gpt_5_codex_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/gpt_5_codex_prompt.md#L1-L68",
+          "source_symbol": "document",
+          "variant": "legacy-model-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/experimental_prompt-c526d4c3375f__legacy-model-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "6704ebc4ca8914c2ed0ff65706c1f8dd4f681a9ccec4ae7f9008a5f8e1d78cef",
+          "module": "system",
+          "prompt_id": "experimental_prompt-c526d4c3375f",
+          "source_lines": [
+            1,
+            15
+          ],
+          "source_path": "codex-rs/core/templates/collab/experimental_prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/collab/experimental_prompt.md#L1-L15",
+          "source_symbol": "document",
+          "variant": "legacy-model-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-6f9ad1ebdcec__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "65dddb8b4bb89a74889c0b62e8f6620fe88f11b210d63637088c9535935f30f8",
+          "module": "system",
+          "prompt_id": "models-6f9ad1ebdcec",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.approvals.on_request_auto_review",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-20e2ae982a5b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "fc210b5bc0337ddba407c155ef00eea5ba8bda8dd264ce415ce100e1b2ac81e3",
+          "module": "system",
+          "prompt_id": "models-20e2ae982a5b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.auto_review.rejection_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-e0480ea46e81__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "c1ed5ce0a3a49ba35b9eeba9774e0bd8ebd10eddec13b2dac564e7170513356c",
+          "module": "system",
+          "prompt_id": "models-e0480ea46e81",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.collaboration_modes.default",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-572d4c8ea268__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-572d4c8ea268",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.confirmation_policies.browser_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-01e6e7cf5584__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-01e6e7cf5584",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.confirmation_policies.computer_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-2c991b01057c__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1edad6a16d9431dbe14bff1d0ce96196cc983a48d050ebaa35f415b1dc797338",
+          "module": "system",
+          "prompt_id": "models-2c991b01057c",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.guardian_v2.classifier_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-79369e5b25c0__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "35bd51b5f577cb7b24cd5f4629e49e37cb724ab57754ce6f8f202001635bab8a",
+          "module": "system",
+          "prompt_id": "models-79369e5b25c0",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-d78d4a4bc900__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "4c86e7411c24afc557c906f31a267c991568311715cc81ba0129604c70b83755",
+          "module": "system",
+          "prompt_id": "models-d78d4a4bc900",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.multi_agent.role.root",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-3eea060d57d3__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "3651a6dee0715ee4990f23bfbc35a13c5da42e24f35a9eda2809614fd3b0a87b",
+          "module": "system",
+          "prompt_id": "models-3eea060d57d3",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.multi_agent.role.subagent",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-e09b3e314d8f__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523",
+          "module": "system",
+          "prompt_id": "models-e09b3e314d8f",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.persistent_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-a168788a9a44__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-a168788a9a44",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-4e04a66bd31e__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-4e04a66bd31e",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-98b85d915bba__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-98b85d915bba",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.0.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-d80cd6bebbeb__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "65dddb8b4bb89a74889c0b62e8f6620fe88f11b210d63637088c9535935f30f8",
+          "module": "system",
+          "prompt_id": "models-d80cd6bebbeb",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.approvals.on_request_auto_review",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-78782fa0db9b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "fc210b5bc0337ddba407c155ef00eea5ba8bda8dd264ce415ce100e1b2ac81e3",
+          "module": "system",
+          "prompt_id": "models-78782fa0db9b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.auto_review.rejection_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-e4919994bca2__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "c1ed5ce0a3a49ba35b9eeba9774e0bd8ebd10eddec13b2dac564e7170513356c",
+          "module": "system",
+          "prompt_id": "models-e4919994bca2",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.collaboration_modes.default",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-fb28668cc2fe__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-fb28668cc2fe",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.confirmation_policies.browser_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-669ad18daa9b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-669ad18daa9b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.confirmation_policies.computer_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-13fdf8995769__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1edad6a16d9431dbe14bff1d0ce96196cc983a48d050ebaa35f415b1dc797338",
+          "module": "system",
+          "prompt_id": "models-13fdf8995769",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.guardian_v2.classifier_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-e3e94678840b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "e1bdd4f8f0df4b20f4a0ffc8a861ce819df45325d8cecdfb92e80379cf8d142e",
+          "module": "system",
+          "prompt_id": "models-e3e94678840b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-52f98c5f0825__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "4c86e7411c24afc557c906f31a267c991568311715cc81ba0129604c70b83755",
+          "module": "system",
+          "prompt_id": "models-52f98c5f0825",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.multi_agent.role.root",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-e5c1a9420da6__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "3651a6dee0715ee4990f23bfbc35a13c5da42e24f35a9eda2809614fd3b0a87b",
+          "module": "system",
+          "prompt_id": "models-e5c1a9420da6",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.multi_agent.role.subagent",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-51a9564f6392__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523",
+          "module": "system",
+          "prompt_id": "models-51a9564f6392",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.persistent_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-8bf81042b8f6__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-8bf81042b8f6",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-924d80660b01__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-924d80660b01",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-6ac16137f593__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-6ac16137f593",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.1.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-d77374e495c3__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2351631dfc5644dc5a45eaaca4139475bd02810ee6cb792d058b551559b3242e",
+          "module": "system",
+          "prompt_id": "models-d77374e495c3",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.10.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-7411160de427__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "dd34de286b0f1425c02bc3cf6e70615be5337fb2a83cef32955350902d6203bd",
+          "module": "system",
+          "prompt_id": "models-7411160de427",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.11.model_messages.auto_review.node_repl_policy",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-a62d62ef6000__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "e6b0cf0a2e1c4cabc0a37ac2a0bc424ddd7c89e85d049e32d281a8db6e8d3ce6",
+          "module": "system",
+          "prompt_id": "models-a62d62ef6000",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.11.model_messages.auto_review.policy",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-78d9385f649b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "f47fbb2bdba5e7528bfae7f5e2844a7d45a3a922fa74b718f22b22917376cfcf",
+          "module": "system",
+          "prompt_id": "models-78d9385f649b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.11.model_messages.auto_review.policy_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-cf87c5f93718__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415",
+          "module": "system",
+          "prompt_id": "models-cf87c5f93718",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.11.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-2f4c3018fb2d__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "65dddb8b4bb89a74889c0b62e8f6620fe88f11b210d63637088c9535935f30f8",
+          "module": "system",
+          "prompt_id": "models-2f4c3018fb2d",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.approvals.on_request_auto_review",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-25b0c36d82e4__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "fc210b5bc0337ddba407c155ef00eea5ba8bda8dd264ce415ce100e1b2ac81e3",
+          "module": "system",
+          "prompt_id": "models-25b0c36d82e4",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.auto_review.rejection_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-451aaaf35ead__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "fe48388213363ce4658ab312cf36b2d32bac04b4fb285124dc694553910751d0",
+          "module": "system",
+          "prompt_id": "models-451aaaf35ead",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.collaboration_modes.default",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-cc8fadf0bef1__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "c106250030a43b8e26af4407ce03c2600f86a4502cf6a323f746659a27b92517",
+          "module": "system",
+          "prompt_id": "models-cc8fadf0bef1",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.confirmation_policies.browser_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-8b5cabe2827f__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "c106250030a43b8e26af4407ce03c2600f86a4502cf6a323f746659a27b92517",
+          "module": "system",
+          "prompt_id": "models-8b5cabe2827f",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.confirmation_policies.computer_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-5526a412301c__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1edad6a16d9431dbe14bff1d0ce96196cc983a48d050ebaa35f415b1dc797338",
+          "module": "system",
+          "prompt_id": "models-5526a412301c",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.guardian_v2.classifier_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-074a27e950b6__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "35bd51b5f577cb7b24cd5f4629e49e37cb724ab57754ce6f8f202001635bab8a",
+          "module": "system",
+          "prompt_id": "models-074a27e950b6",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-0dc51d7c3d01__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "4c86e7411c24afc557c906f31a267c991568311715cc81ba0129604c70b83755",
+          "module": "system",
+          "prompt_id": "models-0dc51d7c3d01",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.multi_agent.role.root",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-8bdccb5b235d__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "3651a6dee0715ee4990f23bfbc35a13c5da42e24f35a9eda2809614fd3b0a87b",
+          "module": "system",
+          "prompt_id": "models-8bdccb5b235d",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.multi_agent.role.subagent",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-1dae59d6bfa3__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523",
+          "module": "system",
+          "prompt_id": "models-1dae59d6bfa3",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.persistent_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-be53b93ae740__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-be53b93ae740",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-9740c8e3ccda__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-9740c8e3ccda",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-aa136306cdaa__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-aa136306cdaa",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.2.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-0f0c0730b57b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "65dddb8b4bb89a74889c0b62e8f6620fe88f11b210d63637088c9535935f30f8",
+          "module": "system",
+          "prompt_id": "models-0f0c0730b57b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.approvals.on_request_auto_review",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-d0c600be6f35__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "fc210b5bc0337ddba407c155ef00eea5ba8bda8dd264ce415ce100e1b2ac81e3",
+          "module": "system",
+          "prompt_id": "models-d0c600be6f35",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.auto_review.rejection_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-59852917c2eb__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "c1ed5ce0a3a49ba35b9eeba9774e0bd8ebd10eddec13b2dac564e7170513356c",
+          "module": "system",
+          "prompt_id": "models-59852917c2eb",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.collaboration_modes.default",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-8b4c796bfd4a__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-8b4c796bfd4a",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.confirmation_policies.browser_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-c6f538979e67__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-c6f538979e67",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.confirmation_policies.computer_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-4d6cc6f5b304__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1edad6a16d9431dbe14bff1d0ce96196cc983a48d050ebaa35f415b1dc797338",
+          "module": "system",
+          "prompt_id": "models-4d6cc6f5b304",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.guardian_v2.classifier_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-4ec0400ea628__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "b1dd8718c037906c53a305c5cbccb4a4be35ccbb7837461ec349bfc495412f0d",
+          "module": "system",
+          "prompt_id": "models-4ec0400ea628",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-39d1063f7a69__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "4c86e7411c24afc557c906f31a267c991568311715cc81ba0129604c70b83755",
+          "module": "system",
+          "prompt_id": "models-39d1063f7a69",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.multi_agent.role.root",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-0e0638cdb80e__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "3651a6dee0715ee4990f23bfbc35a13c5da42e24f35a9eda2809614fd3b0a87b",
+          "module": "system",
+          "prompt_id": "models-0e0638cdb80e",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.multi_agent.role.subagent",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-53c60aaf2bce__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523",
+          "module": "system",
+          "prompt_id": "models-53c60aaf2bce",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.persistent_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-2ada9fac2c58__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-2ada9fac2c58",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-b4914000258b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-b4914000258b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-f5cc763e3a2e__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-f5cc763e3a2e",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.3.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-c61be4ec99d3__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "65dddb8b4bb89a74889c0b62e8f6620fe88f11b210d63637088c9535935f30f8",
+          "module": "system",
+          "prompt_id": "models-c61be4ec99d3",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.approvals.on_request_auto_review",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-df540a195081__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "fc210b5bc0337ddba407c155ef00eea5ba8bda8dd264ce415ce100e1b2ac81e3",
+          "module": "system",
+          "prompt_id": "models-df540a195081",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.auto_review.rejection_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-c47ae9a072b8__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "c1ed5ce0a3a49ba35b9eeba9774e0bd8ebd10eddec13b2dac564e7170513356c",
+          "module": "system",
+          "prompt_id": "models-c47ae9a072b8",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.collaboration_modes.default",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-508acceff253__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-508acceff253",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.confirmation_policies.browser_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-e532684c6337__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0784bf5d70a8a2270ebf10bed860cc49524f590d989219e63d64c6fcf771f20d",
+          "module": "system",
+          "prompt_id": "models-e532684c6337",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.confirmation_policies.computer_use",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-0ad8e154a07c__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "1edad6a16d9431dbe14bff1d0ce96196cc983a48d050ebaa35f415b1dc797338",
+          "module": "system",
+          "prompt_id": "models-0ad8e154a07c",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.guardian_v2.classifier_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-efad52ee01ed__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "b707476816bfe5e571a1bd2179f130fff2b132da5ab8e61063acdb7fd24daf12",
+          "module": "system",
+          "prompt_id": "models-efad52ee01ed",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-db69749d21ae__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "4c86e7411c24afc557c906f31a267c991568311715cc81ba0129604c70b83755",
+          "module": "system",
+          "prompt_id": "models-db69749d21ae",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.multi_agent.role.root",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-3713228fd424__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "3651a6dee0715ee4990f23bfbc35a13c5da42e24f35a9eda2809614fd3b0a87b",
+          "module": "system",
+          "prompt_id": "models-3713228fd424",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.multi_agent.role.subagent",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-c5fe064dd7f8__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "30747e79e50efb64f91cfff3d5ef1882e347081e81448918d5f7d5358e98c523",
+          "module": "system",
+          "prompt_id": "models-c5fe064dd7f8",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.persistent_instructions",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-fe76d9bab741__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-fe76d9bab741",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-13d4bc5e578f__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-13d4bc5e578f",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-50770a6596c6__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-50770a6596c6",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.4.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-bdeca33a80d5__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415",
+          "module": "system",
+          "prompt_id": "models-bdeca33a80d5",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.5.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-ce3de2fc4c99__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-ce3de2fc4c99",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.5.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-6ec37aa1780f__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-6ec37aa1780f",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.5.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-f63bdf295047__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-f63bdf295047",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.5.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-ee200d7deb8b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415",
+          "module": "system",
+          "prompt_id": "models-ee200d7deb8b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.6.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-d901af417aee__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-d901af417aee",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.6.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-3af151c03db0__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-3af151c03db0",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.6.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-6159fe8409ea__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-6159fe8409ea",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.6.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-84d782353ff7__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "dd34de286b0f1425c02bc3cf6e70615be5337fb2a83cef32955350902d6203bd",
+          "module": "system",
+          "prompt_id": "models-84d782353ff7",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.7.model_messages.auto_review.node_repl_policy",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-98588d9aa83b__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "e6b0cf0a2e1c4cabc0a37ac2a0bc424ddd7c89e85d049e32d281a8db6e8d3ce6",
+          "module": "system",
+          "prompt_id": "models-98588d9aa83b",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.7.model_messages.auto_review.policy",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-acf5d996c7ea__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "f47fbb2bdba5e7528bfae7f5e2844a7d45a3a922fa74b718f22b22917376cfcf",
+          "module": "system",
+          "prompt_id": "models-acf5d996c7ea",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.7.model_messages.auto_review.policy_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-5d633f976b26__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "a91357a1cd2727a0be06d461248d6e3a7274746e38108f548a3adf2cc2430415",
+          "module": "system",
+          "prompt_id": "models-5d633f976b26",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.7.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-e45de0513b1c__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-e45de0513b1c",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.7.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-0b8d8300d95c__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-0b8d8300d95c",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.7.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-d2ad9c53c2ba__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-d2ad9c53c2ba",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.7.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-8a2d22829e44__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "ebd0d5854abd07dc38300a71e027204eb028e9fa443c59d18e36fcc24289e818",
+          "module": "system",
+          "prompt_id": "models-8a2d22829e44",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.8.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-9cb7d7a3be46__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "2c97b42df753cbd6075c2d562744b15197fdb909201b155ce39e33fe179a8a8f",
+          "module": "system",
+          "prompt_id": "models-9cb7d7a3be46",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.8.model_messages.token_budget.auto_compact_fallback_prompt",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-95ab45dd91a5__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "797a67f14b57bd8cd9c5eef9475e797440778b3de50d9b0388ca1c35a05c8e82",
+          "module": "system",
+          "prompt_id": "models-95ab45dd91a5",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.8.model_messages.token_budget.guidance_message",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-ef78f5bb24e4__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "840af84260ef8d951f5fc7e4cef7e3bb61b2b063621b117f0a2604aba9a60bf1",
+          "module": "system",
+          "prompt_id": "models-ef78f5bb24e4",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.8.model_messages.token_budget.reminder_message_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/models-961f82aac2bd__per-model-message-variants__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "40a1232c8bd01a87dc2283e5ae3c75f2b054dc2a12cf04e5a279c26e5c541b9b",
+          "module": "system",
+          "prompt_id": "models-961f82aac2bd",
+          "source_lines": [
+            1,
+            1779
+          ],
+          "source_path": "codex-rs/models-manager/models.json",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/models.json#L1-L1779",
+          "source_symbol": "models.9.model_messages.instructions_template",
+          "variant": "per-model-message-variants"
+        },
+        {
+          "archive_path": "agents/codex/system/prompt-494fb3069454__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "ac8ae107a0d72fe3476b430afb161ea4e67da2e446d778aefc44828160559807",
+          "module": "system",
+          "prompt_id": "prompt-494fb3069454",
+          "source_lines": [
+            1,
+            275
+          ],
+          "source_path": "codex-rs/models-manager/prompt.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/models-manager/prompt.md#L1-L275",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/system/default-d5fbb6a7c057__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "ac8ae107a0d72fe3476b430afb161ea4e67da2e446d778aefc44828160559807",
+          "module": "system",
+          "prompt_id": "default-d5fbb6a7c057",
+          "source_lines": [
+            1,
+            275
+          ],
+          "source_path": "codex-rs/protocol/src/prompts/base_instructions/default.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/protocol/src/prompts/base_instructions/default.md#L1-L275",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/tools/request_plugin_install_description-ef72b9e8b94c__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "e5acd502e83f3a6a9d20c53bcb521633a8df8c654ceb08da63db5aefb35e1f66",
+          "module": "tools",
+          "prompt_id": "request_plugin_install_description-ef72b9e8b94c",
+          "source_lines": [
+            1,
+            29
+          ],
+          "source_path": "codex-rs/core/templates/search_tool/request_plugin_install_description.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/search_tool/request_plugin_install_description.md#L1-L29",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/codex/tools/tool_description-e0a100bac5a5__default__rust-v0.166.0__6ff1e1ca3b30__20261030T052924Z.md",
+          "content_sha256": "0e4029b9b5d23b400e76a0051b9df878f28153ae2de126a77b90b80b64cd3d6b",
+          "module": "tools",
+          "prompt_id": "tool_description-e0a100bac5a5",
+          "source_lines": [
+            1,
+            7
+          ],
+          "source_path": "codex-rs/core/templates/search_tool/tool_description.md",
+          "source_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/codex-rs/core/templates/search_tool/tool_description.md#L1-L7",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:rust-v0.166.0:6ff1e1ca3b30fc8b914720681fcf5fe62e95f856:5422acb97ea2f0e3d2b01ce28f84ac63e583713d48f6f2eb156aa0f38444726b:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:29:24Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-29T19:47:53Z",
+      "repository": "openai/codex",
+      "source_commit": "6ff1e1ca3b30fc8b914720681fcf5fe62e95f856",
+      "source_committed_at": "2026-10-29T17:44:30Z",
+      "source_ref": "rust-v0.166.0",
+      "upstream_version": "rust-v0.166.0"
+    }
+  ],
+  "status": "ok"
+}

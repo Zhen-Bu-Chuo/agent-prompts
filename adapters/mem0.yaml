@@ -1,0 +1,13 @@
+slug: mem0
+name: Mem0
+repository: mem0ai/mem0
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: mem0/configs/prompts.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION
+limitations:
+- 覆盖记忆事实抽取、合并和召回提示词常量；provider/model/system message 仍由运行时拼接。

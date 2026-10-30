@@ -1,0 +1,167 @@
+{
+  "agent": "mem0",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v2.2.1:94c3fe9f238f3dbf29c9ce98643bd71eb13077cd:d70981f2a0f02f9d11f0d5fb6a7187a7121352ffa57104ba19d06d9c8d7cb0f4:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "覆盖记忆事实抽取、合并和召回提示词常量；provider/model/system message 仍由运行时拼接。"
+  ],
+  "name": "Mem0",
+  "repository": "mem0ai/mem0",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "d70981f2a0f02f9d11f0d5fb6a7187a7121352ffa57104ba19d06d9c8d7cb0f4",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/mem0/memory/prompts-d3a15137974c__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "ad19187a37813ef77ee156e714c0650e6ec749e0264bdc07d499bc9b24115155",
+          "module": "memory",
+          "prompt_id": "prompts-d3a15137974c",
+          "source_lines": [
+            468,
+            944
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L468-L944",
+          "source_symbol": "module.ADDITIVE_EXTRACTION_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-4e270970654c__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "7b31968f110471a3d8bd616371359158cead862599ffe5d76b8223d3c48f1be4",
+          "module": "memory",
+          "prompt_id": "prompts-4e270970654c",
+          "source_lines": [
+            124,
+            174
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L124-L174",
+          "source_symbol": "module.AGENT_MEMORY_EXTRACTION_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-e933e76b6ff2__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "d68a6ef706f5477c156e69b40f55c81d9fdc17704952d679e9658da7e15749dd",
+          "module": "memory",
+          "prompt_id": "prompts-e933e76b6ff2",
+          "source_lines": [
+            176,
+            324
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L176-L324",
+          "source_symbol": "module.DEFAULT_UPDATE_MEMORY_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-f1322099061c__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "0ec80690c5c4f8ef5dbbec279dc9a04860348fca455e24ac70c52b7cf76e2a8f",
+          "module": "memory",
+          "prompt_id": "prompts-f1322099061c",
+          "source_lines": [
+            15,
+            60
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L15-L60",
+          "source_symbol": "module.FACT_RETRIEVAL_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-10d7e43476cf__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "bee61c590c7200b8bfcb65c759968d48e047f6f64c94ad29c50c6158b53194e5",
+          "module": "memory",
+          "prompt_id": "prompts-10d7e43476cf",
+          "source_lines": [
+            4,
+            13
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L4-L13",
+          "source_symbol": "module.MEMORY_ANSWER_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-871068babe67__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "9ed026ae3bcc12e1e9986e5964edfc25e52a350ad80023462eadfdcfe8e1df2a",
+          "module": "memory",
+          "prompt_id": "prompts-871068babe67",
+          "source_lines": [
+            326,
+            403
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L326-L403",
+          "source_symbol": "module.PROCEDURAL_MEMORY_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-ab29aaa48c7b__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "cf6e242816e8c4a0dc97704a964bf4c6cf0eb1c175c78556a2f294afeb59e91d",
+          "module": "memory",
+          "prompt_id": "prompts-ab29aaa48c7b",
+          "source_lines": [
+            63,
+            121
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L63-L121",
+          "source_symbol": "module.USER_MEMORY_EXTRACTION_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-293010344640__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "459eda287b7241e0457b4a3961ae73381e47454c1dad44a20f65aa76f57ab300",
+          "module": "memory",
+          "prompt_id": "prompts-293010344640",
+          "source_lines": [
+            1038,
+            1038
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L1038-L1038",
+          "source_symbol": "module.generate_additive_extraction_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/mem0/memory/prompts-c43f3a9f09fc__default__v2.2.1__94c3fe9f238f__20261030T052959Z.md",
+          "content_sha256": "ef1fa4fd61aa7f4c42d30973d2f3f24ded578aa92978b8931d54485a0ec93aad",
+          "module": "memory",
+          "prompt_id": "prompts-c43f3a9f09fc",
+          "source_lines": [
+            1049,
+            1058
+          ],
+          "source_path": "mem0/configs/prompts.py",
+          "source_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/mem0/configs/prompts.py#L1049-L1058",
+          "source_symbol": "module.generate_additive_extraction_prompt.2",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v2.2.1:94c3fe9f238f3dbf29c9ce98643bd71eb13077cd:d70981f2a0f02f9d11f0d5fb6a7187a7121352ffa57104ba19d06d9c8d7cb0f4:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:29:59Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-09-25T17:35:20Z",
+      "repository": "mem0ai/mem0",
+      "source_commit": "94c3fe9f238f3dbf29c9ce98643bd71eb13077cd",
+      "source_committed_at": "2026-09-25T17:34:12Z",
+      "source_ref": "v2.2.1",
+      "upstream_version": "v2.2.1"
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,17 @@
+{
+  "agent": "codex",
+  "collected_at": "2026-10-30T05:29:24Z",
+  "license": "Apache-2.0",
+  "license_permalink": "https://github.com/openai/codex/blob/6ff1e1ca3b30fc8b914720681fcf5fe62e95f856/LICENSE",
+  "license_text_path": "licenses/codex/6ff1e1ca3b30.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "release",
+  "release_published_at": "2026-10-29T19:47:53Z",
+  "repository": "openai/codex",
+  "source_commit": "6ff1e1ca3b30fc8b914720681fcf5fe62e95f856",
+  "source_committed_at": "2026-10-29T17:44:30Z",
+  "source_path": "LICENSE",
+  "source_ref": "rust-v0.166.0",
+  "upstream_version": "rust-v0.166.0"
+}

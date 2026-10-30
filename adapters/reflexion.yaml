@@ -1,0 +1,23 @@
+slug: reflexion
+name: Reflexion
+repository: noahshinn/reflexion
+priority: S
+coverage: supported
+tag_pattern: ^v?\d+\.\d+\.\d+$
+rules:
+- glob: hotpotqa_runs/prompts.py
+  module: reflection
+  format: python
+  key_pattern: PROMPT|REFLECTION|INSTRUCTION|TEMPLATE
+  min_chars: 90
+- glob: webshop_runs/base_prompt.txt
+  module: system
+  format: raw
+  min_chars: 50
+- glob: alfworld_runs/prompts/alfworld.json
+  module: execution
+  format: json
+  key_pattern: prompt|system|reflect|instruction
+  min_chars: 100
+limitations:
+- 研究代码库没有带版本发布，按 main commit 固定；此实现是论文/实验框架并含 benchmark few-shot 例子。记录专用反思模板与执行基准，不把实验日志当作 prompt。

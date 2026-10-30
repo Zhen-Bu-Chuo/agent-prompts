@@ -1,0 +1,22 @@
+slug: pi
+name: Pi Agent
+repository: earendil-works/pi
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: packages/coding-agent/src/core/system-prompt.ts
+  module: system
+  format: js-strings
+  key_pattern: prompt|system|rules
+  min_chars: 100
+- glob: packages/coding-agent/src/core/prompt-templates.ts
+  module: planning
+  format: js-strings
+  key_pattern: prompt|template|system|review|plan
+  min_chars: 100
+limitations:
+- 上游仓库已迁移至 earendil-works/pi；以 GitHub 重定向后的提交为归档来源。
+- 覆盖 coding-agent 包提示词模板与 system prompt，不采集各运行时扩展和用户配置。
+project_repository: badlogic/pi-mono
+package_name: '@mariozechner/pi-coding-agent'

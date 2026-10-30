@@ -1,0 +1,18 @@
+slug: graphiti
+name: Graphiti
+repository: getzep/graphiti
+priority: S
+coverage: supported
+tag_pattern: ^v?\d+\.\d+\.\d+$
+rules:
+- glob: graphiti_core/prompts/*.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+- glob: graphiti_core/llm_client/decision_prompts.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+  min_chars: 90
+limitations:
+- 只归档源码中被 prompt module 引用的实体抽取、关系判定、去重和摘要模板；运行态 Episode 与实体索引作为数据上下文，不写入提示词归档。

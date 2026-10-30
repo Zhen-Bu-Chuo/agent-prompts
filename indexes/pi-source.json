@@ -1,0 +1,17 @@
+{
+  "agent": "pi",
+  "collected_at": "2026-10-30T05:30:08Z",
+  "license": "MIT",
+  "license_permalink": "https://github.com/earendil-works/pi/blob/4a080252f06caf63a525d7873c5d94d3c23887e0/LICENSE",
+  "license_text_path": "licenses/pi/4a080252f06c.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "release",
+  "release_published_at": "2026-10-21T22:49:48Z",
+  "repository": "earendil-works/pi",
+  "source_commit": "4a080252f06caf63a525d7873c5d94d3c23887e0",
+  "source_committed_at": "2026-10-21T22:29:13Z",
+  "source_path": "LICENSE",
+  "source_ref": "v1.4.0",
+  "upstream_version": "v1.4.0"
+}

@@ -1,0 +1,29 @@
+slug: gemini-cli
+name: Gemini CLI
+repository: google-gemini/gemini-cli
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: packages/core/src/prompts/promptProvider.ts
+  module: system
+  format: js-strings
+  key_pattern: prompt|instruction|system
+  min_chars: 120
+- glob: packages/core/src/prompts/snippets.ts
+  module: context
+  format: js-strings
+  key_pattern: prompt|memory|skill|agent|system
+  min_chars: 100
+- glob: packages/core/src/prompts/mcp-prompts.ts
+  module: tools
+  format: js-strings
+  key_pattern: prompt|system|tool|instruction
+  min_chars: 100
+- glob: packages/core/src/prompts/prompt-registry.ts
+  module: context
+  format: js-strings
+  key_pattern: prompt|instruction|system
+  min_chars: 120
+limitations:
+- 按核心提示词模块筛选；项目/会话配置、用户规则、动态 MCP 工具清单和实际子代理消息取决于运行时。

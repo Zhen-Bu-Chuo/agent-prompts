@@ -1,0 +1,17 @@
+{
+  "agent": "voyager",
+  "collected_at": "2026-10-30T05:30:14Z",
+  "license": "MIT",
+  "license_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/LICENSE",
+  "license_text_path": "licenses/voyager/55e45a880755.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "default-branch",
+  "release_published_at": null,
+  "repository": "MineDojo/Voyager",
+  "source_commit": "55e45a880755d0c8c66ca7fb5fe7962ac8974f89",
+  "source_committed_at": "2023-07-27T07:35:42Z",
+  "source_path": "LICENSE",
+  "source_ref": "main",
+  "upstream_version": null
+}

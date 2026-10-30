@@ -1,0 +1,909 @@
+{
+  "agent": "memu",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v1.5.1:357aefc8012705bfde723f141d52f675fe712bed:31f4cc46126054d9327ef904aae63c760e3865070988c576eaa91e6bb7beb289:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "按 v1.5.1 Apache-2.0 许可的源提示模块采集；跨 agent 的实际 memory 注入由 provider adaptor 在运行时决定。"
+  ],
+  "name": "memU",
+  "repository": "NevaMind-AI/memU",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "31f4cc46126054d9327ef904aae63c760e3865070988c576eaa91e6bb7beb289",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/memu/memory/category-79a90f057839__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "efc67a2b8ef259319a5a21ef989f6da439711f42ce6dc84778638d288c23620e",
+          "module": "memory",
+          "prompt_id": "category-79a90f057839",
+          "source_lines": [
+            1,
+            45
+          ],
+          "source_path": "src/memu/prompts/category_patch/category.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_patch/category.py#L1-L45",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category-7dc9e942fe43__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "860b6ddac901046dd8855f705f1839bff2742d076e55693beb808eb2428769f1",
+          "module": "memory",
+          "prompt_id": "category-7dc9e942fe43",
+          "source_lines": [
+            219,
+            262
+          ],
+          "source_path": "src/memu/prompts/category_summary/category.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category.py#L219-L262",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category-0a2292d3df97__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "08d045d47231771d2baab7d8a42d271574e5a991cdf3d61515046900e42c589c",
+          "module": "memory",
+          "prompt_id": "category-0a2292d3df97",
+          "source_lines": [
+            264,
+            278
+          ],
+          "source_path": "src/memu/prompts/category_summary/category.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category.py#L264-L278",
+          "source_symbol": "module.PROMPT_BLOCK_INPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category-e5b42d6fd126__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "4c806eafc1684b463c72ab9c2c575de9eb5d8122063e4681296c31021aa5ad4f",
+          "module": "memory",
+          "prompt_id": "category-e5b42d6fd126",
+          "source_lines": [
+            146,
+            150
+          ],
+          "source_path": "src/memu/prompts/category_summary/category.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category.py#L146-L150",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category-bb86799c6214__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "5219be657b6be6c3bf944ddca8a56ff523fc32a7b33ab9dc079e6f54590811e1",
+          "module": "memory",
+          "prompt_id": "category-bb86799c6214",
+          "source_lines": [
+            202,
+            217
+          ],
+          "source_path": "src/memu/prompts/category_summary/category.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category.py#L202-L217",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category-75285231c758__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "0eebbaecb00320fecac2e3d878ed9fb82300ad7c1a6065ac81a0073396c023c8",
+          "module": "memory",
+          "prompt_id": "category-75285231c758",
+          "source_lines": [
+            152,
+            197
+          ],
+          "source_path": "src/memu/prompts/category_summary/category.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category.py#L152-L197",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category-8f98d614f6c6__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "f7dfa9460e7beef5261d9848afb22e1c73d094114e6b176a04fe8b86f01b6304",
+          "module": "memory",
+          "prompt_id": "category-8f98d614f6c6",
+          "source_lines": [
+            1,
+            143
+          ],
+          "source_path": "src/memu/prompts/category_summary/category.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category.py#L1-L143",
+          "source_symbol": "module.PROMPT_LEGACY.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category_with_refs-511718d3cdb7__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "a6b8177f52e3cb2fc1cf979c27b1f306b8822c78f8bb44bc986000ffd89d7124",
+          "module": "memory",
+          "prompt_id": "category_with_refs-511718d3cdb7",
+          "source_lines": [
+            78,
+            106
+          ],
+          "source_path": "src/memu/prompts/category_summary/category_with_refs.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category_with_refs.py#L78-L106",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category_with_refs-7e850ca65062__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "02e73269eba5c3ad8d9d009c1cab8133529bc46c7a9a04d669a65d78b151ae93",
+          "module": "memory",
+          "prompt_id": "category_with_refs-7e850ca65062",
+          "source_lines": [
+            108,
+            122
+          ],
+          "source_path": "src/memu/prompts/category_summary/category_with_refs.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category_with_refs.py#L108-L122",
+          "source_symbol": "module.PROMPT_BLOCK_INPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category_with_refs-597bf73437e7__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "d84348e7d0f3b2034e87b5ec054ec1df47697e38014c10cf494c8b14a0267972",
+          "module": "memory",
+          "prompt_id": "category_with_refs-597bf73437e7",
+          "source_lines": [
+            9,
+            14
+          ],
+          "source_path": "src/memu/prompts/category_summary/category_with_refs.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category_with_refs.py#L9-L14",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category_with_refs-3892749fa129__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "6a7daea4f1dc38bef0e23b9cd89b0c41de7223fe3648a921f9be388bfda0d8de",
+          "module": "memory",
+          "prompt_id": "category_with_refs-3892749fa129",
+          "source_lines": [
+            61,
+            76
+          ],
+          "source_path": "src/memu/prompts/category_summary/category_with_refs.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category_with_refs.py#L61-L76",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category_with_refs-381184006185__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "4f441edd79e4e8ca10ce827fcc8f2d617f51596184c660de5a6a9e1ecb94ff16",
+          "module": "memory",
+          "prompt_id": "category_with_refs-381184006185",
+          "source_lines": [
+            52,
+            59
+          ],
+          "source_path": "src/memu/prompts/category_summary/category_with_refs.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category_with_refs.py#L52-L59",
+          "source_symbol": "module.PROMPT_BLOCK_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/category_with_refs-1bd1b25bde56__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "538e0f60a1d0c6d4401f5fc68af6233c8d072cbc921986c573408efe4af5fd2d",
+          "module": "memory",
+          "prompt_id": "category_with_refs-1bd1b25bde56",
+          "source_lines": [
+            16,
+            50
+          ],
+          "source_path": "src/memu/prompts/category_summary/category_with_refs.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/category_summary/category_with_refs.py#L16-L50",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/behavior-a26a3bf04afb__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "04b2020328385a37367b14e9e72005f1023a7bdfbe2ef957ed71745a0c7dfe30",
+          "module": "memory",
+          "prompt_id": "behavior-a26a3bf04afb",
+          "source_lines": [
+            119,
+            149
+          ],
+          "source_path": "src/memu/prompts/memory_type/behavior.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/behavior.py#L119-L149",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/behavior-5bd93ec5cc52__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "b0d9214d9551573bbf633e6db98bf56b4a14c5c7cb23ceba3848384742f66128",
+          "module": "memory",
+          "prompt_id": "behavior-5bd93ec5cc52",
+          "source_lines": [
+            45,
+            48
+          ],
+          "source_path": "src/memu/prompts/memory_type/behavior.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/behavior.py#L45-L48",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/behavior-6aec5694e05f__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "9fb2a06d72cde3e5c2ce87c40c56dd9f54ae1048fc47525ccb4abdc390b7c9a1",
+          "module": "memory",
+          "prompt_id": "behavior-6aec5694e05f",
+          "source_lines": [
+            100,
+            117
+          ],
+          "source_path": "src/memu/prompts/memory_type/behavior.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/behavior.py#L100-L117",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/behavior-a4690bc60907__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "55a2fb465e238e6d86ddf798db58d42d268eb5ae25d571494dac2db2e512a2a7",
+          "module": "memory",
+          "prompt_id": "behavior-a4690bc60907",
+          "source_lines": [
+            62,
+            93
+          ],
+          "source_path": "src/memu/prompts/memory_type/behavior.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/behavior.py#L62-L93",
+          "source_symbol": "module.PROMPT_BLOCK_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/behavior-5db1af35d247__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "c5d20d86514faa3b5473aa0979d393b774119e1a8cb87b4b102ca479b4f83d9b",
+          "module": "memory",
+          "prompt_id": "behavior-5db1af35d247",
+          "source_lines": [
+            50,
+            60
+          ],
+          "source_path": "src/memu/prompts/memory_type/behavior.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/behavior.py#L50-L60",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/behavior-4eda44af1e38__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "a34b81a18c8180f619e00c053c9fab0285ad20bf82d67e5a24181f3ff7c8ee25",
+          "module": "memory",
+          "prompt_id": "behavior-4eda44af1e38",
+          "source_lines": [
+            1,
+            43
+          ],
+          "source_path": "src/memu/prompts/memory_type/behavior.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/behavior.py#L1-L43",
+          "source_symbol": "module.PROMPT_LEGACY.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/event-e645d649b132__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "9b04c3a3fdd8be7dd4dc36fb3636beb0fad6e0a42d68507424c9118876e63e74",
+          "module": "memory",
+          "prompt_id": "event-e645d649b132",
+          "source_lines": [
+            131,
+            155
+          ],
+          "source_path": "src/memu/prompts/memory_type/event.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/event.py#L131-L155",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/event-449876882889__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "b0591aeba4c57b2238224262e8b70fb978e9eb619e9698b9d0cb29a3b9d8e6d4",
+          "module": "memory",
+          "prompt_id": "event-449876882889",
+          "source_lines": [
+            57,
+            60
+          ],
+          "source_path": "src/memu/prompts/memory_type/event.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/event.py#L57-L60",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/event-0db784457a20__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "b17d0ba0531303241c642eaec4af55e3c49df9d244f041ac5aba1b2ba34da086",
+          "module": "memory",
+          "prompt_id": "event-0db784457a20",
+          "source_lines": [
+            112,
+            129
+          ],
+          "source_path": "src/memu/prompts/memory_type/event.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/event.py#L112-L129",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/event-199f444a5619__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "0b140d5b4f60c7d5152fb6e4eccb1d3d3ab5b49c9d75b1f9641fb155956333c6",
+          "module": "memory",
+          "prompt_id": "event-199f444a5619",
+          "source_lines": [
+            74,
+            105
+          ],
+          "source_path": "src/memu/prompts/memory_type/event.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/event.py#L74-L105",
+          "source_symbol": "module.PROMPT_BLOCK_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/event-e55281432445__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "aa8ed10ee33d2932d1743aef7132bce9f955deb2b35b3f029cd57a81363a5e45",
+          "module": "memory",
+          "prompt_id": "event-e55281432445",
+          "source_lines": [
+            62,
+            72
+          ],
+          "source_path": "src/memu/prompts/memory_type/event.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/event.py#L62-L72",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/event-c95a0049bca4__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "ccdcb9fe8b2dfa8a84e803cc71e5df03b7c0359527d147e13e8cee5f61a73d27",
+          "module": "memory",
+          "prompt_id": "event-c95a0049bca4",
+          "source_lines": [
+            1,
+            55
+          ],
+          "source_path": "src/memu/prompts/memory_type/event.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/event.py#L1-L55",
+          "source_symbol": "module.PROMPT_LEGACY.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/knowledge-1b133f6af6f0__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "a114a28da4cbc79c32c9dded3f7b19583bde8ed4f9d3f9d8745f8627c30b44cf",
+          "module": "memory",
+          "prompt_id": "knowledge-1b133f6af6f0",
+          "source_lines": [
+            118,
+            145
+          ],
+          "source_path": "src/memu/prompts/memory_type/knowledge.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/knowledge.py#L118-L145",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/knowledge-7bc72464c7ac__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "9db514f44af77ac6c23586906f81e89b8655509c1ffc6f69066bccef3daf1f83",
+          "module": "memory",
+          "prompt_id": "knowledge-7bc72464c7ac",
+          "source_lines": [
+            47,
+            50
+          ],
+          "source_path": "src/memu/prompts/memory_type/knowledge.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/knowledge.py#L47-L50",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/knowledge-8b8c8ade7486__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "d2f1c5e887748a6a7d4e38a49705819c24eb4d687d0750a94039e57c73e7d73c",
+          "module": "memory",
+          "prompt_id": "knowledge-8b8c8ade7486",
+          "source_lines": [
+            99,
+            116
+          ],
+          "source_path": "src/memu/prompts/memory_type/knowledge.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/knowledge.py#L99-L116",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/knowledge-24ddf60f84b0__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "c34414fd3c7998f1743eec4197a0ec474061fc2fa87153669602c834b7575109",
+          "module": "memory",
+          "prompt_id": "knowledge-24ddf60f84b0",
+          "source_lines": [
+            64,
+            92
+          ],
+          "source_path": "src/memu/prompts/memory_type/knowledge.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/knowledge.py#L64-L92",
+          "source_symbol": "module.PROMPT_BLOCK_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/knowledge-132835d974d4__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "96174204ddba4363184d51f0a65d3da1dde751cccea6372fba814e2f5a826ba1",
+          "module": "memory",
+          "prompt_id": "knowledge-132835d974d4",
+          "source_lines": [
+            52,
+            62
+          ],
+          "source_path": "src/memu/prompts/memory_type/knowledge.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/knowledge.py#L52-L62",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/knowledge-b9887c66cad7__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "436a5083dfc352a1b1dc2d0b0a257a7b37fa0c40c4a1a1205899ca4e5213d05e",
+          "module": "memory",
+          "prompt_id": "knowledge-b9887c66cad7",
+          "source_lines": [
+            1,
+            45
+          ],
+          "source_path": "src/memu/prompts/memory_type/knowledge.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/knowledge.py#L1-L45",
+          "source_symbol": "module.PROMPT_LEGACY.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/profile-75da12beeb17__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "72e028cf476dc3c8026192ac119936451d854ce6e0eb6d3526ab411db8a6501a",
+          "module": "memory",
+          "prompt_id": "profile-75da12beeb17",
+          "source_lines": [
+            128,
+            163
+          ],
+          "source_path": "src/memu/prompts/memory_type/profile.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/profile.py#L128-L163",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/profile-503f14176c98__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "a8ac909730a7d1ec2dd04eb82a05593357cdf8b1404e526238791e367ecaa301",
+          "module": "memory",
+          "prompt_id": "profile-503f14176c98",
+          "source_lines": [
+            56,
+            59
+          ],
+          "source_path": "src/memu/prompts/memory_type/profile.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/profile.py#L56-L59",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/profile-9d56cf859d4d__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "76a672c1fb89504e5aa2c476015c0c444f7fe13cf8b97ff0ae66646c273908c0",
+          "module": "memory",
+          "prompt_id": "profile-9d56cf859d4d",
+          "source_lines": [
+            109,
+            126
+          ],
+          "source_path": "src/memu/prompts/memory_type/profile.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/profile.py#L109-L126",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/profile-f138676be16f__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "60b2688206772c0343916c566b5c6234dee550ac8278b32ffc6cfd327a9ae248",
+          "module": "memory",
+          "prompt_id": "profile-f138676be16f",
+          "source_lines": [
+            73,
+            102
+          ],
+          "source_path": "src/memu/prompts/memory_type/profile.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/profile.py#L73-L102",
+          "source_symbol": "module.PROMPT_BLOCK_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/profile-81c4cbc0e492__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "83cef8286334e29524d576d78863f6f47dfd46c49e7af5ccb53acc56a340cf24",
+          "module": "memory",
+          "prompt_id": "profile-81c4cbc0e492",
+          "source_lines": [
+            61,
+            71
+          ],
+          "source_path": "src/memu/prompts/memory_type/profile.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/profile.py#L61-L71",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/profile-208e6b3a6ab0__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "1f13afdb2d9bffa91ef595e7137ebbb8098f349dfb4b19f93fd55bc4ab776087",
+          "module": "memory",
+          "prompt_id": "profile-208e6b3a6ab0",
+          "source_lines": [
+            1,
+            54
+          ],
+          "source_path": "src/memu/prompts/memory_type/profile.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/profile.py#L1-L54",
+          "source_symbol": "module.PROMPT_LEGACY.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/skill-8fe4fedbfd35__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "b9571a1885aa496a81be4a8ae9ecdafdd4a5f0b0c0a91d8cbaf310e5886ccc91",
+          "module": "memory",
+          "prompt_id": "skill-8fe4fedbfd35",
+          "source_lines": [
+            486,
+            553
+          ],
+          "source_path": "src/memu/prompts/memory_type/skill.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/skill.py#L486-L553",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/skill-c5475ee136f5__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "2f516035bb575016c8292c433a07858b3923dfd994a6f84b62b1f4ec6f45f98c",
+          "module": "memory",
+          "prompt_id": "skill-c5475ee136f5",
+          "source_lines": [
+            352,
+            355
+          ],
+          "source_path": "src/memu/prompts/memory_type/skill.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/skill.py#L352-L355",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/skill-892637fcaba1__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "ae6642b8a9654bfb0dea932d9c28d4f3fda4f40b627df3443b7e79964d211e57",
+          "module": "memory",
+          "prompt_id": "skill-892637fcaba1",
+          "source_lines": [
+            434,
+            484
+          ],
+          "source_path": "src/memu/prompts/memory_type/skill.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/skill.py#L434-L484",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/skill-8f77ed75a6b4__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "2ea92abfeba1d73e8ecd769e76c670d1a65802421b6c683d9262517ab3b7668b",
+          "module": "memory",
+          "prompt_id": "skill-8f77ed75a6b4",
+          "source_lines": [
+            370,
+            427
+          ],
+          "source_path": "src/memu/prompts/memory_type/skill.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/skill.py#L370-L427",
+          "source_symbol": "module.PROMPT_BLOCK_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/skill-ac7a06fcaf74__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "1e22ebaf19596e3d4b4e25fe6f72ee7aad802ab3f8623d7dca4c4a31498560d6",
+          "module": "memory",
+          "prompt_id": "skill-ac7a06fcaf74",
+          "source_lines": [
+            357,
+            368
+          ],
+          "source_path": "src/memu/prompts/memory_type/skill.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/skill.py#L357-L368",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/skill-3f8a8e73c005__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "7f4a4ffb5f3a6974fcc3f4fc9ef5caf3215844ee96193bf762312a26380c685a",
+          "module": "memory",
+          "prompt_id": "skill-3f8a8e73c005",
+          "source_lines": [
+            1,
+            350
+          ],
+          "source_path": "src/memu/prompts/memory_type/skill.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/skill.py#L1-L350",
+          "source_symbol": "module.PROMPT_LEGACY.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/tool-3dc137c0fae5__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "f8cdbbc51d1628e877014a8607695ee5060fc2e5fa7b567b8de49115a9f015c5",
+          "module": "memory",
+          "prompt_id": "tool-3dc137c0fae5",
+          "source_lines": [
+            64,
+            93
+          ],
+          "source_path": "src/memu/prompts/memory_type/tool.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/tool.py#L64-L93",
+          "source_symbol": "module.PROMPT_BLOCK_EXAMPLES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/tool-a3d715fd715e__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "cccbe0fe23f30bae556c32171fd9f43e34a1b5d989d42c08702d24937571cdde",
+          "module": "memory",
+          "prompt_id": "tool-a3d715fd715e",
+          "source_lines": [
+            1,
+            4
+          ],
+          "source_path": "src/memu/prompts/memory_type/tool.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/tool.py#L1-L4",
+          "source_symbol": "module.PROMPT_BLOCK_OBJECTIVE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/tool-82be9dee3074__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "64e99e0f343546c721315f10f3122ce4312200f3de235f18c965873b1d368d08",
+          "module": "memory",
+          "prompt_id": "tool-82be9dee3074",
+          "source_lines": [
+            50,
+            62
+          ],
+          "source_path": "src/memu/prompts/memory_type/tool.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/tool.py#L50-L62",
+          "source_symbol": "module.PROMPT_BLOCK_OUTPUT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/tool-d720952ec0b1__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "1b8b8e8f916002d50e49f4e865a8fbd73b7b98fa8fcea9c416e202e8dafe1765",
+          "module": "memory",
+          "prompt_id": "tool-d720952ec0b1",
+          "source_lines": [
+            19,
+            43
+          ],
+          "source_path": "src/memu/prompts/memory_type/tool.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/tool.py#L19-L43",
+          "source_symbol": "module.PROMPT_BLOCK_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/tool-a90fe195cfe2__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "ace885eb68de1b56840f026f25a9970a0d8abb2bc0395355a65039b2f5413387",
+          "module": "memory",
+          "prompt_id": "tool-a90fe195cfe2",
+          "source_lines": [
+            6,
+            17
+          ],
+          "source_path": "src/memu/prompts/memory_type/tool.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/memory_type/tool.py#L6-L17",
+          "source_symbol": "module.PROMPT_BLOCK_WORKFLOW.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/audio-34fe52d1123d__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "485f076320ca78bd43a39bab354a1daf6acfde11c1d4b54d291e8ba5c100155b",
+          "module": "memory",
+          "prompt_id": "audio-34fe52d1123d",
+          "source_lines": [
+            1,
+            35
+          ],
+          "source_path": "src/memu/prompts/preprocess/audio.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/preprocess/audio.py#L1-L35",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/conversation-9cb03cd609d8__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "e7bde4d603e4d9d518101d7df32ccdfdecd5d9e183e7030f40b3f2af7b14ef2a",
+          "module": "memory",
+          "prompt_id": "conversation-9cb03cd609d8",
+          "source_lines": [
+            1,
+            43
+          ],
+          "source_path": "src/memu/prompts/preprocess/conversation.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/preprocess/conversation.py#L1-L43",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/document-507f2827a893__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "7792a4356f1c28410f93c38c1639988e4e1780568ae75fb44cec642d68fac707",
+          "module": "memory",
+          "prompt_id": "document-507f2827a893",
+          "source_lines": [
+            1,
+            35
+          ],
+          "source_path": "src/memu/prompts/preprocess/document.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/preprocess/document.py#L1-L35",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/image-4a704a2c2772__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "e0b90c113e78d8d614ae075dd6550b1c96451356643bb45a91f6016d630f4079",
+          "module": "memory",
+          "prompt_id": "image-4a704a2c2772",
+          "source_lines": [
+            1,
+            34
+          ],
+          "source_path": "src/memu/prompts/preprocess/image.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/preprocess/image.py#L1-L34",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/video-4b7c85b44de7__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "623c2ef010c37065dad713716587d8c31f0c42ef9b7fcda929b15c83a8e92c90",
+          "module": "memory",
+          "prompt_id": "video-4b7c85b44de7",
+          "source_lines": [
+            1,
+            35
+          ],
+          "source_path": "src/memu/prompts/preprocess/video.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/preprocess/video.py#L1-L35",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/judger-d85dfe115a24__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "1661e360bad429a68ba188526ac5e18f9a0b4aa9f23d41e99033e32a03af02a9",
+          "module": "memory",
+          "prompt_id": "judger-d85dfe115a24",
+          "source_lines": [
+            1,
+            39
+          ],
+          "source_path": "src/memu/prompts/retrieve/judger.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/judger.py#L1-L39",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/llm_category_ranker-86c4e0d6f62b__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "fddeded89eb8095aaf3795ba4c83854d3a71c319d5c751fe70aee1bb32d9f6f5",
+          "module": "memory",
+          "prompt_id": "llm_category_ranker-86c4e0d6f62b",
+          "source_lines": [
+            1,
+            35
+          ],
+          "source_path": "src/memu/prompts/retrieve/llm_category_ranker.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/llm_category_ranker.py#L1-L35",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/llm_item_ranker-ec856b428eed__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "20782ce5c2239b206f47825bd31d00acf40645a18e688dfaa0c52d3c8623bef9",
+          "module": "memory",
+          "prompt_id": "llm_item_ranker-ec856b428eed",
+          "source_lines": [
+            1,
+            40
+          ],
+          "source_path": "src/memu/prompts/retrieve/llm_item_ranker.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/llm_item_ranker.py#L1-L40",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/llm_resource_ranker-8e5b170ccb4e__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "376c4740d241021bc30883f70ff50200464997eb8e6a378b07e2ed8440468a9b",
+          "module": "memory",
+          "prompt_id": "llm_resource_ranker-8e5b170ccb4e",
+          "source_lines": [
+            1,
+            40
+          ],
+          "source_path": "src/memu/prompts/retrieve/llm_resource_ranker.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/llm_resource_ranker.py#L1-L40",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/pre_retrieval_decision-76d6de61613a__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "da4f01851747b68add5c51dbac5ccf1fda01465f5fe2eeb7d05247e7a21641be",
+          "module": "memory",
+          "prompt_id": "pre_retrieval_decision-76d6de61613a",
+          "source_lines": [
+            1,
+            40
+          ],
+          "source_path": "src/memu/prompts/retrieve/pre_retrieval_decision.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/pre_retrieval_decision.py#L1-L40",
+          "source_symbol": "module.SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/pre_retrieval_decision-4812308e913e__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "f55e88fa5d272f705ca5c55f2edbd8b79296375b0f8fa937ac5d0956bb8870d5",
+          "module": "memory",
+          "prompt_id": "pre_retrieval_decision-4812308e913e",
+          "source_lines": [
+            43,
+            53
+          ],
+          "source_path": "src/memu/prompts/retrieve/pre_retrieval_decision.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/pre_retrieval_decision.py#L43-L53",
+          "source_symbol": "module.USER_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/query_rewriter-7da84fda10f3__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "4e8b9819febd9d33356583bbaf046562b8eb03b69b71d8b4d737a8d1a3514c65",
+          "module": "memory",
+          "prompt_id": "query_rewriter-7da84fda10f3",
+          "source_lines": [
+            1,
+            44
+          ],
+          "source_path": "src/memu/prompts/retrieve/query_rewriter.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/query_rewriter.py#L1-L44",
+          "source_symbol": "module.PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/query_rewriter_judger-074bb92c1d40__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "4b1596eb638ea470ff80bda986416ca78a3a164cdccf543257326d4bff3aa7f3",
+          "module": "memory",
+          "prompt_id": "query_rewriter_judger-074bb92c1d40",
+          "source_lines": [
+            1,
+            36
+          ],
+          "source_path": "src/memu/prompts/retrieve/query_rewriter_judger.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/query_rewriter_judger.py#L1-L36",
+          "source_symbol": "module.SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/memu/memory/query_rewriter_judger-23e4bd6f22b4__default__v1.5.1__357aefc80127__20261030T053000Z.md",
+          "content_sha256": "b15a6766a201b3f7a4101f4fe8af997788b91c1b199d6c675c52da5ae59ed915",
+          "module": "memory",
+          "prompt_id": "query_rewriter_judger-23e4bd6f22b4",
+          "source_lines": [
+            38,
+            48
+          ],
+          "source_path": "src/memu/prompts/retrieve/query_rewriter_judger.py",
+          "source_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/src/memu/prompts/retrieve/query_rewriter_judger.py#L38-L48",
+          "source_symbol": "module.USER_PROMPT.1",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v1.5.1:357aefc8012705bfde723f141d52f675fe712bed:31f4cc46126054d9327ef904aae63c760e3865070988c576eaa91e6bb7beb289:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:30:00Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-03-23T07:38:28Z",
+      "repository": "NevaMind-AI/memU",
+      "source_commit": "357aefc8012705bfde723f141d52f675fe712bed",
+      "source_committed_at": "2026-03-23T07:38:14Z",
+      "source_ref": "v1.5.1",
+      "upstream_version": "v1.5.1"
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,111 @@
+{
+  "agent": "a-mem",
+  "coverage": "supported",
+  "current": {
+    "default-branch": "default-branch:main:ceffb860f0712bbae97b184d440df62bc910ca8d:19acd5f7fc3d075a4039ccc423669fd1422a865bc81d7aeb8ab1d69a8bae9a73:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "仓库无稳定 release，使用 main 固定提交；只提取记忆演化与元数据分析模板，不重建运行时向量、关系网络或模型输出。llm_controller 只转发调用方传入的提示词，不含静态提示词模板。"
+  ],
+  "name": "A-MEM",
+  "repository": "agiresearch/A-mem",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "19acd5f7fc3d075a4039ccc423669fd1422a865bc81d7aeb8ab1d69a8bae9a73",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/a-mem/memory/memory_system-4a84fb345a13__default__untagged__ceffb860f071__20261030T052916Z.md",
+          "content_sha256": "f49ef5bfd021f876325315009363e124dd83b6870dc289097422c9e70a0b5a60",
+          "module": "memory",
+          "prompt_id": "memory_system-4a84fb345a13",
+          "source_lines": [
+            127,
+            157
+          ],
+          "source_path": "agentic_memory/memory_system.py",
+          "source_permalink": "https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/agentic_memory/memory_system.py#L127-L157",
+          "source_symbol": "module.AgenticMemorySystem.__init__.self._evolution_system_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/a-mem/memory/memory_system-3ce7d8cd3052__default__untagged__ceffb860f071__20261030T052916Z.md",
+          "content_sha256": "187061f9cc88b03692d621c4710b94088bcfab0e71df388339c06a32135aaf78",
+          "module": "memory",
+          "prompt_id": "memory_system-3ce7d8cd3052",
+          "source_lines": [
+            176,
+            203
+          ],
+          "source_path": "agentic_memory/memory_system.py",
+          "source_permalink": "https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/agentic_memory/memory_system.py#L176-L203",
+          "source_symbol": "module.AgenticMemorySystem.analyze_content.prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/a-mem/memory/memory_system-5fb9aab88d21__default__untagged__ceffb860f071__20261030T052916Z.md",
+          "content_sha256": "8ba5804a73e057b4ada142b9e077c21c565e207c64601163ec6fe2bac5a9d3a9",
+          "module": "memory",
+          "prompt_id": "memory_system-5fb9aab88d21",
+          "source_lines": [
+            307,
+            307
+          ],
+          "source_path": "agentic_memory/memory_system.py",
+          "source_permalink": "https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/agentic_memory/memory_system.py#L307-L307",
+          "source_symbol": "module.AgenticMemorySystem.find_related_memories.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/a-mem/memory/memory_system-0a514de91423__default__untagged__ceffb860f071__20261030T052916Z.md",
+          "content_sha256": "f8e50c1c5e769b405e4b257e68e2c14ad1835def58a42d682d1b2f92f7c8f8dd",
+          "module": "memory",
+          "prompt_id": "memory_system-0a514de91423",
+          "source_lines": [
+            333,
+            333
+          ],
+          "source_path": "agentic_memory/memory_system.py",
+          "source_permalink": "https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/agentic_memory/memory_system.py#L333-L333",
+          "source_symbol": "module.AgenticMemorySystem.find_related_memories_raw.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/a-mem/memory/memory_system-796b66d04876__default__untagged__ceffb860f071__20261030T052916Z.md",
+          "content_sha256": "f663b1b18fa36cb9386f64694280666ef1e28a140a66efda6d8a141d8db14445",
+          "module": "memory",
+          "prompt_id": "memory_system-796b66d04876",
+          "source_lines": [
+            341,
+            341
+          ],
+          "source_path": "agentic_memory/memory_system.py",
+          "source_permalink": "https://github.com/agiresearch/A-mem/blob/ceffb860f0712bbae97b184d440df62bc910ca8d/agentic_memory/memory_system.py#L341-L341",
+          "source_symbol": "module.AgenticMemorySystem.find_related_memories_raw.2",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:ceffb860f0712bbae97b184d440df62bc910ca8d:19acd5f7fc3d075a4039ccc423669fd1422a865bc81d7aeb8ab1d69a8bae9a73:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:29:16Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "agiresearch/A-mem",
+      "source_commit": "ceffb860f0712bbae97b184d440df62bc910ca8d",
+      "source_committed_at": "2025-12-12T21:15:29Z",
+      "source_ref": "main",
+      "upstream_version": null
+    }
+  ],
+  "status": "ok"
+}

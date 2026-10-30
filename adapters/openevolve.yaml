@@ -1,0 +1,18 @@
+slug: openevolve
+name: OpenEvolve
+repository: algorithmicsuperintelligence/openevolve
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: openevolve/prompts/defaults/*.txt
+  module: evolution
+  format: raw
+  min_chars: 45
+- glob: openevolve/prompts/defaults/fragments.json
+  module: evolution
+  format: json
+  key_pattern: prompt|system|instruction|history|evolution
+  min_chars: 50
+limitations:
+- 静态归档候选程序生成、差异描述、历史、评价器和变异提示；实验程序、评估分数和选择状态由上游运行时动态维护。

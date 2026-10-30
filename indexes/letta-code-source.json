@@ -1,0 +1,17 @@
+{
+  "agent": "letta-code",
+  "collected_at": "2026-10-30T05:29:55Z",
+  "license": "Apache-2.0",
+  "license_permalink": "https://github.com/letta-ai/letta-code/blob/0cd08ecf0585dfd5851826ad38b3f1440af51627/LICENSE",
+  "license_text_path": "licenses/letta-code/0cd08ecf0585.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "release",
+  "release_published_at": "2026-10-30T02:20:03Z",
+  "repository": "letta-ai/letta-code",
+  "source_commit": "0cd08ecf0585dfd5851826ad38b3f1440af51627",
+  "source_committed_at": "2026-10-30T02:10:49Z",
+  "source_path": "LICENSE",
+  "source_ref": "v0.34.32",
+  "upstream_version": "v0.34.32"
+}

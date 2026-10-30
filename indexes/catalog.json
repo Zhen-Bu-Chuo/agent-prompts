@@ -1,0 +1,337 @@
+{
+  "agents": [
+    {
+      "agent": "a-mem",
+      "commit": "ceffb860f0712bbae97b184d440df62bc910ca8d",
+      "prompts": 5,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "agiresearch/A-mem",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "agent-zero",
+      "commit": "8331a121ea795b099953206ffc6b663ba5080e04",
+      "prompts": 56,
+      "ref": "v0.9.8",
+      "ref_kind": "release",
+      "repository": "agent0ai/agent-zero",
+      "status": "supported",
+      "version": "v0.9.8"
+    },
+    {
+      "agent": "agent0",
+      "commit": "f775b5101e62fe92976831adf4a21a38fcc0a767",
+      "prompts": 9,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "aiming-lab/Agent0",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "aider",
+      "commit": "a4be6ccd87ebaa59b361f3f028d116ce1761b626",
+      "prompts": 71,
+      "ref": "v0.86.0",
+      "ref_kind": "release",
+      "repository": "Aider-AI/aider",
+      "status": "supported",
+      "version": "v0.86.0"
+    },
+    {
+      "agent": "claude-code",
+      "commit": "b3f291d131924810e2b7713ededc144843a229d5",
+      "prompts": 0,
+      "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
+      "ref": "v2.1.314",
+      "ref_kind": "release",
+      "repository": "anthropics/claude-code",
+      "status": "unavailable",
+      "version": "v2.1.314"
+    },
+    {
+      "agent": "cline",
+      "commit": "a459f1d04dea030833b558be645011ab739c463b",
+      "prompts": 2,
+      "ref": "v4.1.26",
+      "ref_kind": "release",
+      "repository": "cline/cline",
+      "status": "partial",
+      "version": "v4.1.26"
+    },
+    {
+      "agent": "codex",
+      "commit": "6ff1e1ca3b30fc8b914720681fcf5fe62e95f856",
+      "prompts": 145,
+      "ref": "rust-v0.166.0",
+      "ref_kind": "release",
+      "repository": "openai/codex",
+      "status": "partial",
+      "version": "rust-v0.166.0"
+    },
+    {
+      "agent": "cognee",
+      "commit": "df2b4facd7c1d73b59376fd251fb93674a9d60a3",
+      "prompts": 73,
+      "ref": "v1.6.6",
+      "ref_kind": "release",
+      "repository": "topoteretes/cognee",
+      "status": "supported",
+      "version": "v1.6.6"
+    },
+    {
+      "agent": "continue",
+      "commit": "03b05ef60c378ff06f9e39ada2e22c95fe9ef6ad",
+      "prompts": 2,
+      "ref": "v2.0.0-vscode",
+      "ref_kind": "release",
+      "repository": "continuedev/continue",
+      "status": "supported",
+      "version": "v2.0.0-vscode"
+    },
+    {
+      "agent": "dgm",
+      "commit": "a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2",
+      "prompts": 16,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "jennyzzt/dgm",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "evoagentx",
+      "commit": "aad19b912f640161ea07e8904d9237cd34fde5f1",
+      "prompts": 72,
+      "ref": "v0.1.4",
+      "ref_kind": "release",
+      "repository": "ANative-Lab/EvoAgentX",
+      "status": "supported",
+      "version": "v0.1.4"
+    },
+    {
+      "agent": "evolver",
+      "commit": "07af8c7b1af13595f73731815cd7866d80fdebb6",
+      "prompts": 21,
+      "ref": "v2.0.46",
+      "ref_kind": "release",
+      "repository": "EvoMap/evolver",
+      "status": "partial",
+      "version": "v2.0.46"
+    },
+    {
+      "agent": "gemini-cli",
+      "commit": "970413207732f5d4d8c50540c7fc359c44fdaaf2",
+      "prompts": 7,
+      "ref": "v0.66.0",
+      "ref_kind": "release",
+      "repository": "google-gemini/gemini-cli",
+      "status": "supported",
+      "version": "v0.66.0"
+    },
+    {
+      "agent": "goose",
+      "commit": "30bba95105e59bc3e7df624cf6b4d433690cfe12",
+      "prompts": 7,
+      "ref": "v1.57.0",
+      "ref_kind": "release",
+      "repository": "aaif-goose/goose",
+      "status": "supported",
+      "version": "v1.57.0"
+    },
+    {
+      "agent": "graphiti",
+      "commit": "d72407dcedac911e1be9fc15b55e8c05a3efcc36",
+      "prompts": 24,
+      "ref": "v0.31.2",
+      "ref_kind": "release",
+      "repository": "getzep/graphiti",
+      "status": "supported",
+      "version": "v0.31.2"
+    },
+    {
+      "agent": "hermes",
+      "commit": "f97608f178d1ffeca59860195ab7da295f7c8e5f",
+      "prompts": 24,
+      "ref": "v2026.9.24",
+      "ref_kind": "release",
+      "repository": "NousResearch/hermes-agent",
+      "status": "supported",
+      "version": "v2026.9.24"
+    },
+    {
+      "agent": "hindsight",
+      "commit": "a5a619b5ca59c5c39e0f96be6f7a31fabd136bd5",
+      "prompts": 73,
+      "ref": "v1.1.0",
+      "ref_kind": "release",
+      "repository": "vectorize-io/hindsight",
+      "status": "supported",
+      "version": "v1.1.0"
+    },
+    {
+      "agent": "kilocode",
+      "commit": "b81761530650f8ec7b071441f4f54d2514f1a244",
+      "prompts": 0,
+      "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
+      "ref": "v7.8.18",
+      "ref_kind": "release",
+      "repository": "Kilo-Org/kilocode",
+      "status": "unavailable",
+      "version": "v7.8.18"
+    },
+    {
+      "agent": "langmem",
+      "commit": "ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b",
+      "prompts": 11,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "langchain-ai/langmem",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "letta",
+      "commit": "8816d3a8516893bfdc0fa14bfb1235226012e295",
+      "prompts": 0,
+      "reason": "最新可访问 main 的源码树中没有可核实的静态 prompt 文件或 prompt 目录；仅在本地来源记录标注其当前仓库/分支，提示词归档保持空。",
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "letta-ai/letta",
+      "status": "unavailable",
+      "version": null
+    },
+    {
+      "agent": "letta-code",
+      "commit": "0cd08ecf0585dfd5851826ad38b3f1440af51627",
+      "prompts": 10,
+      "ref": "v0.34.32",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.32"
+    },
+    {
+      "agent": "mem0",
+      "commit": "94c3fe9f238f3dbf29c9ce98643bd71eb13077cd",
+      "prompts": 9,
+      "ref": "v2.2.1",
+      "ref_kind": "release",
+      "repository": "mem0ai/mem0",
+      "status": "supported",
+      "version": "v2.2.1"
+    },
+    {
+      "agent": "memu",
+      "commit": "357aefc8012705bfde723f141d52f675fe712bed",
+      "prompts": 62,
+      "ref": "v1.5.1",
+      "ref_kind": "release",
+      "repository": "NevaMind-AI/memU",
+      "status": "supported",
+      "version": "v1.5.1"
+    },
+    {
+      "agent": "opencode",
+      "commit": "098aa7fd6e02b03d6fc410f0b052038c7d4c5e81",
+      "prompts": 7,
+      "ref": "v2.2.2",
+      "ref_kind": "release",
+      "repository": "anomalyco/opencode",
+      "status": "supported",
+      "version": "v2.2.2"
+    },
+    {
+      "agent": "openevolve",
+      "commit": "f7b633986c0b3dbd0a171f6eb0cb0f0ba4fdfb0c",
+      "prompts": 13,
+      "ref": "v0.4.0",
+      "ref_kind": "release",
+      "repository": "algorithmicsuperintelligence/openevolve",
+      "status": "supported",
+      "version": "v0.4.0"
+    },
+    {
+      "agent": "openhands",
+      "commit": "ccae18cb897bef7960f210aa3f380b577a84be7c",
+      "prompts": 7,
+      "ref": "v1.59.0",
+      "ref_kind": "release",
+      "repository": "OpenHands/software-agent-sdk",
+      "status": "supported",
+      "version": "v1.59.0"
+    },
+    {
+      "agent": "openviking",
+      "commit": "f5e6203033a13469c3d9a937f2ca39492ea69c51",
+      "prompts": 4,
+      "ref": "v0.5.2.1",
+      "ref_kind": "release",
+      "repository": "volcengine/OpenViking",
+      "status": "supported",
+      "version": "v0.5.2.1"
+    },
+    {
+      "agent": "pi",
+      "commit": "4a080252f06caf63a525d7873c5d94d3c23887e0",
+      "prompts": 1,
+      "ref": "v1.4.0",
+      "ref_kind": "release",
+      "repository": "earendil-works/pi",
+      "status": "supported",
+      "version": "v1.4.0"
+    },
+    {
+      "agent": "qwen-code",
+      "commit": "619a601b3965133b9c2e873f10dbe97323b306c7",
+      "prompts": 24,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "QwenLM/qwen-code",
+      "status": "partial",
+      "version": null
+    },
+    {
+      "agent": "reflexion",
+      "commit": "218cf0ef1df84b05ce379dd4a8e47f17766733a0",
+      "prompts": 12,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "noahshinn/reflexion",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "roo-code",
+      "commit": "27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0",
+      "prompts": 4,
+      "ref": "v3.54.0",
+      "ref_kind": "release",
+      "repository": "RooCodeInc/Roo-Code",
+      "status": "supported",
+      "version": "v3.54.0"
+    },
+    {
+      "agent": "swe-agent",
+      "commit": "0f3acafacabc0def8cc76b4e48acb4b6cf302cb9",
+      "prompts": 31,
+      "ref": "v1.1.0",
+      "ref_kind": "release",
+      "repository": "SWE-agent/SWE-agent",
+      "status": "partial",
+      "version": "v1.1.0"
+    },
+    {
+      "agent": "voyager",
+      "commit": "55e45a880755d0c8c66ca7fb5fe7962ac8974f89",
+      "prompts": 14,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "MineDojo/Voyager",
+      "status": "supported",
+      "version": null
+    }
+  ]
+}

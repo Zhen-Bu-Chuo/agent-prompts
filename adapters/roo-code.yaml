@@ -1,0 +1,24 @@
+slug: roo-code
+name: Roo Code
+repository: RooCodeInc/Roo-Code
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: src/core/prompts/system.ts
+  module: system
+  format: js-strings
+  key_pattern: system|prompt|role
+  min_chars: 100
+- glob: src/core/prompts/sections/*.ts
+  module: context
+  format: js-strings
+  key_pattern: system|prompt|role|context|instruction
+  min_chars: 110
+- glob: src/core/prompts/responses.ts
+  module: tools
+  format: js-strings
+  key_pattern: tool|prompt|response|instruction
+  min_chars: 100
+limitations:
+- 按 system/sections/response 模块归档；模式角色、工具能力和用户规则在运行时合成，静态模板未还原实际消息。

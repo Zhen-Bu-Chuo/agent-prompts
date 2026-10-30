@@ -1,0 +1,1064 @@
+{
+  "agent": "cognee",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v1.6.6:df2b4facd7c1d73b59376fd251fb93674a9d60a3:17a6938704a5f8e85528c263e57b074e7a402e26e8c710357c1a5ace5d0b2e87:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "GitHub stable flag 会将非标准后缀 rc 标签误标为 stable；tag regex 只接受语义版本号，因此本次选择 v1.6.6。",
+    "主要采集记忆/知识提取、摘要和决策模板，目录内其他任务提示词标注为 other。"
+  ],
+  "name": "Cognee",
+  "repository": "topoteretes/cognee",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "17a6938704a5f8e85528c263e57b074e7a402e26e8c710357c1a5ace5d0b2e87",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/cognee/memory/agent_context_extraction_system-fee0b59e219b__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "3d741995374f487268750722af76e2fe8a006f83bb0c5d95bdd80c967274e360",
+          "module": "memory",
+          "prompt_id": "agent_context_extraction_system-fee0b59e219b",
+          "source_lines": [
+            1,
+            23
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/agent_context_extraction_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/agent_context_extraction_system.txt#L1-L23",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/agent_trace_feedback_summary_system-bac455f9d142__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "34dca70a307c59cd6da121e9989f7b40c5ed5cf0eed8ec3c5c3d086dcfe0d413",
+          "module": "memory",
+          "prompt_id": "agent_trace_feedback_summary_system-bac455f9d142",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/agent_trace_feedback_summary_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/agent_trace_feedback_summary_system.txt#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/agentic_system-fa9e7005d863__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "cc298c7575b0da551ac6bdcd6d93faef9ae13a18e982a0ab60ed823edb38fd58",
+          "module": "memory",
+          "prompt_id": "agentic_system-fa9e7005d863",
+          "source_lines": [
+            1,
+            13
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/agentic_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/agentic_system.txt#L1-L13",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/agentic_user-c3e195283ed7__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "8f36d7cbe2a38a799cba1baa3e6b3e574d2559dc6238532b23e65d87ffc95ff8",
+          "module": "memory",
+          "prompt_id": "agentic_user-c3e195283ed7",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/agentic_user.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/agentic_user.txt#L1-L9",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_hotpot_question-922f91e9b0b6__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "25eec1a4aa96fa171e1ea07b682cb4c051e1740aae364b2790cc702f68696fc8",
+          "module": "memory",
+          "prompt_id": "answer_hotpot_question-922f91e9b0b6",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_hotpot_question.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_hotpot_question.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_hotpot_using_cognee_search-196d9ff66768__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "aa69a0c4605d6d7d02233f52b0b24b111afe1468bb846d1673e081c77275e457",
+          "module": "memory",
+          "prompt_id": "answer_hotpot_using_cognee_search-196d9ff66768",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_hotpot_using_cognee_search.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_hotpot_using_cognee_search.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_simple_question-7e8829ecf453__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "f75b653a64b3672bdc5338bcd2ffa3de8f3c96c29eecdf80bbebaa0b1f30f5ef",
+          "module": "memory",
+          "prompt_id": "answer_simple_question-7e8829ecf453",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_simple_question.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_simple_question.txt#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_simple_question_benchmark-785a87150834__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "84f546cefb8591e5cd01dcfb168979a2532ee787d5f6c0647a8ddfda7fca6c6c",
+          "module": "memory",
+          "prompt_id": "answer_simple_question_benchmark-785a87150834",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_simple_question_benchmark.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_simple_question_benchmark.txt#L1-L9",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_simple_question_benchmark2-df645567dcd8__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "60271770551e92b280d37a96e8ff96a7fcf0793a6c4b1a5e847919d6a479429d",
+          "module": "memory",
+          "prompt_id": "answer_simple_question_benchmark2-df645567dcd8",
+          "source_lines": [
+            1,
+            7
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_simple_question_benchmark2.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_simple_question_benchmark2.txt#L1-L7",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_simple_question_benchmark3-af05570c1f03__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "265d9c6d1b81b9f287f1a6830725312b404751afaed9d21e70056bf1ec8bf62c",
+          "module": "memory",
+          "prompt_id": "answer_simple_question_benchmark3-af05570c1f03",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_simple_question_benchmark3.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_simple_question_benchmark3.txt#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_simple_question_benchmark4-27550d6323f2__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "1ae3215c0344b5aa05014da06e2d2d5dfdeb6f1c3e6deeacfc1ebead90827119",
+          "module": "memory",
+          "prompt_id": "answer_simple_question_benchmark4-27550d6323f2",
+          "source_lines": [
+            1,
+            14
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_simple_question_benchmark4.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_simple_question_benchmark4.txt#L1-L14",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/answer_simple_question_restricted-a160cb3bf8f1__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "67b0eb3b24add37ebfddb60030d87743f7d78c7522d38aa2b8d4bb47c106f61e",
+          "module": "memory",
+          "prompt_id": "answer_simple_question_restricted-a160cb3bf8f1",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/answer_simple_question_restricted.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/answer_simple_question_restricted.txt#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/broad_answer-01939669ccc3__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "48cb202fd3529dcc61551bb3379dabac24d952d7854618576390ffa48d41eef7",
+          "module": "memory",
+          "prompt_id": "broad_answer-01939669ccc3",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/broad_answer.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/broad_answer.txt#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/broad_decide_large-7666730e716d__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "f7a9c015e82857c941a096c8b4a91701e1012f9875871349716070fd5c55a02c",
+          "module": "memory",
+          "prompt_id": "broad_decide_large-7666730e716d",
+          "source_lines": [
+            1,
+            14
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/broad_decide_large.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/broad_decide_large.txt#L1-L14",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/broad_decide_small-f6825ca111c3__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "dec0b02ec8a23cc1bdf89ce3e65df2c5209903066c7aa9b62e8a7a411d312db3",
+          "module": "memory",
+          "prompt_id": "broad_decide_small-f6825ca111c3",
+          "source_lines": [
+            1,
+            12
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/broad_decide_small.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/broad_decide_small.txt#L1-L12",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/categorize_categories-0cf481491962__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "83fa64add051b70dbaf2571127ebb90b66c84c64cebebac7a39afbb517328a2e",
+          "module": "memory",
+          "prompt_id": "categorize_categories-0cf481491962",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/categorize_categories.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/categorize_categories.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/categorize_summary-1099bd05cb06__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "fcd1aba55bb375bdabf90f0f8356db187459288de2a5533d146505177fa8dd0f",
+          "module": "memory",
+          "prompt_id": "categorize_summary-1099bd05cb06",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/categorize_summary.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/categorize_summary.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/chunk_association_system-959a62bc1b03__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "7b2c3ad67fef8ab6f0b8d8695299e5aa9f962f611d6fea9f4986b7f7048123dd",
+          "module": "memory",
+          "prompt_id": "chunk_association_system-959a62bc1b03",
+          "source_lines": [
+            1,
+            28
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/chunk_association_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/chunk_association_system.txt#L1-L28",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/chunk_association_user-f914de6e3553__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "e2a62d53cd70d4242712316eb0582ef833c94630c1d08b83bedbfeb32d8dd3a8",
+          "module": "memory",
+          "prompt_id": "chunk_association_user-f914de6e3553",
+          "source_lines": [
+            1,
+            13
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/chunk_association_user.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/chunk_association_user.txt#L1-L13",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/classify_content-e342f2b3ba65__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "7ca4b3eedfae703f3aa6988b6a0f0f99d5662d3c1b3ec0d9370f84b2df8a6347",
+          "module": "memory",
+          "prompt_id": "classify_content-e342f2b3ba65",
+          "source_lines": [
+            1,
+            177
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/classify_content.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/classify_content.txt#L1-L177",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/codegraph_retriever_system-0050f28dacb9__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "1ca760c0a797748fbb4db407a4d6c8b61e961a8e3d27e0f1f4bfc7801fea5701",
+          "module": "memory",
+          "prompt_id": "codegraph_retriever_system-0050f28dacb9",
+          "source_lines": [
+            1,
+            22
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/codegraph_retriever_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/codegraph_retriever_system.txt#L1-L22",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/coding_rule_association_agent_syste-aa404c0b785a__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "d210ed6a64cd062c4c0864c2b673f4158771a0304c1910221694b143fee3f44a",
+          "module": "memory",
+          "prompt_id": "coding_rule_association_agent_syste-aa404c0b785a",
+          "source_lines": [
+            1,
+            6
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/coding_rule_association_agent_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/coding_rule_association_agent_system.txt#L1-L6",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/coding_rule_association_agent_user-6906cfb1c20c__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "dc878813ef2ba3bd4078362f2f512af77bad5728412dcf822c9e246406720c83",
+          "module": "memory",
+          "prompt_id": "coding_rule_association_agent_user-6906cfb1c20c",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/coding_rule_association_agent_user.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/coding_rule_association_agent_user.txt#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/consolidate_entity_details-6d0dbd1ee598__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "46ffdec608452001e17e8198ffd3b0d92ef48e5f575aa21d0f24ac5d2380c492",
+          "module": "memory",
+          "prompt_id": "consolidate_entity_details-6d0dbd1ee598",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/consolidate_entity_details.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/consolidate_entity_details.txt#L1-L9",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/consolidate_entity_is_a_only-78ba481c82ea__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "9da8f3cb80f2c5eaae8abbcf9af55785793bcd69c767a09c3646747a96b71550",
+          "module": "memory",
+          "prompt_id": "consolidate_entity_is_a_only-78ba481c82ea",
+          "source_lines": [
+            1,
+            23
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/consolidate_entity_is_a_only.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/consolidate_entity_is_a_only.txt#L1-L23",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/consolidate_entity_type_details-4aa89e50bb18__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "d82eac044abfa696b8e325e37bb7289e2d60471b8b12aafa05cc751b4922de80",
+          "module": "memory",
+          "prompt_id": "consolidate_entity_type_details-4aa89e50bb18",
+          "source_lines": [
+            1,
+            24
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/consolidate_entity_type_details.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/consolidate_entity_type_details.txt#L1-L24",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/consolidate_entity_type_merge-b43bb4dd5ad8__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "1f7ca93f32e541bdd5e1423d9a4d9aed1755ab6bfce57853a09e12f242c2c7c1",
+          "module": "memory",
+          "prompt_id": "consolidate_entity_type_merge-b43bb4dd5ad8",
+          "source_lines": [
+            1,
+            22
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/consolidate_entity_type_merge.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/consolidate_entity_type_merge.txt#L1-L22",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/context_for_question-4f9a3e13b41e__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "5266f6608b552e729fe873bd61880d2d89401896f1107fc54834b52b83b29802",
+          "module": "memory",
+          "prompt_id": "context_for_question-4f9a3e13b41e",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/context_for_question.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/context_for_question.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/cot_followup_system_prompt-080615977cf5__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "218174f99e74c177240adcca276eb3f86ff660b8eb40455652b2da853df3125e",
+          "module": "memory",
+          "prompt_id": "cot_followup_system_prompt-080615977cf5",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/cot_followup_system_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/cot_followup_system_prompt.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/cot_followup_user_prompt-f2696c1c05ff__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "b0603b582a91e8ac8ee7d1eeb1522f64cad22406ff7ea50ec2134b6438072aaf",
+          "module": "memory",
+          "prompt_id": "cot_followup_user_prompt-f2696c1c05ff",
+          "source_lines": [
+            1,
+            14
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/cot_followup_user_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/cot_followup_user_prompt.txt#L1-L14",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/cot_validation_system_prompt-8662e5e912f7__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "72ed3d202738482b78ba7c83b785f226f5e798073f2e65c732e1c75c648d1e22",
+          "module": "memory",
+          "prompt_id": "cot_validation_system_prompt-8662e5e912f7",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/cot_validation_system_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/cot_validation_system_prompt.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/cot_validation_user_prompt-7ea1ed6cebad__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "d690f8661816b19e09fd909f73faaf1126148a68ed7b6f7282febbafc30661b9",
+          "module": "memory",
+          "prompt_id": "cot_validation_user_prompt-7ea1ed6cebad",
+          "source_lines": [
+            1,
+            11
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/cot_validation_user_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/cot_validation_user_prompt.txt#L1-L11",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/custom_prompt_generation_system-c3ac278ff521__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "7924a9cda36c3e13e7b32837552487358a18bdf36163aafafd5aafb1a72515b1",
+          "module": "memory",
+          "prompt_id": "custom_prompt_generation_system-c3ac278ff521",
+          "source_lines": [
+            1,
+            50
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/custom_prompt_generation_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/custom_prompt_generation_system.txt#L1-L50",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/custom_prompt_generation_user-02cba9b986a1__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "3134f76e44d16957505f6d8c3f16ab948e5484bfbb84e553710d8dd29b95be47",
+          "module": "memory",
+          "prompt_id": "custom_prompt_generation_user-02cba9b986a1",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/custom_prompt_generation_user.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/custom_prompt_generation_user.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/detect_pii-70c26911de9f__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "70ea0227598a6b1447ca540ae5ce674664cfd1fb2dc71a1fdb048af81ab18052",
+          "module": "memory",
+          "prompt_id": "detect_pii-70c26911de9f",
+          "source_lines": [
+            1,
+            12
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/detect_pii.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/detect_pii.txt#L1-L12",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/direct_llm_eval_prompt-50f65a2f0bc4__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "aa499d6882e21e58fd896a44db7f404adccca3532673fbc973d3e49c6ce4a15b",
+          "module": "memory",
+          "prompt_id": "direct_llm_eval_prompt-50f65a2f0bc4",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/direct_llm_eval_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/direct_llm_eval_prompt.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/direct_llm_eval_system-dd491ea74b77__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "78c9d9c4f6365617a10679c7b251afa5c461dfd151328ffe6d3447923c26df19",
+          "module": "memory",
+          "prompt_id": "direct_llm_eval_system-dd491ea74b77",
+          "source_lines": [
+            1,
+            10
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/direct_llm_eval_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/direct_llm_eval_system.txt#L1-L10",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/extract_entities_system-8ca5523b8a44__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "98b3dc778e5897425e5e3becc60526dba383716903862a932bd71e991310e273",
+          "module": "memory",
+          "prompt_id": "extract_entities_system-8ca5523b8a44",
+          "source_lines": [
+            1,
+            42
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/extract_entities_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/extract_entities_system.txt#L1-L42",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/extract_entities_user-ad79f47bded0__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "aef36697f0bb9db4b632c85587353368b216581bbdb0bf6d779d7efa3ba53e90",
+          "module": "memory",
+          "prompt_id": "extract_entities_user-ad79f47bded0",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/extract_entities_user.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/extract_entities_user.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/extract_ontology-513c21d99ae1__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "8ea45f9db155d03439196b201b707fc1b471b2db039d5e5938cecd81fa3a4aa6",
+          "module": "memory",
+          "prompt_id": "extract_ontology-513c21d99ae1",
+          "source_lines": [
+            1,
+            4
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/extract_ontology.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/extract_ontology.txt#L1-L4",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/extract_presort_relation-350abf181eba__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "36c503a3755c36984a725402c631696f37353ea8201a35245ed821b50591ba8d",
+          "module": "memory",
+          "prompt_id": "extract_presort_relation-350abf181eba",
+          "source_lines": [
+            1,
+            14
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/extract_presort_relation.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/extract_presort_relation.txt#L1-L14",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/feedback_detection_rating_section-4fb227bad834__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "6c32889b1e128f47ce0820cd75714a582daa3da5b178aea76a3ec25b2d7f106e",
+          "module": "memory",
+          "prompt_id": "feedback_detection_rating_section-4fb227bad834",
+          "source_lines": [
+            1,
+            16
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/feedback_detection_rating_section.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/feedback_detection_rating_section.txt#L1-L16",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/feedback_detection_system-01fc5b463d25__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "8b4409a3905fc4d14ad56a7405bab294d4b5188589c34407e3ebe7b7fb7c80d8",
+          "module": "memory",
+          "prompt_id": "feedback_detection_system-01fc5b463d25",
+          "source_lines": [
+            1,
+            64
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/feedback_detection_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/feedback_detection_system.txt#L1-L64",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/generate_graph_prompt-4511e601fdda__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "18ce199ec975bfe2f55f1ec251a3242e959027ba446ea8d23396be033604a73c",
+          "module": "memory",
+          "prompt_id": "generate_graph_prompt-4511e601fdda",
+          "source_lines": [
+            1,
+            61
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/generate_graph_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/generate_graph_prompt.txt#L1-L61",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/generate_graph_prompt_guided-a42eaa481aec__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "80cf4455e552ed318f4cd463ea7930a5c8bb4fc44f532159cef16cf98753cb36",
+          "module": "memory",
+          "prompt_id": "generate_graph_prompt_guided-a42eaa481aec",
+          "source_lines": [
+            1,
+            77
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/generate_graph_prompt_guided.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/generate_graph_prompt_guided.txt#L1-L77",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/generate_graph_prompt_oneshot-ab1db0a5bb16__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "0f5e19a5d9daf19efc0fd95717fc7968e7d3dbec0b6e2f9182c30b4a3bb31e27",
+          "module": "memory",
+          "prompt_id": "generate_graph_prompt_oneshot-ab1db0a5bb16",
+          "source_lines": [
+            1,
+            150
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/generate_graph_prompt_oneshot.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/generate_graph_prompt_oneshot.txt#L1-L150",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/generate_graph_prompt_simple-0664ddca77e6__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "cf0563f636912a18dff17352960a33cf817120dfb9d2a5a303beb2a7bc2ea6bd",
+          "module": "memory",
+          "prompt_id": "generate_graph_prompt_simple-0664ddca77e6",
+          "source_lines": [
+            1,
+            27
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/generate_graph_prompt_simple.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/generate_graph_prompt_simple.txt#L1-L27",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/generate_graph_prompt_strict-fe40a52d93b5__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "3a996159870fd24ebb3fde29b8a228626c2b5efab150ccd2a7a5fdd78fbf34ed",
+          "module": "memory",
+          "prompt_id": "generate_graph_prompt_strict-fe40a52d93b5",
+          "source_lines": [
+            1,
+            88
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/generate_graph_prompt_strict.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/generate_graph_prompt_strict.txt#L1-L88",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/global_context_bucket_summary-eff7601214b0__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "a57f176205013eafa4121284e03cfb4f488361dc4a1899bec453b1f8c992463a",
+          "module": "memory",
+          "prompt_id": "global_context_bucket_summary-eff7601214b0",
+          "source_lines": [
+            1,
+            29
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/global_context_bucket_summary.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/global_context_bucket_summary.txt#L1-L29",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/global_context_root_summary-2121dfb86ec6__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "80ef1c2fb7b4f4186a960f75026f681ac27cac4fbc2ff91dc2d1da9dbfa7d551",
+          "module": "memory",
+          "prompt_id": "global_context_root_summary-2121dfb86ec6",
+          "source_lines": [
+            1,
+            29
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/global_context_root_summary.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/global_context_root_summary.txt#L1-L29",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/graph_completion_decomposition_syst-a59c9ce8b4af__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "3c8436fa03ff446e520344b04372907d4407727e585a5e97920f0a29a983a16b",
+          "module": "memory",
+          "prompt_id": "graph_completion_decomposition_syst-a59c9ce8b4af",
+          "source_lines": [
+            1,
+            10
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/graph_completion_decomposition_system_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/graph_completion_decomposition_system_prompt.txt#L1-L10",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/graph_context_for_question-56b627b158ff__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "f48b7dc9997be71728825844e1d66a5cb68daa96d978058522513f6eb1b5567d",
+          "module": "memory",
+          "prompt_id": "graph_context_for_question-56b627b158ff",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/graph_context_for_question.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/graph_context_for_question.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/hybrid_context_for_question-3743ac86e88f__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "d31a6948d3390f208d6fa7488f7be487de4b61b5f9cca3e7652183b5e7ff4241",
+          "module": "memory",
+          "prompt_id": "hybrid_context_for_question-3743ac86e88f",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/hybrid_context_for_question.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/hybrid_context_for_question.txt#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/infer_schema_system-762886c4f88a__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "107358f8ae3929d2b82942dc7696aab82df45446026ce745ee5a38aed4f35163",
+          "module": "memory",
+          "prompt_id": "infer_schema_system-762886c4f88a",
+          "source_lines": [
+            1,
+            33
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/infer_schema_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/infer_schema_system.txt#L1-L33",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/infer_schema_user-a9b410ee9515__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "b0cdfac8aa85580341cfa3c4cb3f3fa379ef217ac9fa124ce4e7facaf9adf0c7",
+          "module": "memory",
+          "prompt_id": "infer_schema_user-a9b410ee9515",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/infer_schema_user.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/infer_schema_user.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/llm_judge_prompts-c05a095c06e0__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "b7f997cd2a66213c153815cfe3dec8998b63b50684a980d098802904c9615f8a",
+          "module": "memory",
+          "prompt_id": "llm_judge_prompts-c05a095c06e0",
+          "source_lines": [
+            5,
+            5
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/llm_judge_prompts.py",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/llm_judge_prompts.py#L5-L5",
+          "source_symbol": "module.llm_judge_prompts.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/llm_judge_prompts-2a9c2d600183__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "313329904a4bbb9b628ef517a6599e4f21ab4ba7e6198cfec8c594e5599ab1b6",
+          "module": "memory",
+          "prompt_id": "llm_judge_prompts-2a9c2d600183",
+          "source_lines": [
+            6,
+            6
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/llm_judge_prompts.py",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/llm_judge_prompts.py#L6-L6",
+          "source_symbol": "module.llm_judge_prompts.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/llm_judge_prompts-3e1229aa6a30__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "1051882e8d6e419e076e6ed51cabb50e9eff5d17c8dffc9f430a56a50c79a853",
+          "module": "memory",
+          "prompt_id": "llm_judge_prompts-3e1229aa6a30",
+          "source_lines": [
+            7,
+            7
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/llm_judge_prompts.py",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/llm_judge_prompts.py#L7-L7",
+          "source_symbol": "module.llm_judge_prompts.3",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/natural_language_retriever_system-195db708e13c__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "c92a40d6cd85b37cddc2ec00917b7238afcb4ea051641265a0f66b355102a8a8",
+          "module": "memory",
+          "prompt_id": "natural_language_retriever_system-195db708e13c",
+          "source_lines": [
+            1,
+            66
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/natural_language_retriever_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/natural_language_retriever_system.txt#L1-L66",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/patch_gen_instructions-08f15315f367__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "f6664bd9abda04314c7b322369cb1b595560ea4f6616ddb6296b8e03c707fbc9",
+          "module": "memory",
+          "prompt_id": "patch_gen_instructions-08f15315f367",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/patch_gen_instructions.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/patch_gen_instructions.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/patch_gen_kg_instructions-8366fcd93573__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "c2a1e7f3d35ff2029c39492b6beac57f8fe02e0048ce584e7f5e5cd7257621bc",
+          "module": "memory",
+          "prompt_id": "patch_gen_kg_instructions-8366fcd93573",
+          "source_lines": [
+            1,
+            6
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/patch_gen_kg_instructions.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/patch_gen_kg_instructions.txt#L1-L6",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/review_conflicts-ecb049ad24c2__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "c9e7cacebcf1ed6a1636e9de174f53a3d5a7065f764eca64089c66d6f3b15df5",
+          "module": "memory",
+          "prompt_id": "review_conflicts-ecb049ad24c2",
+          "source_lines": [
+            1,
+            64
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/review_conflicts.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/review_conflicts.txt#L1-L64",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/search_type_selector_prompt-20c160b5e02a__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "b7ff98a7eb645ec24d0891ecd9ab5c83c230bcf3863a75126e617cf27fea56bf",
+          "module": "memory",
+          "prompt_id": "search_type_selector_prompt-20c160b5e02a",
+          "source_lines": [
+            1,
+            136
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/search_type_selector_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/search_type_selector_prompt.txt#L1-L136",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/session_distillation_curator_system-17e54d54c7fd__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "c6321aa7a44f3c7f60b13a15a43eb71ec194f812adb628169c80e09e4e7eea45",
+          "module": "memory",
+          "prompt_id": "session_distillation_curator_system-17e54d54c7fd",
+          "source_lines": [
+            1,
+            15
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/session_distillation_curator_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/session_distillation_curator_system.txt#L1-L15",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/session_distillation_writer_system-35a0a44d12e9__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "4c9d19c07ff71d4f9126dcee99791ec69219dd8965a9c365acb13ce8d95dfa6c",
+          "module": "memory",
+          "prompt_id": "session_distillation_writer_system-35a0a44d12e9",
+          "source_lines": [
+            1,
+            18
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/session_distillation_writer_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/session_distillation_writer_system.txt#L1-L18",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/summarize_code-b27f32d1f196__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "57eab3c99672927b39ea3a783af6d7d72291f3e4fc1da36adbb30581a1c5c942",
+          "module": "memory",
+          "prompt_id": "summarize_code-b27f32d1f196",
+          "source_lines": [
+            1,
+            10
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/summarize_code.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/summarize_code.txt#L1-L10",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/summarize_content-262476a842f8__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "863cff087d1264884008ac5e12a87b845809124a73debd5b7fdaa685a9f475a2",
+          "module": "memory",
+          "prompt_id": "summarize_content-262476a842f8",
+          "source_lines": [
+            1,
+            29
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/summarize_content.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/summarize_content.txt#L1-L29",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/summarize_search_results-ccc1cfa471b0__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "e9cbeb97f19a40f0a0882e7eaa0dc30f2936ce2f1b6e7634b7b42271d45e2d18",
+          "module": "memory",
+          "prompt_id": "summarize_search_results-ccc1cfa471b0",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/summarize_search_results.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/summarize_search_results.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/test-23a9077b6c76__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "ccfbe4e2c11b636d1471e70e3fd3fb5128cc1155652a2954da42cdcda3832dd1",
+          "module": "memory",
+          "prompt_id": "test-23a9077b6c76",
+          "source_lines": [
+            1,
+            1
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/test.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/test.txt#L1-L1",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/text_to_sql_system-b34faba9ba29__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "7e6fd39086a84b8071754ac2eb030bb5aa8e9812d4a02266f533601798983566",
+          "module": "memory",
+          "prompt_id": "text_to_sql_system-b34faba9ba29",
+          "source_lines": [
+            1,
+            23
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/text_to_sql_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/text_to_sql_system.txt#L1-L23",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/text_to_sql_write_system-e746b344bcd7__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "12e44cfe783d4e6838b49e0bb9121ea65a64d4723d3a8e8ac8480cd0a7b771c4",
+          "module": "memory",
+          "prompt_id": "text_to_sql_write_system-e746b344bcd7",
+          "source_lines": [
+            1,
+            26
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/text_to_sql_write_system.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/text_to_sql_write_system.txt#L1-L26",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/transcribe_image_prompt-e97059aa05f8__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "1ac594dc873eda6f31bd3603668c4d0559b6df1b5b690c1b1d5ff2e969fb3780",
+          "module": "memory",
+          "prompt_id": "transcribe_image_prompt-e97059aa05f8",
+          "source_lines": [
+            1,
+            11
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/transcribe_image_prompt.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/transcribe_image_prompt.txt#L1-L11",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cognee/memory/translate_content-14d4812ea4de__default__v1.6.6__df2b4facd7c1__20261030T052925Z.md",
+          "content_sha256": "096129bb5e60050676ab7700bc0df7a0e66fd77b83835cfcb6d61a2c26d40621",
+          "module": "memory",
+          "prompt_id": "translate_content-14d4812ea4de",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "cognee/infrastructure/llm/prompts/translate_content.txt",
+          "source_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/cognee/infrastructure/llm/prompts/translate_content.txt#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v1.6.6:df2b4facd7c1d73b59376fd251fb93674a9d60a3:17a6938704a5f8e85528c263e57b074e7a402e26e8c710357c1a5ace5d0b2e87:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:29:25Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-29T21:33:43Z",
+      "repository": "topoteretes/cognee",
+      "source_commit": "df2b4facd7c1d73b59376fd251fb93674a9d60a3",
+      "source_committed_at": "2026-10-29T21:29:40Z",
+      "source_ref": "v1.6.6",
+      "upstream_version": "v1.6.6"
+    }
+  ],
+  "status": "ok"
+}

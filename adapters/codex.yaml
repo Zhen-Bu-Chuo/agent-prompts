@@ -1,0 +1,80 @@
+slug: codex
+name: OpenAI Codex
+repository: openai/codex
+priority: core
+tag_pattern: ^rust-v\d+\.\d+\.\d+$
+coverage: partial
+tree_strategy: git
+limitations:
+- 静态保存公开 Rust CLI 模板与模型消息配置；远程模型目录、运行时用户/开发者消息和本地 AGENTS.md 不在快照内。
+- 模型 JSON 包含模型/模式/权限等嵌套变体；占位符保持原样，未运行 Rust/Askama 或调用模型。
+- 按具体模板目录采集，未把源代码文档、测试快照或示例脚本当成提示词。
+rules:
+- glob: codex-rs/models-manager/models.json
+  module: system
+  format: json
+  variant: per-model-message-variants
+  key_pattern: model_messages
+  min_chars: 80
+- glob: codex-rs/models-manager/prompt.md
+  module: system
+  format: raw
+- glob: codex-rs/core/*_prompt.md
+  module: system
+  format: raw
+  variant: legacy-model-variants
+- glob: codex-rs/protocol/src/prompts/base_instructions/default.md
+  module: system
+  format: raw
+- glob: codex-rs/prompts/templates/compact/*.md
+  module: context
+  format: raw
+- glob: codex-rs/prompts/templates/guardian/*.md
+  module: review
+  format: raw
+- glob: codex-rs/prompts/templates/permissions/*.md
+  module: modes
+  format: raw
+- glob: codex-rs/prompts/templates/persistent_mode.md
+  module: execution
+  format: raw
+- glob: codex-rs/prompts/templates/realtime/*.md
+  module: modes
+  format: raw
+- glob: codex-rs/prompts/templates/review/*
+  module: review
+  format: raw
+- glob: codex-rs/collaboration-mode-templates/templates/*.md
+  module: modes
+  format: raw
+- glob: codex-rs/core/templates/agents/*.md
+  module: subagents
+  format: raw
+- glob: codex-rs/core/templates/collab/*.md
+  module: subagents
+  format: raw
+- glob: codex-rs/core/templates/review/*.md
+  module: review
+  format: raw
+- glob: codex-rs/core/templates/search_tool/*.md
+  module: tools
+  format: raw
+- glob: codex-rs/ext/goal/templates/goals/*.md
+  module: planning
+  format: raw
+- glob: codex-rs/ext/memories/templates/memories/*.md
+  module: memory
+  format: raw
+- glob: codex-rs/memories/write/templates/memories/*.md
+  module: memory
+  format: raw
+- glob: codex-rs/memories/write/templates/extensions/ad_hoc/instructions.md
+  module: skills
+  format: raw
+- glob: codex-rs/skills/src/assets/samples/*/SKILL.md
+  module: skills
+  format: raw
+  variant: bundled-skill-instructions
+- glob: codex-rs/tui/assets/prompt_for_init_command.md
+  module: context
+  format: raw

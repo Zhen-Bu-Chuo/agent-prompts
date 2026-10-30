@@ -1,0 +1,8 @@
+slug: kilocode
+name: Kilo Code
+repository: Kilo-Org/kilocode
+priority: A
+coverage: unavailable
+tag_pattern: ^v\d+\.\d+\.\d+$
+limitations:
+- 已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。

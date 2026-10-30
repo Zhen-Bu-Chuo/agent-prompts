@@ -1,0 +1,23 @@
+slug: openviking
+name: OpenViking
+repository: volcengine/OpenViking
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+\.\d+$
+rules:
+- glob: agent-plugins/skills/openviking-memory/SKILL.md
+  module: memory
+  format: raw
+  min_chars: 60
+- glob: agent-plugins/skills/ov-experience-memory/SKILL.md
+  module: evolution
+  format: raw
+  min_chars: 60
+- glob: openviking/session/memory/extraction_output_protocol/*.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+limitations:
+- OpenViking 使用 AGPL-3.0；保存上游许可证和 commit 署名。基准测试中的第三方 Agent prompt 不作为 OpenViking 自有提示词采集。
+license_override: AGPL-3.0-only
+license_path: LICENSE

@@ -1,0 +1,25 @@
+slug: voyager
+name: Voyager
+repository: MineDojo/Voyager
+priority: S
+coverage: supported
+tag_pattern: ^v?\d+\.\d+\.\d+$
+rules:
+- glob: voyager/prompts/*.txt
+  module: execution
+  format: raw
+  min_chars: 50
+- glob: voyager/prompts/skill.txt
+  module: skills
+  format: raw
+  min_chars: 50
+- glob: voyager/prompts/critic.txt
+  module: reflection
+  format: raw
+  min_chars: 50
+- glob: voyager/prompts/curriculum*.txt
+  module: curriculum
+  format: raw
+  min_chars: 50
+limitations:
+- 上游没有 stable release；使用 main commit 固定。本仓库作为 Agent 技能从经验生成和复用机制的研究样本；示例技能程序不采集为提示词。

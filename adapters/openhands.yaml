@@ -1,0 +1,31 @@
+slug: openhands
+name: OpenHands
+repository: OpenHands/software-agent-sdk
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: openhands-sdk/openhands/sdk/context/prompts/templates/*.j2
+  module: system
+  format: raw
+  min_chars: 40
+- glob: openhands-sdk/openhands/sdk/context/prompts/sections/*.py
+  module: system
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+  min_chars: 90
+- glob: openhands-sdk/openhands/sdk/context/prompts/prompt.py
+  module: context
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+  min_chars: 100
+- glob: openhands-sdk/openhands/sdk/conversation/goal/prompts.py
+  module: planning
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+  min_chars: 70
+limitations:
+- OpenHands/OpenHands UI 仓库已将运行时 agent 移至 OpenHands/software-agent-sdk；采集该 SDK，并在机制文档记录迁移依据。
+- 工具环境、事件流和执行反馈由运行时注入，模板仅代表静态片段。
+project_repository: OpenHands/OpenHands
+package_name: openhands-sdk

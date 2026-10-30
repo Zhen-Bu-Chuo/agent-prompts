@@ -1,0 +1,17 @@
+{
+  "agent": "agent0",
+  "collected_at": "2026-10-30T05:29:16Z",
+  "license": "Apache-2.0",
+  "license_permalink": "https://github.com/aiming-lab/Agent0/blob/f775b5101e62fe92976831adf4a21a38fcc0a767/Agent0/executor_train/LICENSE",
+  "license_text_path": "licenses/agent0/f775b5101e62.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "default-branch",
+  "release_published_at": null,
+  "repository": "aiming-lab/Agent0",
+  "source_commit": "f775b5101e62fe92976831adf4a21a38fcc0a767",
+  "source_committed_at": "2026-07-10T07:54:01Z",
+  "source_path": "Agent0/executor_train/LICENSE",
+  "source_ref": "main",
+  "upstream_version": null
+}

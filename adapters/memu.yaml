@@ -1,0 +1,16 @@
+slug: memu
+name: memU
+repository: NevaMind-AI/memU
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: src/memu/prompts/**/*.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM|TEMPLATE
+  min_chars: 90
+limitations:
+- 按 v1.5.1 Apache-2.0 许可的源提示模块采集；跨 agent 的实际 memory 注入由 provider adaptor 在运行时决定。
+license_override: Apache-2.0
+license_path: LICENSE.txt

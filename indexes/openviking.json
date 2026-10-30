@@ -1,0 +1,97 @@
+{
+  "agent": "openviking",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v0.5.2.1:f5e6203033a13469c3d9a937f2ca39492ea69c51:443142e6ef2493098ea09d202bd0afdd88ae619038badcda31ca224acafd2b7b:1.0.3"
+  },
+  "last_error": null,
+  "license": "AGPL-3.0-only",
+  "limitations": [
+    "OpenViking 使用 AGPL-3.0；保存上游许可证和 commit 署名。基准测试中的第三方 Agent prompt 不作为 OpenViking 自有提示词采集。"
+  ],
+  "name": "OpenViking",
+  "repository": "volcengine/OpenViking",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "443142e6ef2493098ea09d202bd0afdd88ae619038badcda31ca224acafd2b7b",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/openviking/evolution/SKILL-396536d04008__default__v0.5.2.1__f5e6203033a1__20261030T053007Z.md",
+          "content_sha256": "9490d86db2fcfa572e49bc0105f5916c1c4344f3691f74a0bc245a53045de7d8",
+          "module": "evolution",
+          "prompt_id": "SKILL-396536d04008",
+          "source_lines": [
+            1,
+            136
+          ],
+          "source_path": "agent-plugins/skills/ov-experience-memory/SKILL.md",
+          "source_permalink": "https://github.com/volcengine/OpenViking/blob/f5e6203033a13469c3d9a937f2ca39492ea69c51/agent-plugins/skills/ov-experience-memory/SKILL.md#L1-L136",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openviking/memory/SKILL-18bfcb6aa9a6__default__v0.5.2.1__f5e6203033a1__20261030T053007Z.md",
+          "content_sha256": "70adb26585bfc686adbcabc95788f29180fe8dfc462ea2767febb64f38a529d8",
+          "module": "memory",
+          "prompt_id": "SKILL-18bfcb6aa9a6",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "agent-plugins/skills/openviking-memory/SKILL.md",
+          "source_permalink": "https://github.com/volcengine/OpenViking/blob/f5e6203033a13469c3d9a937f2ca39492ea69c51/agent-plugins/skills/openviking-memory/SKILL.md#L1-L101",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openviking/memory/json_protocol-319d084fa0b0__default__v0.5.2.1__f5e6203033a1__20261030T053007Z.md",
+          "content_sha256": "3aec7f65523cd66ae785ab98f0e7f5882ece8ef2870a1f88917b101a2dc235ab",
+          "module": "memory",
+          "prompt_id": "json_protocol-319d084fa0b0",
+          "source_lines": [
+            83,
+            87
+          ],
+          "source_path": "openviking/session/memory/extraction_output_protocol/json_protocol.py",
+          "source_permalink": "https://github.com/volcengine/OpenViking/blob/f5e6203033a13469c3d9a937f2ca39492ea69c51/openviking/session/memory/extraction_output_protocol/json_protocol.py#L83-L87",
+          "source_symbol": "module.JsonExtractionOutputProtocol.render_final_instruction.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openviking/memory/python_protocol-7430eba90411__default__v0.5.2.1__f5e6203033a1__20261030T053007Z.md",
+          "content_sha256": "b051d8f0f0b35a52c008a8d59f5b03e5440638bd6c0a58d46e3a7d96ee06de93",
+          "module": "memory",
+          "prompt_id": "python_protocol-7430eba90411",
+          "source_lines": [
+            284,
+            286
+          ],
+          "source_path": "openviking/session/memory/extraction_output_protocol/python_protocol.py",
+          "source_permalink": "https://github.com/volcengine/OpenViking/blob/f5e6203033a13469c3d9a937f2ca39492ea69c51/openviking/session/memory/extraction_output_protocol/python_protocol.py#L284-L286",
+          "source_symbol": "module.PythonExtractionOutputProtocol.render_final_instruction.1",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v0.5.2.1:f5e6203033a13469c3d9a937f2ca39492ea69c51:443142e6ef2493098ea09d202bd0afdd88ae619038badcda31ca224acafd2b7b:1.0.3",
+      "license": "AGPL-3.0-only",
+      "observed_at": "2026-10-30T05:30:07Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-27T13:44:25Z",
+      "repository": "volcengine/OpenViking",
+      "source_commit": "f5e6203033a13469c3d9a937f2ca39492ea69c51",
+      "source_committed_at": "2026-10-27T13:40:45Z",
+      "source_ref": "v0.5.2.1",
+      "upstream_version": "v0.5.2.1"
+    }
+  ],
+  "status": "ok"
+}

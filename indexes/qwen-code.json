@@ -1,0 +1,378 @@
+{
+  "agent": "qwen-code",
+  "coverage": "partial",
+  "current": {
+    "default-branch": "default-branch:main:619a601b3965133b9c2e873f10dbe97323b306c7:03ba706d8f59e5ac48a20037f06d151c3509dbd4b13b85392f2bf9497630ef71:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "主分支当前提交用于 version=null 首次归档；CLI 包发布标签暂未核实匹配。",
+    "排除上游明确标注从 Claude Code 二进制逐字复制的第三方模板，仅保留 Qwen 自有源码和技能。"
+  ],
+  "name": "Qwen Code",
+  "repository": "QwenLM/qwen-code",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "03ba706d8f59e5ac48a20037f06d151c3509dbd4b13b85392f2bf9497630ef71",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/qwen-code/context/live-backend-instructions-cdd617dbae37__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "7808d1d5221be504b7a9dfe06a5b2070816768fac4fb946edd9db7f7ff6b5203",
+          "module": "context",
+          "prompt_id": "live-backend-instructions-cdd617dbae37",
+          "source_lines": [
+            23,
+            29
+          ],
+          "source_path": "packages/cli/src/acp-integration/live/live-backend-instructions.ts",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/packages/cli/src/acp-integration/live/live-backend-instructions.ts#L23-L29",
+          "source_symbol": "LIVE_BACKEND_END_INSTRUCTIONS.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/context/live-backend-instructions-ad71074cb7c0__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "e8c5839bdbe84c4ef232451fe91ad1c81ceb6c04be8cc646296b86c39426e043",
+          "module": "context",
+          "prompt_id": "live-backend-instructions-ad71074cb7c0",
+          "source_lines": [
+            7,
+            21
+          ],
+          "source_path": "packages/cli/src/acp-integration/live/live-backend-instructions.ts",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/packages/cli/src/acp-integration/live/live-backend-instructions.ts#L7-L21",
+          "source_symbol": "LIVE_BACKEND_START_INSTRUCTIONS.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-32fb3941b47d__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "1bb5376710ae20ea5e4a9a866f64186c18122be7cd74b91554b72aa3e00c032a",
+          "module": "skills",
+          "prompt_id": "SKILL-32fb3941b47d",
+          "source_lines": [
+            1,
+            98
+          ],
+          "source_path": ".qwen/skills/agent-reproduce-align/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/agent-reproduce-align/SKILL.md#L1-L98",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-2f52a3941d53__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "958e5d3cdcdb3b82c19babadb59234a0bc9096a665cb660347d5e1770f30975e",
+          "module": "skills",
+          "prompt_id": "SKILL-2f52a3941d53",
+          "source_lines": [
+            1,
+            132
+          ],
+          "source_path": ".qwen/skills/agent-reproduce-feature/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/agent-reproduce-feature/SKILL.md#L1-L132",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-68d00ca16d88__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "b3fb5d7d287eae2aa42f2075ea9d92f762d3cd38fc03cad82570ec4b5797d7be",
+          "module": "skills",
+          "prompt_id": "SKILL-68d00ca16d88",
+          "source_lines": [
+            1,
+            683
+          ],
+          "source_path": ".qwen/skills/autofix/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/autofix/SKILL.md#L1-L683",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-fd35499d0c4c__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "06d9ce6ee6aad9fdba009e8bfd35471ecbf2b0953c0e34f04f7a2531bc558233",
+          "module": "skills",
+          "prompt_id": "SKILL-fd35499d0c4c",
+          "source_lines": [
+            1,
+            111
+          ],
+          "source_path": ".qwen/skills/bugfix/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/bugfix/SKILL.md#L1-L111",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-2b3f0b99ae59__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "0d3c4d456fb369a188dddfd872701c02ab844dd71f2438d0273027d03b27a711",
+          "module": "skills",
+          "prompt_id": "SKILL-2b3f0b99ae59",
+          "source_lines": [
+            1,
+            46
+          ],
+          "source_path": ".qwen/skills/ci-flaky-patrol/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/ci-flaky-patrol/SKILL.md#L1-L46",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-3956d15d0a24__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "06c2be5949acb8d77e5b013314ad3f6e001894f765d464ddb38f1073cb33f5d0",
+          "module": "skills",
+          "prompt_id": "SKILL-3956d15d0a24",
+          "source_lines": [
+            1,
+            657
+          ],
+          "source_path": ".qwen/skills/codegraph/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/codegraph/SKILL.md#L1-L657",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-4eb9acc924e0__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "5e2975e11519428db0c8c38c561bfaba980e2254995d833742e4241cd0637c14",
+          "module": "skills",
+          "prompt_id": "SKILL-4eb9acc924e0",
+          "source_lines": [
+            1,
+            81
+          ],
+          "source_path": ".qwen/skills/create-issue/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/create-issue/SKILL.md#L1-L81",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-b63d419272cc__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "f2aba9cc5a37fe7813857218d79b1034c61513950ed6df0a45026e0fdd36da18",
+          "module": "skills",
+          "prompt_id": "SKILL-b63d419272cc",
+          "source_lines": [
+            1,
+            63
+          ],
+          "source_path": ".qwen/skills/deflake/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/deflake/SKILL.md#L1-L63",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-fc293ed649d9__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "dc961ab124638b33ae737759fa1dd0dfadc144371cccb91fd2e955a602d76f38",
+          "module": "skills",
+          "prompt_id": "SKILL-fc293ed649d9",
+          "source_lines": [
+            1,
+            95
+          ],
+          "source_path": ".qwen/skills/docs-audit-and-refresh/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/docs-audit-and-refresh/SKILL.md#L1-L95",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-a22cf096c047__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "70c14226e4b2d630ea50408c43bdd657a2525cc4c438d509d2949cfb896fe43a",
+          "module": "skills",
+          "prompt_id": "SKILL-a22cf096c047",
+          "source_lines": [
+            1,
+            105
+          ],
+          "source_path": ".qwen/skills/docs-update-from-diff/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/docs-update-from-diff/SKILL.md#L1-L105",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-eb5db51b30d5__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "35430d4c5d727ddb7b191c80f4953f0e2ee32180982bb6d15582e4fed3b407ff",
+          "module": "skills",
+          "prompt_id": "SKILL-eb5db51b30d5",
+          "source_lines": [
+            1,
+            239
+          ],
+          "source_path": ".qwen/skills/e2e-testing/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/e2e-testing/SKILL.md#L1-L239",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-03ebac0d3a1e__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "04c0e9df733e4c9fbc57b54986cda661f7956505835fd29c4bf8ab0dc6d9eef1",
+          "module": "skills",
+          "prompt_id": "SKILL-03ebac0d3a1e",
+          "source_lines": [
+            1,
+            146
+          ],
+          "source_path": ".qwen/skills/feat-dev/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/feat-dev/SKILL.md#L1-L146",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-ce5bb76cec12__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "01b412cd50b5a07c058c48a94b9c82192cdebf53bc1ee2f6d0cab849ebee0432",
+          "module": "skills",
+          "prompt_id": "SKILL-ce5bb76cec12",
+          "source_lines": [
+            1,
+            367
+          ],
+          "source_path": ".qwen/skills/find-simplifications/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/find-simplifications/SKILL.md#L1-L367",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-e9d5dbfe9ba7__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "b1e8fda9850f1cb9e413c7683f9b8abd67982cbceb162198d7b7eae99557f647",
+          "module": "skills",
+          "prompt_id": "SKILL-e9d5dbfe9ba7",
+          "source_lines": [
+            1,
+            161
+          ],
+          "source_path": ".qwen/skills/memory-leak-debug/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/memory-leak-debug/SKILL.md#L1-L161",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-f18bccd352c1__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "9c2e522b1cad98c2f8fca5ba4702ba762d945189ee46a94d3333997e525d59dd",
+          "module": "skills",
+          "prompt_id": "SKILL-f18bccd352c1",
+          "source_lines": [
+            1,
+            55
+          ],
+          "source_path": ".qwen/skills/prepare-pr/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/prepare-pr/SKILL.md#L1-L55",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-e227c271d39b__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "611fdba616acd089ef2e2d76d7eda420ff39ff6da7b28292f633b54397830379",
+          "module": "skills",
+          "prompt_id": "SKILL-e227c271d39b",
+          "source_lines": [
+            1,
+            272
+          ],
+          "source_path": ".qwen/skills/qwen-code-claw/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/qwen-code-claw/SKILL.md#L1-L272",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-c834a2e0a949__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "d390eb934dfb05802cf13ffc85a043127def07809b20bd6285321fe3daaf4405",
+          "module": "skills",
+          "prompt_id": "SKILL-c834a2e0a949",
+          "source_lines": [
+            1,
+            149
+          ],
+          "source_path": ".qwen/skills/repo-hygiene/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/repo-hygiene/SKILL.md#L1-L149",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-fbe48ddc38f7__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "def8114708dc9ebff4c3e9a1b579d4abbc412ff8a91884987e2e48c0fae49a5e",
+          "module": "skills",
+          "prompt_id": "SKILL-fbe48ddc38f7",
+          "source_lines": [
+            1,
+            193
+          ],
+          "source_path": ".qwen/skills/structured-debugging/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/structured-debugging/SKILL.md#L1-L193",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-125b9c220649__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "2ffffaa3a041ce764326a85bdbd8fa70146f824b78fcfa50b45782c2b54a790b",
+          "module": "skills",
+          "prompt_id": "SKILL-125b9c220649",
+          "source_lines": [
+            1,
+            278
+          ],
+          "source_path": ".qwen/skills/terminal-capture/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/terminal-capture/SKILL.md#L1-L278",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-ee03230c2c45__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "67195ffad73660ba0227ac9c597df9d0fb4f2ea9473949dec90168016586b22b",
+          "module": "skills",
+          "prompt_id": "SKILL-ee03230c2c45",
+          "source_lines": [
+            1,
+            261
+          ],
+          "source_path": ".qwen/skills/tmux-real-user-testing/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/tmux-real-user-testing/SKILL.md#L1-L261",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-100d0082beda__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "de8e14a69b45b9d33f81430c5f5b1f0cf1cd5443738d3cf311605f72037b8c7d",
+          "module": "skills",
+          "prompt_id": "SKILL-100d0082beda",
+          "source_lines": [
+            1,
+            131
+          ],
+          "source_path": ".qwen/skills/triage/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/triage/SKILL.md#L1-L131",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/qwen-code/skills/SKILL-757e75e757a7__default__untagged__619a601b3965__20261030T053008Z.md",
+          "content_sha256": "393d84e43478d7a31dbdeb8a80d8868cb87a93b8b9283b5b13f4eee79fb44ed3",
+          "module": "skills",
+          "prompt_id": "SKILL-757e75e757a7",
+          "source_lines": [
+            1,
+            1695
+          ],
+          "source_path": ".qwen/skills/verify-pr/SKILL.md",
+          "source_permalink": "https://github.com/QwenLM/qwen-code/blob/619a601b3965133b9c2e873f10dbe97323b306c7/.qwen/skills/verify-pr/SKILL.md#L1-L1695",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:619a601b3965133b9c2e873f10dbe97323b306c7:03ba706d8f59e5ac48a20037f06d151c3509dbd4b13b85392f2bf9497630ef71:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:30:08Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "QwenLM/qwen-code",
+      "source_commit": "619a601b3965133b9c2e873f10dbe97323b306c7",
+      "source_committed_at": "2026-10-30T00:56:08Z",
+      "source_ref": "main",
+      "upstream_version": null
+    }
+  ],
+  "status": "ok"
+}

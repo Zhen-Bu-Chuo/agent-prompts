@@ -1,0 +1,35 @@
+slug: agent-zero
+name: Agent Zero
+repository: agent0ai/agent-zero
+priority: S
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: prompts/agent.system.*.md
+  module: system
+  format: raw
+  min_chars: 40
+- glob: prompts/agent.context.*.md
+  module: context
+  format: raw
+  min_chars: 40
+- glob: prompts/agent.system.tool.*.md
+  module: tools
+  format: raw
+  min_chars: 40
+- glob: prompts/agent.system.memories.md
+  module: memory
+  format: raw
+  min_chars: 40
+- glob: agents/developer/prompts/*.md
+  module: subagents
+  format: raw
+  min_chars: 40
+- glob: agents/researcher/prompts/*.md
+  module: subagents
+  format: raw
+  min_chars: 40
+limitations:
+- system、tool 与不同角色 profile 由 framework 消息链动态拼装；归档所选固定文件，不把 examples 的合成 agent profile 重复算作运行态实例。
+license_override: MIT
+license_path: LICENSE

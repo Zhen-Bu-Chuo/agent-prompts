@@ -1,0 +1,19 @@
+slug: cognee
+name: Cognee
+repository: topoteretes/cognee
+priority: A
+coverage: supported
+tag_pattern: ^v?\d+\.\d+\.\d+$
+rules:
+- glob: cognee/infrastructure/llm/prompts/*.txt
+  module: memory
+  format: raw
+  min_chars: 60
+- glob: cognee/infrastructure/llm/prompts/*.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|INSTRUCTION|SYSTEM
+  min_chars: 90
+limitations:
+- GitHub stable flag 会将非标准后缀 rc 标签误标为 stable；tag regex 只接受语义版本号，因此本次选择 v1.6.6。
+- 主要采集记忆/知识提取、摘要和决策模板，目录内其他任务提示词标注为 other。

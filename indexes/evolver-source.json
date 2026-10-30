@@ -1,0 +1,17 @@
+{
+  "agent": "evolver",
+  "collected_at": "2026-10-30T05:29:31Z",
+  "license": "GPL-3.0-or-later",
+  "license_permalink": "https://github.com/EvoMap/evolver/blob/07af8c7b1af13595f73731815cd7866d80fdebb6/README.md",
+  "license_text_path": "licenses/evolver/07af8c7b1af1.md",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "release",
+  "release_published_at": "2026-10-24T06:21:31Z",
+  "repository": "EvoMap/evolver",
+  "source_commit": "07af8c7b1af13595f73731815cd7866d80fdebb6",
+  "source_committed_at": "2026-10-24T06:20:26Z",
+  "source_path": "README.md",
+  "source_ref": "v2.0.46",
+  "upstream_version": "v2.0.46"
+}

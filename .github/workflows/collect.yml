@@ -1,0 +1,80 @@
+name: Collect latest agent prompts
+
+on:
+  schedule:
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      initial_latest:
+        description: Rebuild each agent from only its latest release or default-branch snapshot
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agent-prompt-collection-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Check out source archive
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Restore immutable upstream file cache
+        uses: actions/cache@v4
+        with:
+          path: work/github-cache
+          key: ${{ runner.os }}-github-${{ github.run_id }}
+          restore-keys: |
+            ${{ runner.os }}-github-
+
+      - name: Install collector dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Collect latest upstream prompts
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INITIAL_LATEST: ${{ inputs.initial_latest || 'false' }}
+        run: |
+          args=()
+          if [[ "$INITIAL_LATEST" == "true" ]]; then args+=(--initial-latest); fi
+          python -m collector collect "${args[@]}"
+
+      - name: Validate collected archives
+        if: always()
+        run: python -m collector validate
+
+      - name: Commit source changes
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md agents indexes licenses docs/mechanisms
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update upstream agent prompts"
+            git push
+          fi
+
+      - name: Store run report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: prompt-collection-report-${{ github.run_id }}
+          path: work/latest-run.md
+          if-no-files-found: ignore
+          retention-days: 30

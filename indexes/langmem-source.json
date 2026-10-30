@@ -1,0 +1,17 @@
+{
+  "agent": "langmem",
+  "collected_at": "2026-10-30T05:29:51Z",
+  "license": "MIT",
+  "license_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/LICENSE",
+  "license_text_path": "licenses/langmem/ae6f15fb7660.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "default-branch",
+  "release_published_at": null,
+  "repository": "langchain-ai/langmem",
+  "source_commit": "ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b",
+  "source_committed_at": "2026-10-28T17:30:17Z",
+  "source_path": "LICENSE",
+  "source_ref": "main",
+  "upstream_version": null
+}

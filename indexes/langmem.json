@@ -1,0 +1,193 @@
+{
+  "agent": "langmem",
+  "coverage": "supported",
+  "current": {
+    "default-branch": "default-branch:main:ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b:032a1069233aed65fa170da5378ddebc396e0cbe82e661ee0ccd9120b43f8385:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [],
+  "name": "LangMem",
+  "repository": "langchain-ai/langmem",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "032a1069233aed65fa170da5378ddebc396e0cbe82e661ee0ccd9120b43f8385",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/langmem/memory/gradient-6ab575aba054__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "67f1a4867189f1a9585e3caf7d3b8fc178bfab1a384fd487e5f7c71507a82e46",
+          "module": "memory",
+          "prompt_id": "gradient-6ab575aba054",
+          "source_lines": [
+            67,
+            85
+          ],
+          "source_path": "src/langmem/prompts/gradient.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/gradient.py#L67-L85",
+          "source_symbol": "module.DEFAULT_GRADIENT_METAPROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/gradient-14385dde195e__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "c992f4142e94d82d10bde895befd4c10d3318c2ef37cab75bd54621d80ef6913",
+          "module": "memory",
+          "prompt_id": "gradient-14385dde195e",
+          "source_lines": [
+            16,
+            65
+          ],
+          "source_path": "src/langmem/prompts/gradient.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/gradient.py#L16-L65",
+          "source_symbol": "module.DEFAULT_GRADIENT_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/metaprompt-c063ca910109__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "9facc3835f0eb18bdb1014e02673e902034ad5bdf0b1144b895f88e3619bb5e4",
+          "module": "memory",
+          "prompt_id": "metaprompt-c063ca910109",
+          "source_lines": [
+            27,
+            56
+          ],
+          "source_path": "src/langmem/prompts/metaprompt.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/metaprompt.py#L27-L56",
+          "source_symbol": "module.DEFAULT_METAPROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/optimization-1736ed499a68__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "3829ac27d1170a594cfbaca7c9b3f1f8a0a042a1ce2db03f67b67356cd3fa97e",
+          "module": "memory",
+          "prompt_id": "optimization-1736ed499a68",
+          "source_lines": [
+            342,
+            350
+          ],
+          "source_path": "src/langmem/prompts/optimization.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/optimization.py#L342-L350",
+          "source_symbol": "module.MultiPromptOptimizer.ainvoke.classification_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/optimization-76bbcd52e04e__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "3829ac27d1170a594cfbaca7c9b3f1f8a0a042a1ce2db03f67b67356cd3fa97e",
+          "module": "memory",
+          "prompt_id": "optimization-76bbcd52e04e",
+          "source_lines": [
+            429,
+            437
+          ],
+          "source_path": "src/langmem/prompts/optimization.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/optimization.py#L429-L437",
+          "source_symbol": "module.MultiPromptOptimizer.invoke.classification_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/prompt-92c3896ba2bb__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "8302100594099ad3624cd7d72c8cafbe2d4d6c9b7addbe3a76e2c664bc2a5a57",
+          "module": "memory",
+          "prompt_id": "prompt-92c3896ba2bb",
+          "source_lines": [
+            39,
+            60
+          ],
+          "source_path": "src/langmem/prompts/prompt.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/prompt.py#L39-L60",
+          "source_symbol": "module.INSTRUCTION_REFLECTION_MULTIPLE_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/prompt-e1b0a4dce909__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "b9f073d760da09b7e00d626691c87b161776eab6b55d524f79eac3352e7306ff",
+          "module": "memory",
+          "prompt_id": "prompt-e1b0a4dce909",
+          "source_lines": [
+            3,
+            30
+          ],
+          "source_path": "src/langmem/prompts/prompt.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/prompt.py#L3-L30",
+          "source_symbol": "module.INSTRUCTION_REFLECTION_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/stateless-27de9821f29c__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "3157b563045372db882756d51220280112907ba51460524a7ae1b9b4cb40ff7f",
+          "module": "memory",
+          "prompt_id": "stateless-27de9821f29c",
+          "source_lines": [
+            179,
+            180
+          ],
+          "source_path": "src/langmem/prompts/stateless.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/stateless.py#L179-L180",
+          "source_symbol": "module.PromptMemoryMultiple._get_data.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/utils-f62ffc1d1a87__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "ec72d25065cd5770f205306ee60b0a75c64e25435a8976a94f826cdf32b8b1be",
+          "module": "memory",
+          "prompt_id": "utils-f62ffc1d1a87",
+          "source_lines": [
+            68,
+            69
+          ],
+          "source_path": "src/langmem/prompts/utils.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/utils.py#L68-L69",
+          "source_symbol": "module.get_prompt_extraction_schema.OptimizedPromptOutput.improved_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/utils-6175dcc5c22f__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "ae629c5a3d089e38b09746269d8ac98184544b762b6ba2bf4f28b1204af73fa2",
+          "module": "memory",
+          "prompt_id": "utils-6175dcc5c22f",
+          "source_lines": [
+            50,
+            51
+          ],
+          "source_path": "src/langmem/prompts/utils.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/utils.py#L50-L51",
+          "source_symbol": "module.get_prompt_extraction_schema.prompt_description.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/langmem/memory/utils-9e07ea9abf4f__default__untagged__ae6f15fb7660__20261030T052951Z.md",
+          "content_sha256": "5af93ab45c1e3272ea34e977d6d862802b3620cb46a3b4f8b57360224eee67cf",
+          "module": "memory",
+          "prompt_id": "utils-9e07ea9abf4f",
+          "source_lines": [
+            55,
+            56
+          ],
+          "source_path": "src/langmem/prompts/utils.py",
+          "source_permalink": "https://github.com/langchain-ai/langmem/blob/ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b/src/langmem/prompts/utils.py#L55-L56",
+          "source_symbol": "module.get_prompt_extraction_schema.prompt_description.2",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b:032a1069233aed65fa170da5378ddebc396e0cbe82e661ee0ccd9120b43f8385:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:29:51Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "langchain-ai/langmem",
+      "source_commit": "ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b",
+      "source_committed_at": "2026-10-28T17:30:17Z",
+      "source_ref": "main",
+      "upstream_version": null
+    }
+  ],
+  "status": "ok"
+}

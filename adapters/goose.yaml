@@ -1,0 +1,19 @@
+slug: goose
+name: Goose
+repository: aaif-goose/goose
+priority: A
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: crates/goose/src/prompts/*.md
+  module: system
+  format: raw
+  min_chars: 60
+- glob: crates/goose/src/prompt_template.rs
+  module: system
+  format: rust-strings
+  key_pattern: SYSTEM|PROMPT|SUBAGENT|MEMORY
+  min_chars: 100
+limitations:
+- 仓库从 block/goose 迁移至 aaif-goose/goose；已跟随 canonical repository，保持原产品对应关系。
+- 工具注册和 MCP 上下文由执行期间组装。

@@ -1,0 +1,17 @@
+{
+  "agent": "dgm",
+  "collected_at": "2026-10-30T05:29:27Z",
+  "license": "Apache-2.0",
+  "license_permalink": "https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/LICENSE",
+  "license_text_path": "licenses/dgm/a565fd2d1dca.txt",
+  "limitations": [],
+  "redistribution_allowed": true,
+  "ref_kind": "default-branch",
+  "release_published_at": null,
+  "repository": "jennyzzt/dgm",
+  "source_commit": "a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2",
+  "source_committed_at": "2025-08-13T10:40:14Z",
+  "source_path": "LICENSE",
+  "source_ref": "main",
+  "upstream_version": null
+}

@@ -1,0 +1,32 @@
+slug: hermes
+name: Hermes Agent
+repository: NousResearch/hermes-agent
+priority: core
+coverage: supported
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: agent/system_prompt.py
+  module: system
+  format: python
+  key_pattern: SYSTEM|PROMPT
+- glob: agent/prompt_builder.py
+  module: context
+  format: python
+  key_pattern: PROMPT|SYSTEM|CONTEXT
+- glob: agent/plan_prompt.py
+  module: planning
+  format: python
+  min_chars: 50
+- glob: agent/learn_prompt.py
+  module: skills
+  format: python
+  min_chars: 50
+- glob: agent/memory_manager.py
+  module: memory
+  format: python
+  key_pattern: PROMPT|SYSTEM|MEMORY|EXTRACTION
+  min_chars: 70
+limitations:
+- 第三方 optional-skills prompts 不自动归属于 Hermes 官方内置系统，仅采集 agent 核心源码。
+- 静态 AST 提取提示词常量，无法重构后端、工具、运行态 memory 和配置条件共同生成的最终消息。
+- 最新稳定版已将旧版 memory_context.py 与 memory_manager_tools.py 删除；记忆上下文模板改从 memory_manager.py 中仍存在的核心消息构造提取。

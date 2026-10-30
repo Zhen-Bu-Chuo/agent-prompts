@@ -1,0 +1,9 @@
+slug: letta
+name: Letta / MemGPT
+repository: letta-ai/letta
+priority: S
+coverage: unavailable
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules: []
+limitations:
+- 最新可访问 main 的源码树中没有可核实的静态 prompt 文件或 prompt 目录；仅在本地来源记录标注其当前仓库/分支，提示词归档保持空。

@@ -1,0 +1,56 @@
+{
+  "agent": "pi",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v1.4.0:4a080252f06caf63a525d7873c5d94d3c23887e0:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "上游仓库已迁移至 earendil-works/pi；以 GitHub 重定向后的提交为归档来源。",
+    "覆盖 coding-agent 包提示词模板与 system prompt，不采集各运行时扩展和用户配置。"
+  ],
+  "name": "Pi Agent",
+  "repository": "earendil-works/pi",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/pi/system/system-prompt-478f2931c92a__default__v1.4.0__4a080252f06c__20261030T053008Z.md",
+          "content_sha256": "00aa6d13d16562265135a7c704d8a33be5d9f647e98a36ea3efa25662e40fc97",
+          "module": "system",
+          "prompt_id": "system-prompt-478f2931c92a",
+          "source_lines": [
+            156,
+            156
+          ],
+          "source_path": "packages/coding-agent/src/core/system-prompt.ts",
+          "source_permalink": "https://github.com/earendil-works/pi/blob/4a080252f06caf63a525d7873c5d94d3c23887e0/packages/coding-agent/src/core/system-prompt.ts#L156-L156",
+          "source_symbol": "promptSections.26",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v1.4.0:4a080252f06caf63a525d7873c5d94d3c23887e0:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:30:08Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-21T22:49:48Z",
+      "repository": "earendil-works/pi",
+      "source_commit": "4a080252f06caf63a525d7873c5d94d3c23887e0",
+      "source_committed_at": "2026-10-21T22:29:13Z",
+      "source_ref": "v1.4.0",
+      "upstream_version": "v1.4.0"
+    }
+  ],
+  "status": "ok"
+}

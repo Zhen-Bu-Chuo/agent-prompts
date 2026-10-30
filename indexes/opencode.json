@@ -1,0 +1,140 @@
+{
+  "agent": "opencode",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v2.2.2:098aa7fd6e02b03d6fc410f0b052038c7d4c5e81:1b8f9e1d339ae4af1d73719894cc93191e2040eb12d15692b3a5abacca0c27dc:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "模型专属 system prompt 按上游模型文件独立保存；会话消息、工具可用性和运行时上下文仍由调度代码动态组装。",
+    "只选择固定 system prompt 和 session prompt 构造模块，TUI 用户输入占位不作为 agent system prompt。"
+  ],
+  "name": "OpenCode",
+  "repository": "anomalyco/opencode",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "1b8f9e1d339ae4af1d73719894cc93191e2040eb12d15692b3a5abacca0c27dc",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/opencode/system/anthropic-22b9562d0efd__default__v2.2.2__098aa7fd6e02__20261030T053003Z.md",
+          "content_sha256": "0ae1276d0af9abb456a0f96409b32beb1b081227db7a3d0f236f919e4fd29bac",
+          "module": "system",
+          "prompt_id": "anthropic-22b9562d0efd",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "packages/core/src/plugin/system-prompt/anthropic.txt",
+          "source_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/packages/core/src/plugin/system-prompt/anthropic.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/opencode/system/gpt-astra-edf896414733__default__v2.2.2__098aa7fd6e02__20261030T053003Z.md",
+          "content_sha256": "bbb87472e9f6e7960819e9e4af6bd0aed10db8fdc219c2e93820df8066cd5da3",
+          "module": "system",
+          "prompt_id": "gpt-astra-edf896414733",
+          "source_lines": [
+            1,
+            45
+          ],
+          "source_path": "packages/core/src/plugin/system-prompt/gpt-astra.txt",
+          "source_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/packages/core/src/plugin/system-prompt/gpt-astra.txt#L1-L45",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/opencode/system/gpt-bac31bbd59e5__default__v2.2.2__098aa7fd6e02__20261030T053003Z.md",
+          "content_sha256": "82d48b175f4ed1a2924d4adbeea3b51be7ecf25b1b0819467f9590d778af75bb",
+          "module": "system",
+          "prompt_id": "gpt-bac31bbd59e5",
+          "source_lines": [
+            1,
+            39
+          ],
+          "source_path": "packages/core/src/plugin/system-prompt/gpt.txt",
+          "source_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/packages/core/src/plugin/system-prompt/gpt.txt#L1-L39",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/opencode/system/kimi-59cf5acfd0de__default__v2.2.2__098aa7fd6e02__20261030T053003Z.md",
+          "content_sha256": "a336c5d8a6f407dc5a1a030c06cfcc89458cf11c784cc7de91370e21a3b9133c",
+          "module": "system",
+          "prompt_id": "kimi-59cf5acfd0de",
+          "source_lines": [
+            1,
+            95
+          ],
+          "source_path": "packages/core/src/plugin/system-prompt/kimi.txt",
+          "source_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/packages/core/src/plugin/system-prompt/kimi.txt#L1-L95",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/opencode/system/meta-c0ae9acf0b43__default__v2.2.2__098aa7fd6e02__20261030T053003Z.md",
+          "content_sha256": "5e50dacb87875d8d55d134e64e2651d73de2c2934965761f2b83fe03c83c63df",
+          "module": "system",
+          "prompt_id": "meta-c0ae9acf0b43",
+          "source_lines": [
+            1,
+            55
+          ],
+          "source_path": "packages/core/src/plugin/system-prompt/meta.txt",
+          "source_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/packages/core/src/plugin/system-prompt/meta.txt#L1-L55",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/opencode/system/trinity-0fd4509dbda5__default__v2.2.2__098aa7fd6e02__20261030T053003Z.md",
+          "content_sha256": "3a4162add9646e2ee314296e4c7d5bee604ffd85fb5197d9f86a8889c8f3119e",
+          "module": "system",
+          "prompt_id": "trinity-0fd4509dbda5",
+          "source_lines": [
+            1,
+            97
+          ],
+          "source_path": "packages/core/src/plugin/system-prompt/trinity.txt",
+          "source_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/packages/core/src/plugin/system-prompt/trinity.txt#L1-L97",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/opencode/system/system-6ad22792b359__default__v2.2.2__098aa7fd6e02__20261030T053003Z.md",
+          "content_sha256": "ab9749036fe5a6b96c74c302900f67a9b249589b4fc4b8a8d18f3c6879dc506d",
+          "module": "system",
+          "prompt_id": "system-6ad22792b359",
+          "source_lines": [
+            1,
+            15
+          ],
+          "source_path": "packages/core/src/session/runner/prompt/system.txt",
+          "source_permalink": "https://github.com/anomalyco/opencode/blob/098aa7fd6e02b03d6fc410f0b052038c7d4c5e81/packages/core/src/session/runner/prompt/system.txt#L1-L15",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v2.2.2:098aa7fd6e02b03d6fc410f0b052038c7d4c5e81:1b8f9e1d339ae4af1d73719894cc93191e2040eb12d15692b3a5abacca0c27dc:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:30:03Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-10-29T18:43:03Z",
+      "repository": "anomalyco/opencode",
+      "source_commit": "098aa7fd6e02b03d6fc410f0b052038c7d4c5e81",
+      "source_committed_at": "2026-10-29T17:43:42Z",
+      "source_ref": "v2.2.2",
+      "upstream_version": "v2.2.2"
+    }
+  ],
+  "status": "ok"
+}

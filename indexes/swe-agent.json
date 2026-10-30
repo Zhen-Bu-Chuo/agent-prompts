@@ -1,0 +1,476 @@
+{
+  "agent": "swe-agent",
+  "coverage": "partial",
+  "current": {
+    "release": "release:v1.1.0:0f3acafacabc0def8cc76b4e48acb4b6cf302cb9:2008979a98b552e8f3a7edfa398215bc2b4be4025d39fef218b937e4b40baa2e:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "当前公开稳定 v1.1.0 将运行提示模板保存在 YAML 配置中；本采集器只选取 default 与 sweagent_0_7 里可证实的 instruction/instance/next-step 模板，不采集 benchmark 与轨迹样本。",
+    "agent loop 根据工具、环境、observation 和步骤状态插入占位符，静态文件不等同于最终的完整模型消息。"
+  ],
+  "name": "SWE-agent",
+  "repository": "SWE-agent/SWE-agent",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "2008979a98b552e8f3a7edfa398215bc2b4be4025d39fef218b937e4b40baa2e",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/swe-agent/execution/07-7a51a7eaeb7b__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "f2a558576d67a13c67a94f6ab5f55596e6d19ed0cef083fe227eef05aa4a575d",
+          "module": "execution",
+          "prompt_id": "07-7a51a7eaeb7b",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07.yaml#L1-L102",
+          "source_symbol": "agent.templates.demonstration_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07-2f8ec40f7128__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "6c5c83fa53304456d7f0c52796733b2e0b6a34efe719acf1242d69c85fb02f4b",
+          "module": "execution",
+          "prompt_id": "07-2f8ec40f7128",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07.yaml#L1-L102",
+          "source_symbol": "agent.templates.demonstrations.0",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07-77b74e2a3913__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "63d749c2e23c6fd1db79fa9ec2aeb600f0696a3323bca963e13d234688abdfa9",
+          "module": "execution",
+          "prompt_id": "07-77b74e2a3913",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07.yaml#L1-L102",
+          "source_symbol": "agent.templates.instance_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07-353aa8530093__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "2823ad4b46e82c3e70fffb698a4d17565c2b6869663fba83a0d7977cb7819283",
+          "module": "execution",
+          "prompt_id": "07-353aa8530093",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07.yaml#L1-L102",
+          "source_symbol": "agent.templates.next_step_no_output_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07-aa20eb74b16f__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "925ac99fc65c929c64b949eba9d2b89280842fe5e12ebde9e2afc2a871642de8",
+          "module": "execution",
+          "prompt_id": "07-aa20eb74b16f",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07.yaml#L1-L102",
+          "source_symbol": "agent.templates.next_step_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07-bbfbda1eac03__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "5a1d01ba6df7b90a039f65ba1c97c8732eff7d6bda958a7ad45f2edf743a9192",
+          "module": "execution",
+          "prompt_id": "07-bbfbda1eac03",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07.yaml#L1-L102",
+          "source_symbol": "agent.templates.system_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_fcalling-6aed5a3e9730__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "f2a558576d67a13c67a94f6ab5f55596e6d19ed0cef083fe227eef05aa4a575d",
+          "module": "execution",
+          "prompt_id": "07_fcalling-6aed5a3e9730",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "config/sweagent_0_7/07_fcalling.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_fcalling.yaml#L1-L101",
+          "source_symbol": "agent.templates.demonstration_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_fcalling-3afdb0ca1c3f__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "229858627f8a4f00f9a32f951983e314fd1beb98658a13704adde3d8bf6ff357",
+          "module": "execution",
+          "prompt_id": "07_fcalling-3afdb0ca1c3f",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "config/sweagent_0_7/07_fcalling.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_fcalling.yaml#L1-L101",
+          "source_symbol": "agent.templates.demonstrations.0",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_fcalling-ca1e3907431b__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "056ed6b1341248a077dd860d16269c1f74330f51075d27d488caf11b9746877a",
+          "module": "execution",
+          "prompt_id": "07_fcalling-ca1e3907431b",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "config/sweagent_0_7/07_fcalling.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_fcalling.yaml#L1-L101",
+          "source_symbol": "agent.templates.instance_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_fcalling-8f5732129472__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "2823ad4b46e82c3e70fffb698a4d17565c2b6869663fba83a0d7977cb7819283",
+          "module": "execution",
+          "prompt_id": "07_fcalling-8f5732129472",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "config/sweagent_0_7/07_fcalling.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_fcalling.yaml#L1-L101",
+          "source_symbol": "agent.templates.next_step_no_output_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_fcalling-2fc7917eac31__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "925ac99fc65c929c64b949eba9d2b89280842fe5e12ebde9e2afc2a871642de8",
+          "module": "execution",
+          "prompt_id": "07_fcalling-2fc7917eac31",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "config/sweagent_0_7/07_fcalling.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_fcalling.yaml#L1-L101",
+          "source_symbol": "agent.templates.next_step_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_fcalling-232be4a35a6d__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "e069b67763a34c1d03be6c1b459ed896b33612053c7b426cbb85f08ab7f34b1b",
+          "module": "execution",
+          "prompt_id": "07_fcalling-232be4a35a6d",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "config/sweagent_0_7/07_fcalling.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_fcalling.yaml#L1-L101",
+          "source_symbol": "agent.templates.system_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_from_url-eb29c0af1463__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "f2a558576d67a13c67a94f6ab5f55596e6d19ed0cef083fe227eef05aa4a575d",
+          "module": "execution",
+          "prompt_id": "07_from_url-eb29c0af1463",
+          "source_lines": [
+            1,
+            114
+          ],
+          "source_path": "config/sweagent_0_7/07_from_url.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_from_url.yaml#L1-L114",
+          "source_symbol": "agent.templates.demonstration_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_from_url-25fbba0cc104__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "57a755ffe8db8e5eaae29d9530916f1079baa3bc058515f0892137f6f8f22166",
+          "module": "execution",
+          "prompt_id": "07_from_url-25fbba0cc104",
+          "source_lines": [
+            1,
+            114
+          ],
+          "source_path": "config/sweagent_0_7/07_from_url.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_from_url.yaml#L1-L114",
+          "source_symbol": "agent.templates.demonstrations.0",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_from_url-212784df6867__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "ec93c87842e694f30752c25ed7f8ba78e6af7e75b8732f066345832207423cfd",
+          "module": "execution",
+          "prompt_id": "07_from_url-212784df6867",
+          "source_lines": [
+            1,
+            114
+          ],
+          "source_path": "config/sweagent_0_7/07_from_url.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_from_url.yaml#L1-L114",
+          "source_symbol": "agent.templates.instance_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_from_url-2480f389fd2d__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "2823ad4b46e82c3e70fffb698a4d17565c2b6869663fba83a0d7977cb7819283",
+          "module": "execution",
+          "prompt_id": "07_from_url-2480f389fd2d",
+          "source_lines": [
+            1,
+            114
+          ],
+          "source_path": "config/sweagent_0_7/07_from_url.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_from_url.yaml#L1-L114",
+          "source_symbol": "agent.templates.next_step_no_output_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_from_url-45a8a83660bc__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "925ac99fc65c929c64b949eba9d2b89280842fe5e12ebde9e2afc2a871642de8",
+          "module": "execution",
+          "prompt_id": "07_from_url-45a8a83660bc",
+          "source_lines": [
+            1,
+            114
+          ],
+          "source_path": "config/sweagent_0_7/07_from_url.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_from_url.yaml#L1-L114",
+          "source_symbol": "agent.templates.next_step_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_from_url-165ff57c7f29__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "89fb1baed4d3862017394ffed6ad55db35fe0ea08fad12493e8761c93f403e89",
+          "module": "execution",
+          "prompt_id": "07_from_url-165ff57c7f29",
+          "source_lines": [
+            1,
+            114
+          ],
+          "source_path": "config/sweagent_0_7/07_from_url.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_from_url.yaml#L1-L114",
+          "source_symbol": "agent.templates.system_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action-2431fd90d51e__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "f2a558576d67a13c67a94f6ab5f55596e6d19ed0cef083fe227eef05aa4a575d",
+          "module": "execution",
+          "prompt_id": "07_thought_action-2431fd90d51e",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action.yaml#L1-L102",
+          "source_symbol": "agent.templates.demonstration_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action-7e3231ff11ae__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "6c5c83fa53304456d7f0c52796733b2e0b6a34efe719acf1242d69c85fb02f4b",
+          "module": "execution",
+          "prompt_id": "07_thought_action-7e3231ff11ae",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action.yaml#L1-L102",
+          "source_symbol": "agent.templates.demonstrations.0",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action-79f20e891caf__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "63d749c2e23c6fd1db79fa9ec2aeb600f0696a3323bca963e13d234688abdfa9",
+          "module": "execution",
+          "prompt_id": "07_thought_action-79f20e891caf",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action.yaml#L1-L102",
+          "source_symbol": "agent.templates.instance_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action-bc14aa5361ea__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "2823ad4b46e82c3e70fffb698a4d17565c2b6869663fba83a0d7977cb7819283",
+          "module": "execution",
+          "prompt_id": "07_thought_action-bc14aa5361ea",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action.yaml#L1-L102",
+          "source_symbol": "agent.templates.next_step_no_output_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action-9014e6051471__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "925ac99fc65c929c64b949eba9d2b89280842fe5e12ebde9e2afc2a871642de8",
+          "module": "execution",
+          "prompt_id": "07_thought_action-9014e6051471",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action.yaml#L1-L102",
+          "source_symbol": "agent.templates.next_step_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action-780c06a34f1a__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "5a1d01ba6df7b90a039f65ba1c97c8732eff7d6bda958a7ad45f2edf743a9192",
+          "module": "execution",
+          "prompt_id": "07_thought_action-780c06a34f1a",
+          "source_lines": [
+            1,
+            102
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action.yaml#L1-L102",
+          "source_symbol": "agent.templates.system_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action_xml-2a3b53b980a5__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "5316bc9a388b7d5d191ecab69f1b8701dbcb9a75ae251c195e5ea7b1626b98c4",
+          "module": "execution",
+          "prompt_id": "07_thought_action_xml-2a3b53b980a5",
+          "source_lines": [
+            1,
+            96
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action_xml.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action_xml.yaml#L1-L96",
+          "source_symbol": "agent.templates.demonstrations.0",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action_xml-02866f86714d__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "63d749c2e23c6fd1db79fa9ec2aeb600f0696a3323bca963e13d234688abdfa9",
+          "module": "execution",
+          "prompt_id": "07_thought_action_xml-02866f86714d",
+          "source_lines": [
+            1,
+            96
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action_xml.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action_xml.yaml#L1-L96",
+          "source_symbol": "agent.templates.instance_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action_xml-b1e075d13d56__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "2823ad4b46e82c3e70fffb698a4d17565c2b6869663fba83a0d7977cb7819283",
+          "module": "execution",
+          "prompt_id": "07_thought_action_xml-b1e075d13d56",
+          "source_lines": [
+            1,
+            96
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action_xml.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action_xml.yaml#L1-L96",
+          "source_symbol": "agent.templates.next_step_no_output_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action_xml-ee58e3b14fe9__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "925ac99fc65c929c64b949eba9d2b89280842fe5e12ebde9e2afc2a871642de8",
+          "module": "execution",
+          "prompt_id": "07_thought_action_xml-ee58e3b14fe9",
+          "source_lines": [
+            1,
+            96
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action_xml.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action_xml.yaml#L1-L96",
+          "source_symbol": "agent.templates.next_step_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/execution/07_thought_action_xml-d9208a35b9e9__legacy-tool-loop__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "e350d35a1369e512311115973e3e496f4332cb2b6c50669205c58fc9d41f845f",
+          "module": "execution",
+          "prompt_id": "07_thought_action_xml-d9208a35b9e9",
+          "source_lines": [
+            1,
+            96
+          ],
+          "source_path": "config/sweagent_0_7/07_thought_action_xml.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/sweagent_0_7/07_thought_action_xml.yaml#L1-L96",
+          "source_symbol": "agent.templates.system_template",
+          "variant": "legacy-tool-loop"
+        },
+        {
+          "archive_path": "agents/swe-agent/system/default-142e0b48c4b6__default__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "10de1455c0139004a0bee751fcd2bda2e44b97abe3ba8454a71b0b49d3678e98",
+          "module": "system",
+          "prompt_id": "default-142e0b48c4b6",
+          "source_lines": [
+            1,
+            63
+          ],
+          "source_path": "config/default.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/default.yaml#L1-L63",
+          "source_symbol": "agent.templates.instance_template",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/swe-agent/system/default_backticks-f13ecabafbe5__default__v1.1.0__0f3acafacabc__20261030T053013Z.md",
+          "content_sha256": "10de1455c0139004a0bee751fcd2bda2e44b97abe3ba8454a71b0b49d3678e98",
+          "module": "system",
+          "prompt_id": "default_backticks-f13ecabafbe5",
+          "source_lines": [
+            1,
+            63
+          ],
+          "source_path": "config/default_backticks.yaml",
+          "source_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/config/default_backticks.yaml#L1-L63",
+          "source_symbol": "agent.templates.instance_template",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v1.1.0:0f3acafacabc0def8cc76b4e48acb4b6cf302cb9:2008979a98b552e8f3a7edfa398215bc2b4be4025d39fef218b937e4b40baa2e:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:30:13Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2025-05-22T16:11:39Z",
+      "repository": "SWE-agent/SWE-agent",
+      "source_commit": "0f3acafacabc0def8cc76b4e48acb4b6cf302cb9",
+      "source_committed_at": "2025-05-22T16:10:41Z",
+      "source_ref": "v1.1.0",
+      "upstream_version": "v1.1.0"
+    }
+  ],
+  "status": "ok"
+}

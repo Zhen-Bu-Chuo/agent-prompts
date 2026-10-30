@@ -1,0 +1,237 @@
+{
+  "agent": "voyager",
+  "coverage": "supported",
+  "current": {
+    "default-branch": "default-branch:main:55e45a880755d0c8c66ca7fb5fe7962ac8974f89:8793502644770fee5d432b4d9aec749dd70ed99decfccbca3ee0197475173117:1.0.3"
+  },
+  "last_error": null,
+  "license": "MIT",
+  "limitations": [
+    "上游没有 stable release；使用 main commit 固定。本仓库作为 Agent 技能从经验生成和复用机制的研究样本；示例技能程序不采集为提示词。"
+  ],
+  "name": "Voyager",
+  "repository": "MineDojo/Voyager",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "8793502644770fee5d432b4d9aec749dd70ed99decfccbca3ee0197475173117",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/voyager/curriculum/curriculum-08fd4a05a0b5__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "e08807e34c5438fef18356068b5975431be4c5a9167a3c45110b5a9a98ccf65b",
+          "module": "curriculum",
+          "prompt_id": "curriculum-08fd4a05a0b5",
+          "source_lines": [
+            1,
+            42
+          ],
+          "source_path": "voyager/prompts/curriculum.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum.txt#L1-L42",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/curriculum/curriculum_qa_step1_ask_questions-848595a73094__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "8befcc598255266f5e16ecb3ee9d9e7ac034dbfc1a7f0c4c2cce52a4d39605e0",
+          "module": "curriculum",
+          "prompt_id": "curriculum_qa_step1_ask_questions-848595a73094",
+          "source_lines": [
+            1,
+            94
+          ],
+          "source_path": "voyager/prompts/curriculum_qa_step1_ask_questions.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum_qa_step1_ask_questions.txt#L1-L94",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/curriculum/curriculum_qa_step2_answer_question-6a3ff4c3fe2f__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "9d11ed9375f1df44e4314ceb05931636c4f99b76c3014683cc01e701876b0d6c",
+          "module": "curriculum",
+          "prompt_id": "curriculum_qa_step2_answer_question-6a3ff4c3fe2f",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "voyager/prompts/curriculum_qa_step2_answer_questions.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum_qa_step2_answer_questions.txt#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/curriculum/curriculum_task_decomposition-db1cd5c54db4__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "a6d831c299dbe4c23eb038d2f1a42fe89aad9ad9ddca033df925995cc800c3e2",
+          "module": "curriculum",
+          "prompt_id": "curriculum_task_decomposition-db1cd5c54db4",
+          "source_lines": [
+            1,
+            12
+          ],
+          "source_path": "voyager/prompts/curriculum_task_decomposition.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum_task_decomposition.txt#L1-L12",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/action_response_format-def9fbdd049b__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "02c01d2e32a3a66af06aa5b72dc7905efca62ef236592b8ae007382ba24c2cd3",
+          "module": "execution",
+          "prompt_id": "action_response_format-def9fbdd049b",
+          "source_lines": [
+            1,
+            15
+          ],
+          "source_path": "voyager/prompts/action_response_format.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/action_response_format.txt#L1-L15",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/action_template-e782f89f83d2__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "258f90cd3e3be46d89df14f1c945802132aab256bdf812fd8fcf638d8fa1e46f",
+          "module": "execution",
+          "prompt_id": "action_template-e782f89f83d2",
+          "source_lines": [
+            1,
+            49
+          ],
+          "source_path": "voyager/prompts/action_template.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/action_template.txt#L1-L49",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/critic-10d4f6810c6c__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "423cec48db02a38a0c437bfbd06cb1f73b0b7ecb825d0644d660b6782d6222da",
+          "module": "execution",
+          "prompt_id": "critic-10d4f6810c6c",
+          "source_lines": [
+            1,
+            127
+          ],
+          "source_path": "voyager/prompts/critic.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/critic.txt#L1-L127",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/curriculum-9ec9dc36065b__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "e08807e34c5438fef18356068b5975431be4c5a9167a3c45110b5a9a98ccf65b",
+          "module": "execution",
+          "prompt_id": "curriculum-9ec9dc36065b",
+          "source_lines": [
+            1,
+            42
+          ],
+          "source_path": "voyager/prompts/curriculum.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum.txt#L1-L42",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/curriculum_qa_step1_ask_questions-7b6d78e8d671__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "8befcc598255266f5e16ecb3ee9d9e7ac034dbfc1a7f0c4c2cce52a4d39605e0",
+          "module": "execution",
+          "prompt_id": "curriculum_qa_step1_ask_questions-7b6d78e8d671",
+          "source_lines": [
+            1,
+            94
+          ],
+          "source_path": "voyager/prompts/curriculum_qa_step1_ask_questions.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum_qa_step1_ask_questions.txt#L1-L94",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/curriculum_qa_step2_answer_question-3c253fe33304__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "9d11ed9375f1df44e4314ceb05931636c4f99b76c3014683cc01e701876b0d6c",
+          "module": "execution",
+          "prompt_id": "curriculum_qa_step2_answer_question-3c253fe33304",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "voyager/prompts/curriculum_qa_step2_answer_questions.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum_qa_step2_answer_questions.txt#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/curriculum_task_decomposition-77d9c9385e8a__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "a6d831c299dbe4c23eb038d2f1a42fe89aad9ad9ddca033df925995cc800c3e2",
+          "module": "execution",
+          "prompt_id": "curriculum_task_decomposition-77d9c9385e8a",
+          "source_lines": [
+            1,
+            12
+          ],
+          "source_path": "voyager/prompts/curriculum_task_decomposition.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/curriculum_task_decomposition.txt#L1-L12",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/execution/skill-5468a340fdd3__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "e07a629e7ac85217c06e8f946f8ea6e0e39ed7eaefde0a1ce322c1fc9689459f",
+          "module": "execution",
+          "prompt_id": "skill-5468a340fdd3",
+          "source_lines": [
+            1,
+            51
+          ],
+          "source_path": "voyager/prompts/skill.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/skill.txt#L1-L51",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/reflection/critic-3f377f6ac62b__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "423cec48db02a38a0c437bfbd06cb1f73b0b7ecb825d0644d660b6782d6222da",
+          "module": "reflection",
+          "prompt_id": "critic-3f377f6ac62b",
+          "source_lines": [
+            1,
+            127
+          ],
+          "source_path": "voyager/prompts/critic.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/critic.txt#L1-L127",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/voyager/skills/skill-eab43632cab3__default__untagged__55e45a880755__20261030T053014Z.md",
+          "content_sha256": "e07a629e7ac85217c06e8f946f8ea6e0e39ed7eaefde0a1ce322c1fc9689459f",
+          "module": "skills",
+          "prompt_id": "skill-eab43632cab3",
+          "source_lines": [
+            1,
+            51
+          ],
+          "source_path": "voyager/prompts/skill.txt",
+          "source_permalink": "https://github.com/MineDojo/Voyager/blob/55e45a880755d0c8c66ca7fb5fe7962ac8974f89/voyager/prompts/skill.txt#L1-L51",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:55e45a880755d0c8c66ca7fb5fe7962ac8974f89:8793502644770fee5d432b4d9aec749dd70ed99decfccbca3ee0197475173117:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-30T05:30:14Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "MineDojo/Voyager",
+      "source_commit": "55e45a880755d0c8c66ca7fb5fe7962ac8974f89",
+      "source_committed_at": "2023-07-27T07:35:42Z",
+      "source_ref": "main",
+      "upstream_version": null
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,98 @@
+{
+  "agent": "roo-code",
+  "coverage": "supported",
+  "current": {
+    "release": "release:v3.54.0:27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0:b22ee41ef20fb3e2688dcdd25931102547f23416d2fb6fcea066c554d261afc4:1.0.3"
+  },
+  "last_error": null,
+  "license": "Apache-2.0",
+  "limitations": [
+    "按 system/sections/response 模块归档；模式角色、工具能力和用户规则在运行时合成，静态模板未还原实际消息。",
+    "Upstream repository is archived."
+  ],
+  "name": "Roo Code",
+  "repository": "RooCodeInc/Roo-Code",
+  "schema_version": 1,
+  "snapshots": [
+    {
+      "adapter_sha256": "b22ee41ef20fb3e2688dcdd25931102547f23416d2fb6fcea066c554d261afc4",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/roo-code/system/system-6cba4b3f3c30__default__v3.54.0__27001b2b5aa4__20261030T053013Z.md",
+          "content_sha256": "4527b3575a434d74392302904e7ef981a95b3ed135ec6f8cfcc2c8eece50a3c2",
+          "module": "system",
+          "prompt_id": "system-6cba4b3f3c30",
+          "source_lines": [
+            85,
+            107
+          ],
+          "source_path": "src/core/prompts/system.ts",
+          "source_permalink": "https://github.com/RooCodeInc/Roo-Code/blob/27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0/src/core/prompts/system.ts#L85-L107",
+          "source_symbol": "basePrompt.16",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/roo-code/tools/responses-3b1e7ce88c31__default__v3.54.0__27001b2b5aa4__20261030T053013Z.md",
+          "content_sha256": "1edb48993f3cb8b11dd7ca134eba44e877e3c9ff9c5f85c6b2275853e115cf9d",
+          "module": "tools",
+          "prompt_id": "responses-3b1e7ce88c31",
+          "source_lines": [
+            45,
+            54
+          ],
+          "source_path": "src/core/prompts/responses.ts",
+          "source_permalink": "https://github.com/RooCodeInc/Roo-Code/blob/27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0/src/core/prompts/responses.ts#L45-L54",
+          "source_symbol": "instructions.16",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/roo-code/tools/responses-36c7bf369efb__default__v3.54.0__27001b2b5aa4__20261030T053013Z.md",
+          "content_sha256": "80969f832706babb449f6b13bd951fb6a00168932897f5d17a073e0de76d4306",
+          "module": "tools",
+          "prompt_id": "responses-36c7bf369efb",
+          "source_lines": [
+            66,
+            66
+          ],
+          "source_path": "src/core/prompts/responses.ts",
+          "source_permalink": "https://github.com/RooCodeInc/Roo-Code/blob/27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0/src/core/prompts/responses.ts#L66-L66",
+          "source_symbol": "instructions.18",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/roo-code/tools/responses-19df54b29767__default__v3.54.0__27001b2b5aa4__20261030T053013Z.md",
+          "content_sha256": "0ed9ba97690c41ad00e471105c1453a7f9a412bb12f8d2bcc2fa220480dd0c1a",
+          "module": "tools",
+          "prompt_id": "responses-19df54b29767",
+          "source_lines": [
+            219,
+            223
+          ],
+          "source_path": "src/core/prompts/responses.ts",
+          "source_permalink": "https://github.com/RooCodeInc/Roo-Code/blob/27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0/src/core/prompts/responses.ts#L219-L223",
+          "source_symbol": "toolUseInstructionsReminderNative.52",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v3.54.0:27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0:b22ee41ef20fb3e2688dcdd25931102547f23416d2fb6fcea066c554d261afc4:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-30T05:30:13Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-05-15T17:52:24Z",
+      "repository": "RooCodeInc/Roo-Code",
+      "source_commit": "27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0",
+      "source_committed_at": "2026-05-15T17:43:39Z",
+      "source_ref": "v3.54.0",
+      "upstream_version": "v3.54.0"
+    }
+  ],
+  "status": "ok"
+}

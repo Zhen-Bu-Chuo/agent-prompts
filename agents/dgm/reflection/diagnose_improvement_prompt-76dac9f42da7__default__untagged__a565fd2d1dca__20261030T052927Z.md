@@ -1,0 +1,83 @@
+---
+agent: dgm
+prompt_id: diagnose_improvement_prompt-76dac9f42da7
+module: reflection
+variant: default
+upstream_repository: jennyzzt/dgm
+upstream_version: null
+package_name: null
+package_version: null
+source_ref: main
+source_commit: a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2
+source_path: prompts/diagnose_improvement_prompt.py
+source_symbol: module.diagnose_improvement_prompt.1
+source_lines:
+- 39
+- 95
+source_permalink: https://github.com/jennyzzt/dgm/blob/a565fd2d1dca504ef5104a7cc0f3bdc4ab9b4fd2/prompts/diagnose_improvement_prompt.py#L39-L95
+source_committed_at: '2025-08-13T10:40:14Z'
+release_published_at: null
+fetched_at: '2026-10-30T05:29:27Z'
+extractor_version: 1.0.3
+content_sha256: b61271197c5cc6042fdea13294969b5f5429eed4de42cd53ef85efcc0d6f973a
+license: Apache-2.0
+source_kind: static_template
+extraction_notes: Python string decoded by the AST parser; upstream code was not executed.
+---
+Here are the logs for the coding agent, before and after applying the model patch, trying to solve the GitHub issues. It will be VERY LONG. Think very hard on the impact of the model patch on the agent's performance.
+Note: ignore errors with "create_message_with_backoff" and all API rate limit errors.
+
+# Agent Running Log Before Patch
+The coding agent's log before improvement
+----- Log Before Patch Start -----
+{md_log}
+----- Log Before Patch End -----
+
+# Predicted Patch Before Patch
+The predicted patch from agent before improvement to try to solve issue.
+----- Predicted Patch Before Patch Start -----
+{prev_predicted_patch}
+----- Predicted Patch Before Patch End -----
+
+# Issue Test Results Before Patch
+The test results before improvement from SWE-bench using the above official private tests.
+----- Issue Test Results Before Patch Start -----
+{eval_log}
+----- Issue Test Results Before Patch End -----
+
+# Agent Running Log After Patch
+The coding agent's log after improvement
+----- Log After Patch Start -----
+{new_md_log}
+----- Log After Patch End -----
+
+# Predicted Patch After Patch
+The predicted patch from agent after improvement to try to solve issue.
+----- Predicted Patch After Patch Start -----
+{new_predicted_patch}
+----- Predicted Patch After Patch End -----
+
+# Issue Test Results After Patch
+The test results after improvement from SWE-bench using the above official private tests.
+----- Issue Test Results After Patch Start -----
+{new_eval_log}
+----- Issue Test Results After Patch End -----
+
+
+# Instruction
+
+Respond precisely in the following format including the JSON start and end markers:
+
+```json
+<JSON>
+```
+
+In <JSON>, provide a JSON response with the following fields:
+- "impact": Analyze the impact of the model patch on the agent's performance. Focus on how the patch has affected the agent's problem-solving capabilities and general performance. This should be a long and thorough analysis.
+- "improvements": Identify any improvements introduced by the model patch that enhance the agent's capabilities.
+- "regressions": Identify any new issues or regressions introduced by the model patch that affect the agent's effectiveness.
+- "score": Provide an overall score for the model patch's impact on the agent's performance. This should be a numerical value between -2 and 2, where -2 indicates a significant negative impact, 0 indicates no impact, and 2 indicates a significant positive impact.
+
+Your response will be automatically parsed, so ensure that the string response is precisely in the correct format. Do NOT include the `<JSON>` tag in your output.
+Focus on analyzing the impact of the model patch on the agent's performance, identifying improvements and regressions, and providing an overall score for the patch's impact.
+Your thinking should be thorough. Please think very deeply.

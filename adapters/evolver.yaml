@@ -1,0 +1,16 @@
+slug: evolver
+name: EvoMap Evolver
+repository: EvoMap/evolver
+priority: A
+coverage: partial
+tag_pattern: ^v\d+\.\d+\.\d+$
+rules:
+- glob: packages/evolver-core/dist/exec/prompt.js
+  module: evolution
+  format: js-strings
+  min_chars: 30
+limitations:
+- v2.0.46 只提供 transpiled dist 源码；README 标注 GPL-3.0-or-later，没有独立根 LICENSE 文件。保留 README license 声明与源码链接。
+- personality/prompt.js 已混淆并排除；exec/prompt.js 中仅保存静态可读字符串片段，标记为片段而非重建完整运行时 prompt。
+license_override: GPL-3.0-or-later
+license_path: README.md
