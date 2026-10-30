@@ -93,7 +93,14 @@ def _license_record(root, adapter, snapshot, license_info, observed_at, only_lat
             for old in license_dir.glob("*"):
                 if old != Path(root) / rel and old.is_file() and not old.is_symlink():
                     old.unlink()
-    write_json(Path(root) / "indexes" / f"{slug}-source.json", value)
+    index_path = Path(root) / "indexes" / f"{slug}-source.json"
+    if index_path.exists():
+        previous = json.loads(index_path.read_text(encoding="utf-8"))
+        current_state = {key: item for key, item in value.items() if key != "collected_at"}
+        previous_state = {key: item for key, item in previous.items() if key != "collected_at"}
+        if current_state == previous_state:
+            value["collected_at"] = previous.get("collected_at", observed_at)
+    write_json(index_path, value)
 
 
 def _match_paths(paths, rule):
