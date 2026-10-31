@@ -1,17 +1,17 @@
 {
   "agent": "openevolve",
-  "collected_at": "2026-10-30T05:30:03Z",
+  "collected_at": "2026-10-31T06:40:36Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/f7b633986c0b3dbd0a171f6eb0cb0f0ba4fdfb0c/LICENSE",
-  "license_text_path": "licenses/openevolve/f7b633986c0b.txt",
+  "license_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/da43cd8eed114959ecef6ecaa79171b68c545f8d/LICENSE",
+  "license_text_path": "licenses/openevolve/da43cd8eed11.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-09-28T03:29:34Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "algorithmicsuperintelligence/openevolve",
-  "source_commit": "f7b633986c0b3dbd0a171f6eb0cb0f0ba4fdfb0c",
-  "source_committed_at": "2026-09-28T03:28:57Z",
+  "source_commit": "da43cd8eed114959ecef6ecaa79171b68c545f8d",
+  "source_committed_at": "2026-10-31T00:51:49Z",
   "source_path": "LICENSE",
-  "source_ref": "v0.4.0",
-  "upstream_version": "v0.4.0"
+  "source_ref": "main",
+  "upstream_version": null
 }

@@ -1,17 +1,17 @@
 {
   "agent": "cognee",
-  "collected_at": "2026-10-30T05:29:25Z",
+  "collected_at": "2026-10-31T06:40:18Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/topoteretes/cognee/blob/df2b4facd7c1d73b59376fd251fb93674a9d60a3/LICENSE",
-  "license_text_path": "licenses/cognee/df2b4facd7c1.txt",
+  "license_permalink": "https://github.com/topoteretes/cognee/blob/525b1d1179c550cd5b5661bcbf8f00f57a676928/LICENSE",
+  "license_text_path": "licenses/cognee/525b1d1179c5.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-29T21:33:43Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "topoteretes/cognee",
-  "source_commit": "df2b4facd7c1d73b59376fd251fb93674a9d60a3",
-  "source_committed_at": "2026-10-29T21:29:40Z",
+  "source_commit": "525b1d1179c550cd5b5661bcbf8f00f57a676928",
+  "source_committed_at": "2026-10-29T22:02:39Z",
   "source_path": "LICENSE",
-  "source_ref": "v1.6.6",
-  "upstream_version": "v1.6.6"
+  "source_ref": "main",
+  "upstream_version": null
 }

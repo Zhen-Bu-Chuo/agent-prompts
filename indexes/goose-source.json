@@ -1,17 +1,17 @@
 {
   "agent": "goose",
-  "collected_at": "2026-10-30T05:29:38Z",
+  "collected_at": "2026-10-31T06:40:27Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/aaif-goose/goose/blob/30bba95105e59bc3e7df624cf6b4d433690cfe12/LICENSE",
-  "license_text_path": "licenses/goose/30bba95105e5.txt",
+  "license_permalink": "https://github.com/aaif-goose/goose/blob/b23d21cabd9b4de0c045dcdd731821a3a15c2bfc/LICENSE",
+  "license_text_path": "licenses/goose/b23d21cabd9b.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-28T19:26:10Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "aaif-goose/goose",
-  "source_commit": "30bba95105e59bc3e7df624cf6b4d433690cfe12",
-  "source_committed_at": "2026-10-27T17:47:18Z",
+  "source_commit": "b23d21cabd9b4de0c045dcdd731821a3a15c2bfc",
+  "source_committed_at": "2026-10-31T00:21:15Z",
   "source_path": "LICENSE",
-  "source_ref": "v1.57.0",
-  "upstream_version": "v1.57.0"
+  "source_ref": "main",
+  "upstream_version": null
 }

@@ -1,17 +1,17 @@
 {
   "agent": "gemini-cli",
-  "collected_at": "2026-10-30T05:29:35Z",
+  "collected_at": "2026-10-31T06:40:26Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/google-gemini/gemini-cli/blob/970413207732f5d4d8c50540c7fc359c44fdaaf2/LICENSE",
-  "license_text_path": "licenses/gemini-cli/970413207732.txt",
+  "license_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/LICENSE",
+  "license_text_path": "licenses/gemini-cli/6814e00d6b14.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-27T20:26:28Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "google-gemini/gemini-cli",
-  "source_commit": "970413207732f5d4d8c50540c7fc359c44fdaaf2",
-  "source_committed_at": "2026-10-27T20:19:20Z",
+  "source_commit": "6814e00d6b148c3a1d57244d5d7040f7c541009d",
+  "source_committed_at": "2026-10-30T21:38:47Z",
   "source_path": "LICENSE",
-  "source_ref": "v0.66.0",
-  "upstream_version": "v0.66.0"
+  "source_ref": "main",
+  "upstream_version": null
 }

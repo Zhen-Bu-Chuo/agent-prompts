@@ -2,6 +2,7 @@
   "agent": "hermes",
   "coverage": "supported",
   "current": {
+    "default-branch": "default-branch:main:adecc4024456b387b1518813b90bd60c82b51287:6102752c11264ff46613f7e7ce72f3e51053d6ee44f02eeeb6a95b963a563ca6:1.0.3",
     "release": "release:v2026.9.24:f97608f178d1ffeca59860195ab7da295f7c8e5f:6102752c11264ff46613f7e7ce72f3e51053d6ee44f02eeeb6a95b963a563ca6:1.0.3"
   },
   "last_error": null,
@@ -373,6 +374,375 @@
       "source_committed_at": "2026-09-24T10:08:47Z",
       "source_ref": "v2026.9.24",
       "upstream_version": "v2026.9.24"
+    },
+    {
+      "adapter_sha256": "6102752c11264ff46613f7e7ce72f3e51053d6ee44f02eeeb6a95b963a563ca6",
+      "changes": {
+        "added": [
+          "prompt_builder-afd03610b0ba",
+          "prompt_builder-11235cdf3636",
+          "prompt_builder-05309ad9961d",
+          "prompt_builder-8d29e21867da",
+          "memory_manager-f9d4b00200cd",
+          "memory_manager-563883984741",
+          "memory_manager-018088943734",
+          "memory_manager-92d5ed0ed51f",
+          "memory_manager-ba282e7e3b8c",
+          "memory_manager-adfc2bbd9370",
+          "memory_manager-c87e912e39dc",
+          "memory_manager-5fdfc8185f2c",
+          "memory_manager-46c08f088b45",
+          "plan_prompt-f23c3fd64d76",
+          "plan_prompt-2ff535c40991",
+          "plan_prompt-b18283090c23",
+          "learn_prompt-685963abb15c",
+          "learn_prompt-b54907efbf1a",
+          "learn_prompt-b99bfcc4712c",
+          "learn_prompt-2f5decead7c8",
+          "learn_prompt-a1b523299e8a",
+          "system_prompt-620e91e23568",
+          "system_prompt-6a2c6060d065"
+        ],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/hermes/context/prompt_builder-afd03610b0ba__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "1f821ed1421eda92903ed5e89525172c33b8beec1eaa69265cb1c6f0077ae98f",
+          "module": "context",
+          "prompt_id": "prompt_builder-afd03610b0ba",
+          "source_lines": [
+            105,
+            106
+          ],
+          "source_path": "agent/prompt_builder.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/prompt_builder.py#L105-L106",
+          "source_symbol": "module._scan_context_content.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/context/prompt_builder-11235cdf3636__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "85749ab757c993d03a98173ecde430701de95b7d99a412fdf50ecbb7183534c6",
+          "module": "context",
+          "prompt_id": "prompt_builder-11235cdf3636",
+          "source_lines": [
+            110,
+            110
+          ],
+          "source_path": "agent/prompt_builder.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/prompt_builder.py#L110-L110",
+          "source_symbol": "module._scan_context_content.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/context/prompt_builder-05309ad9961d__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "1fda076759305cf0deb13352ec725d81ae568877f64fced1414df5ffdfb96ee3",
+          "module": "context",
+          "prompt_id": "prompt_builder-05309ad9961d",
+          "source_lines": [
+            1737,
+            1738
+          ],
+          "source_path": "agent/prompt_builder.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/prompt_builder.py#L1737-L1738",
+          "source_symbol": "module.build_context_files_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/context/prompt_builder-8d29e21867da__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "adb08d1139188aa8cde1090136e18c0fe6d4290323d058252d7c11db1cddfb5d",
+          "module": "context",
+          "prompt_id": "prompt_builder-8d29e21867da",
+          "source_lines": [
+            1749,
+            1749
+          ],
+          "source_path": "agent/prompt_builder.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/prompt_builder.py#L1749-L1749",
+          "source_symbol": "module.build_context_files_prompt.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-f9d4b00200cd__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "1ec89c0b8bec3968c08b1c6f7a51bba343e4ad05fb0dbd30524fa4bafb14710e",
+          "module": "memory",
+          "prompt_id": "memory_manager-f9d4b00200cd",
+          "source_lines": [
+            527,
+            528
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L527-L528",
+          "source_symbol": "module.MemoryManager._call_unless_stalled.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-563883984741__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "e4c3748513ddfcd42622e969c9062d64766161f9747b3f914e8e09b6dda75dab",
+          "module": "memory",
+          "prompt_id": "memory_manager-563883984741",
+          "source_lines": [
+            901,
+            902
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L901-L902",
+          "source_symbol": "module.MemoryManager._drain_sync_executor.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-018088943734__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "aa1c48940a7a460afa552261e59b1dd0485a50d6a91d6e6bc3d7e000e1a9e5fa",
+          "module": "memory",
+          "prompt_id": "memory_manager-018088943734",
+          "source_lines": [
+            391,
+            392
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L391-L392",
+          "source_symbol": "module.MemoryManager._prefetch_provider.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-92d5ed0ed51f__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "34b0662d168a5aa2c5d99b7aa24241668a45e97bad410001a58dd88f5d3a8a96",
+          "module": "memory",
+          "prompt_id": "memory_manager-92d5ed0ed51f",
+          "source_lines": [
+            274,
+            277
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L274-L277",
+          "source_symbol": "module.MemoryManager.add_provider.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-ba282e7e3b8c__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "d0dd7a0b6b9a6e63b32f5ad9da00de2717bb53ea3bb20fed789de4b26e74a321",
+          "module": "memory",
+          "prompt_id": "memory_manager-ba282e7e3b8c",
+          "source_lines": [
+            315,
+            317
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L315-L317",
+          "source_symbol": "module.MemoryManager.add_provider.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-adfc2bbd9370__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "4025b5b54c57081b1c991487a1087f50f2a42a95d803b0719a4cb51e9ba8549f",
+          "module": "memory",
+          "prompt_id": "memory_manager-adfc2bbd9370",
+          "source_lines": [
+            321,
+            322
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L321-L322",
+          "source_symbol": "module.MemoryManager.add_provider.3",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-c87e912e39dc__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "dab7b1f8b290986208a36152339a097934952f2bdb9bf287d08840b95afdb439",
+          "module": "memory",
+          "prompt_id": "memory_manager-c87e912e39dc",
+          "source_lines": [
+            573,
+            574
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L573-L574",
+          "source_symbol": "module.MemoryManager.get_all_tool_schemas._collect.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-5fdfc8185f2c__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "a510e35a8e5c3358ddcb23dcd7ae84dca527045635bb4144ac4c5cda85c5a5aa",
+          "module": "memory",
+          "prompt_id": "memory_manager-5fdfc8185f2c",
+          "source_lines": [
+            913,
+            915
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L913-L915",
+          "source_symbol": "module.MemoryManager.initialize_for_agent.message.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/memory/memory_manager-46c08f088b45__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "06804413a237268c5f63a4915481a9591a248258fd662e9be42c6e1b331424ab",
+          "module": "memory",
+          "prompt_id": "memory_manager-46c08f088b45",
+          "source_lines": [
+            731,
+            731
+          ],
+          "source_path": "agent/memory_manager.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/memory_manager.py#L731-L731",
+          "source_symbol": "module.MemoryManager.on_pre_compress.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/planning/plan_prompt-f23c3fd64d76__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "a407672126643b1545ddfb2d45eb2f67cad8e278c204c4265036c5d96ce6eeb9",
+          "module": "planning",
+          "prompt_id": "plan_prompt-f23c3fd64d76",
+          "source_lines": [
+            28,
+            57
+          ],
+          "source_path": "agent/plan_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/plan_prompt.py#L28-L57",
+          "source_symbol": "module._PLAN_CRAFT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/planning/plan_prompt-2ff535c40991__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "68e91439d6fe0a13e0f38c46312857c28028c8498d59c9927659fe8b7fcac5f2",
+          "module": "planning",
+          "prompt_id": "plan_prompt-2ff535c40991",
+          "source_lines": [
+            11,
+            26
+          ],
+          "source_path": "agent/plan_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/plan_prompt.py#L11-L26",
+          "source_symbol": "module._PLAN_MODE_RULES.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/planning/plan_prompt-b18283090c23__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "5be4e2796570818e6a28b95582954fc5190a7f5e0874228058af46f3a9ee00cf",
+          "module": "planning",
+          "prompt_id": "plan_prompt-b18283090c23",
+          "source_lines": [
+            67,
+            69
+          ],
+          "source_path": "agent/plan_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/plan_prompt.py#L67-L69",
+          "source_symbol": "module.build_plan_prompt.task_block.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/skills/learn_prompt-685963abb15c__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "44d5d235afec6fe5686149308c58a40824bc5e0ae17cd65cb357fb52fdea42a3",
+          "module": "skills",
+          "prompt_id": "learn_prompt-685963abb15c",
+          "source_lines": [
+            11,
+            81
+          ],
+          "source_path": "agent/learn_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/learn_prompt.py#L11-L81",
+          "source_symbol": "module._AUTHORING_STANDARDS.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/skills/learn_prompt-b54907efbf1a__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "5702d32d9255cd677ee884d4ef4cf1296772bbe3b8a71c3f43d79def84840d17",
+          "module": "skills",
+          "prompt_id": "learn_prompt-b54907efbf1a",
+          "source_lines": [
+            86,
+            120
+          ],
+          "source_path": "agent/learn_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/learn_prompt.py#L86-L120",
+          "source_symbol": "module._KNOWLEDGE_SKILL_STANDARDS.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/skills/learn_prompt-b99bfcc4712c__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "3dbca397b48516b9fdb97bb8b4145ebea826e5797b58cf26b53062266d0d7cdb",
+          "module": "skills",
+          "prompt_id": "learn_prompt-b99bfcc4712c",
+          "source_lines": [
+            125,
+            133
+          ],
+          "source_path": "agent/learn_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/learn_prompt.py#L125-L133",
+          "source_symbol": "module._SOURCE_HYGIENE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/skills/learn_prompt-2f5decead7c8__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "612a4562879e644a26edcb406be3b264f5df4c0a348e020b3a7cd146ed6e4886",
+          "module": "skills",
+          "prompt_id": "learn_prompt-2f5decead7c8",
+          "source_lines": [
+            145,
+            196
+          ],
+          "source_path": "agent/learn_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/learn_prompt.py#L145-L196",
+          "source_symbol": "module.build_learn_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/skills/learn_prompt-a1b523299e8a__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "595e2119ffb0f6efa9390657120de0f1947c43805e122ee9a1d58e063cf5698f",
+          "module": "skills",
+          "prompt_id": "learn_prompt-a1b523299e8a",
+          "source_lines": [
+            140,
+            141
+          ],
+          "source_path": "agent/learn_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/learn_prompt.py#L140-L141",
+          "source_symbol": "module.build_learn_prompt.req.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/system/system_prompt-620e91e23568__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "2b9417e4064164ddee1893d65daeafe87b6b33b8f880c24421e8987345895d04",
+          "module": "system",
+          "prompt_id": "system_prompt-620e91e23568",
+          "source_lines": [
+            130,
+            130
+          ],
+          "source_path": "agent/system_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/system_prompt.py#L130-L130",
+          "source_symbol": "module._frozen_plugin_prompt_sections.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hermes/system/system_prompt-6a2c6060d065__default__untagged__adecc4024456__20261031T064029Z.md",
+          "content_sha256": "846c955590ffe13dd8825d1775ffaf42c1c33299c59d4c968e3b0631c9bd1b1a",
+          "module": "system",
+          "prompt_id": "system_prompt-6a2c6060d065",
+          "source_lines": [
+            800,
+            800
+          ],
+          "source_path": "agent/system_prompt.py",
+          "source_permalink": "https://github.com/NousResearch/hermes-agent/blob/adecc4024456b387b1518813b90bd60c82b51287/agent/system_prompt.py#L800-L800",
+          "source_symbol": "module.build_system_prompt_parts.1",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:adecc4024456b387b1518813b90bd60c82b51287:6102752c11264ff46613f7e7ce72f3e51053d6ee44f02eeeb6a95b963a563ca6:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-31T06:40:29Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "NousResearch/hermes-agent",
+      "source_commit": "adecc4024456b387b1518813b90bd60c82b51287",
+      "source_committed_at": "2026-10-31T06:03:57Z",
+      "source_ref": "main",
+      "upstream_version": null
     }
   ],
   "status": "ok"

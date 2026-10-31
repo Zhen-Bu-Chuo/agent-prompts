@@ -1,17 +1,17 @@
 {
   "agent": "memu",
-  "collected_at": "2026-10-30T05:30:00Z",
+  "collected_at": "2026-10-31T06:40:35Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/NevaMind-AI/memU/blob/357aefc8012705bfde723f141d52f675fe712bed/LICENSE.txt",
-  "license_text_path": "licenses/memu/357aefc80127.txt",
+  "license_permalink": "https://github.com/NevaMind-AI/memU/blob/bca35129be9c2daab58f1db8ba4cf7806b58abc0/LICENSE.txt",
+  "license_text_path": "licenses/memu/bca35129be9c.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-03-23T07:38:28Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "NevaMind-AI/memU",
-  "source_commit": "357aefc8012705bfde723f141d52f675fe712bed",
-  "source_committed_at": "2026-03-23T07:38:14Z",
+  "source_commit": "bca35129be9c2daab58f1db8ba4cf7806b58abc0",
+  "source_committed_at": "2026-10-30T07:56:55Z",
   "source_path": "LICENSE.txt",
-  "source_ref": "v1.5.1",
-  "upstream_version": "v1.5.1"
+  "source_ref": "main",
+  "upstream_version": null
 }

@@ -1,17 +1,17 @@
 {
   "agent": "openhands",
-  "collected_at": "2026-10-30T05:30:04Z",
+  "collected_at": "2026-10-31T06:40:37Z",
   "license": "MIT",
-  "license_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/ccae18cb897bef7960f210aa3f380b577a84be7c/LICENSE",
-  "license_text_path": "licenses/openhands/ccae18cb897b.txt",
+  "license_permalink": "https://github.com/OpenHands/software-agent-sdk/blob/c048a1eb82353b0586f3ce600708394a68ebb246/LICENSE",
+  "license_text_path": "licenses/openhands/c048a1eb8235.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-28T14:34:44Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "OpenHands/software-agent-sdk",
-  "source_commit": "ccae18cb897bef7960f210aa3f380b577a84be7c",
-  "source_committed_at": "2026-10-28T14:34:29Z",
+  "source_commit": "c048a1eb82353b0586f3ce600708394a68ebb246",
+  "source_committed_at": "2026-10-30T14:47:57Z",
   "source_path": "LICENSE",
-  "source_ref": "v1.59.0",
-  "upstream_version": "v1.59.0"
+  "source_ref": "main",
+  "upstream_version": null
 }

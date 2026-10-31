@@ -1,0 +1,8 @@
+{
+  "agent": "evolver",
+  "last_error": {
+    "first_observed_at": "2026-10-31T06:40:23Z",
+    "message": "RuntimeError: No complete prompt extraction for evolver; required rule results: [{\"pattern\": \"packages/evolver-core/dist/exec/prompt.js\", \"matched\": 0, \"fragments\": 0, \"error\": null, \"required\": true}]"
+  },
+  "repository": "EvoMap/evolver"
+}

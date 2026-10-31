@@ -1,17 +1,17 @@
 {
   "agent": "kilocode",
-  "collected_at": "2026-10-30T05:29:51Z",
+  "collected_at": "2026-10-31T06:40:32Z",
   "license": "MIT",
-  "license_permalink": "https://github.com/Kilo-Org/kilocode/blob/b81761530650f8ec7b071441f4f54d2514f1a244/LICENSE",
-  "license_text_path": "licenses/kilocode/b81761530650.txt",
+  "license_permalink": "https://github.com/Kilo-Org/kilocode/blob/0a9faeff69fff8712da184ee5188bb7985c6f057/LICENSE",
+  "license_text_path": "licenses/kilocode/0a9faeff69ff.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-26T09:05:47Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "Kilo-Org/kilocode",
-  "source_commit": "b81761530650f8ec7b071441f4f54d2514f1a244",
-  "source_committed_at": "2026-10-26T09:05:40Z",
+  "source_commit": "0a9faeff69fff8712da184ee5188bb7985c6f057",
+  "source_committed_at": "2026-10-29T10:13:39Z",
   "source_path": "LICENSE",
-  "source_ref": "v7.8.18",
-  "upstream_version": "v7.8.18"
+  "source_ref": "main",
+  "upstream_version": null
 }

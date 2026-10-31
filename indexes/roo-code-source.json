@@ -1,17 +1,17 @@
 {
   "agent": "roo-code",
-  "collected_at": "2026-10-30T05:30:13Z",
+  "collected_at": "2026-10-31T06:40:42Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/RooCodeInc/Roo-Code/blob/27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0/LICENSE",
-  "license_text_path": "licenses/roo-code/27001b2b5aa4.txt",
+  "license_permalink": "https://github.com/RooCodeInc/Roo-Code/blob/b867ec9145750d0ae1ff7f02d35406e9bf2a0b16/LICENSE",
+  "license_text_path": "licenses/roo-code/b867ec914575.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-05-15T17:52:24Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "RooCodeInc/Roo-Code",
-  "source_commit": "27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0",
-  "source_committed_at": "2026-05-15T17:43:39Z",
+  "source_commit": "b867ec9145750d0ae1ff7f02d35406e9bf2a0b16",
+  "source_committed_at": "2026-05-15T18:04:45Z",
   "source_path": "LICENSE",
-  "source_ref": "v3.54.0",
-  "upstream_version": "v3.54.0"
+  "source_ref": "main",
+  "upstream_version": null
 }

@@ -1,17 +1,17 @@
 {
   "agent": "cline",
-  "collected_at": "2026-10-30T05:29:22Z",
+  "collected_at": "2026-10-31T06:40:16Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/cline/cline/blob/a459f1d04dea030833b558be645011ab739c463b/LICENSE",
-  "license_text_path": "licenses/cline/a459f1d04dea.txt",
+  "license_permalink": "https://github.com/cline/cline/blob/a6507a62a147db4a35e27f4294589742ccac5060/LICENSE",
+  "license_text_path": "licenses/cline/a6507a62a147.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-26T09:06:50Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "cline/cline",
-  "source_commit": "a459f1d04dea030833b558be645011ab739c463b",
-  "source_committed_at": "2026-10-26T04:37:15Z",
+  "source_commit": "a6507a62a147db4a35e27f4294589742ccac5060",
+  "source_committed_at": "2026-10-30T21:21:13Z",
   "source_path": "LICENSE",
-  "source_ref": "v4.1.26",
-  "upstream_version": "v4.1.26"
+  "source_ref": "main",
+  "upstream_version": null
 }

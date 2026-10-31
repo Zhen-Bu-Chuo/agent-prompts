@@ -1,17 +1,17 @@
 {
   "agent": "mem0",
-  "collected_at": "2026-10-30T05:29:59Z",
+  "collected_at": "2026-10-31T06:40:34Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/mem0ai/mem0/blob/94c3fe9f238f3dbf29c9ce98643bd71eb13077cd/LICENSE",
-  "license_text_path": "licenses/mem0/94c3fe9f238f.txt",
+  "license_permalink": "https://github.com/mem0ai/mem0/blob/753496cf1435d76c3a711f3af51303f7fdcb6420/LICENSE",
+  "license_text_path": "licenses/mem0/753496cf1435.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-09-25T17:35:20Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "mem0ai/mem0",
-  "source_commit": "94c3fe9f238f3dbf29c9ce98643bd71eb13077cd",
-  "source_committed_at": "2026-09-25T17:34:12Z",
+  "source_commit": "753496cf1435d76c3a711f3af51303f7fdcb6420",
+  "source_committed_at": "2026-10-30T21:35:34Z",
   "source_path": "LICENSE",
-  "source_ref": "v2.2.1",
-  "upstream_version": "v2.2.1"
+  "source_ref": "main",
+  "upstream_version": null
 }

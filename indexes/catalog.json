@@ -32,6 +32,16 @@
     },
     {
       "agent": "aider",
+      "commit": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+      "prompts": 72,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "Aider-AI/aider",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "aider",
       "commit": "a4be6ccd87ebaa59b361f3f028d116ce1761b626",
       "prompts": 71,
       "ref": "v0.86.0",
@@ -39,6 +49,17 @@
       "repository": "Aider-AI/aider",
       "status": "supported",
       "version": "v0.86.0"
+    },
+    {
+      "agent": "claude-code",
+      "commit": "80c6959d28c4c30ecd14fc1cdf172f19d9adad81",
+      "prompts": 0,
+      "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "anthropics/claude-code",
+      "status": "unavailable",
+      "version": null
     },
     {
       "agent": "claude-code",
@@ -52,6 +73,27 @@
       "version": "v2.1.314"
     },
     {
+      "agent": "claude-code",
+      "commit": "80c6959d28c4c30ecd14fc1cdf172f19d9adad81",
+      "prompts": 0,
+      "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
+      "ref": "v2.1.316",
+      "ref_kind": "release",
+      "repository": "anthropics/claude-code",
+      "status": "unavailable",
+      "version": "v2.1.316"
+    },
+    {
+      "agent": "cline",
+      "commit": "a6507a62a147db4a35e27f4294589742ccac5060",
+      "prompts": 2,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "cline/cline",
+      "status": "partial",
+      "version": null
+    },
+    {
       "agent": "cline",
       "commit": "a459f1d04dea030833b558be645011ab739c463b",
       "prompts": 2,
@@ -60,6 +102,16 @@
       "repository": "cline/cline",
       "status": "partial",
       "version": "v4.1.26"
+    },
+    {
+      "agent": "codex",
+      "commit": "67f0994b532b8740f14b5b738af7b7b2a915b1d6",
+      "prompts": 145,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "openai/codex",
+      "status": "partial",
+      "version": null
     },
     {
       "agent": "codex",
@@ -73,6 +125,16 @@
     },
     {
       "agent": "cognee",
+      "commit": "525b1d1179c550cd5b5661bcbf8f00f57a676928",
+      "prompts": 73,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "topoteretes/cognee",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "cognee",
       "commit": "df2b4facd7c1d73b59376fd251fb93674a9d60a3",
       "prompts": 73,
       "ref": "v1.6.6",
@@ -80,6 +142,16 @@
       "repository": "topoteretes/cognee",
       "status": "supported",
       "version": "v1.6.6"
+    },
+    {
+      "agent": "continue",
+      "commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+      "prompts": 2,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "continuedev/continue",
+      "status": "supported",
+      "version": null
     },
     {
       "agent": "continue",
@@ -98,6 +170,16 @@
       "ref": "main",
       "ref_kind": "default-branch",
       "repository": "jennyzzt/dgm",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "evoagentx",
+      "commit": "e3df900662443e94dd92141be5633b040a69a70a",
+      "prompts": 72,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "ANative-Lab/EvoAgentX",
       "status": "supported",
       "version": null
     },
@@ -123,6 +205,16 @@
     },
     {
       "agent": "gemini-cli",
+      "commit": "6814e00d6b148c3a1d57244d5d7040f7c541009d",
+      "prompts": 7,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "google-gemini/gemini-cli",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "gemini-cli",
       "commit": "970413207732f5d4d8c50540c7fc359c44fdaaf2",
       "prompts": 7,
       "ref": "v0.66.0",
@@ -130,6 +222,16 @@
       "repository": "google-gemini/gemini-cli",
       "status": "supported",
       "version": "v0.66.0"
+    },
+    {
+      "agent": "goose",
+      "commit": "b23d21cabd9b4de0c045dcdd731821a3a15c2bfc",
+      "prompts": 7,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "aaif-goose/goose",
+      "status": "supported",
+      "version": null
     },
     {
       "agent": "goose",
@@ -143,6 +245,16 @@
     },
     {
       "agent": "graphiti",
+      "commit": "72b5c59c06607e09ea855be61b6ff5a3446fc951",
+      "prompts": 24,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "getzep/graphiti",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "graphiti",
       "commit": "d72407dcedac911e1be9fc15b55e8c05a3efcc36",
       "prompts": 24,
       "ref": "v0.31.2",
@@ -150,6 +262,16 @@
       "repository": "getzep/graphiti",
       "status": "supported",
       "version": "v0.31.2"
+    },
+    {
+      "agent": "hermes",
+      "commit": "adecc4024456b387b1518813b90bd60c82b51287",
+      "prompts": 23,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "NousResearch/hermes-agent",
+      "status": "supported",
+      "version": null
     },
     {
       "agent": "hermes",
@@ -163,6 +285,16 @@
     },
     {
       "agent": "hindsight",
+      "commit": "bc5ea195a0fed1346ff171a5780bbb72a38c89c8",
+      "prompts": 73,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "vectorize-io/hindsight",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "hindsight",
       "commit": "a5a619b5ca59c5c39e0f96be6f7a31fabd136bd5",
       "prompts": 73,
       "ref": "v1.1.0",
@@ -170,6 +302,17 @@
       "repository": "vectorize-io/hindsight",
       "status": "supported",
       "version": "v1.1.0"
+    },
+    {
+      "agent": "kilocode",
+      "commit": "0a9faeff69fff8712da184ee5188bb7985c6f057",
+      "prompts": 0,
+      "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "Kilo-Org/kilocode",
+      "status": "unavailable",
+      "version": null
     },
     {
       "agent": "kilocode",
@@ -184,7 +327,7 @@
     },
     {
       "agent": "langmem",
-      "commit": "ae6f15fb76603fa2c86ad05f1ecb4a110fa8060b",
+      "commit": "839c3fa0fc2c118734611d5d86503e52fc3a3dd1",
       "prompts": 11,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -205,6 +348,16 @@
     },
     {
       "agent": "letta-code",
+      "commit": "59df5424838419e083de0691fa4d08524f348937",
+      "prompts": 10,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "letta-code",
       "commit": "0cd08ecf0585dfd5851826ad38b3f1440af51627",
       "prompts": 10,
       "ref": "v0.34.32",
@@ -212,6 +365,26 @@
       "repository": "letta-ai/letta-code",
       "status": "supported",
       "version": "v0.34.32"
+    },
+    {
+      "agent": "letta-code",
+      "commit": "8f72222dec142dfc2316692d68ada3ab2e439d46",
+      "prompts": 10,
+      "ref": "v0.34.36",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.36"
+    },
+    {
+      "agent": "mem0",
+      "commit": "753496cf1435d76c3a711f3af51303f7fdcb6420",
+      "prompts": 9,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "mem0ai/mem0",
+      "status": "supported",
+      "version": null
     },
     {
       "agent": "mem0",
@@ -235,6 +408,16 @@
     },
     {
       "agent": "opencode",
+      "commit": "635fb7b14d502e5e20231e075c56cf04e580fe07",
+      "prompts": 7,
+      "ref": "dev",
+      "ref_kind": "default-branch",
+      "repository": "anomalyco/opencode",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "opencode",
       "commit": "098aa7fd6e02b03d6fc410f0b052038c7d4c5e81",
       "prompts": 7,
       "ref": "v2.2.2",
@@ -242,6 +425,26 @@
       "repository": "anomalyco/opencode",
       "status": "supported",
       "version": "v2.2.2"
+    },
+    {
+      "agent": "opencode",
+      "commit": "9bbb8ce18c80f099e0e448775f59d965ead40a21",
+      "prompts": 7,
+      "ref": "v2.2.5",
+      "ref_kind": "release",
+      "repository": "anomalyco/opencode",
+      "status": "supported",
+      "version": "v2.2.5"
+    },
+    {
+      "agent": "openevolve",
+      "commit": "da43cd8eed114959ecef6ecaa79171b68c545f8d",
+      "prompts": 13,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "algorithmicsuperintelligence/openevolve",
+      "status": "supported",
+      "version": null
     },
     {
       "agent": "openevolve",
@@ -255,6 +458,16 @@
     },
     {
       "agent": "openhands",
+      "commit": "c048a1eb82353b0586f3ce600708394a68ebb246",
+      "prompts": 7,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "OpenHands/software-agent-sdk",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "openhands",
       "commit": "ccae18cb897bef7960f210aa3f380b577a84be7c",
       "prompts": 7,
       "ref": "v1.59.0",
@@ -262,6 +475,16 @@
       "repository": "OpenHands/software-agent-sdk",
       "status": "supported",
       "version": "v1.59.0"
+    },
+    {
+      "agent": "openviking",
+      "commit": "3dedecc0d4827624eba7e583a81c36e9c326872b",
+      "prompts": 4,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "volcengine/OpenViking",
+      "status": "supported",
+      "version": null
     },
     {
       "agent": "openviking",
@@ -275,6 +498,16 @@
     },
     {
       "agent": "pi",
+      "commit": "35dfa757378bd7a8570670e99c2687bdd1039a06",
+      "prompts": 1,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "earendil-works/pi",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "pi",
       "commit": "4a080252f06caf63a525d7873c5d94d3c23887e0",
       "prompts": 1,
       "ref": "v1.4.0",
@@ -285,7 +518,7 @@
     },
     {
       "agent": "qwen-code",
-      "commit": "619a601b3965133b9c2e873f10dbe97323b306c7",
+      "commit": "bc8ad53f9559c9c27cb182da55727d8ed524804b",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -305,6 +538,16 @@
     },
     {
       "agent": "roo-code",
+      "commit": "b867ec9145750d0ae1ff7f02d35406e9bf2a0b16",
+      "prompts": 4,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "RooCodeInc/Roo-Code",
+      "status": "supported",
+      "version": null
+    },
+    {
+      "agent": "roo-code",
       "commit": "27001b2b5aa47b65e8a6ba1914e0f4216be0ebb0",
       "prompts": 4,
       "ref": "v3.54.0",
@@ -312,6 +555,16 @@
       "repository": "RooCodeInc/Roo-Code",
       "status": "supported",
       "version": "v3.54.0"
+    },
+    {
+      "agent": "swe-agent",
+      "commit": "3ea751c087f32b16e039a2233dd6eefecef325d5",
+      "prompts": 31,
+      "ref": "main",
+      "ref_kind": "default-branch",
+      "repository": "SWE-agent/SWE-agent",
+      "status": "partial",
+      "version": null
     },
     {
       "agent": "swe-agent",

@@ -1,0 +1,8 @@
+{
+  "agent": "memu",
+  "last_error": {
+    "first_observed_at": "2026-10-31T06:40:35Z",
+    "message": "RuntimeError: No complete prompt extraction for memu; required rule results: [{\"pattern\": \"src/memu/prompts/**/*.py\", \"matched\": 0, \"fragments\": 0, \"error\": null, \"required\": true}]"
+  },
+  "repository": "NevaMind-AI/memU"
+}

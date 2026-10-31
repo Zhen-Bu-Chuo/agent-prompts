@@ -1,0 +1,8 @@
+{
+  "agent": "agent-zero",
+  "last_error": {
+    "first_observed_at": "2026-10-31T06:40:15Z",
+    "message": "RuntimeError: No complete prompt extraction for agent-zero; required rule results: [{\"pattern\": \"prompts/agent.system.memories.md\", \"matched\": 0, \"fragments\": 0, \"error\": null, \"required\": true}]"
+  },
+  "repository": "agent0ai/agent-zero"
+}

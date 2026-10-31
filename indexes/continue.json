@@ -2,6 +2,7 @@
   "agent": "continue",
   "coverage": "supported",
   "current": {
+    "default-branch": "default-branch:main:5522c6f44ca0ac3528b37244818fbfa39b5af470:8b6acd17f76c96d5d6fbbcdf5b0dc2feb2a19ccd615f7ec1bfa7508b75ced127:1.0.3",
     "release": "release:v2.0.0-vscode:03b05ef60c378ff06f9e39ada2e22c95fe9ef6ad:8b6acd17f76c96d5d6fbbcdf5b0dc2feb2a19ccd615f7ec1bfa7508b75ced127:1.0.3"
   },
   "last_error": null,
@@ -63,6 +64,60 @@
       "source_committed_at": "2026-06-19T00:23:33Z",
       "source_ref": "v2.0.0-vscode",
       "upstream_version": "v2.0.0-vscode"
+    },
+    {
+      "adapter_sha256": "8b6acd17f76c96d5d6fbbcdf5b0dc2feb2a19ccd615f7ec1bfa7508b75ced127",
+      "changes": {
+        "added": [
+          "systemMessage-50a1f24bf329",
+          "systemMessage-bdb9ccb5cd23"
+        ],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/continue/system/systemMessage-50a1f24bf329__default__untagged__5522c6f44ca0__20261031T064020Z.md",
+          "content_sha256": "dca184d7d5e0bd605c5ba34e0adfe5ac8831a7c39e555718bc62b4fc0d44c105",
+          "module": "system",
+          "prompt_id": "systemMessage-50a1f24bf329",
+          "source_lines": [
+            43,
+            61
+          ],
+          "source_path": "extensions/cli/src/systemMessage.ts",
+          "source_permalink": "https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/extensions/cli/src/systemMessage.ts#L43-L61",
+          "source_symbol": "baseSystemMessage.17",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/continue/system/systemMessage-bdb9ccb5cd23__default__untagged__5522c6f44ca0__20261031T064020Z.md",
+          "content_sha256": "9d1bd5dcd7682572264bcc92baa3d3f37d7bb808fd1c72fce9951740041a8ed4",
+          "module": "system",
+          "prompt_id": "systemMessage-bdb9ccb5cd23",
+          "source_lines": [
+            220,
+            220
+          ],
+          "source_path": "extensions/cli/src/systemMessage.ts",
+          "source_permalink": "https://github.com/continuedev/continue/blob/5522c6f44ca0ac3528b37244818fbfa39b5af470/extensions/cli/src/systemMessage.ts#L220-L220",
+          "source_symbol": "systemMessage.36",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:5522c6f44ca0ac3528b37244818fbfa39b5af470:8b6acd17f76c96d5d6fbbcdf5b0dc2feb2a19ccd615f7ec1bfa7508b75ced127:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-31T06:40:20Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "continuedev/continue",
+      "source_commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+      "source_committed_at": "2026-07-21T04:00:09Z",
+      "source_ref": "main",
+      "upstream_version": null
     }
   ],
   "status": "ok"

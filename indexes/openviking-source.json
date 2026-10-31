@@ -1,17 +1,17 @@
 {
   "agent": "openviking",
-  "collected_at": "2026-10-30T05:30:07Z",
+  "collected_at": "2026-10-31T06:40:38Z",
   "license": "AGPL-3.0-only",
-  "license_permalink": "https://github.com/volcengine/OpenViking/blob/f5e6203033a13469c3d9a937f2ca39492ea69c51/LICENSE",
-  "license_text_path": "licenses/openviking/f5e6203033a1.txt",
+  "license_permalink": "https://github.com/volcengine/OpenViking/blob/3dedecc0d4827624eba7e583a81c36e9c326872b/LICENSE",
+  "license_text_path": "licenses/openviking/3dedecc0d482.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-27T13:44:25Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "volcengine/OpenViking",
-  "source_commit": "f5e6203033a13469c3d9a937f2ca39492ea69c51",
-  "source_committed_at": "2026-10-27T13:40:45Z",
+  "source_commit": "3dedecc0d4827624eba7e583a81c36e9c326872b",
+  "source_committed_at": "2026-10-31T05:46:41Z",
   "source_path": "LICENSE",
-  "source_ref": "v0.5.2.1",
-  "upstream_version": "v0.5.2.1"
+  "source_ref": "main",
+  "upstream_version": null
 }

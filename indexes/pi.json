@@ -2,6 +2,7 @@
   "agent": "pi",
   "coverage": "supported",
   "current": {
+    "default-branch": "default-branch:main:35dfa757378bd7a8570670e99c2687bdd1039a06:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
     "release": "release:v1.4.0:4a080252f06caf63a525d7873c5d94d3c23887e0:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3"
   },
   "last_error": null,
@@ -50,6 +51,45 @@
       "source_committed_at": "2026-10-21T22:29:13Z",
       "source_ref": "v1.4.0",
       "upstream_version": "v1.4.0"
+    },
+    {
+      "adapter_sha256": "9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1",
+      "changes": {
+        "added": [
+          "system-prompt-478f2931c92a"
+        ],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/pi/system/system-prompt-478f2931c92a__default__untagged__35dfa757378b__20261031T064040Z.md",
+          "content_sha256": "00aa6d13d16562265135a7c704d8a33be5d9f647e98a36ea3efa25662e40fc97",
+          "module": "system",
+          "prompt_id": "system-prompt-478f2931c92a",
+          "source_lines": [
+            156,
+            156
+          ],
+          "source_path": "packages/coding-agent/src/core/system-prompt.ts",
+          "source_permalink": "https://github.com/earendil-works/pi/blob/35dfa757378bd7a8570670e99c2687bdd1039a06/packages/coding-agent/src/core/system-prompt.ts#L156-L156",
+          "source_symbol": "promptSections.26",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:35dfa757378bd7a8570670e99c2687bdd1039a06:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-31T06:40:40Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "earendil-works/pi",
+      "source_commit": "35dfa757378bd7a8570670e99c2687bdd1039a06",
+      "source_committed_at": "2026-10-30T23:17:56Z",
+      "source_ref": "main",
+      "upstream_version": null
     }
   ],
   "status": "ok"

@@ -2,6 +2,7 @@
   "agent": "hindsight",
   "coverage": "supported",
   "current": {
+    "default-branch": "default-branch:main:bc5ea195a0fed1346ff171a5780bbb72a38c89c8:feeadfd1d678fff8b254c417472b84621ca76b8c7f5d08607c01df193917802d:1.0.3",
     "release": "release:v1.1.0:a5a619b5ca59c5c39e0f96be6f7a31fabd136bd5:feeadfd1d678fff8b254c417472b84621ca76b8c7f5d08607c01df193917802d:1.0.3"
   },
   "last_error": null,
@@ -1057,6 +1058,1125 @@
       "source_committed_at": "2026-10-21T16:16:23Z",
       "source_ref": "v1.1.0",
       "upstream_version": "v1.1.0"
+    },
+    {
+      "adapter_sha256": "feeadfd1d678fff8b254c417472b84621ca76b8c7f5d08607c01df193917802d",
+      "changes": {
+        "added": [
+          "prompts-0b23912c166a",
+          "prompts-e7f2de9427dc",
+          "prompts-c046266287fb",
+          "prompts-f4da11fcb261",
+          "prompts-9b76fc378e3a",
+          "prompts-1ea81b37951f",
+          "prompts-f423260797dc",
+          "prompts-d4249f322c70",
+          "prompts-2733e1b482f3",
+          "prompts-94410bee19f8",
+          "prompts-30e8bf6ef945",
+          "prompts-ec95b9610aeb",
+          "prompts-8a633375e5df",
+          "prompts-a2965ca24cc8",
+          "prompts-25f695aec2e6",
+          "prompts-17953ad4f5f1",
+          "prompts-112c65310018",
+          "prompts-05658f288151",
+          "prompts-216e04812e55",
+          "prompts-aad6564bca91",
+          "prompts-c5551cd92b7d",
+          "prompts-1cf99a33453f",
+          "prompts-459c0dbdcc79",
+          "prompts-470f2a164d53",
+          "prompts-f9d804317086",
+          "prompts-3f834ea11ff3",
+          "prompts-bf4a4b89b2d8",
+          "prompts-3aee150c5eb7",
+          "prompts-7ac8fd048734",
+          "prompts-6387ea161471",
+          "prompts-f866ff47f3ea",
+          "prompts-9961c39b33dc",
+          "prompts-72bfc83232fd",
+          "prompts-7a4aa2c3e9ba",
+          "prompts-94cbe409f811",
+          "prompts-9963e852d3f3",
+          "prompts-a115d961f7b7",
+          "prompts-e0fd9756943d",
+          "prompts-bb075917ca8e",
+          "prompts-de06f3d5ee6e",
+          "prompts-984ab9a2f074",
+          "prompts-07f4e1d0ca4d",
+          "prompts-9a2ba008fcfc",
+          "prompts-0ba229c16689",
+          "prompts-3f0db9540d76",
+          "prompts-ee565eea4ce2",
+          "prompts-8848e8eb34af",
+          "prompts-0d21c350b0d0",
+          "prompts-969a33ea8d8c",
+          "prompts-99c40c4919eb",
+          "prompts-d9138955197c",
+          "prompts-0f77fcbfec1d",
+          "prompts-05b2b8531ea0",
+          "prompts-aae99c08f24e",
+          "prompts-20dae9a9b5dc",
+          "prompts-7b2c36fe2d19",
+          "prompts-72db5f355df9",
+          "prompts-9ec48236ec1c",
+          "prompts-58262a6f34fc",
+          "prompts-5d552214cfc9",
+          "prompts-b0951141ebfc",
+          "prompts-59a1837157d1",
+          "prompts-84ba73fa5c41",
+          "prompts-8213616a677d",
+          "prompts-224f7b732724",
+          "prompts-adc4f401a9f8",
+          "prompts-bff999a18df0",
+          "prompts-9323e5adf37f",
+          "prompts-a3b0aa5d05f3",
+          "prompts-6a60044a6db3",
+          "prompts-8e5236f09e31",
+          "prompts-a08bfc84f32f",
+          "prompts-e32366399382"
+        ],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/hindsight/memory/prompts-0b23912c166a__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "83bc084be85c85fac36c8e672acb9beaed4e51a3995a9142647789b9a6b1ec5c",
+          "module": "memory",
+          "prompt_id": "prompts-0b23912c166a",
+          "source_lines": [
+            234,
+            241
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/consolidation/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/consolidation/prompts.py#L234-L241",
+          "source_symbol": "module.build_consolidation_system_prompt.template.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-e7f2de9427dc__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "8644e06149ff442722426a6a9f70ed202be6f4f0bb968490e324cc42be72a606",
+          "module": "reflection",
+          "prompt_id": "prompts-e7f2de9427dc",
+          "source_lines": [
+            1026,
+            1037
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1026-L1037",
+          "source_symbol": "module.CLAIMS_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-c046266287fb__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "2f96fc7fe97d92c1445ff49f4eaaf2f301b114538afe0d7d59bd6ea04d82234d",
+          "module": "reflection",
+          "prompt_id": "prompts-c046266287fb",
+          "source_lines": [
+            1808,
+            1829
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1808-L1829",
+          "source_symbol": "module.DELTA_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-f4da11fcb261__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "29b8ff962de195a5090b601b958236cb565c749b95fab071907af82b530c054b",
+          "module": "reflection",
+          "prompt_id": "prompts-f4da11fcb261",
+          "source_lines": [
+            1009,
+            1015
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1009-L1015",
+          "source_symbol": "module.ROUND_SEARCH_QUERY_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-9b76fc378e3a__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "2b9499e35ed3aeb4be4d1dd07c1548d332f31042fde0e105a8ef1c87355f7a43",
+          "module": "reflection",
+          "prompt_id": "prompts-9b76fc378e3a",
+          "source_lines": [
+            1203,
+            1396
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1203-L1396",
+          "source_symbol": "module.STRUCTURED_DELTA_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-1ea81b37951f__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "48c531215ef4335d9f114f78e39d03f4a0ffc6ece5b8a28a513f9ac8ad8a780f",
+          "module": "reflection",
+          "prompt_id": "prompts-1ea81b37951f",
+          "source_lines": [
+            1650,
+            1722
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1650-L1722",
+          "source_symbol": "module.STRUCTURED_RETRACTION_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-f423260797dc__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "d35d79bc037147a42c731b1a865886b58a3b9ee1e5779362cef20af02cbed4f2",
+          "module": "reflection",
+          "prompt_id": "prompts-f423260797dc",
+          "source_lines": [
+            961,
+            967
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L961-L967",
+          "source_symbol": "module._DOCUMENT_SHAPE_INSTRUCTIONS.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-d4249f322c70__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "46529a2c09c4b0221711d82dd62406700341a7702dd78be141929ee2ddf16198",
+          "module": "reflection",
+          "prompt_id": "prompts-d4249f322c70",
+          "source_lines": [
+            688,
+            694
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L688-L694",
+          "source_symbol": "module._FINAL_INSTRUCTIONS.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-2733e1b482f3__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "bf50e8ca7020147bbf2aa6790ab4c42afa5fcab4b017509227f191968010a40a",
+          "module": "reflection",
+          "prompt_id": "prompts-2733e1b482f3",
+          "source_lines": [
+            1104,
+            1134
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1104-L1134",
+          "source_symbol": "module._FINAL_SYSTEM_PROMPT_BASE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-94410bee19f8__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "1c5d08d0810cc16aafb2594ea1c6c596ae98518258f97da4e1c15289aaace704",
+          "module": "reflection",
+          "prompt_id": "prompts-94410bee19f8",
+          "source_lines": [
+            1456,
+            1456
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1456-L1456",
+          "source_symbol": "module._fit_structured_delta_prompt_parts.facts_header.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-30e8bf6ef945__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "71e2793e0388c4a7e041c88d0f8032d3f9185e1f8e0a1e0a575028ec56a78d68",
+          "module": "reflection",
+          "prompt_id": "prompts-30e8bf6ef945",
+          "source_lines": [
+            1447,
+            1453
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1447-L1453",
+          "source_symbol": "module._fit_structured_delta_prompt_parts.fixed.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-ec95b9610aeb__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "9d26a76c942bbb77089037d99a8b093bd73582917d0cad638bd25ca26e3d4cb0",
+          "module": "reflection",
+          "prompt_id": "prompts-ec95b9610aeb",
+          "source_lines": [
+            1048,
+            1051
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1048-L1051",
+          "source_symbol": "module.build_chunk_claims_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-8a633375e5df__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "4abd738bfc59aff243e09a53d4233cc812d24f282cade52bbc77a5e72146d1bf",
+          "module": "reflection",
+          "prompt_id": "prompts-8a633375e5df",
+          "source_lines": [
+            987,
+            987
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L987-L987",
+          "source_symbol": "module.build_done_request_prompt.parts.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-a2965ca24cc8__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "c29a56f2099a19186d4ec5ebbfd75143c2f6d37a1c98b6f528820f07db96443c",
+          "module": "reflection",
+          "prompt_id": "prompts-a2965ca24cc8",
+          "source_lines": [
+            988,
+            989
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L988-L989",
+          "source_symbol": "module.build_done_request_prompt.parts.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-25f695aec2e6__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "b071d158604918dd8c26963293b0032e4159d60436182bc5a021221bf9f6908e",
+          "module": "reflection",
+          "prompt_id": "prompts-25f695aec2e6",
+          "source_lines": [
+            1079,
+            1082
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1079-L1082",
+          "source_symbol": "module.build_reduce_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-17953ad4f5f1__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "c20a02ab0508c0c8ad14a658078dc04263c5f2e0226c5daa4c728dea9d1dee67",
+          "module": "reflection",
+          "prompt_id": "prompts-17953ad4f5f1",
+          "source_lines": [
+            1090,
+            1094
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1090-L1094",
+          "source_symbol": "module.build_reduce_prompt.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-112c65310018__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "a69e22cc47e31c5bfb0a47494426285ade493daac899bb60cc70fbd893c369cf",
+          "module": "reflection",
+          "prompt_id": "prompts-112c65310018",
+          "source_lines": [
+            1641,
+            1646
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1641-L1646",
+          "source_symbol": "module.build_structured_delta_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-05658f288151__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "1cdf470cb93871906543963384ccde4519c9539807a8ca465a453eb37978f1f2",
+          "module": "reflection",
+          "prompt_id": "prompts-05658f288151",
+          "source_lines": [
+            1561,
+            1565
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1561-L1565",
+          "source_symbol": "module.build_structured_delta_prompt.budget_hint.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-216e04812e55__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "1562c9f73f172b2536cfc8e60be0a5d02e17fc8c6b8feabdda310c78019dcd8c",
+          "module": "reflection",
+          "prompt_id": "prompts-216e04812e55",
+          "source_lines": [
+            1580,
+            1586
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1580-L1586",
+          "source_symbol": "module.build_structured_delta_prompt.document_hint.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-aad6564bca91__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "9b673b631ec56a420d696467efb74dd5bef6e2a393cd0c147a92d93628461435",
+          "module": "reflection",
+          "prompt_id": "prompts-aad6564bca91",
+          "source_lines": [
+            1590,
+            1593
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1590-L1593",
+          "source_symbol": "module.build_structured_delta_prompt.document_hint.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-c5551cd92b7d__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "be89b9ba0b4e4ae369e5a45aab1de9401d1d2d6485b945972b23eb93b51fc767",
+          "module": "reflection",
+          "prompt_id": "prompts-c5551cd92b7d",
+          "source_lines": [
+            1605,
+            1621
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1605-L1621",
+          "source_symbol": "module.build_structured_delta_prompt.task_footer.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-1cf99a33453f__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "dcdd2a095cb2e147ef4282329c7e1e012c40f7f89e3860657dc9ff92cd597917",
+          "module": "reflection",
+          "prompt_id": "prompts-1cf99a33453f",
+          "source_lines": [
+            1636,
+            1637
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1636-L1637",
+          "source_symbol": "module.build_structured_delta_prompt.truncation_note.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-459c0dbdcc79__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "9af2d8c3e888fe42ad2e511cd27f1641a24dc910fc0006254667b329551f4c1c",
+          "module": "reflection",
+          "prompt_id": "prompts-459c0dbdcc79",
+          "source_lines": [
+            1796,
+            1804
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1796-L1804",
+          "source_symbol": "module.build_structured_retraction_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-470f2a164d53__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "13d9897e00d3716fcee91d560d7823b0db08b2198bfca410599932f6bb3fd0a7",
+          "module": "reflection",
+          "prompt_id": "prompts-470f2a164d53",
+          "source_lines": [
+            1760,
+            1764
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1760-L1764",
+          "source_symbol": "module.build_structured_retraction_prompt.budget_hint.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-f9d804317086__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "ad5ae1cd2f7830bf577c06d9363245c5c80654bfef868158d271f5449f6cf348",
+          "module": "reflection",
+          "prompt_id": "prompts-f9d804317086",
+          "source_lines": [
+            1768,
+            1771
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1768-L1771",
+          "source_symbol": "module.build_structured_retraction_prompt.task_footer.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-3f834ea11ff3__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "825dde95ad419918513ca34c1e47b625e957a1808c41eb8bcd50b8f3aafcf8a4",
+          "module": "reflection",
+          "prompt_id": "prompts-3f834ea11ff3",
+          "source_lines": [
+            1790,
+            1792
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1790-L1792",
+          "source_symbol": "module.build_structured_retraction_prompt.truncation_note.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-bf4a4b89b2d8__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "64c1560c7bdd61bf083ce4b7d97dcc5afeffd1d622ba7d849ba988a61691a25b",
+          "module": "reflection",
+          "prompt_id": "prompts-bf4a4b89b2d8",
+          "source_lines": [
+            246,
+            246
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L246-L246",
+          "source_symbol": "module.build_system_prompt_for_tools.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-3aee150c5eb7__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "50285d80671bde6eda1c73b2e529561b9571c9d1beea2fb021205aac757e0573",
+          "module": "reflection",
+          "prompt_id": "prompts-3aee150c5eb7",
+          "source_lines": [
+            309,
+            309
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L309-L309",
+          "source_symbol": "module.build_system_prompt_for_tools.10",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-7ac8fd048734__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "f00ec3a08f4725a7b41d3695f8a5e7c71d52ca809810cf567f788fb24469b74b",
+          "module": "reflection",
+          "prompt_id": "prompts-7ac8fd048734",
+          "source_lines": [
+            311,
+            311
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L311-L311",
+          "source_symbol": "module.build_system_prompt_for_tools.11",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-6387ea161471__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "c1b5f4faf608cb27d87d0ded839f23bfb690b4aefd36502f978a06d80a9bc5d2",
+          "module": "reflection",
+          "prompt_id": "prompts-6387ea161471",
+          "source_lines": [
+            314,
+            314
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L314-L314",
+          "source_symbol": "module.build_system_prompt_for_tools.12",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-f866ff47f3ea__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "f2e4b4ed4c4b7035d7174342a243b1bda524940309d2a4b0e1681d2fa0229057",
+          "module": "reflection",
+          "prompt_id": "prompts-f866ff47f3ea",
+          "source_lines": [
+            317,
+            317
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L317-L317",
+          "source_symbol": "module.build_system_prompt_for_tools.13",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-9961c39b33dc__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "c4564f3563a4fc64e15cf83ee2fbb8665afcebe7df5ac7f72986fef7da62d20d",
+          "module": "reflection",
+          "prompt_id": "prompts-9961c39b33dc",
+          "source_lines": [
+            318,
+            318
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L318-L318",
+          "source_symbol": "module.build_system_prompt_for_tools.14",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-72bfc83232fd__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "2067bff03b42e60639c48b48afc4a358e3f8fe563ca2a90192ea9ab7d7af5456",
+          "module": "reflection",
+          "prompt_id": "prompts-72bfc83232fd",
+          "source_lines": [
+            319,
+            319
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L319-L319",
+          "source_symbol": "module.build_system_prompt_for_tools.15",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-7a4aa2c3e9ba__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "9a6f413e64aca5a989aa4c0ef4e48249058e44f78978b0e118f9df647243e7db",
+          "module": "reflection",
+          "prompt_id": "prompts-7a4aa2c3e9ba",
+          "source_lines": [
+            320,
+            320
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L320-L320",
+          "source_symbol": "module.build_system_prompt_for_tools.16",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-94cbe409f811__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "8da670cd32460ecc188141c4f17015fa5d4cf7da1fbf683af26863b454ad92ab",
+          "module": "reflection",
+          "prompt_id": "prompts-94cbe409f811",
+          "source_lines": [
+            321,
+            321
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L321-L321",
+          "source_symbol": "module.build_system_prompt_for_tools.17",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-9963e852d3f3__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "2fd0dd6328b9444648b28b76b0ac4f199d9c9a508565290b9557e0c3d968b9c0",
+          "module": "reflection",
+          "prompt_id": "prompts-9963e852d3f3",
+          "source_lines": [
+            322,
+            322
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L322-L322",
+          "source_symbol": "module.build_system_prompt_for_tools.18",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-a115d961f7b7__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "4c033f69ebe8e25b8455a5750e68adfc0b5d1de0b51f8127113f021093f91d89",
+          "module": "reflection",
+          "prompt_id": "prompts-a115d961f7b7",
+          "source_lines": [
+            324,
+            324
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L324-L324",
+          "source_symbol": "module.build_system_prompt_for_tools.19",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-e0fd9756943d__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "81d7f2378266250343a1ba8b80194e0304bec26423123e786171130f154c2e8d",
+          "module": "reflection",
+          "prompt_id": "prompts-e0fd9756943d",
+          "source_lines": [
+            282,
+            282
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L282-L282",
+          "source_symbol": "module.build_system_prompt_for_tools.2",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-bb075917ca8e__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "d6c7bbd36dbef6f2252a48a4d2b9b8ad967d6245aa610e916e058c76ede20b86",
+          "module": "reflection",
+          "prompt_id": "prompts-bb075917ca8e",
+          "source_lines": [
+            343,
+            345
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L343-L345",
+          "source_symbol": "module.build_system_prompt_for_tools.20",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-de06f3d5ee6e__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "02ad2dfb25e88e592fdfcde4361e519c6ded0285db842bc044c646d7070974ae",
+          "module": "reflection",
+          "prompt_id": "prompts-de06f3d5ee6e",
+          "source_lines": [
+            346,
+            348
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L346-L348",
+          "source_symbol": "module.build_system_prompt_for_tools.21",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-984ab9a2f074__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "3319bbeb3480a947b65346520a4a6235addcdc4280ec3ce5e9594ed9b9c9f203",
+          "module": "reflection",
+          "prompt_id": "prompts-984ab9a2f074",
+          "source_lines": [
+            368,
+            368
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L368-L368",
+          "source_symbol": "module.build_system_prompt_for_tools.22",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-07f4e1d0ca4d__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "c275df7b182276a95c4670807c7ab3b8b8ac35e178ea51e8f822f092fe737d5c",
+          "module": "reflection",
+          "prompt_id": "prompts-07f4e1d0ca4d",
+          "source_lines": [
+            369,
+            372
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L369-L372",
+          "source_symbol": "module.build_system_prompt_for_tools.23",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-9a2ba008fcfc__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "df50ae871f43d83fb524c90bfd9ffd5bd65f5bc811ab44f664df31da6080b874",
+          "module": "reflection",
+          "prompt_id": "prompts-9a2ba008fcfc",
+          "source_lines": [
+            375,
+            375
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L375-L375",
+          "source_symbol": "module.build_system_prompt_for_tools.24",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-0ba229c16689__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "7d2227440838d05b3202169c9c0672fc5b4ae738c5dab5ecc402b9444eb29f36",
+          "module": "reflection",
+          "prompt_id": "prompts-0ba229c16689",
+          "source_lines": [
+            383,
+            385
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L383-L385",
+          "source_symbol": "module.build_system_prompt_for_tools.25",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-3f0db9540d76__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "31e36ce18ccbfe489bc1b7bacff71a243f59cfdfd95e3d9b609aab7340ac730e",
+          "module": "reflection",
+          "prompt_id": "prompts-3f0db9540d76",
+          "source_lines": [
+            393,
+            395
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L393-L395",
+          "source_symbol": "module.build_system_prompt_for_tools.26",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-ee565eea4ce2__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "df50ae871f43d83fb524c90bfd9ffd5bd65f5bc811ab44f664df31da6080b874",
+          "module": "reflection",
+          "prompt_id": "prompts-ee565eea4ce2",
+          "source_lines": [
+            398,
+            398
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L398-L398",
+          "source_symbol": "module.build_system_prompt_for_tools.27",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-8848e8eb34af__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "0a5a7e45e1549f18ffe832ca7e034dabc25cea2a2fec9f8f5beb31828d611059",
+          "module": "reflection",
+          "prompt_id": "prompts-8848e8eb34af",
+          "source_lines": [
+            440,
+            440
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L440-L440",
+          "source_symbol": "module.build_system_prompt_for_tools.28",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-0d21c350b0d0__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "40e575072a555bab99af1c5dc58460e6eb53ca8a919491dc02669a12b2aa5378",
+          "module": "reflection",
+          "prompt_id": "prompts-0d21c350b0d0",
+          "source_lines": [
+            444,
+            444
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L444-L444",
+          "source_symbol": "module.build_system_prompt_for_tools.29",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-969a33ea8d8c__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "264f6c4bd6f0a5605fedd7b54ac26243a7e17ffab6b44b14aaec3430327e144f",
+          "module": "reflection",
+          "prompt_id": "prompts-969a33ea8d8c",
+          "source_lines": [
+            289,
+            289
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L289-L289",
+          "source_symbol": "module.build_system_prompt_for_tools.3",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-99c40c4919eb__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "f740f7890076d05fabf1f38d8ba723ad2f85a68cc2bb53025ae73a162f8a1f95",
+          "module": "reflection",
+          "prompt_id": "prompts-99c40c4919eb",
+          "source_lines": [
+            447,
+            448
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L447-L448",
+          "source_symbol": "module.build_system_prompt_for_tools.30",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-d9138955197c__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "1896753ed3239bca7fdb6041bb703d86c82f53cf3ec56189783fa8b493203f52",
+          "module": "reflection",
+          "prompt_id": "prompts-d9138955197c",
+          "source_lines": [
+            450,
+            450
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L450-L450",
+          "source_symbol": "module.build_system_prompt_for_tools.31",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-0f77fcbfec1d__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "4179abd5977d6e20a6ee9f831a8ec98508446267a716ae35a7a0119ee47ff627",
+          "module": "reflection",
+          "prompt_id": "prompts-0f77fcbfec1d",
+          "source_lines": [
+            459,
+            459
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L459-L459",
+          "source_symbol": "module.build_system_prompt_for_tools.32",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-05b2b8531ea0__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "00f3c7d595285dede0bc93efe0b46dcce97e8e2258393f5699d11edb1778ec44",
+          "module": "reflection",
+          "prompt_id": "prompts-05b2b8531ea0",
+          "source_lines": [
+            461,
+            461
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L461-L461",
+          "source_symbol": "module.build_system_prompt_for_tools.33",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-aae99c08f24e__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "d53a7fc21f2e8bbf3daa7d25942fe56513adbfefc45b83ede4218e85818e2cdb",
+          "module": "reflection",
+          "prompt_id": "prompts-aae99c08f24e",
+          "source_lines": [
+            490,
+            491
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L490-L491",
+          "source_symbol": "module.build_system_prompt_for_tools.34",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-20dae9a9b5dc__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "2f94d38803177d2ffb09904c0327a395c6135ff9aade515e2112cde487f88413",
+          "module": "reflection",
+          "prompt_id": "prompts-20dae9a9b5dc",
+          "source_lines": [
+            492,
+            493
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L492-L493",
+          "source_symbol": "module.build_system_prompt_for_tools.35",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-7b2c36fe2d19__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "a7e059ad0018454e4a6bde057b84d7706466547ab42156f67bd0f60526b7ef7f",
+          "module": "reflection",
+          "prompt_id": "prompts-7b2c36fe2d19",
+          "source_lines": [
+            494,
+            495
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L494-L495",
+          "source_symbol": "module.build_system_prompt_for_tools.36",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-72db5f355df9__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "cf627ef74e472d4f95b79e8b1698559537afe494baa2a4b71c4e8eeb1922f4af",
+          "module": "reflection",
+          "prompt_id": "prompts-72db5f355df9",
+          "source_lines": [
+            496,
+            497
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L496-L497",
+          "source_symbol": "module.build_system_prompt_for_tools.37",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-9ec48236ec1c__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "42463ad766e53c75894de8d41a87d43edd73afe36991d6b1f9625c5d3b0e5519",
+          "module": "reflection",
+          "prompt_id": "prompts-9ec48236ec1c",
+          "source_lines": [
+            508,
+            509
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L508-L509",
+          "source_symbol": "module.build_system_prompt_for_tools.38",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-58262a6f34fc__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "2f3b011cf5d7b447037a2b3a1298680a7dbf192d01f2fecae2e6d59f1ef6d35e",
+          "module": "reflection",
+          "prompt_id": "prompts-58262a6f34fc",
+          "source_lines": [
+            536,
+            537
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L536-L537",
+          "source_symbol": "module.build_system_prompt_for_tools.39",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-5d552214cfc9__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "395aa20cbf62501e06d2ef66d61281bbf0ebebfd0de85f7ba555f053efdc0d97",
+          "module": "reflection",
+          "prompt_id": "prompts-5d552214cfc9",
+          "source_lines": [
+            291,
+            291
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L291-L291",
+          "source_symbol": "module.build_system_prompt_for_tools.4",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-b0951141ebfc__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "c8c2455c26409d1fa95cfe7f277615f4491c82834815dfbbcac4e8c6f477ed93",
+          "module": "reflection",
+          "prompt_id": "prompts-b0951141ebfc",
+          "source_lines": [
+            544,
+            545
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L544-L545",
+          "source_symbol": "module.build_system_prompt_for_tools.40",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-59a1837157d1__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "0dae602618910c18d21796e7b537e2a175c88eef53a69a041a1df0779a75d24b",
+          "module": "reflection",
+          "prompt_id": "prompts-59a1837157d1",
+          "source_lines": [
+            547,
+            548
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L547-L548",
+          "source_symbol": "module.build_system_prompt_for_tools.41",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-84ba73fa5c41__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "0badb5e827c9ffe187f01ab6bb711925981b9d12ef4140f592c3a0697671b3ac",
+          "module": "reflection",
+          "prompt_id": "prompts-84ba73fa5c41",
+          "source_lines": [
+            552,
+            553
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L552-L553",
+          "source_symbol": "module.build_system_prompt_for_tools.42",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-8213616a677d__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "955a9b35152a672ebd1351253f60d5f59daecb20e83297e61b0d548fe25daaf2",
+          "module": "reflection",
+          "prompt_id": "prompts-8213616a677d",
+          "source_lines": [
+            575,
+            576
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L575-L576",
+          "source_symbol": "module.build_system_prompt_for_tools.43",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-224f7b732724__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "3fc60d7f25bbf79451a15d73e4182a020c18624109e5c06a4a5f868ea5f975b0",
+          "module": "reflection",
+          "prompt_id": "prompts-224f7b732724",
+          "source_lines": [
+            577,
+            578
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L577-L578",
+          "source_symbol": "module.build_system_prompt_for_tools.44",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-adc4f401a9f8__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "453437bbb2b03e4e5b941aa6b1d631ee8b48ec2dd51077f29df847de240faa37",
+          "module": "reflection",
+          "prompt_id": "prompts-adc4f401a9f8",
+          "source_lines": [
+            590,
+            590
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L590-L590",
+          "source_symbol": "module.build_system_prompt_for_tools.45",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-bff999a18df0__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "75817bf96963dfa2aa82c205523c796e2e3e5e189e7096dfe2cc5b111a6589be",
+          "module": "reflection",
+          "prompt_id": "prompts-bff999a18df0",
+          "source_lines": [
+            594,
+            594
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L594-L594",
+          "source_symbol": "module.build_system_prompt_for_tools.46",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-9323e5adf37f__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "9974a254c6caae892d35da4718cca183e6029b17febba8020b5b8aafe7526ba7",
+          "module": "reflection",
+          "prompt_id": "prompts-9323e5adf37f",
+          "source_lines": [
+            293,
+            293
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L293-L293",
+          "source_symbol": "module.build_system_prompt_for_tools.5",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-a3b0aa5d05f3__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "e8c953fde6830ee6a2f8c60b45fbf0225009eb796a9e2d60e8e06163e7652c05",
+          "module": "reflection",
+          "prompt_id": "prompts-a3b0aa5d05f3",
+          "source_lines": [
+            299,
+            299
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L299-L299",
+          "source_symbol": "module.build_system_prompt_for_tools.6",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-6a60044a6db3__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "7e345d4995fe6e70d2238d6af8b83d9264b4819f4d158f602bbc68d6ea754034",
+          "module": "reflection",
+          "prompt_id": "prompts-6a60044a6db3",
+          "source_lines": [
+            301,
+            301
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L301-L301",
+          "source_symbol": "module.build_system_prompt_for_tools.7",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-8e5236f09e31__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "b3774116f1c90a9c56408d1248440f7be1e19220a43b704a1baae5f2e998a219",
+          "module": "reflection",
+          "prompt_id": "prompts-8e5236f09e31",
+          "source_lines": [
+            306,
+            306
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L306-L306",
+          "source_symbol": "module.build_system_prompt_for_tools.8",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-a08bfc84f32f__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "df743806892a4439091ac1da19a56d04ff8e709400d4c400b98e61b3cd89fb21",
+          "module": "reflection",
+          "prompt_id": "prompts-a08bfc84f32f",
+          "source_lines": [
+            307,
+            307
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L307-L307",
+          "source_symbol": "module.build_system_prompt_for_tools.9",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/hindsight/reflection/prompts-e32366399382__default__untagged__bc5ea195a0fe__20261031T064030Z.md",
+          "content_sha256": "587bd66e34a2ca87cf70e699799de5288118c31cf798bdb9ddee5b228f5abf7a",
+          "module": "reflection",
+          "prompt_id": "prompts-e32366399382",
+          "source_lines": [
+            565,
+            565
+          ],
+          "source_path": "hindsight-api-slim/hindsight_api/engine/reflect/prompts.py",
+          "source_permalink": "https://github.com/vectorize-io/hindsight/blob/bc5ea195a0fed1346ff171a5780bbb72a38c89c8/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L565-L565",
+          "source_symbol": "module.build_system_prompt_for_tools.non_conversational_rule.1",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:bc5ea195a0fed1346ff171a5780bbb72a38c89c8:feeadfd1d678fff8b254c417472b84621ca76b8c7f5d08607c01df193917802d:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-10-31T06:40:30Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "vectorize-io/hindsight",
+      "source_commit": "bc5ea195a0fed1346ff171a5780bbb72a38c89c8",
+      "source_committed_at": "2026-10-30T23:40:41Z",
+      "source_ref": "main",
+      "upstream_version": null
     }
   ],
   "status": "ok"

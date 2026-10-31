@@ -1,17 +1,17 @@
 {
   "agent": "agent-zero",
-  "collected_at": "2026-10-30T05:29:16Z",
+  "collected_at": "2026-10-31T06:40:15Z",
   "license": "MIT",
-  "license_permalink": "https://github.com/agent0ai/agent-zero/blob/8331a121ea795b099953206ffc6b663ba5080e04/LICENSE",
-  "license_text_path": "licenses/agent-zero/8331a121ea79.txt",
+  "license_permalink": "https://github.com/agent0ai/agent-zero/blob/ff2a5b9c9c4e490ba38dd7c313e779510bb2071a/LICENSE",
+  "license_text_path": "licenses/agent-zero/ff2a5b9c9c4e.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-02-10T18:25:22Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "agent0ai/agent-zero",
-  "source_commit": "8331a121ea795b099953206ffc6b663ba5080e04",
-  "source_committed_at": "2026-02-10T17:47:21Z",
+  "source_commit": "ff2a5b9c9c4e490ba38dd7c313e779510bb2071a",
+  "source_committed_at": "2026-10-13T15:23:11Z",
   "source_path": "LICENSE",
-  "source_ref": "v0.9.8",
-  "upstream_version": "v0.9.8"
+  "source_ref": "main",
+  "upstream_version": null
 }

@@ -1,17 +1,17 @@
 {
   "agent": "graphiti",
-  "collected_at": "2026-10-30T05:29:43Z",
+  "collected_at": "2026-10-31T06:40:29Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/getzep/graphiti/blob/d72407dcedac911e1be9fc15b55e8c05a3efcc36/LICENSE",
-  "license_text_path": "licenses/graphiti/d72407dcedac.txt",
+  "license_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/LICENSE",
+  "license_text_path": "licenses/graphiti/72b5c59c0660.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-10-20T17:25:21Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "getzep/graphiti",
-  "source_commit": "d72407dcedac911e1be9fc15b55e8c05a3efcc36",
-  "source_committed_at": "2026-10-20T17:23:18Z",
+  "source_commit": "72b5c59c06607e09ea855be61b6ff5a3446fc951",
+  "source_committed_at": "2026-10-28T23:22:49Z",
   "source_path": "LICENSE",
-  "source_ref": "v0.31.2",
-  "upstream_version": "v0.31.2"
+  "source_ref": "main",
+  "upstream_version": null
 }

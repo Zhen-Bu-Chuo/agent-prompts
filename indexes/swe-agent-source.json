@@ -1,17 +1,17 @@
 {
   "agent": "swe-agent",
-  "collected_at": "2026-10-30T05:30:13Z",
+  "collected_at": "2026-10-31T06:40:42Z",
   "license": "MIT",
-  "license_permalink": "https://github.com/SWE-agent/SWE-agent/blob/0f3acafacabc0def8cc76b4e48acb4b6cf302cb9/LICENSE",
-  "license_text_path": "licenses/swe-agent/0f3acafacabc.txt",
+  "license_permalink": "https://github.com/SWE-agent/SWE-agent/blob/3ea751c087f32b16e039a2233dd6eefecef325d5/LICENSE",
+  "license_text_path": "licenses/swe-agent/3ea751c087f3.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2025-05-22T16:11:39Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "SWE-agent/SWE-agent",
-  "source_commit": "0f3acafacabc0def8cc76b4e48acb4b6cf302cb9",
-  "source_committed_at": "2025-05-22T16:10:41Z",
+  "source_commit": "3ea751c087f32b16e039a2233dd6eefecef325d5",
+  "source_committed_at": "2026-07-16T15:21:18Z",
   "source_path": "LICENSE",
-  "source_ref": "v1.1.0",
-  "upstream_version": "v1.1.0"
+  "source_ref": "main",
+  "upstream_version": null
 }

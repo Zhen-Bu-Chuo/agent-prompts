@@ -2,6 +2,7 @@
   "agent": "graphiti",
   "coverage": "supported",
   "current": {
+    "default-branch": "default-branch:main:72b5c59c06607e09ea855be61b6ff5a3446fc951:15e8d4ef2b5c45437905de53e2f015dc2ba4ecf3d781572632e915c1987573eb:1.0.3",
     "release": "release:v0.31.2:d72407dcedac911e1be9fc15b55e8c05a3efcc36:15e8d4ef2b5c45437905de53e2f015dc2ba4ecf3d781572632e915c1987573eb:1.0.3"
   },
   "last_error": null,
@@ -371,6 +372,390 @@
       "source_committed_at": "2026-10-20T17:23:18Z",
       "source_ref": "v0.31.2",
       "upstream_version": "v0.31.2"
+    },
+    {
+      "adapter_sha256": "15e8d4ef2b5c45437905de53e2f015dc2ba4ecf3d781572632e915c1987573eb",
+      "changes": {
+        "added": [
+          "eval-283cb26fd0b1",
+          "eval-d25d0f69da0a",
+          "eval-9a0aa3f10403",
+          "eval-cd331fec6964",
+          "eval-b6e1d25311c3",
+          "eval-cdb2a85f9e14",
+          "eval-3f9059b2259e",
+          "eval-0e250a941641",
+          "extract_nodes-fb80cbf7d197",
+          "extract_nodes-afe7056eafdc",
+          "extract_nodes-f56f50d2cec1",
+          "extract_nodes-456872b751a7",
+          "extract_nodes-99b651c1124c",
+          "extract_nodes-fb54d70f0c82",
+          "extract_nodes-2e15ebce361a",
+          "extract_nodes-fd9216cfae0a",
+          "extract_nodes-d7ba09599aa4",
+          "extract_nodes_and_edges-ae62eacd2875",
+          "extract_nodes_and_edges-86e22a6dc505",
+          "extract_nodes_and_edges-f721a456df96",
+          "extract_nodes_and_edges-656b5ebd36a0",
+          "lib-8a6cd1a06ef7",
+          "lib-d22e74e7fb34",
+          "snippets-d3eb767cbeb6"
+        ],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/graphiti/memory/eval-283cb26fd0b1__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "bd7afe39b5dd798a2d3512ce591355cf39bd954d9750c209843e49662cef799e",
+          "module": "memory",
+          "prompt_id": "eval-283cb26fd0b1",
+          "source_lines": [
+            129,
+            130
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L129-L130",
+          "source_symbol": "module.eval_add_episode_results.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/eval-d25d0f69da0a__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "eba70b539fc61298b7efebdd2daa0c32367502d7f1ad96b1159473b5a530e05c",
+          "module": "memory",
+          "prompt_id": "eval-d25d0f69da0a",
+          "source_lines": [
+            132,
+            153
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L132-L153",
+          "source_symbol": "module.eval_add_episode_results.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/eval-9a0aa3f10403__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "32ff8c4c39b2e0048159a04c8f543f90dde3c52117b9ba53596befdffe130ec9",
+          "module": "memory",
+          "prompt_id": "eval-9a0aa3f10403",
+          "source_lines": [
+            105,
+            105
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L105-L105",
+          "source_symbol": "module.eval_prompt.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/eval-cd331fec6964__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "0f05cf21fa486653462a0c553ae253319ed4f133b4cd2572fdf5d0551caee088",
+          "module": "memory",
+          "prompt_id": "eval-cd331fec6964",
+          "source_lines": [
+            108,
+            121
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L108-L121",
+          "source_symbol": "module.eval_prompt.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/eval-b6e1d25311c3__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "37ca60294e372df3c58b5fda440ca74dd11d6b11db0f789ca0abd659e907b55c",
+          "module": "memory",
+          "prompt_id": "eval-b6e1d25311c3",
+          "source_lines": [
+            82,
+            82
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L82-L82",
+          "source_symbol": "module.qa_prompt.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/eval-cdb2a85f9e14__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "abf5668f119285b343b16d865e05d3f86c09fefa90da68874765468e068ab0f3",
+          "module": "memory",
+          "prompt_id": "eval-cdb2a85f9e14",
+          "source_lines": [
+            84,
+            96
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L84-L96",
+          "source_symbol": "module.qa_prompt.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/eval-3f9059b2259e__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "394033cc3f7891bb970d3edd42b351d51c717ae01e0bfdaea44f2a9580979f01",
+          "module": "memory",
+          "prompt_id": "eval-3f9059b2259e",
+          "source_lines": [
+            66,
+            66
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L66-L66",
+          "source_symbol": "module.query_expansion.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/eval-0e250a941641__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "38dd8d06bd4de9eee3a1da5c39a8716f33dd676022ba1490012fa044511f0f4a",
+          "module": "memory",
+          "prompt_id": "eval-0e250a941641",
+          "source_lines": [
+            68,
+            74
+          ],
+          "source_path": "graphiti_core/prompts/eval.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/eval.py#L68-L74",
+          "source_symbol": "module.query_expansion.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-fb80cbf7d197__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "5f929bb60d6462e8ae6cdf02b2519192034a1545559bcc27c48afe12d88becd0",
+          "module": "memory",
+          "prompt_id": "extract_nodes-fb80cbf7d197",
+          "source_lines": [
+            546,
+            614
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L546-L614",
+          "source_symbol": "module._entity_episode_summary_system_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-afe7056eafdc__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "9f56342aa97bdab6f73110311b964e08746d0cb83b8332938cd090ce9f32cd86",
+          "module": "memory",
+          "prompt_id": "extract_nodes-afe7056eafdc",
+          "source_lines": [
+            350,
+            351
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L350-L351",
+          "source_symbol": "module.classify_nodes.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-f56f50d2cec1__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "a87ed86d5e6746c6782eaa4e9d30d584543220be1a7a875692b44be07d05d960",
+          "module": "memory",
+          "prompt_id": "extract_nodes-f56f50d2cec1",
+          "source_lines": [
+            354,
+            377
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L354-L377",
+          "source_symbol": "module.classify_nodes.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-456872b751a7__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "a7b4765e61d25b2c32ec503fb7f25212f90aec0e31e56d6e52addc60f37cceda",
+          "module": "memory",
+          "prompt_id": "extract_nodes-456872b751a7",
+          "source_lines": [
+            216,
+            217
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L216-L217",
+          "source_symbol": "module.extract_json.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-99b651c1124c__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "94523e762c83fbae28b20b7f52c5ee9cd5dbc9e20091f2efde428e5bbb64dedc",
+          "module": "memory",
+          "prompt_id": "extract_nodes-99b651c1124c",
+          "source_lines": [
+            220,
+            272
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L220-L272",
+          "source_symbol": "module.extract_json.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-fb54d70f0c82__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "9fca5886992309bcd80ebb907254ef6c630af03581254fdeecc825c0bbe0a657",
+          "module": "memory",
+          "prompt_id": "extract_nodes-fb54d70f0c82",
+          "source_lines": [
+            86,
+            87
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L86-L87",
+          "source_symbol": "module.extract_message.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-2e15ebce361a__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "9e7741e089182094d051c586557397a30b1717a4dd24c1df103e48105fd06f57",
+          "module": "memory",
+          "prompt_id": "extract_nodes-2e15ebce361a",
+          "source_lines": [
+            90,
+            207
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L90-L207",
+          "source_symbol": "module.extract_message.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-fd9216cfae0a__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "ea864d298da3fc748ca83876e032937a058eb7cc28973fb13e7166370baa9b9f",
+          "module": "memory",
+          "prompt_id": "extract_nodes-fd9216cfae0a",
+          "source_lines": [
+            281,
+            282
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L281-L282",
+          "source_symbol": "module.extract_text.sys_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes-d7ba09599aa4__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "27bea0a1d42ffce50f8ce839d4d8e6fe7902176a7bd855041d52b563ceb52705",
+          "module": "memory",
+          "prompt_id": "extract_nodes-d7ba09599aa4",
+          "source_lines": [
+            285,
+            341
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes.py#L285-L341",
+          "source_symbol": "module.extract_text.user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes_and_edges-ae62eacd2875__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "808e046c7b9f21e845cf58b1e9ad5d37b9ad0d55bd683f739c380883e2e40d1d",
+          "module": "memory",
+          "prompt_id": "extract_nodes_and_edges-ae62eacd2875",
+          "source_lines": [
+            126,
+            152
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes_and_edges.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes_and_edges.py#L126-L152",
+          "source_symbol": "module._C2_INSTRUCTION_TEXT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes_and_edges-86e22a6dc505__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "9c8a6ac357b072e9a90b85f102a5cf94541772493523066a88030673012ab8b9",
+          "module": "memory",
+          "prompt_id": "extract_nodes_and_edges-86e22a6dc505",
+          "source_lines": [
+            123,
+            123
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes_and_edges.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes_and_edges.py#L123-L123",
+          "source_symbol": "module._SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes_and_edges-f721a456df96__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "f52deea7ad1ec0db807a174f85e28727ca80dbb467f622a3f2a5d48de4b90c5e",
+          "module": "memory",
+          "prompt_id": "extract_nodes_and_edges-f721a456df96",
+          "source_lines": [
+            114,
+            120
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes_and_edges.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes_and_edges.py#L114-L120",
+          "source_symbol": "module._build_custom_instructions_section.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/extract_nodes_and_edges-656b5ebd36a0__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "de711e0bc36a766d0980922fe9c2de46fc7529e65ce4a439d8d1afc307a4c5ec",
+          "module": "memory",
+          "prompt_id": "extract_nodes_and_edges-656b5ebd36a0",
+          "source_lines": [
+            156,
+            170
+          ],
+          "source_path": "graphiti_core/prompts/extract_nodes_and_edges.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/extract_nodes_and_edges.py#L156-L170",
+          "source_symbol": "module._build_extract_user_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/lib-8a6cd1a06ef7__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "7ed9a467709dfb28366531f31f05748dcb53182c219f103d69fd3cfc48ee006a",
+          "module": "memory",
+          "prompt_id": "lib-8a6cd1a06ef7",
+          "source_lines": [
+            238,
+            239
+          ],
+          "source_path": "graphiti_core/prompts/lib.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/lib.py#L238-L239",
+          "source_symbol": "module.CHAT_PROMPT_MIGRATION_NOTE.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/lib-d22e74e7fb34__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "b01c52b30f64294e44d25438f4144bc07b99e481e952228d6949f14e69a88ebe",
+          "module": "memory",
+          "prompt_id": "lib-d22e74e7fb34",
+          "source_lines": [
+            508,
+            508
+          ],
+          "source_path": "graphiti_core/prompts/lib.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/lib.py#L508-L508",
+          "source_symbol": "module.ensure_chat_prompt.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/graphiti/memory/snippets-d3eb767cbeb6__default__untagged__72b5c59c0660__20261031T064029Z.md",
+          "content_sha256": "ec3aeabb45f04a9c92675e08527041fa1dbf690e8b9257f5095992d18009eebf",
+          "module": "memory",
+          "prompt_id": "snippets-d3eb767cbeb6",
+          "source_lines": [
+            19,
+            34
+          ],
+          "source_path": "graphiti_core/prompts/snippets.py",
+          "source_permalink": "https://github.com/getzep/graphiti/blob/72b5c59c06607e09ea855be61b6ff5a3446fc951/graphiti_core/prompts/snippets.py#L19-L34",
+          "source_symbol": "module.summary_instructions.1",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:72b5c59c06607e09ea855be61b6ff5a3446fc951:15e8d4ef2b5c45437905de53e2f015dc2ba4ecf3d781572632e915c1987573eb:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-31T06:40:29Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "getzep/graphiti",
+      "source_commit": "72b5c59c06607e09ea855be61b6ff5a3446fc951",
+      "source_committed_at": "2026-10-28T23:22:49Z",
+      "source_ref": "main",
+      "upstream_version": null
     }
   ],
   "status": "ok"

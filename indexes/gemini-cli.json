@@ -2,6 +2,7 @@
   "agent": "gemini-cli",
   "coverage": "supported",
   "current": {
+    "default-branch": "default-branch:main:6814e00d6b148c3a1d57244d5d7040f7c541009d:28d30ce69aef4855485ff1ebbd7bf531bb1302e2dae8fa6540c3c6f7a7379336:1.0.3",
     "release": "release:v0.66.0:970413207732f5d4d8c50540c7fc359c44fdaaf2:28d30ce69aef4855485ff1ebbd7bf531bb1302e2dae8fa6540c3c6f7a7379336:1.0.3"
   },
   "last_error": null,
@@ -133,6 +134,135 @@
       "source_committed_at": "2026-10-27T20:19:20Z",
       "source_ref": "v0.66.0",
       "upstream_version": "v0.66.0"
+    },
+    {
+      "adapter_sha256": "28d30ce69aef4855485ff1ebbd7bf531bb1302e2dae8fa6540c3c6f7a7379336",
+      "changes": {
+        "added": [
+          "snippets-f4c35538ff07",
+          "snippets-bb2803cf0ec8",
+          "snippets-38c8471fde70",
+          "snippets-623ad9c512cc",
+          "snippets-a63c7c7ba67a",
+          "snippets-7151b68cf5fa",
+          "snippets-b679fb5cbbac"
+        ],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/gemini-cli/context/snippets-f4c35538ff07__default__untagged__6814e00d6b14__20261031T064026Z.md",
+          "content_sha256": "d6ae54c29768ebc5eb519f5f36edf6b8637a3032e4065420208caa6abff04c00",
+          "module": "context",
+          "prompt_id": "snippets-f4c35538ff07",
+          "source_lines": [
+            137,
+            163
+          ],
+          "source_path": "packages/core/src/prompts/snippets.ts",
+          "source_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/packages/core/src/prompts/snippets.ts#L137-L163",
+          "source_symbol": "getCoreSystemPrompt.8",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/gemini-cli/context/snippets-bb2803cf0ec8__default__untagged__6814e00d6b14__20261031T064026Z.md",
+          "content_sha256": "4999b518625acd9831231173a8aecfdef1ca5db29ba068e366812bddebad9683",
+          "module": "context",
+          "prompt_id": "snippets-bb2803cf0ec8",
+          "source_lines": [
+            864,
+            865
+          ],
+          "source_path": "packages/core/src/prompts/snippets.ts",
+          "source_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/packages/core/src/prompts/snippets.ts#L864-L865",
+          "source_symbol": "globalMemoryBullet.113",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/gemini-cli/context/snippets-38c8471fde70__default__untagged__6814e00d6b14__20261031T064026Z.md",
+          "content_sha256": "a7e299b606bdcbd3ed391e86c3ac5329c2ecd0b1c1c632de4321fd966e3ad2de",
+          "module": "context",
+          "prompt_id": "snippets-38c8471fde70",
+          "source_lines": [
+            708,
+            709
+          ],
+          "source_path": "packages/core/src/prompts/snippets.ts",
+          "source_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/packages/core/src/prompts/snippets.ts#L708-L709",
+          "source_symbol": "mandateSkillGuidance.80",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/gemini-cli/context/snippets-623ad9c512cc__default__untagged__6814e00d6b14__20261031T064026Z.md",
+          "content_sha256": "9823da193b7fe912db21b35375ef4d99cb18c7fd462e33d0be2420ffcbfb665f",
+          "module": "context",
+          "prompt_id": "snippets-623ad9c512cc",
+          "source_lines": [
+            318,
+            322
+          ],
+          "source_path": "packages/core/src/prompts/snippets.ts",
+          "source_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/packages/core/src/prompts/snippets.ts#L318-L322",
+          "source_symbol": "skillsXml.32",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/gemini-cli/context/snippets-a63c7c7ba67a__default__untagged__6814e00d6b14__20261031T064026Z.md",
+          "content_sha256": "b02a51d789dfb8370d4af9f97a2d067191422d15f2cb272b2cde247eb309afb6",
+          "module": "context",
+          "prompt_id": "snippets-a63c7c7ba67a",
+          "source_lines": [
+            326,
+            333
+          ],
+          "source_path": "packages/core/src/prompts/snippets.ts",
+          "source_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/packages/core/src/prompts/snippets.ts#L326-L333",
+          "source_symbol": "skillsXml.34",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/gemini-cli/context/snippets-7151b68cf5fa__default__untagged__6814e00d6b14__20261031T064026Z.md",
+          "content_sha256": "cbb2af38fc01d8c0abed2178cda67306faac0836aea828cc84f2c251d22b67de",
+          "module": "context",
+          "prompt_id": "snippets-7151b68cf5fa",
+          "source_lines": [
+            277,
+            280
+          ],
+          "source_path": "packages/core/src/prompts/snippets.ts",
+          "source_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/packages/core/src/prompts/snippets.ts#L277-L280",
+          "source_symbol": "subAgentsXml.28",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/gemini-cli/context/snippets-b679fb5cbbac__default__untagged__6814e00d6b14__20261031T064026Z.md",
+          "content_sha256": "6c4ea4c36aa0fe76f734eb81c1a26b1b84d2eb9772752017a8e6a0ef04934702",
+          "module": "context",
+          "prompt_id": "snippets-b679fb5cbbac",
+          "source_lines": [
+            284,
+            311
+          ],
+          "source_path": "packages/core/src/prompts/snippets.ts",
+          "source_permalink": "https://github.com/google-gemini/gemini-cli/blob/6814e00d6b148c3a1d57244d5d7040f7c541009d/packages/core/src/prompts/snippets.ts#L284-L311",
+          "source_symbol": "subAgentsXml.30",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:6814e00d6b148c3a1d57244d5d7040f7c541009d:28d30ce69aef4855485ff1ebbd7bf531bb1302e2dae8fa6540c3c6f7a7379336:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-10-31T06:40:26Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "google-gemini/gemini-cli",
+      "source_commit": "6814e00d6b148c3a1d57244d5d7040f7c541009d",
+      "source_committed_at": "2026-10-30T21:38:47Z",
+      "source_ref": "main",
+      "upstream_version": null
     }
   ],
   "status": "ok"

@@ -1,17 +1,17 @@
 {
   "agent": "evoagentx",
-  "collected_at": "2026-10-30T05:29:30Z",
+  "collected_at": "2026-10-31T06:40:23Z",
   "license": "MIT",
-  "license_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/aad19b912f640161ea07e8904d9237cd34fde5f1/LICENSE",
-  "license_text_path": "licenses/evoagentx/aad19b912f64.txt",
+  "license_permalink": "https://github.com/ANative-Lab/EvoAgentX/blob/e3df900662443e94dd92141be5633b040a69a70a/LICENSE",
+  "license_text_path": "licenses/evoagentx/e3df90066244.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2026-06-28T10:24:06Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "ANative-Lab/EvoAgentX",
-  "source_commit": "aad19b912f640161ea07e8904d9237cd34fde5f1",
-  "source_committed_at": "2026-06-28T10:20:05Z",
+  "source_commit": "e3df900662443e94dd92141be5633b040a69a70a",
+  "source_committed_at": "2026-10-31T01:49:52Z",
   "source_path": "LICENSE",
-  "source_ref": "v0.1.4",
-  "upstream_version": "v0.1.4"
+  "source_ref": "main",
+  "upstream_version": null
 }

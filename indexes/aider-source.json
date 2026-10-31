@@ -1,17 +1,17 @@
 {
   "agent": "aider",
-  "collected_at": "2026-10-30T05:29:16Z",
+  "collected_at": "2026-10-31T06:40:15Z",
   "license": "Apache-2.0",
-  "license_permalink": "https://github.com/Aider-AI/aider/blob/a4be6ccd87ebaa59b361f3f028d116ce1761b626/LICENSE.txt",
-  "license_text_path": "licenses/aider/a4be6ccd87eb.txt",
+  "license_permalink": "https://github.com/Aider-AI/aider/blob/5dc9490bb35f9729ef2c95d00a19ccd30c26339c/LICENSE.txt",
+  "license_text_path": "licenses/aider/5dc9490bb35f.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "release",
-  "release_published_at": "2025-08-09T17:42:19Z",
+  "ref_kind": "default-branch",
+  "release_published_at": null,
   "repository": "Aider-AI/aider",
-  "source_commit": "a4be6ccd87ebaa59b361f3f028d116ce1761b626",
-  "source_committed_at": "2025-08-09T15:54:51Z",
+  "source_commit": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+  "source_committed_at": "2026-05-22T14:02:20Z",
   "source_path": "LICENSE.txt",
-  "source_ref": "v0.86.0",
-  "upstream_version": "v0.86.0"
+  "source_ref": "main",
+  "upstream_version": null
 }
