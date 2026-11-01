@@ -2,7 +2,7 @@
   "agent": "openevolve",
   "coverage": "supported",
   "current": {
-    "default-branch": "default-branch:main:da43cd8eed114959ecef6ecaa79171b68c545f8d:68b9e36f2c5ac511898c63b946cd1f9b46c90ce4860257fe98f9b2d58cd6fcab:1.0.3",
+    "default-branch": "default-branch:main:6080971971795d359d6602649a3b35dc90ef9ee4:68b9e36f2c5ac511898c63b946cd1f9b46c90ce4860257fe98f9b2d58cd6fcab:1.0.3",
     "release": "release:v0.4.0:f7b633986c0b3dbd0a171f6eb0cb0f0ba4fdfb0c:68b9e36f2c5ac511898c63b946cd1f9b46c90ce4860257fe98f9b2d58cd6fcab:1.0.3"
   },
   "last_error": null,
@@ -435,6 +435,211 @@
       "repository": "algorithmicsuperintelligence/openevolve",
       "source_commit": "da43cd8eed114959ecef6ecaa79171b68c545f8d",
       "source_committed_at": "2026-10-31T00:51:49Z",
+      "source_ref": "main",
+      "upstream_version": null
+    },
+    {
+      "adapter_sha256": "68b9e36f2c5ac511898c63b946cd1f9b46c90ce4860257fe98f9b2d58cd6fcab",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/openevolve/evolution/diff_user-44e8db0482bb__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "3fcfc9592b4f019eb07085b0c02855a0218007df15e3e6adeb301deff4124be7",
+          "module": "evolution",
+          "prompt_id": "diff_user-44e8db0482bb",
+          "source_lines": [
+            1,
+            46
+          ],
+          "source_path": "openevolve/prompts/defaults/diff_user.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/diff_user.txt#L1-L46",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/evaluation-5de869bd668f__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "0dc5fa60ea984a35110c497a04c4fa80bf4ddae0ead5e3084591f1f909dc5005",
+          "module": "evolution",
+          "prompt_id": "evaluation-5de869bd668f",
+          "source_lines": [
+            1,
+            19
+          ],
+          "source_path": "openevolve/prompts/defaults/evaluation.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/evaluation.txt#L1-L19",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/evaluator_system_message-07ebe191c50f__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "50d7870cf713b7591ac366030ee162d4d843a6d989f150ed857f5e1b25987c8c",
+          "module": "evolution",
+          "prompt_id": "evaluator_system_message-07ebe191c50f",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "openevolve/prompts/defaults/evaluator_system_message.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/evaluator_system_message.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/evolution_history-0c2d85cfdd3a__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "df9abe02a19f637bd9e13b531c415b3d224137b747563dedab801774d81a4454",
+          "module": "evolution",
+          "prompt_id": "evolution_history-0c2d85cfdd3a",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "openevolve/prompts/defaults/evolution_history.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/evolution_history.txt#L1-L9",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/full_rewrite_user-ffd87b958c65__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "622af139dad58a7d05f54c2248f213b229c471e58c0df5db9cb3a7faa7400dd9",
+          "module": "evolution",
+          "prompt_id": "full_rewrite_user-ffd87b958c65",
+          "source_lines": [
+            1,
+            27
+          ],
+          "source_path": "openevolve/prompts/defaults/full_rewrite_user.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/full_rewrite_user.txt#L1-L27",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/inspiration_program-2836d1c39ba8__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "a51813f4db9f257028ef0252c44095ab4765ad0cae8da46cbb052b530f8bbd04",
+          "module": "evolution",
+          "prompt_id": "inspiration_program-2836d1c39ba8",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "openevolve/prompts/defaults/inspiration_program.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/inspiration_program.txt#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/inspirations_section-f957b9625688__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "5718dd856b6738731dcef52f57a7560f1e4a6104efb542191536bdfa43e7ab38",
+          "module": "evolution",
+          "prompt_id": "inspirations_section-f957b9625688",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "openevolve/prompts/defaults/inspirations_section.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/inspirations_section.txt#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/previous_attempt-7ce1976a4fd4__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "536016d4c23e1b1e194144286b8533dd1cde4d82f7f2f71d48b0a0d778b9932a",
+          "module": "evolution",
+          "prompt_id": "previous_attempt-7ce1976a4fd4",
+          "source_lines": [
+            1,
+            4
+          ],
+          "source_path": "openevolve/prompts/defaults/previous_attempt.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/previous_attempt.txt#L1-L4",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/system_message-682184575001__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "d66ec30775d611aca71538742ff9201e8d1ce4cb3e5b076847aa2d8a32610e65",
+          "module": "evolution",
+          "prompt_id": "system_message-682184575001",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "openevolve/prompts/defaults/system_message.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/system_message.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/system_message_changes_description-509f084bec57__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "a1d66563b1f5c5c80f0d737959e9474a21a7fdf54cadab4bbd39df03da95d8bd",
+          "module": "evolution",
+          "prompt_id": "system_message_changes_description-509f084bec57",
+          "source_lines": [
+            1,
+            2
+          ],
+          "source_path": "openevolve/prompts/defaults/system_message_changes_description.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/system_message_changes_description.txt#L1-L2",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/system_message_with_changes_descrip-9c15d48a2eb6__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "29ff342517ed8e3a8e120d7214048ab1f6cbfc76c9ab0791a5e99e26211af13c",
+          "module": "evolution",
+          "prompt_id": "system_message_with_changes_descrip-9c15d48a2eb6",
+          "source_lines": [
+            1,
+            3
+          ],
+          "source_path": "openevolve/prompts/defaults/system_message_with_changes_description.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/system_message_with_changes_description.txt#L1-L3",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/top_program-ac7e0779c62e__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "dfb73d280a94db990f033c271ff54564f6ff286645ae8217f70584616a2ca137",
+          "module": "evolution",
+          "prompt_id": "top_program-ac7e0779c62e",
+          "source_lines": [
+            1,
+            5
+          ],
+          "source_path": "openevolve/prompts/defaults/top_program.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/top_program.txt#L1-L5",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/openevolve/evolution/user_message_with_changes_descripti-f56706f75c4d__default__untagged__608097197179__20261101T071016Z.md",
+          "content_sha256": "078720fffc876a4cd532c3a98ff0bf2bf19f6572233eab66183a3ca4ce06eaae",
+          "module": "evolution",
+          "prompt_id": "user_message_with_changes_descripti-f56706f75c4d",
+          "source_lines": [
+            1,
+            8
+          ],
+          "source_path": "openevolve/prompts/defaults/user_message_with_changes_description.txt",
+          "source_permalink": "https://github.com/algorithmicsuperintelligence/openevolve/blob/6080971971795d359d6602649a3b35dc90ef9ee4/openevolve/prompts/defaults/user_message_with_changes_description.txt#L1-L8",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:6080971971795d359d6602649a3b35dc90ef9ee4:68b9e36f2c5ac511898c63b946cd1f9b46c90ce4860257fe98f9b2d58cd6fcab:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-11-01T07:10:16Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "algorithmicsuperintelligence/openevolve",
+      "source_commit": "6080971971795d359d6602649a3b35dc90ef9ee4",
+      "source_committed_at": "2026-11-01T04:23:09Z",
       "source_ref": "main",
       "upstream_version": null
     }

@@ -2,7 +2,7 @@
   "agent": "letta-code",
   "coverage": "supported",
   "current": {
-    "default-branch": "default-branch:main:59df5424838419e083de0691fa4d08524f348937:e9ae5b83f24ac261b3f753cb990da9ffb69f4b7a782633f6e2bd2f745ecd7d5d:1.0.3",
+    "default-branch": "default-branch:main:ebd590b11bef049884b923da5ed3f5d087af81e0:e9ae5b83f24ac261b3f753cb990da9ffb69f4b7a782633f6e2bd2f745ecd7d5d:1.0.3",
     "release": "release:v0.34.36:8f72222dec142dfc2316692d68ada3ab2e439d46:e9ae5b83f24ac261b3f753cb990da9ffb69f4b7a782633f6e2bd2f745ecd7d5d:1.0.3"
   },
   "last_error": null,
@@ -511,6 +511,169 @@
       "repository": "letta-ai/letta-code",
       "source_commit": "59df5424838419e083de0691fa4d08524f348937",
       "source_committed_at": "2026-10-31T05:20:53Z",
+      "source_ref": "main",
+      "upstream_version": null
+    },
+    {
+      "adapter_sha256": "e9ae5b83f24ac261b3f753cb990da9ffb69f4b7a782633f6e2bd2f745ecd7d5d",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/letta-code/memory/memory_filesystem-947a3d871a9b__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "c0ccac8154b5cca6126a39e910f478691b11a8b14f1c8522eb2effc61bf43a2b",
+          "module": "memory",
+          "prompt_id": "memory_filesystem-947a3d871a9b",
+          "source_lines": [
+            1,
+            6
+          ],
+          "source_path": "src/agent/prompts/memory_filesystem.mdx",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/prompts/memory_filesystem.mdx#L1-L6",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/memory/recall_subagent-9038565c7cab__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "675829e8dbc9bccd6ca0551e554da2ad39ab40e4b5becee6c5ccbaf2934df353",
+          "module": "memory",
+          "prompt_id": "recall_subagent-9038565c7cab",
+          "source_lines": [
+            1,
+            97
+          ],
+          "source_path": "src/agent/prompts/recall_subagent.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/prompts/recall_subagent.md#L1-L97",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/memory/recall_subagent_local-395655a921ba__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "9485d142148fa64952b66f1337994b28fa8ae253e0331c0e50ec9fc989151fdc",
+          "module": "memory",
+          "prompt_id": "recall_subagent_local-395655a921ba",
+          "source_lines": [
+            1,
+            101
+          ],
+          "source_path": "src/agent/prompts/recall_subagent_local.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/prompts/recall_subagent_local.md#L1-L101",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/memory/memory-b6ebd1e3dc0d__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "dac760239221557160893db24addf6a932fa5a4ff61840d01af7bd2e5d1af309",
+          "module": "memory",
+          "prompt_id": "memory-b6ebd1e3dc0d",
+          "source_lines": [
+            1,
+            11
+          ],
+          "source_path": "src/agent/subagents/builtin/memory.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/subagents/builtin/memory.md#L1-L11",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/reflection/reflection-v2-64efab801b88__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "e3af1d9b08fed932f61ea6b1c3dd190c0de85a32eb1a25342479fb72ca6148ea",
+          "module": "reflection",
+          "prompt_id": "reflection-v2-64efab801b88",
+          "source_lines": [
+            1,
+            89
+          ],
+          "source_path": "src/agent/subagents/builtin/reflection-v2.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/subagents/builtin/reflection-v2.md#L1-L89",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/reflection/reflection-596051c4b8f8__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "c813c550cae2f9a7296ae15be2f07d1b7581d5059537aade48a217010a0e468e",
+          "module": "reflection",
+          "prompt_id": "reflection-596051c4b8f8",
+          "source_lines": [
+            1,
+            201
+          ],
+          "source_path": "src/agent/subagents/builtin/reflection.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/subagents/builtin/reflection.md#L1-L201",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/system/letta-182947c0fff2__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "1ad95f30379d3302ed128c59b5bd262fd2b845a264fd1aff98df14465f246061",
+          "module": "system",
+          "prompt_id": "letta-182947c0fff2",
+          "source_lines": [
+            1,
+            188
+          ],
+          "source_path": "src/agent/prompts/letta.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/prompts/letta.md#L1-L188",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/system/letta_local_memfs-6bd549686f8e__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "0c0fbe64550b0a71c1d646f83998676f121a3b46594520dc1478f610fe8009f1",
+          "module": "system",
+          "prompt_id": "letta_local_memfs-6bd549686f8e",
+          "source_lines": [
+            1,
+            178
+          ],
+          "source_path": "src/agent/prompts/letta_local_memfs.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/prompts/letta_local_memfs.md#L1-L178",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/system/letta_no_memfs-cc155c1514c8__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "3c2b115ca00c2d3a5b9392b2517cbe001004e3a52f0acf46b7f0341b355097fe",
+          "module": "system",
+          "prompt_id": "letta_no_memfs-cc155c1514c8",
+          "source_lines": [
+            1,
+            137
+          ],
+          "source_path": "src/agent/prompts/letta_no_memfs.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/prompts/letta_no_memfs.md#L1-L137",
+          "source_symbol": "document",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/letta-code/system/letta_root_memfs-661086f6f206__default__untagged__ebd590b11bef__20261101T071014Z.md",
+          "content_sha256": "14caf9f30f6b743a1bc52e38a2ed51dcb779cb26d050ef700b263c07f89498ee",
+          "module": "system",
+          "prompt_id": "letta_root_memfs-661086f6f206",
+          "source_lines": [
+            1,
+            190
+          ],
+          "source_path": "src/agent/prompts/letta_root_memfs.md",
+          "source_permalink": "https://github.com/letta-ai/letta-code/blob/ebd590b11bef049884b923da5ed3f5d087af81e0/src/agent/prompts/letta_root_memfs.md#L1-L190",
+          "source_symbol": "document",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:ebd590b11bef049884b923da5ed3f5d087af81e0:e9ae5b83f24ac261b3f753cb990da9ffb69f4b7a782633f6e2bd2f745ecd7d5d:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-11-01T07:10:14Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "letta-ai/letta-code",
+      "source_commit": "ebd590b11bef049884b923da5ed3f5d087af81e0",
+      "source_committed_at": "2026-11-01T04:06:12Z",
       "source_ref": "main",
       "upstream_version": null
     }
