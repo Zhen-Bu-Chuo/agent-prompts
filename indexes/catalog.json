@@ -52,7 +52,7 @@
     },
     {
       "agent": "claude-code",
-      "commit": "f0b737f94f3b09bafd851ce47414f9877e06922e",
+      "commit": "964d69565952a176ac1975ed218362991db71433",
       "prompts": 0,
       "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
       "ref": "main",
@@ -84,8 +84,19 @@
       "version": "v2.1.316"
     },
     {
+      "agent": "claude-code",
+      "commit": "964d69565952a176ac1975ed218362991db71433",
+      "prompts": 0,
+      "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
+      "ref": "v2.1.317",
+      "ref_kind": "release",
+      "repository": "anthropics/claude-code",
+      "status": "unavailable",
+      "version": "v2.1.317"
+    },
+    {
       "agent": "cline",
-      "commit": "a6507a62a147db4a35e27f4294589742ccac5060",
+      "commit": "5b454165353ac1edc9a7db0ff416739044985908",
       "prompts": 2,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -105,7 +116,7 @@
     },
     {
       "agent": "codex",
-      "commit": "a09812981de703f18f38015cd5d500ab373f616c",
+      "commit": "ac91c14443c11c4279a9305099354e443c6fa7d4",
       "prompts": 145,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -205,7 +216,7 @@
     },
     {
       "agent": "gemini-cli",
-      "commit": "6814e00d6b148c3a1d57244d5d7040f7c541009d",
+      "commit": "0ac57c029b848d109eef940afe0db4b5a0c3dad0",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -225,7 +236,7 @@
     },
     {
       "agent": "goose",
-      "commit": "0909288ed4a2053b10540bfcf6dbee3b0de66126",
+      "commit": "cfb67d72f6129ba3c9f68d4c225d8dfcaba18a87",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -265,7 +276,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "4d26e0cceaed0a08ede833caec0ec6d6ca77a4b8",
+      "commit": "5b526a53189072c34349eb357803f4cc039505a7",
       "prompts": 23,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -285,7 +296,7 @@
     },
     {
       "agent": "hindsight",
-      "commit": "bc5ea195a0fed1346ff171a5780bbb72a38c89c8",
+      "commit": "7038c00291880a866c7a895eb5805e7c78f582b1",
       "prompts": 73,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -305,7 +316,7 @@
     },
     {
       "agent": "kilocode",
-      "commit": "dd35e09db9c74c62c84423df485fb3603a02dba1",
+      "commit": "2df562cb336d1987ee40da07359ff84a4a216f66",
       "prompts": 0,
       "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
       "ref": "main",
@@ -348,7 +359,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "6155d9f562f13eb1f352240a7fd07a87933ac76a",
+      "commit": "9df436cffa588f45aadef86f34d43fb8f3008c40",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -387,6 +398,16 @@
       "version": "v0.34.38"
     },
     {
+      "agent": "letta-code",
+      "commit": "458afe3800b2d9c31c62a0ee578ec910712bd750",
+      "prompts": 10,
+      "ref": "v0.34.39",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.39"
+    },
+    {
       "agent": "mem0",
       "commit": "753496cf1435d76c3a711f3af51303f7fdcb6420",
       "prompts": 9,
@@ -418,7 +439,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "ff90ed91607cabf420a369e9009539c1aa0932af",
+      "commit": "3ba597f7769e19cc3b5f67e3d6667e7b6318f6a3",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -478,7 +499,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "98849457621881ae2414719b82b8bc1cf535b4ab",
+      "commit": "b0789c73151a967fdd4a10f8383d2c0bc7109563",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -498,7 +519,7 @@
     },
     {
       "agent": "openviking",
-      "commit": "ed3ecd5e1fc4433d7678227f0f9e466cfb90a64d",
+      "commit": "17f1536b42f19dd957ed9406bcfff609d59b305b",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -518,7 +539,7 @@
     },
     {
       "agent": "pi",
-      "commit": "c9f4c7b9fcd0f3e6b5bbc35c7c9b6cda35580eb8",
+      "commit": "0c7c7419886ba1879564e20eaaf44ffbf01ffc75",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -537,8 +558,18 @@
       "version": "v1.4.0"
     },
     {
+      "agent": "pi",
+      "commit": "f9a26365568127461c47a07a37dcb42c140a3ac5",
+      "prompts": 1,
+      "ref": "v1.5.0",
+      "ref_kind": "release",
+      "repository": "earendil-works/pi",
+      "status": "supported",
+      "version": "v1.5.0"
+    },
+    {
       "agent": "qwen-code",
-      "commit": "8de81eb209cae9a2d7a5e2cfcdb85c5a1846c6c7",
+      "commit": "3a4c7dd0e9d42a767074ca5d3ca2641b4796286f",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",

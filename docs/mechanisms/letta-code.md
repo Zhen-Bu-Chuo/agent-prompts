@@ -1,8 +1,8 @@
 # Letta Code prompt and mechanism sources
 
 - Repository: [`letta-ai/letta-code`](https://github.com/letta-ai/letta-code)
-- Selected release/branch: `v0.34.38`
-- Commit: `6155d9f562f13eb1f352240a7fd07a87933ac76a`
+- Selected release/branch: `v0.34.39`
+- Commit: `458afe3800b2d9c31c62a0ee578ec910712bd750`
 - SPDX metadata: `Apache-2.0`
 - Collection status: `supported`
 
@@ -10,21 +10,21 @@
 
 | Module | Extractor | Pinned source |
 | --- | --- | --- |
-| `system` | `raw` | [`src/agent/prompts/letta.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/prompts/letta.md) |
-| `system` | `raw` | [`src/agent/prompts/letta_local_memfs.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/prompts/letta_local_memfs.md) |
-| `system` | `raw` | [`src/agent/prompts/letta_no_memfs.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/prompts/letta_no_memfs.md) |
-| `system` | `raw` | [`src/agent/prompts/letta_root_memfs.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/prompts/letta_root_memfs.md) |
-| `memory` | `raw` | [`src/agent/prompts/memory_filesystem.mdx`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/prompts/memory_filesystem.mdx) |
-| `memory` | `raw` | [`src/agent/prompts/recall_subagent.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/prompts/recall_subagent.md) |
-| `memory` | `raw` | [`src/agent/prompts/recall_subagent_local.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/prompts/recall_subagent_local.md) |
-| `memory` | `raw` | [`src/agent/subagents/builtin/memory.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/subagents/builtin/memory.md) |
-| `reflection` | `raw` | [`src/agent/subagents/builtin/reflection-v2.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/subagents/builtin/reflection-v2.md) |
-| `reflection` | `raw` | [`src/agent/subagents/builtin/reflection.md`](https://github.com/letta-ai/letta-code/blob/6155d9f562f13eb1f352240a7fd07a87933ac76a/src/agent/subagents/builtin/reflection.md) |
+| `system` | `raw` | [`src/agent/prompts/letta.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/prompts/letta.md) |
+| `system` | `raw` | [`src/agent/prompts/letta_local_memfs.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/prompts/letta_local_memfs.md) |
+| `system` | `raw` | [`src/agent/prompts/letta_no_memfs.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/prompts/letta_no_memfs.md) |
+| `system` | `raw` | [`src/agent/prompts/letta_root_memfs.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/prompts/letta_root_memfs.md) |
+| `memory` | `raw` | [`src/agent/prompts/memory_filesystem.mdx`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/prompts/memory_filesystem.mdx) |
+| `memory` | `raw` | [`src/agent/prompts/recall_subagent.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/prompts/recall_subagent.md) |
+| `memory` | `raw` | [`src/agent/prompts/recall_subagent_local.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/prompts/recall_subagent_local.md) |
+| `memory` | `raw` | [`src/agent/subagents/builtin/memory.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/subagents/builtin/memory.md) |
+| `reflection` | `raw` | [`src/agent/subagents/builtin/reflection-v2.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/subagents/builtin/reflection-v2.md) |
+| `reflection` | `raw` | [`src/agent/subagents/builtin/reflection.md`](https://github.com/letta-ai/letta-code/blob/458afe3800b2d9c31c62a0ee578ec910712bd750/src/agent/subagents/builtin/reflection.md) |
 
 ## Current coverage
 
 - Coverage: `supported`.
-- Pinned upstream version: `v0.34.38` at commit `6155d9f562f13eb1f352240a7fd07a87933ac76a`.
+- Pinned upstream version: `v0.34.39` at commit `458afe3800b2d9c31c62a0ee578ec910712bd750`.
 - source_claude.md、source_codex.md 等声明从其他产品预设或社区渠道导入的提示词不纳入 Letta Code 官方内容；核心 Memory Filesystem 和反思 Agent 模板取自 Letta Code 自有路径。
 
 ## Collection notes
