@@ -107,7 +107,7 @@
     },
     {
       "agent": "cline",
-      "commit": "7a7878cb52fc33967d8b464b3e3d899beac42d4d",
+      "commit": "d3ecc4890e8f9bcb77182b96c77fa90575e8e145",
       "prompts": 2,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -127,7 +127,7 @@
     },
     {
       "agent": "codex",
-      "commit": "93b4e5b4c6474cdbf12614c4ac3acbd006fbee89",
+      "commit": "ed8eac40832e6a79f30eaeb3c521912f231d43eb",
       "prompts": 145,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -227,7 +227,7 @@
     },
     {
       "agent": "gemini-cli",
-      "commit": "89e9d25d67e7dc7cb0deb84ad2c3474b7a392d31",
+      "commit": "1fe22af5f800d8c3024e9968d35bb75bd09e6b79",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -246,8 +246,18 @@
       "version": "v0.66.0"
     },
     {
+      "agent": "gemini-cli",
+      "commit": "dc6602cec4a6e823aa33937144245dc421e5165f",
+      "prompts": 7,
+      "ref": "v0.67.0",
+      "ref_kind": "release",
+      "repository": "google-gemini/gemini-cli",
+      "status": "supported",
+      "version": "v0.67.0"
+    },
+    {
       "agent": "goose",
-      "commit": "71dd9a9aa2344247a51bc349f4d0b97c2dbff4bd",
+      "commit": "bfe8ccd23de1d2c47a4cb2970d522f093ae7f2ba",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -287,7 +297,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "71736c9f32597bbca9d89cede5aa136e55946b2f",
+      "commit": "6c2bf4b99bf96ed038f0b38b7eea2f38788437af",
       "prompts": 23,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -307,7 +317,7 @@
     },
     {
       "agent": "hindsight",
-      "commit": "f14cc1eb5624b0374cb4d82768eb2e0b9c21ae24",
+      "commit": "1a37e009cbe9b8cd76b2c5d5b6c5745374e19507",
       "prompts": 73,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -337,7 +347,7 @@
     },
     {
       "agent": "kilocode",
-      "commit": "080ca6c41399e014cfcc8657202863bb8e3ab6d6",
+      "commit": "bd0ab67e8b00c8d27d03cbc9d163bdaf20c37213",
       "prompts": 0,
       "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
       "ref": "main",
@@ -380,7 +390,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "df234ac178ed4719ba72732342534a9255c487e1",
+      "commit": "ee6e2c588082cbd98d8db1e20b18096585afa5bf",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -429,8 +439,18 @@
       "version": "v0.34.39"
     },
     {
+      "agent": "letta-code",
+      "commit": "233c0034492b9782c9bec01002226b891e514745",
+      "prompts": 10,
+      "ref": "v0.34.41",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.41"
+    },
+    {
       "agent": "mem0",
-      "commit": "753496cf1435d76c3a711f3af51303f7fdcb6420",
+      "commit": "ed1f10fc87080f0b67f99be370817504888462ab",
       "prompts": 9,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -460,7 +480,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "59e95cc5394b7714451608099ef4db7bffc904b6",
+      "commit": "af5d3b531d1ed0790e20d0503dd390f5b2c35283",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -520,7 +540,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "2f2cd2bf7f19ca3bbf9f0c4a95c60f48094302a1",
+      "commit": "28f4dfeeec4473060873185d301495d1c3743947",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -540,7 +560,7 @@
     },
     {
       "agent": "openviking",
-      "commit": "f601f56e878d616f28c8d3c5c246176b864c2586",
+      "commit": "9c48090b0e6a48303909cb87333c778acca34cd6",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -560,7 +580,7 @@
     },
     {
       "agent": "pi",
-      "commit": "676af1d777ef6f04b6bc8daf4cf3b9b1799cff4d",
+      "commit": "5be85f3be3713fcb2aaefdb94cb2e2664db5b450",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -590,7 +610,7 @@
     },
     {
       "agent": "qwen-code",
-      "commit": "14a5a2d98df41037834758d78a75aa1235b14f40",
+      "commit": "046b02e521f442eea47acb90aeb91916a84bcc05",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
