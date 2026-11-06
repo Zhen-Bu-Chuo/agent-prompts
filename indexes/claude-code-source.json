@@ -1,8 +1,8 @@
 {
   "agent": "claude-code",
-  "collected_at": "2026-11-05T07:44:00Z",
+  "collected_at": "2026-11-06T07:41:49Z",
   "license": null,
-  "license_permalink": "https://github.com/anthropics/claude-code/blob/26382c08758260c9f5deb2019d8fe851f89fa9ae/LICENSE.md",
+  "license_permalink": "https://github.com/anthropics/claude-code/blob/90380efca7f9d73e206fac453f841b6acd664f4d/LICENSE.md",
   "limitations": [
     "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source."
   ],
@@ -10,8 +10,8 @@
   "ref_kind": "default-branch",
   "release_published_at": null,
   "repository": "anthropics/claude-code",
-  "source_commit": "26382c08758260c9f5deb2019d8fe851f89fa9ae",
-  "source_committed_at": "2026-11-04T00:02:42Z",
+  "source_commit": "90380efca7f9d73e206fac453f841b6acd664f4d",
+  "source_committed_at": "2026-11-06T00:00:33Z",
   "source_path": "LICENSE.md",
   "source_ref": "main",
   "upstream_version": null

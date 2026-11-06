@@ -52,7 +52,7 @@
     },
     {
       "agent": "claude-code",
-      "commit": "26382c08758260c9f5deb2019d8fe851f89fa9ae",
+      "commit": "90380efca7f9d73e206fac453f841b6acd664f4d",
       "prompts": 0,
       "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
       "ref": "main",
@@ -107,7 +107,7 @@
     },
     {
       "agent": "cline",
-      "commit": "d3ecc4890e8f9bcb77182b96c77fa90575e8e145",
+      "commit": "ea16751d6ae3ae1e443681994906bf29cbc45039",
       "prompts": 2,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -127,7 +127,7 @@
     },
     {
       "agent": "codex",
-      "commit": "ed8eac40832e6a79f30eaeb3c521912f231d43eb",
+      "commit": "55897425e839d943a744c658701445ff732568a0",
       "prompts": 145,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -144,6 +144,16 @@
       "repository": "openai/codex",
       "status": "partial",
       "version": "rust-v0.166.0"
+    },
+    {
+      "agent": "codex",
+      "commit": "086ccc833bc9cf01024ad2dd6af7dbd421b6bf9a",
+      "prompts": 145,
+      "ref": "rust-v0.167.0",
+      "ref_kind": "release",
+      "repository": "openai/codex",
+      "status": "partial",
+      "version": "rust-v0.167.0"
     },
     {
       "agent": "cognee",
@@ -227,7 +237,7 @@
     },
     {
       "agent": "gemini-cli",
-      "commit": "1fe22af5f800d8c3024e9968d35bb75bd09e6b79",
+      "commit": "3fd7d263466b9e5d30b2da1ebf85dae956a0fb86",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -257,7 +267,7 @@
     },
     {
       "agent": "goose",
-      "commit": "bfe8ccd23de1d2c47a4cb2970d522f093ae7f2ba",
+      "commit": "4facf56cbab049142809d9afa4648ebe6823ba80",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -277,7 +287,7 @@
     },
     {
       "agent": "graphiti",
-      "commit": "fb60e59d4a208c99e7d0186ee6335d2a257f17f2",
+      "commit": "747b480ec6b12ecb718f1e2bc588b20ee36ea9c2",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -297,7 +307,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "6c2bf4b99bf96ed038f0b38b7eea2f38788437af",
+      "commit": "90d6b98fd86d20981ee06ddd5b7d93e4320f26a4",
       "prompts": 23,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -317,7 +327,7 @@
     },
     {
       "agent": "hindsight",
-      "commit": "1a37e009cbe9b8cd76b2c5d5b6c5745374e19507",
+      "commit": "30d547ba00989297057a9679f2d59f30a554b240",
       "prompts": 73,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -347,7 +357,7 @@
     },
     {
       "agent": "kilocode",
-      "commit": "bd0ab67e8b00c8d27d03cbc9d163bdaf20c37213",
+      "commit": "d42db1df02060e13710316ac38b3668fbd0be273",
       "prompts": 0,
       "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
       "ref": "main",
@@ -366,6 +376,17 @@
       "repository": "Kilo-Org/kilocode",
       "status": "unavailable",
       "version": "v7.8.18"
+    },
+    {
+      "agent": "kilocode",
+      "commit": "03a6f07d053cd7e6aa88fa1e258e93510335259f",
+      "prompts": 0,
+      "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
+      "ref": "v7.8.27",
+      "ref_kind": "release",
+      "repository": "Kilo-Org/kilocode",
+      "status": "unavailable",
+      "version": "v7.8.27"
     },
     {
       "agent": "langmem",
@@ -390,7 +411,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "ee6e2c588082cbd98d8db1e20b18096585afa5bf",
+      "commit": "a1b4e84afbd18e0d81cbaa80899597cc787ff91a",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -480,7 +501,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "af5d3b531d1ed0790e20d0503dd390f5b2c35283",
+      "commit": "21eaa626a37f77d7a8d80fa01997fa7d52506c97",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -510,7 +531,7 @@
     },
     {
       "agent": "openevolve",
-      "commit": "73448d715968b3578d8458b16295e827edd2b6bf",
+      "commit": "0fa8c4de9faff5d11e2f819557c6b14e0add3a23",
       "prompts": 13,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -540,7 +561,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "28f4dfeeec4473060873185d301495d1c3743947",
+      "commit": "295b3baf71dfac1be028c5b187134ec3eb495346",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -559,8 +580,18 @@
       "version": "v1.59.0"
     },
     {
+      "agent": "openhands",
+      "commit": "e99e5c71ffe440a0b8d74b695f9307a7e34e4bbd",
+      "prompts": 7,
+      "ref": "v1.60.1",
+      "ref_kind": "release",
+      "repository": "OpenHands/software-agent-sdk",
+      "status": "supported",
+      "version": "v1.60.1"
+    },
+    {
       "agent": "openviking",
-      "commit": "9c48090b0e6a48303909cb87333c778acca34cd6",
+      "commit": "a5f08d14eb9305803402e6ab71b88a66bf897187",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -580,7 +611,7 @@
     },
     {
       "agent": "pi",
-      "commit": "5be85f3be3713fcb2aaefdb94cb2e2664db5b450",
+      "commit": "d07548004ae12d8dfc3d5817cdbb4f975356aede",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -610,7 +641,7 @@
     },
     {
       "agent": "qwen-code",
-      "commit": "046b02e521f442eea47acb90aeb91916a84bcc05",
+      "commit": "255d5cd2ae907dd099e7200efa09f2122cad0607",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
