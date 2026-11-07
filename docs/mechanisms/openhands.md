@@ -1,8 +1,8 @@
 # OpenHands prompt and mechanism sources
 
 - Repository: [`OpenHands/software-agent-sdk`](https://github.com/OpenHands/software-agent-sdk)
-- Selected release/branch: `v1.60.1`
-- Commit: `e99e5c71ffe440a0b8d74b695f9307a7e34e4bbd`
+- Selected release/branch: `v1.60.2`
+- Commit: `22a765e238aa8681277e392d00fdc950a230fbd8`
 - SPDX metadata: `MIT`
 - Collection status: `supported`
 
@@ -10,15 +10,15 @@
 
 | Module | Extractor | Pinned source |
 | --- | --- | --- |
-| `system` | `python` | [`openhands-sdk/openhands/sdk/context/prompts/sections/static.py`](https://github.com/OpenHands/software-agent-sdk/blob/e99e5c71ffe440a0b8d74b695f9307a7e34e4bbd/openhands-sdk/openhands/sdk/context/prompts/sections/static.py) |
-| `system` | `raw` | [`openhands-sdk/openhands/sdk/context/prompts/templates/ask_agent_template.j2`](https://github.com/OpenHands/software-agent-sdk/blob/e99e5c71ffe440a0b8d74b695f9307a7e34e4bbd/openhands-sdk/openhands/sdk/context/prompts/templates/ask_agent_template.j2) |
-| `system` | `raw` | [`openhands-sdk/openhands/sdk/context/prompts/templates/skill_knowledge_info.j2`](https://github.com/OpenHands/software-agent-sdk/blob/e99e5c71ffe440a0b8d74b695f9307a7e34e4bbd/openhands-sdk/openhands/sdk/context/prompts/templates/skill_knowledge_info.j2) |
-| `planning` | `python` | [`openhands-sdk/openhands/sdk/conversation/goal/prompts.py`](https://github.com/OpenHands/software-agent-sdk/blob/e99e5c71ffe440a0b8d74b695f9307a7e34e4bbd/openhands-sdk/openhands/sdk/conversation/goal/prompts.py) |
+| `system` | `python` | [`openhands-sdk/openhands/sdk/context/prompts/sections/static.py`](https://github.com/OpenHands/software-agent-sdk/blob/22a765e238aa8681277e392d00fdc950a230fbd8/openhands-sdk/openhands/sdk/context/prompts/sections/static.py) |
+| `system` | `raw` | [`openhands-sdk/openhands/sdk/context/prompts/templates/ask_agent_template.j2`](https://github.com/OpenHands/software-agent-sdk/blob/22a765e238aa8681277e392d00fdc950a230fbd8/openhands-sdk/openhands/sdk/context/prompts/templates/ask_agent_template.j2) |
+| `system` | `raw` | [`openhands-sdk/openhands/sdk/context/prompts/templates/skill_knowledge_info.j2`](https://github.com/OpenHands/software-agent-sdk/blob/22a765e238aa8681277e392d00fdc950a230fbd8/openhands-sdk/openhands/sdk/context/prompts/templates/skill_knowledge_info.j2) |
+| `planning` | `python` | [`openhands-sdk/openhands/sdk/conversation/goal/prompts.py`](https://github.com/OpenHands/software-agent-sdk/blob/22a765e238aa8681277e392d00fdc950a230fbd8/openhands-sdk/openhands/sdk/conversation/goal/prompts.py) |
 
 ## Current coverage
 
 - Coverage: `supported`.
-- Pinned upstream version: `v1.60.1` at commit `e99e5c71ffe440a0b8d74b695f9307a7e34e4bbd`.
+- Pinned upstream version: `v1.60.2` at commit `22a765e238aa8681277e392d00fdc950a230fbd8`.
 - OpenHands/OpenHands UI 仓库已将运行时 agent 移至 OpenHands/software-agent-sdk；采集该 SDK，并在机制文档记录迁移依据。
 - 工具环境、事件流和执行反馈由运行时注入，模板仅代表静态片段。
 
