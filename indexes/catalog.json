@@ -138,7 +138,7 @@
     },
     {
       "agent": "codex",
-      "commit": "f4275a2a2e6a50d030280439ba161305b324c851",
+      "commit": "748ab55ca7de0b647d9a7a9d9a8e70e00f28666d",
       "prompts": 145,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -288,7 +288,7 @@
     },
     {
       "agent": "goose",
-      "commit": "4facf56cbab049142809d9afa4648ebe6823ba80",
+      "commit": "5bad61a87c27c313aec5187bfb72e69b594086b5",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -308,7 +308,7 @@
     },
     {
       "agent": "graphiti",
-      "commit": "747b480ec6b12ecb718f1e2bc588b20ee36ea9c2",
+      "commit": "024b83679e48e41d59a7d1714ac0870aff2e4676",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -328,7 +328,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "d4e7c3434209861f5cc6da0649e2df1f11f53e73",
+      "commit": "21ae0e1238fdf466fa52a85a6ebf75d6899e49da",
       "prompts": 23,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -348,7 +348,7 @@
     },
     {
       "agent": "hindsight",
-      "commit": "eb963cb5a929d92c081371df64c2d5c2fe3351af",
+      "commit": "0bd55015393d224deec1073d63b24bcc0faad164",
       "prompts": 73,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -378,7 +378,7 @@
     },
     {
       "agent": "kilocode",
-      "commit": "45484c918a48f05a1d2d47cb6a35c6bdc3e57800",
+      "commit": "b6a49d01c10d7e26c42a8a14b3441b7a1856c04c",
       "prompts": 0,
       "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
       "ref": "main",
@@ -432,7 +432,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "f0b32360830bbef079764148e527c82dee68463d",
+      "commit": "9176d8c0b16f408e9240422a98379a423e2176c3",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -532,7 +532,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "145e948159e8dbaa3229d354a98dcfbcff7cfe92",
+      "commit": "da8c0211f7c00afbf1dd96e629801fe84d205541",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -572,7 +572,7 @@
     },
     {
       "agent": "openevolve",
-      "commit": "0fa8c4de9faff5d11e2f819557c6b14e0add3a23",
+      "commit": "c1f4c3115e62669c5791fbf94f445587f3b3f5f7",
       "prompts": 13,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -602,7 +602,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "e4160d11872f0e20df2564838a0af8b3167d4e92",
+      "commit": "51ad22388a154d48353fac7a82cfd5255dbeefc1",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -642,7 +642,7 @@
     },
     {
       "agent": "openviking",
-      "commit": "b8e88959f3ab437b4d08514eceaa7221cca470dc",
+      "commit": "9ac008f9b86c91b79d6e93eb8df8ea7f4d48cecb",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -662,7 +662,7 @@
     },
     {
       "agent": "pi",
-      "commit": "085c84e98e7f4c950f2be606466fff4f75d8fe7c",
+      "commit": "6e2222a8dda06e3d69fad46d630f152f5873567a",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -692,7 +692,7 @@
     },
     {
       "agent": "qwen-code",
-      "commit": "f087e699af32fed9ad6df8a345627adc9f49493a",
+      "commit": "c1f3f53167f3f5cf79befb92fc43bcd9cbe09ec8",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
