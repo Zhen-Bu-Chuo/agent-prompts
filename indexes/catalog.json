@@ -118,7 +118,7 @@
     },
     {
       "agent": "cline",
-      "commit": "94eecbbe1a2f899c66b118d13656651b0a884e1f",
+      "commit": "5413dc180c10700ce2e26547ab75991360dd0486",
       "prompts": 2,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -138,7 +138,7 @@
     },
     {
       "agent": "codex",
-      "commit": "748ab55ca7de0b647d9a7a9d9a8e70e00f28666d",
+      "commit": "8703d32bd0ea5cf26768859a3dd476df906ba053",
       "prompts": 145,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -288,7 +288,7 @@
     },
     {
       "agent": "goose",
-      "commit": "5bad61a87c27c313aec5187bfb72e69b594086b5",
+      "commit": "0edf2bdc8161d06f79daf639c148bf3559e26cf0",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -328,7 +328,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "21ae0e1238fdf466fa52a85a6ebf75d6899e49da",
+      "commit": "e3b63d99ef01fb7363807f4c51e81536ad2b42b3",
       "prompts": 23,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -432,7 +432,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "9176d8c0b16f408e9240422a98379a423e2176c3",
+      "commit": "7f7300a2c8d4d8aef150d9ea9d01f0edd4f9d710",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -501,6 +501,16 @@
       "version": "v0.34.44"
     },
     {
+      "agent": "letta-code",
+      "commit": "7f7300a2c8d4d8aef150d9ea9d01f0edd4f9d710",
+      "prompts": 10,
+      "ref": "v0.34.48",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.48"
+    },
+    {
       "agent": "mem0",
       "commit": "f1791daa86d469249c9b002f62644d58a1eb96a0",
       "prompts": 9,
@@ -532,7 +542,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "da8c0211f7c00afbf1dd96e629801fe84d205541",
+      "commit": "12a661ea40cd5863b271a89bb06b8a3ddb7ab5a0",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -572,7 +582,7 @@
     },
     {
       "agent": "openevolve",
-      "commit": "c1f4c3115e62669c5791fbf94f445587f3b3f5f7",
+      "commit": "3e72b5bcce27cdd948d8cdff2fa00e67c4d6066c",
       "prompts": 13,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -602,7 +612,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "51ad22388a154d48353fac7a82cfd5255dbeefc1",
+      "commit": "10c9ddd64b614c2b848b8525fabeacc8cea374e1",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -642,7 +652,7 @@
     },
     {
       "agent": "openviking",
-      "commit": "9ac008f9b86c91b79d6e93eb8df8ea7f4d48cecb",
+      "commit": "645f9f8b6c1bf4d1980b99320ab7fa15b660ccf6",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -662,7 +672,7 @@
     },
     {
       "agent": "pi",
-      "commit": "6e2222a8dda06e3d69fad46d630f152f5873567a",
+      "commit": "7d073328e44337d3292a7db9b0f0308f679c5e97",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -692,7 +702,7 @@
     },
     {
       "agent": "qwen-code",
-      "commit": "c1f3f53167f3f5cf79befb92fc43bcd9cbe09ec8",
+      "commit": "7ad260bceba19c5dd8deaa62b71d30cd4db943fb",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
