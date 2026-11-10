@@ -1,8 +1,8 @@
 # Pi Agent prompt and mechanism sources
 
 - Repository: [`earendil-works/pi`](https://github.com/earendil-works/pi)
-- Selected release/branch: `v1.5.0`
-- Commit: `f9a26365568127461c47a07a37dcb42c140a3ac5`
+- Selected release/branch: `v1.5.1`
+- Commit: `dd30101cfc5b0609411dd80b6f93adbc14db14cf`
 - SPDX metadata: `MIT`
 - Collection status: `supported`
 
@@ -10,12 +10,12 @@
 
 | Module | Extractor | Pinned source |
 | --- | --- | --- |
-| `system` | `js-strings` | [`packages/coding-agent/src/core/system-prompt.ts`](https://github.com/earendil-works/pi/blob/f9a26365568127461c47a07a37dcb42c140a3ac5/packages/coding-agent/src/core/system-prompt.ts) |
+| `system` | `js-strings` | [`packages/coding-agent/src/core/system-prompt.ts`](https://github.com/earendil-works/pi/blob/dd30101cfc5b0609411dd80b6f93adbc14db14cf/packages/coding-agent/src/core/system-prompt.ts) |
 
 ## Current coverage
 
 - Coverage: `supported`.
-- Pinned upstream version: `v1.5.0` at commit `f9a26365568127461c47a07a37dcb42c140a3ac5`.
+- Pinned upstream version: `v1.5.1` at commit `dd30101cfc5b0609411dd80b6f93adbc14db14cf`.
 - 上游仓库已迁移至 earendil-works/pi；以 GitHub 重定向后的提交为归档来源。
 - 覆盖 coding-agent 包提示词模板与 system prompt，不采集各运行时扩展和用户配置。
 
