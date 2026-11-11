@@ -1,17 +1,17 @@
 {
   "agent": "hermes",
-  "collected_at": "2026-11-10T08:01:00Z",
+  "collected_at": "2026-11-11T07:30:33Z",
   "license": "MIT",
-  "license_permalink": "https://github.com/NousResearch/hermes-agent/blob/825322b16656905a4607be2fd6ce3d3db7d6b4a7/LICENSE",
-  "license_text_path": "licenses/hermes/825322b16656.txt",
+  "license_permalink": "https://github.com/NousResearch/hermes-agent/blob/f97608f178d1ffeca59860195ab7da295f7c8e5f/LICENSE",
+  "license_text_path": "licenses/hermes/f97608f178d1.txt",
   "limitations": [],
   "redistribution_allowed": true,
-  "ref_kind": "default-branch",
-  "release_published_at": null,
+  "ref_kind": "release",
+  "release_published_at": "2026-09-24T10:09:38Z",
   "repository": "NousResearch/hermes-agent",
-  "source_commit": "825322b16656905a4607be2fd6ce3d3db7d6b4a7",
-  "source_committed_at": "2026-11-10T07:29:20Z",
+  "source_commit": "f97608f178d1ffeca59860195ab7da295f7c8e5f",
+  "source_committed_at": "2026-09-24T10:08:47Z",
   "source_path": "LICENSE",
-  "source_ref": "main",
-  "upstream_version": null
+  "source_ref": "v2026.9.24",
+  "upstream_version": "v2026.9.24"
 }
