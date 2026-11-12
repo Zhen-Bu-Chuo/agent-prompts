@@ -1,0 +1,27 @@
+---
+agent: hindsight
+prompt_id: prompts-59a1837157d1
+module: reflection
+variant: default
+upstream_repository: vectorize-io/hindsight
+upstream_version: null
+package_name: null
+package_version: null
+source_ref: main
+source_commit: 7cec128b8fdb0a696366d888e63be71fe1d52338
+source_path: hindsight-api-slim/hindsight_api/engine/reflect/prompts.py
+source_symbol: module.build_system_prompt_for_tools.41
+source_lines:
+- 546
+- 547
+source_permalink: https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L546-L547
+source_committed_at: '2026-11-11T17:59:36Z'
+release_published_at: null
+fetched_at: '2026-11-12T07:58:32Z'
+extractor_version: 1.0.3
+content_sha256: c8c2455c26409d1fa95cfe7f277615f4491c82834815dfbbcac4e8c6f477ed93
+license: MIT
+source_kind: static_template
+extraction_notes: Python string decoded by the AST parser; upstream code was not executed.
+---
+If the levels above are stale, do not state the answer, OR you need specific details, use recall() for raw facts. Reporting that nothing is known requires recall() first

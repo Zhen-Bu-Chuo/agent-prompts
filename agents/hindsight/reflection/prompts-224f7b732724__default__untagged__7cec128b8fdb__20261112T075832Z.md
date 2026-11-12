@@ -1,0 +1,27 @@
+---
+agent: hindsight
+prompt_id: prompts-224f7b732724
+module: reflection
+variant: default
+upstream_repository: vectorize-io/hindsight
+upstream_version: null
+package_name: null
+package_version: null
+source_ref: main
+source_commit: 7cec128b8fdb0a696366d888e63be71fe1d52338
+source_path: hindsight-api-slim/hindsight_api/engine/reflect/prompts.py
+source_symbol: module.build_system_prompt_for_tools.44
+source_lines:
+- 577
+- 578
+source_permalink: https://github.com/vectorize-io/hindsight/blob/7cec128b8fdb0a696366d888e63be71fe1d52338/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L577-L578
+source_committed_at: '2026-11-11T17:59:36Z'
+release_published_at: null
+fetched_at: '2026-11-12T07:58:32Z'
+extractor_version: 1.0.3
+content_sha256: 955a9b35152a672ebd1351253f60d5f59daecb20e83297e61b0d548fe25daaf2
+license: MIT
+source_kind: static_template
+extraction_notes: Python string decoded by the AST parser; upstream code was not executed.
+---
+Call done() with a 'markdown' field holding the whole document: a '## ' heading per section, then its paragraphs, lists, tables or code fences.
