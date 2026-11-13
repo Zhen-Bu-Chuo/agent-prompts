@@ -1,8 +1,0 @@
-{
-  "agent": "hermes",
-  "last_error": {
-    "first_observed_at": "2026-11-11T07:30:33Z",
-    "message": "HTTPError: HTTP Error 429: Too Many Requests"
-  },
-  "repository": "NousResearch/hermes-agent"
-}
