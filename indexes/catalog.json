@@ -52,7 +52,7 @@
     },
     {
       "agent": "claude-code",
-      "commit": "f1f87e56d3b823cedf87c55d7b972150644ae310",
+      "commit": "0cb75cebcdfd767ee14cd06295f9bf4163274e79",
       "prompts": 0,
       "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
       "ref": "main",
@@ -171,7 +171,7 @@
     },
     {
       "agent": "codex",
-      "commit": "6ddb87e700537bf95e4b920422b6a449df2f991d",
+      "commit": "02e745f3a081686a6e95700877fa43145c86f583",
       "prompts": 145,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -431,7 +431,7 @@
     },
     {
       "agent": "graphiti",
-      "commit": "3ed02527499d4eb3b2eb133d716898dc89d7cc99",
+      "commit": "3a8a78c997a07cceeb3411ede533b0f342d71c64",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -451,7 +451,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "422ad1861856dd9b80b947fbad9f39d1580f6b41",
+      "commit": "d1b46d718ffe675427928eff7e5fff69bcb4519b",
       "prompts": 23,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -471,7 +471,7 @@
     },
     {
       "agent": "hindsight",
-      "commit": "0b3f09229bc13820f961244238ca885fda674076",
+      "commit": "5318be8ea572aa00ceae636c71c1d8d334f805b6",
       "prompts": 74,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -565,7 +565,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "df7045d26f46e6ce49e7bc9bfd3d96d4f574d8dc",
+      "commit": "3329815b63e20a34fd0af4479ad0a556ad502b8a",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -684,6 +684,16 @@
       "version": "v0.34.61"
     },
     {
+      "agent": "letta-code",
+      "commit": "3329815b63e20a34fd0af4479ad0a556ad502b8a",
+      "prompts": 10,
+      "ref": "v0.34.62",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.62"
+    },
+    {
       "agent": "mem0",
       "commit": "f1791daa86d469249c9b002f62644d58a1eb96a0",
       "prompts": 9,
@@ -715,7 +725,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "cbe71595e1f370ff91b3081872b96bbe56519c41",
+      "commit": "d432a06b9c07bab0be4e8d642173b1cb14137f11",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -775,7 +785,7 @@
     },
     {
       "agent": "openevolve",
-      "commit": "3e72b5bcce27cdd948d8cdff2fa00e67c4d6066c",
+      "commit": "a19bfced9ea6277fa8e8b0d8f428af60be67804d",
       "prompts": 13,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -805,7 +815,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "3c66af1d14d0a7fbe74b8dc4218412ec7a877b79",
+      "commit": "2aae48b67a57fa852ebca946ac64ee8b8500e889",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -865,7 +875,7 @@
     },
     {
       "agent": "openviking",
-      "commit": "0ccde8b56fe1a919a372312ec8eb7b895eda4ddc",
+      "commit": "1a6e51f0c62462da43a79e9794f03efb485cc17f",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -895,7 +905,7 @@
     },
     {
       "agent": "pi",
-      "commit": "827383a15262905f82e418483825a49dbb1adbf5",
+      "commit": "0db9861ec01842f0ade3fa93d95a59f378d92a8a",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -945,7 +955,7 @@
     },
     {
       "agent": "qwen-code",
-      "commit": "6ba8820f36ee9c08981421e576b98453785f7d1e",
+      "commit": "04bb3c64473eb6f2c980434e6e612a180c65055f",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
