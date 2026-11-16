@@ -2,7 +2,7 @@
   "agent": "pi",
   "coverage": "supported",
   "current": {
-    "default-branch": "default-branch:main:0db9861ec01842f0ade3fa93d95a59f378d92a8a:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
+    "default-branch": "default-branch:main:22fc026b872b4a7df22ffa94e8fa00b873128054:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
     "release": "release:v1.5.2:b4afdddf44e059c67ccf5097e5317d913521b470:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3"
   },
   "last_error": null,
@@ -766,6 +766,43 @@
       "repository": "earendil-works/pi",
       "source_commit": "0db9861ec01842f0ade3fa93d95a59f378d92a8a",
       "source_committed_at": "2026-11-15T07:36:03Z",
+      "source_ref": "main",
+      "upstream_version": null
+    },
+    {
+      "adapter_sha256": "9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/pi/system/system-prompt-478f2931c92a__default__untagged__22fc026b872b__20261116T074110Z.md",
+          "content_sha256": "52b86ec55caba7168f91b679de867d700924bf2641d661550566408fd6a59e48",
+          "module": "system",
+          "prompt_id": "system-prompt-478f2931c92a",
+          "source_lines": [
+            156,
+            156
+          ],
+          "source_path": "packages/coding-agent/src/core/system-prompt.ts",
+          "source_permalink": "https://github.com/earendil-works/pi/blob/22fc026b872b4a7df22ffa94e8fa00b873128054/packages/coding-agent/src/core/system-prompt.ts#L156-L156",
+          "source_symbol": "promptSections.26",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:22fc026b872b4a7df22ffa94e8fa00b873128054:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-11-16T07:41:10Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "earendil-works/pi",
+      "source_commit": "22fc026b872b4a7df22ffa94e8fa00b873128054",
+      "source_committed_at": "2026-11-15T23:11:33Z",
       "source_ref": "main",
       "upstream_version": null
     }
