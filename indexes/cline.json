@@ -2,7 +2,7 @@
   "agent": "cline",
   "coverage": "partial",
   "current": {
-    "default-branch": "default-branch:main:146894b6a42a7a554c6ff37f7bb33fe5122cc33d:46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5:1.0.3",
+    "default-branch": "default-branch:main:eff43e19b267e171f597ab03733bfed25090f72d:46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5:1.0.3",
     "release": "release:v4.1.26:a459f1d04dea030833b558be645011ab739c463b:46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5:1.0.3"
   },
   "last_error": null,
@@ -677,6 +677,57 @@
       "repository": "cline/cline",
       "source_commit": "146894b6a42a7a554c6ff37f7bb33fe5122cc33d",
       "source_committed_at": "2026-11-16T11:52:17Z",
+      "source_ref": "main",
+      "upstream_version": null
+    },
+    {
+      "adapter_sha256": "46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/cline/tools/prompts-343f8fab66a6__default__untagged__eff43e19b267__20261118T081422Z.md",
+          "content_sha256": "e05d26ee214dec7e4767153e6e5c2da3cd51835e453fc742f0ad2923686240a1",
+          "module": "tools",
+          "prompt_id": "prompts-343f8fab66a6",
+          "source_lines": [
+            1,
+            9
+          ],
+          "source_path": "apps/cli/src/connectors/adapters/prompts.ts",
+          "source_permalink": "https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/apps/cli/src/connectors/adapters/prompts.ts#L1-L9",
+          "source_symbol": "CONNECTOR_SYSTEM_PROMPT.1",
+          "variant": "default"
+        },
+        {
+          "archive_path": "agents/cline/tools/prompts-d6095c2a1be7__default__untagged__eff43e19b267__20261118T081422Z.md",
+          "content_sha256": "64adf655c87f650735962b1d4e32ed25c46f261d701adf43a2f88f8f50a588b1",
+          "module": "tools",
+          "prompt_id": "prompts-d6095c2a1be7",
+          "source_lines": [
+            16,
+            16
+          ],
+          "source_path": "apps/cli/src/connectors/adapters/prompts.ts",
+          "source_permalink": "https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/apps/cli/src/connectors/adapters/prompts.ts#L16-L16",
+          "source_symbol": "CONNECTOR_SYSTEM_RULES.2",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:eff43e19b267e171f597ab03733bfed25090f72d:46b879d87d7c9c8886675ff73257960113aab43744a28e9338170569ae5a72b5:1.0.3",
+      "license": "Apache-2.0",
+      "observed_at": "2026-11-18T08:14:22Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "cline/cline",
+      "source_commit": "eff43e19b267e171f597ab03733bfed25090f72d",
+      "source_committed_at": "2026-11-17T13:18:29Z",
       "source_ref": "main",
       "upstream_version": null
     }
