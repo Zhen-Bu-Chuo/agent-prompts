@@ -1,8 +1,8 @@
 # Goose prompt and mechanism sources
 
 - Repository: [`aaif-goose/goose`](https://github.com/aaif-goose/goose)
-- Selected release/branch: `v1.60.1`
-- Commit: `b4e789ef5fd0243415243d7dfd9113c91b517c3c`
+- Selected release/branch: `v1.60.2`
+- Commit: `fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1`
 - SPDX metadata: `Apache-2.0`
 - Collection status: `supported`
 
@@ -10,18 +10,18 @@
 
 | Module | Extractor | Pinned source |
 | --- | --- | --- |
-| `system` | `raw` | [`crates/goose/src/prompts/apps_create.md`](https://github.com/aaif-goose/goose/blob/b4e789ef5fd0243415243d7dfd9113c91b517c3c/crates/goose/src/prompts/apps_create.md) |
-| `system` | `raw` | [`crates/goose/src/prompts/apps_iterate.md`](https://github.com/aaif-goose/goose/blob/b4e789ef5fd0243415243d7dfd9113c91b517c3c/crates/goose/src/prompts/apps_iterate.md) |
-| `system` | `raw` | [`crates/goose/src/prompts/permission_judge.md`](https://github.com/aaif-goose/goose/blob/b4e789ef5fd0243415243d7dfd9113c91b517c3c/crates/goose/src/prompts/permission_judge.md) |
-| `system` | `raw` | [`crates/goose/src/prompts/session_name.md`](https://github.com/aaif-goose/goose/blob/b4e789ef5fd0243415243d7dfd9113c91b517c3c/crates/goose/src/prompts/session_name.md) |
-| `system` | `raw` | [`crates/goose/src/prompts/subagent_system.md`](https://github.com/aaif-goose/goose/blob/b4e789ef5fd0243415243d7dfd9113c91b517c3c/crates/goose/src/prompts/subagent_system.md) |
-| `system` | `raw` | [`crates/goose/src/prompts/system.md`](https://github.com/aaif-goose/goose/blob/b4e789ef5fd0243415243d7dfd9113c91b517c3c/crates/goose/src/prompts/system.md) |
-| `system` | `raw` | [`crates/goose/src/prompts/tiny_model_system.md`](https://github.com/aaif-goose/goose/blob/b4e789ef5fd0243415243d7dfd9113c91b517c3c/crates/goose/src/prompts/tiny_model_system.md) |
+| `system` | `raw` | [`crates/goose/src/prompts/apps_create.md`](https://github.com/aaif-goose/goose/blob/fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1/crates/goose/src/prompts/apps_create.md) |
+| `system` | `raw` | [`crates/goose/src/prompts/apps_iterate.md`](https://github.com/aaif-goose/goose/blob/fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1/crates/goose/src/prompts/apps_iterate.md) |
+| `system` | `raw` | [`crates/goose/src/prompts/permission_judge.md`](https://github.com/aaif-goose/goose/blob/fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1/crates/goose/src/prompts/permission_judge.md) |
+| `system` | `raw` | [`crates/goose/src/prompts/session_name.md`](https://github.com/aaif-goose/goose/blob/fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1/crates/goose/src/prompts/session_name.md) |
+| `system` | `raw` | [`crates/goose/src/prompts/subagent_system.md`](https://github.com/aaif-goose/goose/blob/fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1/crates/goose/src/prompts/subagent_system.md) |
+| `system` | `raw` | [`crates/goose/src/prompts/system.md`](https://github.com/aaif-goose/goose/blob/fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1/crates/goose/src/prompts/system.md) |
+| `system` | `raw` | [`crates/goose/src/prompts/tiny_model_system.md`](https://github.com/aaif-goose/goose/blob/fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1/crates/goose/src/prompts/tiny_model_system.md) |
 
 ## Current coverage
 
 - Coverage: `supported`.
-- Pinned upstream version: `v1.60.1` at commit `b4e789ef5fd0243415243d7dfd9113c91b517c3c`.
+- Pinned upstream version: `v1.60.2` at commit `fb55b5a6d7f5b5df96c8f817f1cde6a81880d9f1`.
 - 仓库从 block/goose 迁移至 aaif-goose/goose；已跟随 canonical repository，保持原产品对应关系。
 - 工具注册和 MCP 上下文由执行期间组装。
 
