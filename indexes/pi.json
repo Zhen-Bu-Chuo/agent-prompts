@@ -2,8 +2,8 @@
   "agent": "pi",
   "coverage": "supported",
   "current": {
-    "default-branch": "default-branch:main:ad0bc6b5824b6d1b7e133260b319af040915fb4b:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
-    "release": "release:v1.5.2:b4afdddf44e059c67ccf5097e5317d913521b470:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3"
+    "default-branch": "default-branch:main:780bf31fcaeb252fa9b68df3964c735eae75bde3:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
+    "release": "release:v1.6.0:faac585884ae2c013a6b1400f3e9e77f10b34bac:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3"
   },
   "last_error": null,
   "license": "MIT",
@@ -951,6 +951,80 @@
       "repository": "earendil-works/pi",
       "source_commit": "ad0bc6b5824b6d1b7e133260b319af040915fb4b",
       "source_committed_at": "2026-11-20T08:06:53Z",
+      "source_ref": "main",
+      "upstream_version": null
+    },
+    {
+      "adapter_sha256": "9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/pi/system/system-prompt-478f2931c92a__default__v1.6.0__faac585884ae__20261121T080134Z.md",
+          "content_sha256": "52b86ec55caba7168f91b679de867d700924bf2641d661550566408fd6a59e48",
+          "module": "system",
+          "prompt_id": "system-prompt-478f2931c92a",
+          "source_lines": [
+            156,
+            156
+          ],
+          "source_path": "packages/coding-agent/src/core/system-prompt.ts",
+          "source_permalink": "https://github.com/earendil-works/pi/blob/faac585884ae2c013a6b1400f3e9e77f10b34bac/packages/coding-agent/src/core/system-prompt.ts#L156-L156",
+          "source_symbol": "promptSections.26",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "release:v1.6.0:faac585884ae2c013a6b1400f3e9e77f10b34bac:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-11-21T08:01:34Z",
+      "package_version": null,
+      "ref_kind": "release",
+      "release_published_at": "2026-11-20T11:35:03Z",
+      "repository": "earendil-works/pi",
+      "source_commit": "faac585884ae2c013a6b1400f3e9e77f10b34bac",
+      "source_committed_at": "2026-11-20T10:44:20Z",
+      "source_ref": "v1.6.0",
+      "upstream_version": "v1.6.0"
+    },
+    {
+      "adapter_sha256": "9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1",
+      "changes": {
+        "added": [],
+        "changed": [],
+        "moved": [],
+        "removed": []
+      },
+      "entries": [
+        {
+          "archive_path": "agents/pi/system/system-prompt-478f2931c92a__default__untagged__780bf31fcaeb__20261121T080134Z.md",
+          "content_sha256": "52b86ec55caba7168f91b679de867d700924bf2641d661550566408fd6a59e48",
+          "module": "system",
+          "prompt_id": "system-prompt-478f2931c92a",
+          "source_lines": [
+            156,
+            156
+          ],
+          "source_path": "packages/coding-agent/src/core/system-prompt.ts",
+          "source_permalink": "https://github.com/earendil-works/pi/blob/780bf31fcaeb252fa9b68df3964c735eae75bde3/packages/coding-agent/src/core/system-prompt.ts#L156-L156",
+          "source_symbol": "promptSections.26",
+          "variant": "default"
+        }
+      ],
+      "extractor_version": "1.0.3",
+      "id": "default-branch:main:780bf31fcaeb252fa9b68df3964c735eae75bde3:9bf5c4f15061add0c91ab399795ec450252ba3ef05b098a78c744d299c5ad4f1:1.0.3",
+      "license": "MIT",
+      "observed_at": "2026-11-21T08:01:34Z",
+      "package_version": null,
+      "ref_kind": "default-branch",
+      "release_published_at": null,
+      "repository": "earendil-works/pi",
+      "source_commit": "780bf31fcaeb252fa9b68df3964c735eae75bde3",
+      "source_committed_at": "2026-11-21T00:05:45Z",
       "source_ref": "main",
       "upstream_version": null
     }
