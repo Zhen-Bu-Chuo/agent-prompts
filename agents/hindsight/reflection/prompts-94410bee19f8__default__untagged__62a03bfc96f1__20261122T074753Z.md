@@ -1,0 +1,27 @@
+---
+agent: hindsight
+prompt_id: prompts-94410bee19f8
+module: reflection
+variant: default
+upstream_repository: vectorize-io/hindsight
+upstream_version: null
+package_name: null
+package_version: null
+source_ref: main
+source_commit: 62a03bfc96f175e9ac155acc72f292bed9ac4449
+source_path: hindsight-api-slim/hindsight_api/engine/reflect/prompts.py
+source_symbol: module._fit_structured_delta_prompt_parts.facts_header.1
+source_lines:
+- 1464
+- 1464
+source_permalink: https://github.com/vectorize-io/hindsight/blob/62a03bfc96f175e9ac155acc72f292bed9ac4449/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py#L1464-L1464
+source_committed_at: '2026-11-21T12:20:30Z'
+release_published_at: null
+fetched_at: '2026-11-22T07:47:53Z'
+extractor_version: 1.0.3
+content_sha256: 1c5d08d0810cc16aafb2594ea1c6c596ae98518258f97da4e1c15289aaace704
+license: MIT
+source_kind: static_template
+extraction_notes: Python string decoded by the AST parser; upstream code was not executed.
+---
+## SUPPORTING FACTS (recorded since last refresh — integrate what the document does not already say)
