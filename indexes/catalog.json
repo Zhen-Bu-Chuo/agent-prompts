@@ -52,7 +52,7 @@
     },
     {
       "agent": "claude-code",
-      "commit": "1006c2e4f783f016963fb290d3eb4afaa2d448b1",
+      "commit": "db6aabc5910e5c82a171618dfa50b05f45ad7eb1",
       "prompts": 0,
       "reason": "Pinned official repository has no license grant for redistributing prompt strings; only repository/version metadata is stored.; Community-maintained third-party prompt extracts are not treated as official first-party source.",
       "ref": "main",
@@ -236,7 +236,7 @@
     },
     {
       "agent": "codex",
-      "commit": "1476a08f1b410e359e64becf2494bc248743e396",
+      "commit": "a1604a8c0554c09c1be45e5a121bb1889b4d9a50",
       "prompts": 168,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -496,7 +496,7 @@
     },
     {
       "agent": "goose",
-      "commit": "36b29113aff691e1a46a21a5c25900824caf9949",
+      "commit": "2da00c6b02c312d05940df94ac1816cc29350a42",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -576,7 +576,7 @@
     },
     {
       "agent": "graphiti",
-      "commit": "9b8a4630092084734b080f2e6f409c2c23bdcc3a",
+      "commit": "45fdf546c74da5586e8242fd6588a0801e641e16",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -596,7 +596,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "30e1b8471e580fde614f444ae7b7432565e899f5",
+      "commit": "249dc60308a1ea3e13e8cd281433552cd25d36ab",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -666,7 +666,7 @@
     },
     {
       "agent": "kilocode",
-      "commit": "def1bef7df799d01b91588c591176a428b44ccab",
+      "commit": "b0717b91ee02e06e3757d2696a3e340a7b3592a0",
       "prompts": 0,
       "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
       "ref": "main",
@@ -731,7 +731,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "76428c1b0ee7efc9b4865c2b318db806070efb63",
+      "commit": "0f4596e341a65609887adfae90e5ac1ce184fd0b",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -910,6 +910,16 @@
       "version": "v0.34.68"
     },
     {
+      "agent": "letta-code",
+      "commit": "686243bd678c43c8a58977b3dbb98365fb14b55e",
+      "prompts": 10,
+      "ref": "v0.34.69",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.69"
+    },
+    {
       "agent": "mem0",
       "commit": "fff8a6472512d1bc1a4bccab8c645b65a1df7fe5",
       "prompts": 9,
@@ -941,7 +951,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "5310e42203af41c3452ee44b24fc7d0c52aaa3cc",
+      "commit": "609e4bb6aed2fbd6628910861aef54e8b2e9f712",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -1011,7 +1021,7 @@
     },
     {
       "agent": "openevolve",
-      "commit": "3ea5d19d5a9a4198d5e8295f1e58411b84aabbd7",
+      "commit": "c690ebaf9728d5f8b5436fe48efdf6126db621c7",
       "prompts": 13,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1041,7 +1051,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "74f198df3650da6399c6a0a2dff6272a667bbace",
+      "commit": "ebec01b3893696c2f5454762eb44796c71bb391a",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1121,7 +1131,7 @@
     },
     {
       "agent": "openviking",
-      "commit": "6a0fd463ffac0a71183333bd5c5a765fefde9b14",
+      "commit": "f51ae61b75a52d1d73079c2b768a174992f8c3c9",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1151,7 +1161,7 @@
     },
     {
       "agent": "pi",
-      "commit": "9c4652688590abb836b40ebd1e4725ecf9a7c7d1",
+      "commit": "69a6993486acee850d14a4a1547daa4a167228ad",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1211,7 +1221,7 @@
     },
     {
       "agent": "qwen-code",
-      "commit": "2e1026595fbe7137941cce058d1891358f67221a",
+      "commit": "146e6a5f319266af3f2c0524473f2164581ac249",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
