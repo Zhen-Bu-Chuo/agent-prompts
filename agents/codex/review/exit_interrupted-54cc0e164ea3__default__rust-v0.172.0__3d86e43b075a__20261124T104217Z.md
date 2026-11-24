@@ -1,0 +1,34 @@
+---
+agent: codex
+prompt_id: exit_interrupted-54cc0e164ea3
+module: review
+variant: default
+upstream_repository: openai/codex
+upstream_version: rust-v0.172.0
+package_name: null
+package_version: null
+source_ref: rust-v0.172.0
+source_commit: 3d86e43b075adeba2193ec5c22ac92f55afd82e6
+source_path: codex-rs/prompts/templates/review/exit_interrupted.xml
+source_symbol: document
+source_lines:
+- 1
+- 8
+source_permalink: https://github.com/openai/codex/blob/3d86e43b075adeba2193ec5c22ac92f55afd82e6/codex-rs/prompts/templates/review/exit_interrupted.xml#L1-L8
+source_committed_at: '2026-11-23T22:48:37Z'
+release_published_at: '2026-11-24T00:03:55Z'
+fetched_at: '2026-11-24T10:42:17Z'
+extractor_version: 1.0.3
+content_sha256: 034191c75f15338861ce0be2fcf28855833fc5f601b387cbc3c764032507dc86
+license: Apache-2.0
+source_kind: template_document
+extraction_notes: Original standalone template; runtime placeholders are preserved.
+---
+<user_action>
+  <context>User initiated a review task, but was interrupted. If user asks about this, tell them to re-initiate a review with `/review` and wait for it to complete.</context>
+  <action>review</action>
+  <results>
+  None.
+  </results>
+</user_action>
+

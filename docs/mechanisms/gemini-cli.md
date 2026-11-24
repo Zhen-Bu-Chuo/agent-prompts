@@ -1,8 +1,8 @@
 # Gemini CLI prompt and mechanism sources
 
 - Repository: [`google-gemini/gemini-cli`](https://github.com/google-gemini/gemini-cli)
-- Selected release/branch: `v0.70.0`
-- Commit: `8468962efadfbcdfd988a8fd04af4110a68c886e`
+- Selected release/branch: `v0.71.1`
+- Commit: `7059de513d5987eba0f3a89932ff5cb8d66aa8f0`
 - SPDX metadata: `Apache-2.0`
 - Collection status: `supported`
 
@@ -10,12 +10,12 @@
 
 | Module | Extractor | Pinned source |
 | --- | --- | --- |
-| `context` | `js-strings` | [`packages/core/src/prompts/snippets.ts`](https://github.com/google-gemini/gemini-cli/blob/8468962efadfbcdfd988a8fd04af4110a68c886e/packages/core/src/prompts/snippets.ts) |
+| `context` | `js-strings` | [`packages/core/src/prompts/snippets.ts`](https://github.com/google-gemini/gemini-cli/blob/7059de513d5987eba0f3a89932ff5cb8d66aa8f0/packages/core/src/prompts/snippets.ts) |
 
 ## Current coverage
 
 - Coverage: `supported`.
-- Pinned upstream version: `v0.70.0` at commit `8468962efadfbcdfd988a8fd04af4110a68c886e`.
+- Pinned upstream version: `v0.71.1` at commit `7059de513d5987eba0f3a89932ff5cb8d66aa8f0`.
 - 按核心提示词模块筛选；项目/会话配置、用户规则、动态 MCP 工具清单和实际子代理消息取决于运行时。
 
 ## Collection notes
