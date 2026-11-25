@@ -1,8 +1,8 @@
 # Hindsight / Graphiti prompt and mechanism sources
 
 - Repository: [`vectorize-io/hindsight`](https://github.com/vectorize-io/hindsight)
-- Selected release/branch: `v1.2.3`
-- Commit: `bd230e8bb40e768bf69f266f1dd3c9ae03e22fe3`
+- Selected release/branch: `v1.3.0`
+- Commit: `937886199e0e3443f41f4d8180a16b12cc95c547`
 - SPDX metadata: `MIT`
 - Collection status: `supported`
 
@@ -10,13 +10,13 @@
 
 | Module | Extractor | Pinned source |
 | --- | --- | --- |
-| `memory` | `python` | [`hindsight-api-slim/hindsight_api/engine/consolidation/prompts.py`](https://github.com/vectorize-io/hindsight/blob/bd230e8bb40e768bf69f266f1dd3c9ae03e22fe3/hindsight-api-slim/hindsight_api/engine/consolidation/prompts.py) |
-| `reflection` | `python` | [`hindsight-api-slim/hindsight_api/engine/reflect/prompts.py`](https://github.com/vectorize-io/hindsight/blob/bd230e8bb40e768bf69f266f1dd3c9ae03e22fe3/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py) |
+| `memory` | `python` | [`hindsight-api-slim/hindsight_api/engine/consolidation/prompts.py`](https://github.com/vectorize-io/hindsight/blob/937886199e0e3443f41f4d8180a16b12cc95c547/hindsight-api-slim/hindsight_api/engine/consolidation/prompts.py) |
+| `reflection` | `python` | [`hindsight-api-slim/hindsight_api/engine/reflect/prompts.py`](https://github.com/vectorize-io/hindsight/blob/937886199e0e3443f41f4d8180a16b12cc95c547/hindsight-api-slim/hindsight_api/engine/reflect/prompts.py) |
 
 ## Current coverage
 
 - Coverage: `supported`.
-- Pinned upstream version: `v1.2.3` at commit `bd230e8bb40e768bf69f266f1dd3c9ae03e22fe3`.
+- Pinned upstream version: `v1.3.0` at commit `937886199e0e3443f41f4d8180a16b12cc95c547`.
 - Graphiti/Hindsight 产品别名按用户附件记录；仓库实际为 Hindsight。采集 retain/recall/reflect pipeline 的自身提示词源码，不采集外部集成 Agent 内容。
 
 ## Collection notes
