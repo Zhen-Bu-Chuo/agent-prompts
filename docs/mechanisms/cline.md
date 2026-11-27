@@ -1,8 +1,8 @@
 # Cline prompt and mechanism sources
 
 - Repository: [`cline/cline`](https://github.com/cline/cline)
-- Selected release/branch: `v4.1.27`
-- Commit: `8075d2e35cf5cad67c24f180c80a05d311b74a3e`
+- Selected release/branch: `v4.1.28`
+- Commit: `cbc7d1419a74464c622117a740fdfe87a5e0a7b2`
 - SPDX metadata: `Apache-2.0`
 - Collection status: `partial`
 
@@ -10,12 +10,12 @@
 
 | Module | Extractor | Pinned source |
 | --- | --- | --- |
-| `tools` | `js-strings` | [`apps/cli/src/connectors/adapters/prompts.ts`](https://github.com/cline/cline/blob/8075d2e35cf5cad67c24f180c80a05d311b74a3e/apps/cli/src/connectors/adapters/prompts.ts) |
+| `tools` | `js-strings` | [`apps/cli/src/connectors/adapters/prompts.ts`](https://github.com/cline/cline/blob/cbc7d1419a74464c622117a740fdfe87a5e0a7b2/apps/cli/src/connectors/adapters/prompts.ts) |
 
 ## Current coverage
 
 - Coverage: `partial`.
-- Pinned upstream version: `v4.1.27` at commit `8075d2e35cf5cad67c24f180c80a05d311b74a3e`.
+- Pinned upstream version: `v4.1.28` at commit `cbc7d1419a74464c622117a740fdfe87a5e0a7b2`.
 - 当前稳定 monorepo 可静态提取 connector adapter system prompt；子代理文件只接收上游传入的 prompt，主对话运行时 system prompt 在 VS Code 扩展中动态组装。
 
 ## Collection notes
