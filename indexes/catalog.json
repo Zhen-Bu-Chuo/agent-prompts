@@ -268,7 +268,7 @@
     },
     {
       "agent": "codex",
-      "commit": "afe555b9d3e95b4f58b247212565070f1555bc5d",
+      "commit": "065e18b04021008e2e7d504db8dc50275f589f73",
       "prompts": 168,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -368,7 +368,7 @@
     },
     {
       "agent": "cognee",
-      "commit": "bed2666e3b97c1b966f228011b1f88a45175d93a",
+      "commit": "dbc515bdcde72691c1880978407ac1e5829bbc25",
       "prompts": 78,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -658,7 +658,7 @@
     },
     {
       "agent": "graphiti",
-      "commit": "2a4f079ccedf32c36693e503d0a1cdfa2821d223",
+      "commit": "343a7bb1fa950946a3c43ebbdf5bffeb00ff843e",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -688,7 +688,7 @@
     },
     {
       "agent": "hermes",
-      "commit": "1d15aad1dfa8e9e5fcbd2082cad5666a0907a07d",
+      "commit": "29bbd2d97b8e5bcda44d7e02ee2239a93afd5e58",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -708,7 +708,7 @@
     },
     {
       "agent": "hindsight",
-      "commit": "9f471cdb99b5de4a87cc279b39eb97ec4d4545a9",
+      "commit": "c828c7e41527d0c4916cac0ba2b56334fed4a79d",
       "prompts": 74,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -768,7 +768,7 @@
     },
     {
       "agent": "kilocode",
-      "commit": "c0b44ac0b63b4c8354db3b36ac0ed19a552ccc56",
+      "commit": "e7ab222e8b5f065d7259568db11261080781c667",
       "prompts": 0,
       "reason": "已核对稳定版本中 core 的 prompt.ts 仅导出上游 schema，instruction-context.ts 仅定义上下文数据结构；当前仓库未找到可归属于 Kilo 的静态模型提示词模板，因此只记录版本、提交与来源。",
       "ref": "main",
@@ -844,7 +844,7 @@
     },
     {
       "agent": "letta-code",
-      "commit": "4d5928b1d0c80790cca0de1a57745c7268ea157c",
+      "commit": "52a3bb3bc1999a2fd0f06b1dc2e4b0d94a925c21",
       "prompts": 10,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1053,8 +1053,18 @@
       "version": "v0.34.71"
     },
     {
+      "agent": "letta-code",
+      "commit": "e8a2d05ecc6615f7fe1f8475a463ca61bc1103e1",
+      "prompts": 10,
+      "ref": "v0.34.72",
+      "ref_kind": "release",
+      "repository": "letta-ai/letta-code",
+      "status": "supported",
+      "version": "v0.34.72"
+    },
+    {
       "agent": "mem0",
-      "commit": "a330119bda245ad05bf1d5e6779fc588b5f19443",
+      "commit": "cae3d8cda89437863e047a311688d7f44cceef60",
       "prompts": 9,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1084,7 +1094,7 @@
     },
     {
       "agent": "opencode",
-      "commit": "2b8f912c8623a79688e236aa94d1e384fac3a325",
+      "commit": "eeeeaa0db3c18567bccbd2fca68b9cc6fe6227ee",
       "prompts": 7,
       "ref": "dev",
       "ref_kind": "default-branch",
@@ -1174,7 +1184,7 @@
     },
     {
       "agent": "openevolve",
-      "commit": "0d4a5807499be3446eba4069932b80c27bcfab4b",
+      "commit": "abcc881d49543ccd7cdfdc669429d26ddac5e1c7",
       "prompts": 13,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1204,7 +1214,7 @@
     },
     {
       "agent": "openhands",
-      "commit": "7cfef13a0aaf967d192b1db5e01ace609863dcce",
+      "commit": "cf8158bc25f5552c50ad131a5f0ce2dbc297789b",
       "prompts": 7,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1304,7 +1314,7 @@
     },
     {
       "agent": "openviking",
-      "commit": "99959ebb5038aba827038b28c430f9e7a9cf2704",
+      "commit": "1e21e5396eeef334c29b5c31035a93668b84f8df",
       "prompts": 4,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1334,7 +1344,7 @@
     },
     {
       "agent": "pi",
-      "commit": "e11e983c62107ebe6bebf1fe9cd0ca0966897808",
+      "commit": "2126569de40d5595dd3f41f7af126001f04c1de0",
       "prompts": 1,
       "ref": "main",
       "ref_kind": "default-branch",
@@ -1403,8 +1413,18 @@
       "version": "v1.6.1"
     },
     {
+      "agent": "pi",
+      "commit": "fb0fe823539f6d04850f6e34748c01f01f212e1f",
+      "prompts": 1,
+      "ref": "v1.7.0",
+      "ref_kind": "release",
+      "repository": "earendil-works/pi",
+      "status": "supported",
+      "version": "v1.7.0"
+    },
+    {
       "agent": "qwen-code",
-      "commit": "2758fe7581ab5da076fbcf0d1561786011cf2c04",
+      "commit": "c2a77d3f82fd4709366066a2f7e4f5e44b36f5e5",
       "prompts": 24,
       "ref": "main",
       "ref_kind": "default-branch",
